@@ -25,6 +25,8 @@ INTERN_KEYWORDS = [
     "student",
     "university",
     "early career",
+    "2026",
+    "2027",
 ]
 
 ROLE_KEYWORDS = [
@@ -54,6 +56,13 @@ ROLE_KEYWORDS = [
     "gpu",
     "robotics",
     "perception",
+    "backend",
+    "frontend",
+    "full stack",
+    "infrastructure",
+    "platform",
+    "security",
+    "data",
 ]
 
 DAILY_STATE_FILE = "daily_state.json"
@@ -108,6 +117,13 @@ BLOCKED_INTERNATIONAL_LOCATION_KEYWORDS = [
     "brazil",
     "sao paulo",
 ]
+
+def env_bool(name):
+    return os.environ.get(name, "").strip().lower() in ["1", "true", "yes", "y"]
+
+TEST_EMAIL_ONLY = env_bool("TEST_EMAIL_ONLY")
+TEST_COMPANY = os.environ.get("TEST_COMPANY", "").strip().lower()
+DRY_RUN = env_bool("DRY_RUN")
 
 def has_keyword(text, keyword):
     pattern = rf"(?<![a-zA-Z0-9]){re.escape(keyword.lower())}(?![a-zA-Z0-9])"
@@ -181,6 +197,20 @@ def load_companies():
     with open(COMPANIES_FILE, mode="r", newline="", encoding="utf-8") as file:
         reader = csv.DictReader(file)
         return list(reader)
+
+
+def filter_companies_for_test(companies):
+    if not TEST_COMPANY:
+        return companies
+
+    filtered_companies = [
+        row for row in companies
+        if TEST_COMPANY in row.get("company", "").strip().lower()
+    ]
+
+    print(f"TEST_COMPANY is on. Checking {len(filtered_companies)} matching company row(s).")
+
+    return filtered_companies
 
 
 def load_seen_jobs():
@@ -542,7 +572,17 @@ def send_email(subject, body):
 
 
 def main():
+    if TEST_EMAIL_ONLY:
+        send_email(
+            "Test email from internship alert bot",
+            "This is a test email. Your email setup is working."
+        )
+        print("Test email sent.")
+        return
+
     companies = load_companies()
+    companies = filter_companies_for_test(companies)
+
     seen_jobs = load_seen_jobs()
     daily_state = load_daily_state()
     today_state = get_today_state(daily_state)
@@ -588,8 +628,11 @@ def main():
 
             today_state["daily_summary_sent"] = True
 
-    save_seen_jobs(seen_jobs)
-    save_daily_state(daily_state)
+    if DRY_RUN:
+        print("DRY_RUN is on. State files were not saved.")
+    else:
+        save_seen_jobs(seen_jobs)
+        save_daily_state(daily_state)
 
 
 if __name__ == "__main__":
