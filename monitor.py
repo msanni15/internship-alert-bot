@@ -230,6 +230,46 @@ def fetch_lever_jobs(company, token):
 
     return all_jobs
 
+def fetch_ashby_jobs(company, token):
+    url = f"https://api.ashbyhq.com/posting-api/job-board/{token}"
+
+    response = requests.get(
+        url,
+        params={
+            "includeCompensation": "true",
+        },
+        timeout=20,
+    )
+    response.raise_for_status()
+
+    data = response.json()
+    raw_jobs = data.get("jobs", [])
+
+    clean_jobs = []
+
+    for job in raw_jobs:
+        job_url = job.get("jobUrl", "")
+        apply_url = job.get("applyUrl", "")
+
+        clean_jobs.append(
+            {
+                "source": "ashby",
+                "company": company,
+                "token": token,
+                "title": job.get("title", ""),
+                "id": job_url or apply_url or f"{company}:{job.get('title', '')}:{job.get('publishedAt', '')}",
+                "updated_at": job.get("publishedAt", ""),
+                "url": job_url or apply_url,
+                "location": job.get("location", ""),
+                "team": job.get("team", ""),
+                "department": job.get("department", ""),
+                "employment_type": job.get("employmentType", ""),
+                "workplace_type": job.get("workplaceType", ""),
+            }
+        )
+
+    return clean_jobs
+
 def fetch_jobs_for_company(row):
     company = row.get("company", "").strip()
     ats_type = row.get("ats_type", "").strip().lower()
@@ -240,6 +280,9 @@ def fetch_jobs_for_company(row):
 
     if ats_type == "lever":
         return fetch_lever_jobs(company, token)
+
+    if ats_type == "ashby":
+        return fetch_ashby_jobs(company, token)
 
     print(f"Skipping {company}: ATS type '{ats_type}' is not supported yet.")
     return []
