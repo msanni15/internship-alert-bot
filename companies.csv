@@ -1,0 +1,88 @@
+company,ats_type,ats_token,priority
+Jane Street,greenhouse,janestreet,High
+Citadel,custom/manual,,High
+Citadel Securities,custom/manual,,High
+Two Sigma,custom/manual,,High
+Hudson River Trading,greenhouse,wehrtyou,High
+D. E. Shaw,custom/manual,,High
+Jump Trading,custom/manual,,Medium
+Optiver,custom/manual,optiverprivate,High
+IMC,greenhouse,imc,High
+DRW,greenhouse,drweng,Medium
+SIG,custom/manual,,High
+Five Rings,greenhouse,fiveringsllc,Medium
+Radix Trading,greenhouse,radixuniversity,Low
+Tower Research,greenhouse,towerresearchcapital,Medium
+Akuna Capital,greenhouse,akunacapitalllc,Medium
+Wolverine Trading,custom/manual,,Low
+Point72,greenhouse,point72,High
+AQR,greenhouse,aqr,Low
+Millennium,custom/manual,,Medium
+Balyasny,custom/manual,,Low
+Schonfeld,greenhouse,schonfeld,Low
+Voleon,ashby,voleon,Low
+G-Research,custom/manual,,Low
+Virtu Financial,greenhouse,virtu,Medium
+Flow Traders,greenhouse,flowtraders,Low
+Aquatic Capital,greenhouse,aquaticcapitalmanagement,Low
+Old Mission,,,Low
+Belvedere Trading,lever,belvederetrading,Low
+TransMarket Group,greenhouse,transmarketgroup,Low
+NVIDIA,workday,https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Switzerland-Zurich/Robotics-Software-Intern---Sim-to-Real_JR2019612/apply?source=Eightfold,High
+AMD,custom/manual,,High
+Intel,workday,https://intel.wd1.myworkdayjobs.com/External,Medium
+Qualcomm,custom/manual,,High
+Broadcom,workday,https://broadcom.wd1.myworkdayjobs.com/External_Career,Medium
+Marvell,workday,https://marvell.wd1.myworkdayjobs.com/MarvellCareers/2/refreshFacet/318c8bb6f553100021d223d9780d30be,Low
+Arm,custom/manual,,Low
+Apple Hardware,custom/manual,,High
+Google Silicon,custom/manual,,High
+Microsoft Silicon,custom/manual,,High
+Amazon Annapurna Labs,custom/manual,,High
+Meta Reality Labs,custom/manual,,High
+Samsung Semiconductor,greenhouse,samsungsemiconductor,Medium
+Tesla,custom/manual,,High
+Micron ,custom/manual,,High
+Google,custom/manual,,High
+Meta,custom/manual,,High
+Apple,custom/manual,,High
+Microsoft,custom/manual,,High
+Amazon,custom/manual,,High
+Roblox,custom/manual,,High
+Databricks,greenhouse,databricks,Medium
+Stripe,greenhouse,stripe,High
+Airbnb,custom/manual,,High
+Uber,custom/manual,,High
+DoorDash,greenhouse,doordashusa,High
+Pinterest,greenhouse,pinterest,Medium
+Snap,workday,https://snapchat.wd1.myworkdayjobs.com/snap,Medium
+Scale AI,greenhouse,scaleai,Low
+OpenAI,ashby,openai,High
+Anthropic,greenhouse,anthropic,High
+Perplexity,ashby,perplexity,High
+Cursor / Anysphere,ashby,cursor,High
+Applied Intuition,ashby,applied,Low
+Figma,greenhouse,figma,Medium
+Notion,ashby,notion,Medium
+Ramp,ashby,ramp,Low
+Rippling,custom/manual,,Medium
+Plaid,ashby,plaid,Low
+Robinhood,greenhouse,robinhood,Medium
+Coinbase,greenhouse,coinbase,Medium
+Vercel ,greenhouse,vercel,Medium
+LinkedIn,custom/manual,,High
+Bloomberg,custom/manual,,High
+1X,ashby,1x,High
+Waymo,greenhouse,waymo,High
+Zoox,lever,zoox,High
+Nuro,greenhouse,Nuro,Medium
+Aurora,custom/manual,,Medium
+Skydio,ashby,skydio,Low
+Zipline,greenhouse,flyzipline,Medium
+Shield AI,lever,shieldai,Low
+Figure AI,greenhouse,figureai,Low
+Boston Dynamics,workday,https://bostondynamics.wd1.myworkdayjobs.com/Boston_Dynamics/job/Waltham-MA/Staff-Manufacturing-Engineering---Atlas_R2864,High
+Agility Robotics,greenhouse,agilityrobotics,High
+Kodiak Robotics,greenhouse,kodiak,High
+Waabi,lever,waabi,Medium
+Motional,custom/manual,,Low
