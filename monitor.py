@@ -172,6 +172,63 @@ def fetch_greenhouse_jobs(company, token):
 
     return clean_jobs
 
+def fetch_lever_jobs(company, token):
+    base_url = f"https://api.lever.co/v0/postings/{token}"
+
+    all_jobs = []
+    skip = 0
+    limit = 100
+
+    while True:
+        response = requests.get(
+            base_url,
+            params={
+                "mode": "json",
+                "skip": skip,
+                "limit": limit,
+            },
+            timeout=20,
+        )
+        response.raise_for_status()
+
+        raw_jobs = response.json()
+
+        if not raw_jobs:
+            break
+
+        for job in raw_jobs:
+            categories = job.get("categories") or {}
+
+            if isinstance(categories, dict):
+                location = categories.get("location", "")
+                team = categories.get("team", "")
+                commitment = categories.get("commitment", "")
+            else:
+                location = ""
+                team = ""
+                commitment = ""
+
+            all_jobs.append(
+                {
+                    "source": "lever",
+                    "company": company,
+                    "token": token,
+                    "title": job.get("text", ""),
+                    "id": str(job.get("id", "")),
+                    "updated_at": "",
+                    "url": job.get("hostedUrl", ""),
+                    "location": location,
+                    "team": team,
+                    "commitment": commitment,
+                }
+            )
+
+        if len(raw_jobs) < limit:
+            break
+
+        skip += limit
+
+    return all_jobs
 
 def fetch_jobs_for_company(row):
     company = row.get("company", "").strip()
@@ -180,6 +237,9 @@ def fetch_jobs_for_company(row):
 
     if ats_type == "greenhouse":
         return fetch_greenhouse_jobs(company, token)
+
+    if ats_type == "lever":
+        return fetch_lever_jobs(company, token)
 
     print(f"Skipping {company}: ATS type '{ats_type}' is not supported yet.")
     return []
