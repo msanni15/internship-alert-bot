@@ -4,7 +4,7 @@ import os
 import re
 import smtplib
 from email.mime.text import MIMEText
-from datetime import datetime
+from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
 import requests
@@ -59,9 +59,98 @@ DAILY_STATE_FILE = "daily_state.json"
 TIMEZONE = "America/Los_Angeles"
 DAILY_SUMMARY_HOUR = 23
 
+MIN_UPDATED_DATE = datetime(2026, 4, 1, tzinfo=timezone.utc)
+
+BLOCKED_INTERNATIONAL_LOCATION_KEYWORDS = [
+    "london",
+    "united kingdom",
+    "u.k.",
+    "uk",
+    "europe",
+    "emea",
+    "singapore",
+    "hong kong",
+    "india",
+    "bangalore",
+    "bengaluru",
+    "hyderabad",
+    "mumbai",
+    "delhi",
+    "australia",
+    "sydney",
+    "melbourne",
+    "germany",
+    "berlin",
+    "munich",
+    "france",
+    "paris",
+    "netherlands",
+    "amsterdam",
+    "ireland",
+    "dublin",
+    "switzerland",
+    "zurich",
+    "poland",
+    "warsaw",
+    "spain",
+    "madrid",
+    "barcelona",
+    "japan",
+    "tokyo",
+    "china",
+    "shanghai",
+    "beijing",
+    "taiwan",
+    "taipei",
+    "israel",
+    "tel aviv",
+    "brazil",
+    "sao paulo",
+]
+
 def has_keyword(text, keyword):
     pattern = rf"(?<![a-zA-Z0-9]){re.escape(keyword.lower())}(?![a-zA-Z0-9])"
     return re.search(pattern, text.lower()) is not None
+
+
+def has_blocked_international_location(location):
+    if not location:
+        return False
+
+    return any(
+        has_keyword(location, keyword)
+        for keyword in BLOCKED_INTERNATIONAL_LOCATION_KEYWORDS
+    )
+
+
+def parse_job_datetime(value):
+    if not value:
+        return None
+
+    if isinstance(value, (int, float)):
+        timestamp = value / 1000 if value > 10_000_000_000 else value
+        return datetime.fromtimestamp(timestamp, tz=timezone.utc)
+
+    value = str(value).strip()
+
+    if value.isdigit():
+        timestamp = int(value)
+        timestamp = timestamp / 1000 if timestamp > 10_000_000_000 else timestamp
+        return datetime.fromtimestamp(timestamp, tz=timezone.utc)
+
+    try:
+        return datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+
+
+def is_recent_enough(job):
+    job_date = parse_job_datetime(job.get("updated_at", ""))
+
+    if job_date is None:
+        return True
+
+    return job_date >= MIN_UPDATED_DATE
 
 
 def get_matched_keywords(text, keywords):
@@ -215,7 +304,7 @@ def fetch_lever_jobs(company, token):
                     "token": token,
                     "title": job.get("text", ""),
                     "id": str(job.get("id", "")),
-                    "updated_at": "",
+                    "updated_at": job.get("updatedAt") or job.get("createdAt") or "",
                     "url": job.get("hostedUrl", ""),
                     "location": location,
                     "team": team,
@@ -288,8 +377,24 @@ def fetch_jobs_for_company(row):
     return []
 
 
+def is_recent_enough(job):
+    job_date = parse_job_datetime(job.get("updated_at", ""))
+
+    if job_date is None:
+        return True
+
+    return job_date >= MIN_UPDATED_DATE
+
+
 def is_relevant_job(job):
     title = job["title"].lower()
+    location = job.get("location", "")
+
+    if has_blocked_international_location(location):
+        return False, []
+
+    if not is_recent_enough(job):
+        return False, []
 
     intern_matches = get_matched_keywords(title, INTERN_KEYWORDS)
     role_matches = get_matched_keywords(title, ROLE_KEYWORDS)
