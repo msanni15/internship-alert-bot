@@ -327,7 +327,7 @@ def fetch_ashby_jobs(company, token):
         params={
             "includeCompensation": "true",
         },
-        timeout=20,
+        timeout=45,
     )
     response.raise_for_status()
 
