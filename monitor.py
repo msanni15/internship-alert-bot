@@ -22,7 +22,6 @@ INTERN_KEYWORDS = [
     "student",
     "university",
     "early career",
-    "new grad",
 ]
 
 ROLE_KEYWORDS = [
@@ -46,6 +45,7 @@ ROLE_KEYWORDS = [
     "hardware",
     "systems",
     "c++",
+    "java",
     "python",
     "cuda",
     "gpu",
