@@ -637,3 +637,27 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+"""
+LOCAL TEST COMMANDS
+
+Test email only:
+TEST_EMAIL_ONLY=true python3 monitor.py
+
+Test one company without saving state:
+TEST_COMPANY=zoox DRY_RUN=true python3 monitor.py
+
+Test one company normally:
+TEST_COMPANY=zoox python3 monitor.py
+
+Test FieldAI without saving state:
+TEST_COMPANY=fieldai DRY_RUN=true python3 monitor.py
+
+Normal full run:
+python3 monitor.py
+
+After changes, commit and push:
+git add monitor.py companies.csv daily_state.json seen_jobs.json
+git commit -m "Describe change here"
+git push
+"""
