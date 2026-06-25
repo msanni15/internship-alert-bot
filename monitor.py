@@ -4,6 +4,8 @@ import os
 import re
 import smtplib
 from email.mime.text import MIMEText
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 import requests
 
@@ -53,6 +55,9 @@ ROLE_KEYWORDS = [
     "perception",
 ]
 
+DAILY_STATE_FILE = "daily_state.json"
+TIMEZONE = "America/Los_Angeles"
+DAILY_SUMMARY_HOUR = 23
 
 def has_keyword(text, keyword):
     pattern = rf"(?<![a-zA-Z0-9]){re.escape(keyword.lower())}(?![a-zA-Z0-9])"
@@ -95,6 +100,43 @@ def save_seen_jobs(seen_jobs):
     with open(SEEN_JOBS_FILE, "w", encoding="utf-8") as file:
         json.dump(seen_jobs, file, indent=2)
 
+def today_string():
+    return datetime.now(ZoneInfo(TIMEZONE)).strftime("%Y-%m-%d")
+
+
+def current_hour():
+    return datetime.now(ZoneInfo(TIMEZONE)).hour
+
+
+def load_daily_state():
+    try:
+        with open(DAILY_STATE_FILE, "r", encoding="utf-8") as file:
+            content = file.read().strip()
+
+            if not content:
+                return {}
+
+            return json.loads(content)
+
+    except FileNotFoundError:
+        return {}
+
+
+def save_daily_state(daily_state):
+    with open(DAILY_STATE_FILE, "w", encoding="utf-8") as file:
+        json.dump(daily_state, file, indent=2)
+
+
+def get_today_state(daily_state):
+    today = today_string()
+
+    if today not in daily_state:
+        daily_state[today] = {
+            "new_jobs_found": 0,
+            "daily_summary_sent": False,
+        }
+
+    return daily_state[today]
 
 def fetch_greenhouse_jobs(company, token):
     url = f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs?content=true"
@@ -251,10 +293,14 @@ def send_email(subject, body):
 def main():
     companies = load_companies()
     seen_jobs = load_seen_jobs()
+    daily_state = load_daily_state()
+    today_state = get_today_state(daily_state)
 
     new_jobs, errors = find_new_jobs(companies, seen_jobs)
 
     if new_jobs:
+        today_state["new_jobs_found"] += len(new_jobs)
+
         subject = f"{len(new_jobs)} new internship roles found"
         email_body = format_email_body(new_jobs, errors)
 
@@ -265,15 +311,32 @@ def main():
 
     else:
         print("")
-        print("No new jobs found.")
+        print("No new jobs found this run.")
 
-        if errors:
+        should_send_daily_summary = (
+            current_hour() >= DAILY_SUMMARY_HOUR
+            and today_state["new_jobs_found"] == 0
+            and today_state["daily_summary_sent"] is False
+        )
+
+        if should_send_daily_summary:
+            subject = "No new internship roles today"
+            email_body = "No new internship roles were found today.\n\nYour internship alert bot ran successfully."
+
+            if errors:
+                email_body += "\n\nErrors:\n"
+                for error in errors:
+                    email_body += f"- {error}\n"
+
             print("")
-            print("Errors:")
-            for error in errors:
-                print(f"- {error}")
+            print(email_body)
+
+            send_email(subject, email_body)
+
+            today_state["daily_summary_sent"] = True
 
     save_seen_jobs(seen_jobs)
+    save_daily_state(daily_state)
 
 
 if __name__ == "__main__":
