@@ -25,7 +25,7 @@ G-Research,custom/manual,,Low
 Virtu Financial,greenhouse,virtu,Medium
 Flow Traders,greenhouse,flowtraders,Low
 Aquatic Capital,greenhouse,aquaticcapitalmanagement,Low
-Old Mission,,,Low
+Old Mission,custom/manual,,Low
 Belvedere Trading,lever,belvederetrading,Low
 TransMarket Group,greenhouse,transmarketgroup,Low
 NVIDIA,workday,https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Switzerland-Zurich/Robotics-Software-Intern---Sim-to-Real_JR2019612/apply?source=Eightfold,High
@@ -42,7 +42,7 @@ Amazon Annapurna Labs,custom/manual,,High
 Meta Reality Labs,custom/manual,,High
 Samsung Semiconductor,greenhouse,samsungsemiconductor,Medium
 Tesla,custom/manual,,High
-Micron ,custom/manual,,High
+Micron,custom/manual,,High
 Google,custom/manual,,High
 Meta,custom/manual,,High
 Apple,custom/manual,,High
@@ -69,7 +69,7 @@ Rippling,custom/manual,,Medium
 Plaid,ashby,plaid,Low
 Robinhood,greenhouse,robinhood,Medium
 Coinbase,greenhouse,coinbase,Medium
-Vercel ,greenhouse,vercel,Medium
+Vercel,greenhouse,vercel,Medium
 LinkedIn,custom/manual,,High
 Bloomberg,custom/manual,,High
 1X,ashby,1x,High
@@ -86,3 +86,11 @@ Agility Robotics,greenhouse,agilityrobotics,High
 Kodiak Robotics,greenhouse,kodiak,High
 Waabi,lever,waabi,Medium
 Motional,custom/manual,,Low
+WeRide,lever,weride,medium
+FieldAI,lever,field-ai,high
+Hermeus,lever,hermeus,medium
+Toyota Research Institute,lever,tri,medium
+Pyka,lever,pyka,low
+Saronic,lever,saronic,medium
+Ambi Robotics,lever,ambirobotics,medium
+RIVR,lever,rivr,low
