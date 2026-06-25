@@ -361,7 +361,6 @@ def fetch_ashby_jobs(company, token):
 
 def fetch_jobs_for_company(row):
     company = row.get("company", "").strip()
-    priority = row.get("priority", "").strip().lower()
     ats_type = row.get("ats_type", "").strip().lower()
     token = row.get("ats_token", "").strip()
 
@@ -376,15 +375,6 @@ def fetch_jobs_for_company(row):
 
     print(f"Skipping {company}: ATS type '{ats_type}' is not supported yet.")
     return []
-
-
-def is_recent_enough(job):
-    job_date = parse_job_datetime(job.get("updated_at", ""))
-
-    if job_date is None:
-        return True
-
-    return job_date >= MIN_UPDATED_DATE
 
 
 def is_relevant_job(job):
@@ -417,6 +407,7 @@ def find_new_jobs(companies, seen_jobs):
 
     for row in companies:
         company = row.get("company", "").strip()
+        priority = row.get("priority", "").strip().lower()
 
         try:
             jobs = fetch_jobs_for_company(row)
