@@ -6,6 +6,7 @@ import smtplib
 from email.mime.text import MIMEText
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
+import time
 
 import requests
 
@@ -111,6 +112,25 @@ BLOCKED_INTERNATIONAL_LOCATION_KEYWORDS = [
 def has_keyword(text, keyword):
     pattern = rf"(?<![a-zA-Z0-9]){re.escape(keyword.lower())}(?![a-zA-Z0-9])"
     return re.search(pattern, text.lower()) is not None
+
+def get_json_with_retries(url, params=None, timeout=45, attempts=3):
+    last_error = None
+
+    for attempt in range(1, attempts + 1):
+        try:
+            response = requests.get(url, params=params, timeout=timeout)
+            response.raise_for_status()
+            return response.json()
+
+        except requests.exceptions.RequestException as error:
+            last_error = error
+
+            if attempt < attempts:
+                wait_seconds = attempt * 5
+                print(f"Request failed. Retrying in {wait_seconds} seconds...")
+                time.sleep(wait_seconds)
+
+    raise last_error
 
 
 def has_blocked_international_location(location):
@@ -230,10 +250,7 @@ def get_today_state(daily_state):
 def fetch_greenhouse_jobs(company, token):
     url = f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs?content=true"
 
-    response = requests.get(url, timeout=20)
-    response.raise_for_status()
-
-    data = response.json()
+    data = get_json_with_retries(url)
     raw_jobs = data.get("jobs", [])
 
     clean_jobs = []
@@ -269,18 +286,14 @@ def fetch_lever_jobs(company, token):
     limit = 100
 
     while True:
-        response = requests.get(
+        raw_jobs = get_json_with_retries(
             base_url,
             params={
                 "mode": "json",
                 "skip": skip,
                 "limit": limit,
             },
-            timeout=20,
         )
-        response.raise_for_status()
-
-        raw_jobs = response.json()
 
         if not raw_jobs:
             break
@@ -322,16 +335,12 @@ def fetch_lever_jobs(company, token):
 def fetch_ashby_jobs(company, token):
     url = f"https://api.ashbyhq.com/posting-api/job-board/{token}"
 
-    response = requests.get(
+    data = get_json_with_retries(
         url,
         params={
             "includeCompensation": "true",
         },
-        timeout=45,
     )
-    response.raise_for_status()
-
-    data = response.json()
     raw_jobs = data.get("jobs", [])
 
     clean_jobs = []
