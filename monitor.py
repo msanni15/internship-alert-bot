@@ -405,12 +405,21 @@ def find_new_jobs(companies, seen_jobs):
     new_jobs = []
     errors = []
 
+    stats = {
+        "companies_checked": 0,
+        "total_jobs_fetched": 0,
+        "relevant_jobs_found": 0,
+    }
+
     for row in companies:
         company = row.get("company", "").strip()
         priority = row.get("priority", "").strip().lower()
 
         try:
             jobs = fetch_jobs_for_company(row)
+            stats["companies_checked"] += 1
+            stats["total_jobs_fetched"] += len(jobs)
+
             print(f"{company}: found {len(jobs)} jobs")
 
         except Exception as error:
@@ -421,10 +430,13 @@ def find_new_jobs(companies, seen_jobs):
 
         for job in jobs:
             job["priority"] = priority
+
             is_relevant, matched_keywords = is_relevant_job(job)
 
             if not is_relevant:
                 continue
+
+            stats["relevant_jobs_found"] += 1
 
             seen_key = make_seen_key(job)
 
@@ -457,7 +469,7 @@ def find_new_jobs(companies, seen_jobs):
         )
     )
 
-    return new_jobs, errors
+    return new_jobs, errors, stats
 
 
 def format_email_body(new_jobs, errors):
@@ -492,6 +504,19 @@ def format_email_body(new_jobs, errors):
     return "\n".join(lines)
 
 
+def format_run_summary(stats, new_jobs, errors):
+    lines = []
+
+    lines.append("Run summary:")
+    lines.append(f"Companies checked: {stats['companies_checked']}")
+    lines.append(f"Total jobs fetched: {stats['total_jobs_fetched']}")
+    lines.append(f"Relevant internship roles found: {stats['relevant_jobs_found']}")
+    lines.append(f"New roles found: {len(new_jobs)}")
+    lines.append(f"Errors: {len(errors)}")
+
+    return "\n".join(lines)
+
+
 def send_email(subject, body):
     sender = os.environ["EMAIL_USER"]
     password = os.environ["EMAIL_PASS"]
@@ -513,13 +538,14 @@ def main():
     daily_state = load_daily_state()
     today_state = get_today_state(daily_state)
 
-    new_jobs, errors = find_new_jobs(companies, seen_jobs)
-
+    new_jobs, errors, stats = find_new_jobs(companies, seen_jobs)
+    
     if new_jobs:
         today_state["new_jobs_found"] += len(new_jobs)
 
         subject = f"{len(new_jobs)} new internship roles found"
         email_body = format_email_body(new_jobs, errors)
+        email_body += "\n\n" + format_run_summary(stats, new_jobs, errors)
 
         print("")
         print(email_body)
@@ -539,6 +565,7 @@ def main():
         if should_send_daily_summary:
             subject = "No new internship roles today"
             email_body = "No new internship roles were found today.\n\nYour internship alert bot ran successfully."
+            email_body += "\n\n" + format_run_summary(stats, new_jobs, errors)
 
             if errors:
                 email_body += "\n\nErrors:\n"
