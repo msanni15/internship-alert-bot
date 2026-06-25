@@ -274,5 +274,65 @@
     "title": "Software Engineer Intern Fall 2026/Winter 2027",
     "url": "https://jobs.ashbyhq.com/skydio/f6320e9b-4eed-408d-8d37-d509fb0406ee",
     "updated_at": "2026-05-05T22:59:03.280+00:00"
+  },
+  "greenhouse:IMC:4635938101": {
+    "company": "IMC",
+    "title": "Graduate Software Engineer (2026)",
+    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4635938101",
+    "updated_at": "2026-06-24T16:24:51-04:00"
+  },
+  "greenhouse:Point72:8169967002": {
+    "company": "Point72",
+    "title": "Quantitative Portfolio Analyst \u2013 2026 Grad ",
+    "url": "https://boards.greenhouse.io/point72/jobs/8169967002?gh_jid=8169967002",
+    "updated_at": "2026-06-12T13:40:11-04:00"
+  },
+  "greenhouse:Virtu Financial:8552078002": {
+    "company": "Virtu Financial",
+    "title": "2026 Quant Research Networking Event ",
+    "url": "https://job-boards.greenhouse.io/virtu/jobs/8552078002",
+    "updated_at": "2026-05-19T10:46:40-04:00"
+  },
+  "greenhouse:Scale AI:4687588005": {
+    "company": "Scale AI",
+    "title": "National Security Hackathon 2026 - General Interest",
+    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4687588005",
+    "updated_at": "2026-05-08T12:41:20-04:00"
+  },
+  "greenhouse:Nuro:7594577": {
+    "company": "Nuro",
+    "title": "Data Scientist Intern",
+    "url": "https://nuro.ai/careersitem?gh_jid=7594577",
+    "updated_at": "2026-06-24T15:35:41-04:00"
+  },
+  "lever:Hermeus:86fd77a9-6498-43df-bfe0-2159aa6933db": {
+    "company": "Hermeus",
+    "title": "Mission Systems Platform Intern - Fall 2026",
+    "url": "https://jobs.lever.co/hermeus/86fd77a9-6498-43df-bfe0-2159aa6933db",
+    "updated_at": 1776183160014
+  },
+  "lever:Hermeus:10d69ef6-a754-42ab-833c-76adf01367bf": {
+    "company": "Hermeus",
+    "title": "Software Engineering Intern (HIL) - Fall 2026",
+    "url": "https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf",
+    "updated_at": 1776449704351
+  },
+  "lever:Hermeus:a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67": {
+    "company": "Hermeus",
+    "title": "Software Engineering Intern (HMI) - Fall 2026",
+    "url": "https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67",
+    "updated_at": 1775012520692
+  },
+  "lever:Hermeus:49f7cf3f-bf66-44ca-bf97-ee0f7180a68d": {
+    "company": "Hermeus",
+    "title": "Software Engineering Intern (Modeling & Simulation) - Fall 2026",
+    "url": "https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d",
+    "updated_at": 1776452842947
+  },
+  "lever:Toyota Research Institute:000be2f3-b77c-4719-8476-0718c4c49a19": {
+    "company": "Toyota Research Institute",
+    "title": "Human-Centered AI Intern: Human-Computer Interaction",
+    "url": "https://jobs.lever.co/tri/000be2f3-b77c-4719-8476-0718c4c49a19",
+    "updated_at": 1776716169963
   }
 }
