@@ -361,6 +361,7 @@ def fetch_ashby_jobs(company, token):
 
 def fetch_jobs_for_company(row):
     company = row.get("company", "").strip()
+    priority = row.get("priority", "").strip().lower()
     ats_type = row.get("ats_type", "").strip().lower()
     token = row.get("ats_token", "").strip()
 
@@ -428,6 +429,7 @@ def find_new_jobs(companies, seen_jobs):
             continue
 
         for job in jobs:
+            job["priority"] = priority
             is_relevant, matched_keywords = is_relevant_job(job)
 
             if not is_relevant:
@@ -450,6 +452,20 @@ def find_new_jobs(companies, seen_jobs):
 
                 print(f"NEW: {job['company']} - {job['title']}")
 
+    priority_order = {
+        "high": 0,
+        "medium": 1,
+        "low": 2,
+    }
+
+    new_jobs.sort(
+        key=lambda job: (
+            priority_order.get(job.get("priority", ""), 99),
+            job.get("company", ""),
+            job.get("title", ""),
+        )
+    )
+
     return new_jobs, errors
 
 
@@ -461,6 +477,8 @@ def format_email_body(new_jobs, errors):
 
     for job in new_jobs:
         lines.append(job["company"])
+        if job.get("priority"):
+            lines.append(f"Priority: {job['priority']}")
         lines.append(job["title"])
 
         if job["location"]:
