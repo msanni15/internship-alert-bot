@@ -65,6 +65,12 @@ ROLE_KEYWORDS = [
     "data",
 ]
 
+BLOCKED_TITLE_KEYWORDS = [
+    "phd",
+    "ph.d",
+    "mba",
+]
+
 DAILY_STATE_FILE = "daily_state.json"
 TIMEZONE = "America/Los_Angeles"
 DAILY_SUMMARY_HOUR = 23
@@ -419,6 +425,9 @@ def fetch_jobs_for_company(row):
 def is_relevant_job(job):
     title = job["title"].lower()
     location = job.get("location", "")
+
+    if any(has_keyword(title, keyword) for keyword in BLOCKED_TITLE_KEYWORDS):
+        return False, []
 
     if has_blocked_international_location(location):
         return False, []
