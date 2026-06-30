@@ -22,5 +22,9 @@
   "2026-06-29": {
     "new_jobs_found": 1,
     "daily_summary_sent": false
+  },
+  "2026-06-30": {
+    "new_jobs_found": 0,
+    "daily_summary_sent": false
   }
 }
