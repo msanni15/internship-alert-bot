@@ -325,9 +325,14 @@ def has_blocked_international_location(location):
     if not location:
         return False
 
-    return any(
-        has_keyword(location, keyword)
-        for keyword in BLOCKED_INTERNATIONAL_LOCATION_KEYWORDS
+    # Multi-location postings are joined with "|" (see fetch_workday_job_locations).
+    # Only block if every listed location is international - a US/Canada option
+    # anywhere in the list means the role is still open to us.
+    segments = location.split("|") if "|" in location else [location]
+
+    return all(
+        any(has_keyword(segment, keyword) for keyword in BLOCKED_INTERNATIONAL_LOCATION_KEYWORDS)
+        for segment in segments
     )
 
 
@@ -639,6 +644,20 @@ def get_workday_api_url(token):
     return f"https://{host}/wday/cxs/{tenant}/{site}/jobs", host
 
 
+AMBIGUOUS_WORKDAY_LOCATION_PATTERN = re.compile(r"^\d+\s+locations?$", re.IGNORECASE)
+
+
+def resolve_workday_locations(api_url, external_path):
+    # The search API collapses multi-location postings into a bare "N Locations"
+    # placeholder with no names. The per-job detail endpoint has the real list.
+    detail_url = api_url.removesuffix("/jobs") + external_path
+    data = get_json(detail_url)
+    info = data.get("jobPostingInfo", {})
+    locations = [info.get("location", "")] + (info.get("additionalLocations") or [])
+
+    return " | ".join(location for location in locations if location)
+
+
 def fetch_workday_jobs(company, token):
     api_url, host = get_workday_api_url(token)
 
@@ -680,6 +699,14 @@ def fetch_workday_jobs(company, token):
 
                 seen_urls.add(job_url)
 
+                location = job.get("locationsText", "")
+
+                if AMBIGUOUS_WORKDAY_LOCATION_PATTERN.match(location.strip()):
+                    try:
+                        location = resolve_workday_locations(api_url, external_path) or location
+                    except requests.exceptions.RequestException:
+                        pass
+
                 clean_jobs.append(
                     make_job(
                         source="workday",
@@ -689,7 +716,7 @@ def fetch_workday_jobs(company, token):
                         job_id=external_path or job_url or title,
                         updated_at=job.get("postedOn", ""),
                         url=job_url,
-                        location=job.get("locationsText", ""),
+                        location=location,
                     )
                 )
 
