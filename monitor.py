@@ -80,6 +80,8 @@ ROLE_KEYWORDS = [
 BLOCKED_TITLE_KEYWORDS = [
     "phd",
     "ph.d",
+    "master's",
+    "masters",
     "mba",
     "new grad",
     "new college grad",
