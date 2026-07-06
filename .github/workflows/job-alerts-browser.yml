@@ -1,0 +1,43 @@
+name: Internship Job Alerts (Browser)
+
+on:
+  schedule:
+    - cron: "15 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check-jobs-browser:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements-browser.txt
+
+      - name: Install Playwright browser
+        run: playwright install --with-deps chromium
+
+      - name: Run browser job monitor
+        run: python monitor_browser.py
+        env:
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+
+      - name: Commit updated seen jobs
+        run: |
+          git config user.name "internship-alert-bot"
+          git config user.email "msanni15@users.noreply.github.com"
+          git add seen_jobs_browser.json daily_state_browser.json
+          git commit -m "Update browser bot seen jobs" || echo "No changes to commit"
+          git push
