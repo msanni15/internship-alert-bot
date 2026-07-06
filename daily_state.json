@@ -2,5 +2,53 @@
   "2026-06-24": {
     "new_jobs_found": 28,
     "daily_summary_sent": false
+  },
+  "2026-06-25": {
+    "new_jobs_found": 10,
+    "daily_summary_sent": false
+  },
+  "2026-06-26": {
+    "new_jobs_found": 2,
+    "daily_summary_sent": false
+  },
+  "2026-06-27": {
+    "new_jobs_found": 0,
+    "daily_summary_sent": true
+  },
+  "2026-06-28": {
+    "new_jobs_found": 0,
+    "daily_summary_sent": false
+  },
+  "2026-06-29": {
+    "new_jobs_found": 1,
+    "daily_summary_sent": false
+  },
+  "2026-06-30": {
+    "new_jobs_found": 0,
+    "daily_summary_sent": true
+  },
+  "2026-07-01": {
+    "new_jobs_found": 6,
+    "daily_summary_sent": false
+  },
+  "2026-07-02": {
+    "new_jobs_found": 2,
+    "daily_summary_sent": false
+  },
+  "2026-07-03": {
+    "new_jobs_found": 0,
+    "daily_summary_sent": false
+  },
+  "2026-07-04": {
+    "new_jobs_found": 0,
+    "daily_summary_sent": false
+  },
+  "2026-07-05": {
+    "new_jobs_found": 3,
+    "daily_summary_sent": false
+  },
+  "2026-07-06": {
+    "new_jobs_found": 0,
+    "daily_summary_sent": false
   }
 }
