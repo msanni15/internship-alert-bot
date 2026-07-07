@@ -606,6 +606,50 @@ def fetch_meta_jobs(page, company, token):
     return clean_jobs
 
 
+def fetch_balyasny_jobs(page, company, token):
+    # Salesforce Experience Cloud (Aura framework): job cards have no real
+    # href, just a data-id the click router uses internally, but that same
+    # data-id builds a working detail URL directly - no need to click through.
+    # All roles load in one page, no pagination.
+    goto_checked(page, token)
+    page.wait_for_timeout(3000)
+
+    clean_jobs = []
+
+    for card in page.query_selector_all("a[data-id]"):
+        data_id = card.get_attribute("data-id") or ""
+
+        if not data_id:
+            continue
+
+        container = card.evaluate_handle(
+            "el => el.closest('lightning-layout-item') || el.parentElement"
+        ).as_element()
+        lines = [line.strip() for line in (container.inner_text() if container else "").split("\n") if line.strip()]
+
+        title = lines[0] if lines else ""
+        meta_parts = lines[1].split(" | ") if len(lines) > 1 else []
+        location = meta_parts[1] if len(meta_parts) > 1 else ""
+        updated_at = meta_parts[2] if len(meta_parts) > 2 else ""
+
+        job_url = urljoin(token, f"/s/details?jobReq={data_id}")
+
+        clean_jobs.append(
+            make_job(
+                source="browser/balyasny",
+                company=company,
+                token=token,
+                title=title,
+                job_id=data_id,
+                updated_at=updated_at,
+                url=job_url,
+                location=location,
+            )
+        )
+
+    return clean_jobs
+
+
 FETCHERS = {
     "browser/icims": fetch_icims_jobs,
     "browser/arm": fetch_arm_jobs,
@@ -614,6 +658,7 @@ FETCHERS = {
     "browser/eightfold": fetch_eightfold_browser_jobs,
     "browser/apple": fetch_apple_jobs,
     "browser/meta": fetch_meta_jobs,
+    "browser/balyasny": fetch_balyasny_jobs,
 }
 
 

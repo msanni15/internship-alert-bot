@@ -809,6 +809,108 @@ def fetch_pinpoint_jobs(company, token):
     return clean_jobs
 
 
+RIPPLING_ALGOLIA_URL = "https://6fnax3tbef-dsn.algolia.net/1/indexes/*/queries"
+RIPPLING_ALGOLIA_HEADERS = {
+    "x-algolia-api-key": "416caa4690f002ff6fe4a2097623640b",
+    "x-algolia-application-id": "6FNAX3TBEF",
+    "Content-Type": "application/json",
+}
+
+
+def fetch_rippling_jobs(company, token):
+    # Rippling's own careers page runs on Rippling's own ATS product, whose
+    # search is a public-key Algolia index - no browser needed.
+    clean_jobs = []
+    seen_ids = set()
+
+    for search_term in SEARCH_TERMS:
+        page = 0
+
+        while True:
+            response = requests.post(
+                RIPPLING_ALGOLIA_URL,
+                headers=RIPPLING_ALGOLIA_HEADERS,
+                json={
+                    "requests": [
+                        {
+                            "indexName": "careers_en-US_production",
+                            "query": search_term,
+                            "hitsPerPage": 50,
+                            "page": page,
+                        }
+                    ]
+                },
+                timeout=20,
+            )
+            response.raise_for_status()
+            result = response.json()["results"][0]
+            hits = result.get("hits", [])
+
+            if not hits:
+                break
+
+            for hit in hits:
+                job_id = hit.get("objectID", "")
+
+                if job_id in seen_ids:
+                    continue
+
+                seen_ids.add(job_id)
+
+                locations = hit.get("locations") or []
+                location = " | ".join(
+                    f"{loc.get('name', '')}, {loc.get('country', '')}".strip(", ")
+                    for loc in locations
+                ) or ", ".join(hit.get("locationNames") or [])
+
+                clean_jobs.append(
+                    make_job(
+                        source="custom/rippling",
+                        company=company,
+                        token=token,
+                        title=hit.get("name", ""),
+                        job_id=job_id,
+                        url=hit.get("url", ""),
+                        location=location,
+                    )
+                )
+
+            if page + 1 >= result.get("nbPages", 1):
+                break
+
+            page += 1
+
+    return clean_jobs
+
+
+def fetch_gresearch_jobs(company, token):
+    soup = BeautifulSoup(get_html(token), "html.parser")
+
+    clean_jobs = []
+
+    for link in soup.select("a.c-vacancy-result"):
+        title_el = link.select_one(".c-vacancy-result__title")
+        location_el = link.select_one(".c-vacancy-result__location")
+        job_url = link.get("href", "")
+
+        if not title_el or not job_url:
+            continue
+
+        clean_jobs.append(
+            make_job(
+                source="custom/gresearch",
+                company=company,
+                token=token,
+                title=title_el.get_text(strip=True),
+                job_id=job_url,
+                url=job_url,
+                location=location_el.get_text(strip=True) if location_el else "",
+            )
+        )
+
+    return clean_jobs
+
+
 def fetch_amazon_jobs(company, token):
     url = "https://www.amazon.jobs/en/search.json"
     limit = 100
@@ -944,6 +1046,8 @@ FETCHERS = {
     "custom/pinpoint": fetch_pinpoint_jobs,
     "custom/amazon": fetch_amazon_jobs,
     "custom/eightfold": fetch_eightfold_jobs,
+    "custom/rippling": fetch_rippling_jobs,
+    "custom/gresearch": fetch_gresearch_jobs,
 }
 
 
