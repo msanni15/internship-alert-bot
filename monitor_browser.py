@@ -35,11 +35,23 @@ SEEN_JOBS_FILE = "seen_jobs_browser.json"
 DAILY_STATE_FILE = "daily_state_browser.json"
 
 BROWSER_TIME_BUDGET_SECONDS = 90
+# Apple's fetcher visits each job's detail page individually to resolve real
+# multi-country locations, doubling its request cost - give it more headroom.
+APPLE_TIME_BUDGET_SECONDS = 150
 PAGE_LOAD_TIMEOUT_MS = 30000
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"
 )
+
+
+def goto_checked(page, url):
+    # A rate-limit or server error page still "loads" - without this, a 429
+    # silently parses as zero job listings instead of surfacing as a failure.
+    response = page.goto(url, timeout=PAGE_LOAD_TIMEOUT_MS, wait_until="networkidle")
+
+    if response is not None and not response.ok:
+        raise RuntimeError(f"{response.status} error loading {url}")
 
 
 def load_companies():
@@ -105,7 +117,7 @@ def fetch_icims_jobs(page, company, token):
     seen_urls = set()
     start_time = time.monotonic()
 
-    page.goto(token, timeout=PAGE_LOAD_TIMEOUT_MS, wait_until="networkidle")
+    goto_checked(page, token)
     page.wait_for_timeout(2500)
 
     while True:
@@ -178,7 +190,7 @@ def fetch_arm_jobs(page, company, token):
     seen_urls = set()
     start_time = time.monotonic()
 
-    page.goto(token, timeout=PAGE_LOAD_TIMEOUT_MS, wait_until="networkidle")
+    goto_checked(page, token)
     page.wait_for_timeout(1500)
 
     try:
@@ -242,7 +254,7 @@ def fetch_arm_jobs(page, company, token):
             next_link.click()
             page.wait_for_timeout(2000)
 
-        page.goto(token, timeout=PAGE_LOAD_TIMEOUT_MS, wait_until="networkidle")
+        goto_checked(page, token)
         page.wait_for_timeout(1000)
 
     return clean_jobs
@@ -279,7 +291,7 @@ def fetch_avature_jobs(page, company, token):
             break
 
         url = token if offset == 0 else f"{token}?jobRecordsPerPage={page_size}&jobOffset={offset}"
-        page.goto(url, timeout=PAGE_LOAD_TIMEOUT_MS, wait_until="networkidle")
+        goto_checked(page, url)
         page.wait_for_timeout(2000)
 
         anchors = page.query_selector_all("a[href*='/JobDetail/']")
@@ -331,10 +343,277 @@ def fetch_avature_jobs(page, company, token):
     return clean_jobs
 
 
+def fetch_deshaw_jobs(page, company, token):
+    # The whole board loads in one page (no pagination/infinite-scroll needed) -
+    # each posting is a div.job with clean .job-display-name/.location children.
+    goto_checked(page, token)
+    page.wait_for_timeout(2500)
+
+    clean_jobs = []
+
+    for card in page.query_selector_all("div.job"):
+        link = card.query_selector("a[href^='/careers/']")
+        title_el = card.query_selector("span.job-display-name")
+        location_el = card.query_selector("span.location")
+
+        if not link or not title_el:
+            continue
+
+        job_url = urljoin(token, link.get_attribute("href") or "")
+
+        clean_jobs.append(
+            make_job(
+                source="browser/deshaw",
+                company=company,
+                token=token,
+                title=title_el.inner_text().strip(),
+                job_id=job_url,
+                url=job_url,
+                location=location_el.inner_text().strip() if location_el else "",
+            )
+        )
+
+    return clean_jobs
+
+
+def fetch_eightfold_browser_jobs(page, company, token):
+    # Covers Microsoft, Qualcomm, and Micron - all three run the identical
+    # Eightfold-hosted card template (title / location / [tag] / posted-date),
+    # even though their raw search API is access-restricted for some tenants.
+    clean_jobs = []
+    seen_urls = set()
+    start_time = time.monotonic()
+
+    for search_term in SEARCH_TERMS:
+        url = f"{token}?query={search_term}"
+        goto_checked(page, url)
+        page.wait_for_timeout(2500)
+
+        while True:
+            if time.monotonic() - start_time > BROWSER_TIME_BUDGET_SECONDS:
+                print(f"{company}: browser time budget exceeded, stopping early")
+                return clean_jobs
+
+            links = page.query_selector_all("a[href*='/careers/job/']")
+            new_this_page = False
+
+            for link in links:
+                href = link.get_attribute("href") or ""
+                job_url = urljoin(token, href)
+
+                if not href or job_url in seen_urls:
+                    continue
+
+                seen_urls.add(job_url)
+                new_this_page = True
+
+                lines = [line.strip() for line in link.inner_text().split("\n") if line.strip()]
+                title = lines[0] if lines else ""
+                location = lines[1] if len(lines) > 1 else ""
+                updated_at = lines[-1] if lines and lines[-1].lower().startswith("posted") else ""
+
+                clean_jobs.append(
+                    make_job(
+                        source="browser/eightfold",
+                        company=company,
+                        token=token,
+                        title=title,
+                        job_id=job_url,
+                        updated_at=updated_at,
+                        url=job_url,
+                        location=location,
+                    )
+                )
+
+            next_button = page.query_selector("button[aria-label='Next jobs']")
+            is_disabled = next_button is None or next_button.get_attribute("aria-disabled") == "true"
+
+            if is_disabled or not new_this_page:
+                break
+
+            next_button.click()
+            page.wait_for_timeout(2000)
+
+    return clean_jobs
+
+
+def extract_apple_location(card_text):
+    lines = [line.strip() for line in card_text.split("\n") if line.strip()]
+
+    if "Location" not in lines:
+        return ""
+
+    end_markers = {"Actions", "Apply Now", "Apply"}
+    location_lines = []
+
+    for line in lines[lines.index("Location") + 1:]:
+        if line in end_markers:
+            break
+        location_lines.append(line)
+
+    return ", ".join(location_lines)
+
+
+def resolve_apple_job_details(page, job_url, fallback_location):
+    # The search list only ever shows a bare city name (e.g. "Cambridge", which
+    # is ambiguous with Cambridge, MA) even for jobs open in several countries.
+    # The detail page's "Work Locations (N)" section has the real, fully
+    # qualified list; fall back to the list-view text when that's absent
+    # (true single-location postings, where the bare city is usually enough
+    # since most international hubs are already in the blocklist by name).
+    goto_checked(page, job_url)
+    page.wait_for_timeout(1500)
+
+    lines = [line.strip() for line in page.inner_text("body").split("\n") if line.strip()]
+
+    updated_at = ""
+    if "Posted:" in lines:
+        idx = lines.index("Posted:")
+        updated_at = lines[idx + 1] if idx + 1 < len(lines) else ""
+
+    location = fallback_location
+    for i, line in enumerate(lines):
+        if re.match(r"^work locations \(\d+\)$", line, re.IGNORECASE):
+            segments = []
+            j = i - 1
+            while j >= 0 and re.match(r"^[^,]+(,\s*[^,]+){1,2}$", lines[j]):
+                segments.insert(0, lines[j])
+                j -= 1
+            if segments:
+                location = " | ".join(segments)
+            break
+
+    return updated_at, location
+
+
+def fetch_apple_jobs(page, company, token):
+    start_time = time.monotonic()
+    job_stubs = []
+    seen_urls = set()
+
+    goto_checked(page, token)
+    page.wait_for_timeout(2500)
+
+    while True:
+        if time.monotonic() - start_time > APPLE_TIME_BUDGET_SECONDS:
+            print(f"{company}: browser time budget exceeded, stopping early")
+            break
+
+        cards = page.query_selector_all("div.job-title")
+        new_this_page = False
+
+        for card in cards:
+            link = card.query_selector("a[href*='/details/']")
+            title_el = card.query_selector("h3")
+
+            if not link or not title_el:
+                continue
+
+            href = link.get_attribute("href") or ""
+            job_url = urljoin(token, href)
+
+            if not href or job_url in seen_urls:
+                continue
+
+            seen_urls.add(job_url)
+            new_this_page = True
+
+            job_stubs.append(
+                {
+                    "title": title_el.inner_text().strip(),
+                    "url": job_url,
+                    "location": extract_apple_location(card.inner_text()),
+                }
+            )
+
+        next_button = page.query_selector("button[aria-label='Next Page']")
+
+        if not next_button or not next_button.is_enabled() or not new_this_page:
+            break
+
+        next_button.click()
+        page.wait_for_timeout(2000)
+
+    clean_jobs = []
+
+    for stub in job_stubs:
+        if time.monotonic() - start_time > APPLE_TIME_BUDGET_SECONDS:
+            print(f"{company}: browser time budget exceeded, stopping early")
+            break
+
+        updated_at, location = resolve_apple_job_details(page, stub["url"], stub["location"])
+
+        clean_jobs.append(
+            make_job(
+                source="browser/apple",
+                company=company,
+                token=token,
+                title=stub["title"],
+                job_id=stub["url"],
+                updated_at=updated_at,
+                url=stub["url"],
+                location=location,
+            )
+        )
+
+    return clean_jobs
+
+
+def fetch_meta_jobs(page, company, token):
+    # No pagination control was found on Meta's search results - each search
+    # term returns its top ~10 matches. Looping SEARCH_TERMS is the only lever
+    # available for broader coverage here.
+    clean_jobs = []
+    seen_urls = set()
+    start_time = time.monotonic()
+
+    for search_term in SEARCH_TERMS:
+        if time.monotonic() - start_time > BROWSER_TIME_BUDGET_SECONDS:
+            print(f"{company}: browser time budget exceeded, stopping early")
+            break
+
+        url = f"{token}?q={search_term}"
+        goto_checked(page, url)
+        page.wait_for_timeout(2500)
+
+        links = page.query_selector_all("a[href*='/job_details/']")
+
+        for link in links:
+            href = link.get_attribute("href") or ""
+            job_url = urljoin(token, href)
+
+            if not href or job_url in seen_urls:
+                continue
+
+            seen_urls.add(job_url)
+
+            lines = [line.strip() for line in link.inner_text().split("\n") if line.strip()]
+            title = lines[0] if lines else ""
+            location = lines[1] if len(lines) > 1 else ""
+
+            clean_jobs.append(
+                make_job(
+                    source="browser/meta",
+                    company=company,
+                    token=token,
+                    title=title,
+                    job_id=job_url,
+                    url=job_url,
+                    location=location,
+                )
+            )
+
+    return clean_jobs
+
+
 FETCHERS = {
     "browser/icims": fetch_icims_jobs,
     "browser/arm": fetch_arm_jobs,
     "browser/avature": fetch_avature_jobs,
+    "browser/deshaw": fetch_deshaw_jobs,
+    "browser/eightfold": fetch_eightfold_browser_jobs,
+    "browser/apple": fetch_apple_jobs,
+    "browser/meta": fetch_meta_jobs,
 }
 
 

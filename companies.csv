@@ -3,7 +3,6 @@ Jane Street,greenhouse,janestreet,High
 Citadel,custom/manual,,High
 Citadel Securities,custom/manual,,High
 Hudson River Trading,greenhouse,wehrtyou,High
-D. E. Shaw,custom/manual,,High
 Jump Trading,greenhouse,jumptrading,Medium
 Optiver,greenhouse,optiverprivate,High
 IMC,greenhouse,imc,High
@@ -12,7 +11,7 @@ Five Rings,greenhouse,fiveringsllc,Medium
 Radix Trading,greenhouse,radixuniversity,Low
 Tower Research,greenhouse,towerresearchcapital,Medium
 Akuna Capital,greenhouse,akunacapitalllc,Medium
-Wolverine Trading,custom/manual,,Low
+Wolverine Trading,custom/pinpoint,https://careers.wolve.com/en,Low
 Point72,greenhouse,point72,High
 AQR,greenhouse,aqr,Low
 Millennium,custom/eightfold,https://mlp.eightfold.ai/careers?domain=mlp.com,Medium
@@ -28,20 +27,12 @@ Belvedere Trading,lever,belvederetrading,Low
 TransMarket Group,greenhouse,transmarketgroup,Low
 NVIDIA,workday,https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite,High
 Intel,workday,https://intel.wd1.myworkdayjobs.com/External,Medium
-Qualcomm,custom/manual,,High
 Broadcom,workday,https://broadcom.wd1.myworkdayjobs.com/External_Career,Medium
 Marvell,workday,https://marvell.wd1.myworkdayjobs.com/MarvellCareers,Low
-Apple Hardware,custom/manual,,High
 Google Silicon,custom/manual,,High
-Microsoft Silicon,custom/manual,,High
-Meta Reality Labs,custom/manual,,High
 Samsung Semiconductor,greenhouse,samsungsemiconductor,Medium
 Tesla,custom/manual,,High
-Micron,custom/manual,,High
 Google,custom/manual,,High
-Meta,custom/manual,,High
-Apple,custom/manual,,High
-Microsoft,custom/manual,,High
 Amazon,custom/amazon,https://www.amazon.jobs,High
 Roblox,greenhouse,roblox,High
 Databricks,greenhouse,databricks,Medium

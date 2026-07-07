@@ -114,6 +114,7 @@ BLOCKED_INTERNATIONAL_LOCATION_KEYWORDS = [
     "amsterdam",
     "ireland",
     "dublin",
+    "saint albans",
     "eindhoven",
     "vienna",
     "dubai",
@@ -348,12 +349,20 @@ def parse_relative_days_ago(text):
     if text == "yesterday":
         return 1
 
-    match = re.match(r"(\d+)(\+?)\s+days?\s+ago", text)
+    match = re.match(r"a\s+(day|month|year)\s+ago", text)
+
+    if match:
+        unit = match.group(1)
+        return {"day": 1, "month": 30, "year": 365}[unit]
+
+    match = re.match(r"(\d+)(\+?)\s+(days?|months?|years?)\s+ago", text)
 
     if not match:
         return None
 
-    days = int(match.group(1))
+    count = int(match.group(1))
+    unit = match.group(3).rstrip("s")
+    days = count * {"day": 1, "month": 30, "year": 365}[unit]
 
     if match.group(2) == "+":
         # "30+ days ago" means "at least 30" (true age unknown and could be much
@@ -774,6 +783,32 @@ def fetch_snap_jobs(company, token):
     return clean_jobs
 
 
+def fetch_pinpoint_jobs(company, token):
+    url = token.rstrip("/") + ".json"
+    data = get_json(url)
+
+    clean_jobs = []
+
+    for job in data.get("data", []):
+        location_data = job.get("location") or {}
+        location = location_data.get("name", "") if isinstance(location_data, dict) else str(location_data)
+
+        clean_jobs.append(
+            make_job(
+                source="custom/pinpoint",
+                company=company,
+                token=token,
+                title=job.get("title", ""),
+                job_id=job.get("id", ""),
+                updated_at=job.get("published_at") or job.get("created_at") or "",
+                url=job.get("url", ""),
+                location=location,
+            )
+        )
+
+    return clean_jobs
+
+
 def fetch_amazon_jobs(company, token):
     url = "https://www.amazon.jobs/en/search.json"
     limit = 100
@@ -906,6 +941,7 @@ FETCHERS = {
     "ashby": fetch_ashby_jobs,
     "workday": fetch_workday_jobs,
     "custom/snap": fetch_snap_jobs,
+    "custom/pinpoint": fetch_pinpoint_jobs,
     "custom/amazon": fetch_amazon_jobs,
     "custom/eightfold": fetch_eightfold_jobs,
 }
