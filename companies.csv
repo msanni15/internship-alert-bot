@@ -4,7 +4,7 @@ Citadel,custom/manual,,High
 Citadel Securities,custom/manual,,High
 Hudson River Trading,greenhouse,wehrtyou,High
 Jump Trading,greenhouse,jumptrading,Medium
-Optiver,greenhouse,optiverprivate,High
+Optiver,greenhouse,optiverus,High
 IMC,greenhouse,imc,High
 DRW,greenhouse,drweng,Medium
 Five Rings,greenhouse,fiveringsllc,Medium
@@ -37,7 +37,7 @@ Roblox,greenhouse,roblox,High
 Databricks,greenhouse,databricks,Medium
 Stripe,greenhouse,stripe,High
 Airbnb,greenhouse,airbnb,High
-Uber,custom/manual,,High
+Uber,custom/uber,https://jobs.uber.com/en/jobs/,High
 DoorDash,greenhouse,doordashusa,High
 Pinterest,greenhouse,pinterest,Medium
 Snap,custom/snap,https://careers.snap.com/jobs,Medium
@@ -78,3 +78,4 @@ Pyka,lever,pyka,low
 Saronic,lever,saronic,medium
 Ambi Robotics,lever,ambirobotics,medium
 RIVR,lever,rivr,low
+SK Hynix,greenhouse,skhynixamerica,High

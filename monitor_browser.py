@@ -45,10 +45,13 @@ USER_AGENT = (
 )
 
 
-def goto_checked(page, url):
+def goto_checked(page, url, wait_until="networkidle"):
     # A rate-limit or server error page still "loads" - without this, a 429
     # silently parses as zero job listings instead of surfacing as a failure.
-    response = page.goto(url, timeout=PAGE_LOAD_TIMEOUT_MS, wait_until="networkidle")
+    # Some sites (Rippling, Arm after a search) keep background connections
+    # open forever - "networkidle" never fires there, so callers can fall
+    # back to "load" for those.
+    response = page.goto(url, timeout=PAGE_LOAD_TIMEOUT_MS, wait_until=wait_until)
 
     if response is not None and not response.ok:
         raise RuntimeError(f"{response.status} error loading {url}")
@@ -190,7 +193,7 @@ def fetch_arm_jobs(page, company, token):
     seen_urls = set()
     start_time = time.monotonic()
 
-    goto_checked(page, token)
+    goto_checked(page, token, wait_until="load")
     page.wait_for_timeout(1500)
 
     try:
@@ -254,13 +257,13 @@ def fetch_arm_jobs(page, company, token):
             next_link.click()
             page.wait_for_timeout(2000)
 
-        goto_checked(page, token)
+        goto_checked(page, token, wait_until="load")
         page.wait_for_timeout(1000)
 
     return clean_jobs
 
 
-AVATURE_BOILERPLATE_TEXT = {"apply", "save", "view role"}
+AVATURE_BOILERPLATE_TEXT = {"apply", "save", "view role", "more details", "share"}
 
 
 def parse_avature_card(card_text):
@@ -268,7 +271,10 @@ def parse_avature_card(card_text):
     content_lines = [line for line in lines if line.lower() not in AVATURE_BOILERPLATE_TEXT]
 
     title = content_lines[0] if content_lines else ""
-    location = content_lines[1] if len(content_lines) > 1 else ""
+    # Some tenants (TSMC) append the job type after a pipe on the location
+    # line ("USA-California | Intern") - keep only the location part, since
+    # "|" is our own multi-location segment delimiter elsewhere.
+    location = re.split(r"\s*\|\s*", content_lines[1])[0] if len(content_lines) > 1 else ""
 
     return title, location
 
@@ -294,7 +300,7 @@ def fetch_avature_jobs(page, company, token):
         goto_checked(page, url)
         page.wait_for_timeout(2000)
 
-        anchors = page.query_selector_all("a[href*='/JobDetail/']")
+        anchors = page.query_selector_all("a[href*='JobDetail']")
         cards_by_href = {}
 
         for link in anchors:
@@ -339,6 +345,76 @@ def fetch_avature_jobs(page, company, token):
                 page_size = int(match.group(1))
 
         offset += page_size
+
+    return clean_jobs
+
+
+def fetch_avature_search_jobs(page, company, token):
+    # For Avature tenants with too many total postings to browse unfiltered
+    # (TSMC: 672) - loops SEARCH_TERMS via the same /SearchJobs/<keyword>
+    # URL shape instead, same card parsing as fetch_avature_jobs.
+    clean_jobs = []
+    seen_hrefs = set()
+    start_time = time.monotonic()
+
+    for search_term in SEARCH_TERMS:
+        if time.monotonic() - start_time > BROWSER_TIME_BUDGET_SECONDS:
+            print(f"{company}: browser time budget exceeded, stopping early")
+            break
+
+        offset = 0
+        page_size = 10
+
+        while True:
+            url = f"{token}/{search_term}" if offset == 0 else f"{token}/{search_term}?jobRecordsPerPage={page_size}&jobOffset={offset}"
+            goto_checked(page, url)
+            page.wait_for_timeout(2000)
+
+            anchors = page.query_selector_all("a[href*='JobDetail']")
+            cards_by_href = {}
+
+            for link in anchors:
+                href = link.get_attribute("href") or ""
+                if href and href not in cards_by_href:
+                    cards_by_href[href] = link
+
+            new_hrefs = set(cards_by_href) - seen_hrefs
+
+            if not cards_by_href or not new_hrefs:
+                break
+
+            for href, link in cards_by_href.items():
+                if href in seen_hrefs:
+                    continue
+
+                seen_hrefs.add(href)
+
+                card = link.evaluate_handle(
+                    "el => el.closest('li') || el.closest('article') || el.parentElement.parentElement.parentElement"
+                ).as_element()
+                card_text = card.inner_text() if card else link.inner_text()
+                title, location = parse_avature_card(card_text)
+
+                clean_jobs.append(
+                    make_job(
+                        source="browser/avature-search",
+                        company=company,
+                        token=token,
+                        title=title,
+                        job_id=href,
+                        url=href,
+                        location=location,
+                    )
+                )
+
+            next_link = page.query_selector("a[href*='jobOffset']")
+
+            if next_link:
+                match = re.search(r"jobRecordsPerPage=(\d+)", next_link.get_attribute("href") or "")
+                if match:
+                    page_size = int(match.group(1))
+
+            offset += page_size
 
     return clean_jobs
 
@@ -654,6 +730,7 @@ FETCHERS = {
     "browser/icims": fetch_icims_jobs,
     "browser/arm": fetch_arm_jobs,
     "browser/avature": fetch_avature_jobs,
+    "browser/avature-search": fetch_avature_search_jobs,
     "browser/deshaw": fetch_deshaw_jobs,
     "browser/eightfold": fetch_eightfold_browser_jobs,
     "browser/apple": fetch_apple_jobs,

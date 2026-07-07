@@ -911,6 +911,78 @@ def fetch_gresearch_jobs(company, token):
     return clean_jobs
 
 
+# Uber's job search API sits behind bot-detection that a bare "Mozilla/5.0"
+# UA doesn't satisfy - needs a realistic browser UA and a session cookie from
+# an actual page load first, or it intermittently 403s.
+UBER_BROWSER_USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+)
+
+
+def fetch_uber_jobs(company, token):
+    session = requests.Session()
+    session.headers.update({"User-Agent": UBER_BROWSER_USER_AGENT})
+    session.get(token, timeout=20)
+
+    search_url = urljoin(token, "/api/jobs/search/")
+    clean_jobs = []
+    seen_ids = set()
+
+    for search_term in SEARCH_TERMS:
+        page = 0
+
+        while True:
+            response = session.get(
+                search_url,
+                params={"search": search_term, "locale": "en", "page": page},
+                headers={"Accept": "application/json", "Referer": token},
+                timeout=20,
+            )
+            response.raise_for_status()
+            data = response.json()
+            jobs = data.get("jobs", [])
+
+            if not jobs:
+                break
+
+            for job in jobs:
+                job_id = job.get("Id") or job.get("Reference")
+
+                if job_id in seen_ids:
+                    continue
+
+                seen_ids.add(job_id)
+
+                locations = job.get("Locations") or []
+                location = " | ".join(
+                    f"{loc.get('City', '')}, {loc.get('Country', '')}".strip(", ")
+                    for loc in locations
+                )
+                url_info = (job.get("Urls") or [{}])[0]
+                job_url = urljoin(token, url_info.get("Url", ""))
+
+                clean_jobs.append(
+                    make_job(
+                        source="custom/uber",
+                        company=company,
+                        token=token,
+                        title=job.get("Title", ""),
+                        job_id=job_id,
+                        updated_at=job.get("DisplayDate", ""),
+                        url=job_url,
+                        location=location,
+                    )
+                )
+
+            if page + 1 >= data.get("totalPages", 1):
+                break
+
+            page += 1
+
+    return clean_jobs
+
+
 def fetch_amazon_jobs(company, token):
     url = "https://www.amazon.jobs/en/search.json"
     limit = 100
@@ -1048,6 +1120,7 @@ FETCHERS = {
     "custom/eightfold": fetch_eightfold_jobs,
     "custom/rippling": fetch_rippling_jobs,
     "custom/gresearch": fetch_gresearch_jobs,
+    "custom/uber": fetch_uber_jobs,
 }
 
 
