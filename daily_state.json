@@ -17,7 +17,7 @@
   },
   "2026-06-28": {
     "new_jobs_found": 0,
-    "daily_summary_sent": false
+    "daily_summary_sent": true
   },
   "2026-06-29": {
     "new_jobs_found": 1,
@@ -37,11 +37,11 @@
   },
   "2026-07-03": {
     "new_jobs_found": 0,
-    "daily_summary_sent": false
+    "daily_summary_sent": true
   },
   "2026-07-04": {
     "new_jobs_found": 0,
-    "daily_summary_sent": false
+    "daily_summary_sent": true
   },
   "2026-07-05": {
     "new_jobs_found": 3,
@@ -61,6 +61,10 @@
   },
   "2026-07-09": {
     "new_jobs_found": 0,
+    "daily_summary_sent": true
+  },
+  "2026-07-10": {
+    "new_jobs_found": 8,
     "daily_summary_sent": false
   }
 }
