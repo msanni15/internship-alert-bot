@@ -393,7 +393,10 @@ def parse_job_datetime(value):
         return datetime.now(timezone.utc) - timedelta(days=days_ago)
 
     try:
-        return datetime.fromisoformat(value.replace("Z", "+00:00"))
+        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+        # Date-only strings ("2026-05-29") parse as naive - assume UTC so the
+        # comparison against MIN_UPDATED_DATE below doesn't raise TypeError.
+        return parsed if parsed.tzinfo else parsed.replace(tzinfo=timezone.utc)
     except ValueError:
         pass
 
@@ -1109,6 +1112,87 @@ def fetch_eightfold_jobs(company, token):
     return clean_jobs
 
 
+def fetch_workable_jobs(company, token):
+    url = f"https://apply.workable.com/api/v1/widget/accounts/{token}"
+    data = get_json(url)
+
+    clean_jobs = []
+
+    for job in data.get("jobs", []):
+        locations = job.get("locations") or []
+        location = " | ".join(
+            f"{loc.get('city', '')}, {loc.get('country', '')}".strip(", ")
+            for loc in locations
+        )
+
+        clean_jobs.append(
+            make_job(
+                source="custom/workable",
+                company=company,
+                token=token,
+                title=job.get("title", ""),
+                job_id=job.get("shortcode", ""),
+                updated_at=job.get("published_on", ""),
+                url=job.get("url", ""),
+                location=location,
+            )
+        )
+
+    return clean_jobs
+
+
+GEM_GRAPHQL_URL = "https://jobs.gem.com/api/public/graphql/batch"
+GEM_JOB_BOARD_LIST_QUERY = """query JobBoardList($boardId: String!) {
+  oatsExternalJobPostings(boardId: $boardId) {
+    jobPostings {
+      id
+      extId
+      title
+      locations {
+        name
+        city
+        isoCountry
+      }
+    }
+  }
+}"""
+
+
+def fetch_gem_jobs(company, token):
+    response = requests.post(
+        GEM_GRAPHQL_URL,
+        json=[{"operationName": "JobBoardList", "variables": {"boardId": token}, "query": GEM_JOB_BOARD_LIST_QUERY}],
+        headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"},
+        timeout=20,
+    )
+    response.raise_for_status()
+    postings = response.json()[0]["data"]["oatsExternalJobPostings"]["jobPostings"]
+
+    clean_jobs = []
+
+    for job in postings:
+        locations = job.get("locations") or []
+        location = " | ".join(
+            f"{loc.get('city', '')}, {loc.get('name', '')}".strip(", ")
+            for loc in locations
+        )
+        ext_id = job.get("extId", "")
+
+        clean_jobs.append(
+            make_job(
+                source="custom/gem",
+                company=company,
+                token=token,
+                title=job.get("title", ""),
+                job_id=ext_id,
+                url=f"https://jobs.gem.com/{token}/{ext_id}",
+                location=location,
+            )
+        )
+
+    return clean_jobs
+
+
 FETCHERS = {
     "greenhouse": fetch_greenhouse_jobs,
     "lever": fetch_lever_jobs,
@@ -1121,6 +1205,8 @@ FETCHERS = {
     "custom/rippling": fetch_rippling_jobs,
     "custom/gresearch": fetch_gresearch_jobs,
     "custom/uber": fetch_uber_jobs,
+    "custom/workable": fetch_workable_jobs,
+    "custom/gem": fetch_gem_jobs,
 }
 
 
