@@ -503,6 +503,32 @@ def get_today_state(daily_state):
     return daily_state[today]
 
 
+def get_pending_daily_summary_dates(daily_state):
+    # Scheduled runs land irregularly, so a day can end without any run
+    # landing in its post-DAILY_SUMMARY_HOUR window - checking only "today"
+    # meant that day's summary would never fire. Checking every unsent day
+    # (not just today) means whichever run happens to be first after a
+    # missed day still catches up and sends it.
+    today = today_string()
+    hour = current_hour()
+
+    pending = []
+
+    for date, state in sorted(daily_state.items()):
+        if state.get("daily_summary_sent"):
+            continue
+
+        if state.get("new_jobs_found", 0) != 0:
+            continue
+
+        day_has_ended = date < today or (date == today and hour >= DAILY_SUMMARY_HOUR)
+
+        if day_has_ended:
+            pending.append(date)
+
+    return pending
+
+
 def make_job(source, company, token, title, job_id, url, location="", updated_at="", **extra):
     job = {
         "source": source,
@@ -1437,29 +1463,28 @@ def main():
         print("")
         print("No new jobs found this run.")
 
-        should_send_daily_summary = (
-            current_hour() >= DAILY_SUMMARY_HOUR
-            and today_state["new_jobs_found"] == 0
-            and today_state["daily_summary_sent"] is False
-        )
+    pending_dates = get_pending_daily_summary_dates(daily_state)
 
-        if should_send_daily_summary:
-            subject = "No new internship roles today"
-            email_body = "No new internship roles were found today.\n\nYour internship alert bot ran successfully."
-            email_body += "\n\n" + format_run_summary(stats, new_jobs, errors)
+    if pending_dates:
+        subject = "No new internship roles today" if len(pending_dates) == 1 else f"No new internship roles ({len(pending_dates)} quiet days)"
+        email_body = "No new internship roles were found on:\n\n"
+        email_body += "\n".join(f"- {date}" for date in pending_dates)
+        email_body += "\n\nYour internship alert bot ran successfully."
+        email_body += "\n\n" + format_run_summary(stats, new_jobs, errors)
 
-            if errors:
-                email_body += "\n\nErrors:\n"
-                for error in errors:
-                    email_body += f"- {error}\n"
+        if errors:
+            email_body += "\n\nErrors:\n"
+            for error in errors:
+                email_body += f"- {error}\n"
 
-            print("")
-            print(email_body)
+        print("")
+        print(email_body)
 
-            send_or_print_email(subject, email_body)
+        send_or_print_email(subject, email_body)
 
-            if not DRY_RUN:
-                today_state["daily_summary_sent"] = True
+        if not DRY_RUN:
+            for date in pending_dates:
+                daily_state[date]["daily_summary_sent"] = True
 
     if DRY_RUN:
         print("DRY_RUN is on. State files were not saved.")

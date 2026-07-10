@@ -6,14 +6,13 @@ from urllib.parse import urljoin
 from playwright.sync_api import sync_playwright
 
 from monitor import (
-    DAILY_SUMMARY_HOUR,
     DEBUG_JOBS,
     DRY_RUN,
     SEARCH_TERMS,
     TEST_COMPANY,
-    current_hour,
     format_email_body,
     format_run_summary,
+    get_pending_daily_summary_dates,
     get_today_state,
     is_relevant_job,
     load_json_file,
@@ -863,32 +862,28 @@ def main():
         print("")
         print("No new jobs found this run.")
 
-        should_send_daily_summary = (
-            current_hour() >= DAILY_SUMMARY_HOUR
-            and today_state["new_jobs_found"] == 0
-            and today_state["daily_summary_sent"] is False
-        )
+    pending_dates = get_pending_daily_summary_dates(daily_state)
 
-        if should_send_daily_summary:
-            subject = "No new internship roles today (browser bot)"
-            email_body = (
-                "No new internship roles were found today by the browser bot.\n\n"
-                "Your internship alert bot ran successfully."
-            )
-            email_body += "\n\n" + format_run_summary(stats, new_jobs, errors)
+    if pending_dates:
+        subject = "No new internship roles today (browser bot)" if len(pending_dates) == 1 else f"No new internship roles ({len(pending_dates)} quiet days, browser bot)"
+        email_body = "No new internship roles were found by the browser bot on:\n\n"
+        email_body += "\n".join(f"- {date}" for date in pending_dates)
+        email_body += "\n\nYour internship alert bot ran successfully."
+        email_body += "\n\n" + format_run_summary(stats, new_jobs, errors)
 
-            if errors:
-                email_body += "\n\nErrors:\n"
-                for error in errors:
-                    email_body += f"- {error}\n"
+        if errors:
+            email_body += "\n\nErrors:\n"
+            for error in errors:
+                email_body += f"- {error}\n"
 
-            print("")
-            print(email_body)
+        print("")
+        print(email_body)
 
-            send_or_print_email(subject, email_body)
+        send_or_print_email(subject, email_body)
 
-            if not DRY_RUN:
-                today_state["daily_summary_sent"] = True
+        if not DRY_RUN:
+            for date in pending_dates:
+                daily_state[date]["daily_summary_sent"] = True
 
     if DRY_RUN:
         print("DRY_RUN is on. State files were not saved.")
