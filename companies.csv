@@ -94,3 +94,25 @@ ExodusPoint,greenhouse,exoduspoint,Medium
 Salesforce,workday,https://salesforce.wd12.myworkdayjobs.com/External_Career_Site,Medium
 Snowflake,ashby,snowflake,Medium
 Cloudflare,greenhouse,cloudflare,Medium
+Neuralink,greenhouse,neuralink,High
+SpaceX,greenhouse,spacex,High
+Rocket Lab,greenhouse,rocketlab,Medium
+Etched,ashby,etched,Medium
+Cadence,workday,https://cadence.wd1.myworkdayjobs.com/external_careers,Medium
+Pony.ai,custom/workable,pony-dot-ai,Medium
+D. E. Shaw,custom/manual,,High
+Susquehanna International Group (SIG),custom/manual,,High
+Apple,custom/manual,,Medium
+Voloridge Investment Management,custom/manual,,Low
+Skyworks,custom/manual,,Low
+Sanctuary AI,custom/manual,,Medium
+Wing,greenhouse,wing,Medium
+Apex.AI,lever,apex-ai,Medium
+Dexterity,lever,dexterity,Medium
+Nimble Robotics,greenhouse,nimblerobotics,Medium
+Gecko Robotics,ashby,gecko-robotics,Medium
+Serve Robotics,ashby,serverobotics,Low
+Path Robotics,greenhouse,pathrobotics,Low
+Diligent Robotics,greenhouse,diligentrobotics,Low
+Standard Bots,ashby,standardbots,Low
+Locus Robotics,greenhouse,locusrobotics,Low
