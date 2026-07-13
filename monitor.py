@@ -545,6 +545,16 @@ def make_job(source, company, token, title, job_id, url, location="", updated_at
     return job
 
 
+def is_internship_metadata(job):
+    # Some companies (e.g. Jane Street) post internships under plain titles
+    # like "Software Engineer" with no title keyword - Greenhouse's own
+    # "Employment Type" metadata field is the only place it's marked.
+    for field in job.get("metadata") or []:
+        if field.get("name") == "Employment Type" and "intern" in str(field.get("value") or "").lower():
+            return True
+    return False
+
+
 def fetch_greenhouse_jobs(company, token):
     url = f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs?content=true"
     data = get_json(url)
@@ -568,6 +578,7 @@ def fetch_greenhouse_jobs(company, token):
                 updated_at=job.get("updated_at", ""),
                 url=job.get("absolute_url", ""),
                 location=location,
+                is_internship_meta=is_internship_metadata(job),
             )
         )
 
@@ -1271,7 +1282,12 @@ def is_relevant_job(job):
     role_matches = get_matched_keywords(title, ROLE_KEYWORDS)
 
     matched_keywords = sorted(set(intern_matches + role_matches))
-    is_relevant = bool(intern_matches) and bool(role_matches)
+
+    if not intern_matches and job.get("is_internship_meta"):
+        matched_keywords = sorted(set(matched_keywords + ["employment type: internship"]))
+
+    is_internship = bool(intern_matches) or job.get("is_internship_meta", False)
+    is_relevant = is_internship and bool(role_matches)
 
     return is_relevant, matched_keywords
 
