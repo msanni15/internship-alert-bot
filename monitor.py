@@ -30,13 +30,16 @@ REQUEST_HEADERS = {
 
 INTERN_KEYWORDS = [
     "intern",
+    "interns",
     "internship",
+    "internships",
     "summer",
     "fall",
     "winter",
     "co-op",
     "coop",
     "student",
+    "students",
     "university",
     "early career",
 ]
@@ -629,6 +632,7 @@ def fetch_lever_jobs(company, token):
                     location=location,
                     team=team,
                     commitment=commitment,
+                    is_internship_meta=has_keyword(commitment, "intern") or has_keyword(commitment, "internship"),
                 )
             )
 
@@ -669,6 +673,7 @@ def fetch_ashby_jobs(company, token):
                 department=job.get("department", ""),
                 employment_type=job.get("employmentType", ""),
                 workplace_type=job.get("workplaceType", ""),
+                is_internship_meta=has_keyword(job.get("employmentType", ""), "intern"),
             )
         )
 
@@ -832,6 +837,7 @@ def fetch_pinpoint_jobs(company, token):
     for job in data.get("data", []):
         location_data = job.get("location") or {}
         location = location_data.get("name", "") if isinstance(location_data, dict) else str(location_data)
+        employment_type = f"{job.get('employment_type', '')} {job.get('employment_type_text', '')}"
 
         clean_jobs.append(
             make_job(
@@ -843,6 +849,8 @@ def fetch_pinpoint_jobs(company, token):
                 updated_at=job.get("published_at") or job.get("created_at") or "",
                 url=job.get("url", ""),
                 location=location,
+                employment_type=employment_type.strip(),
+                is_internship_meta=has_keyword(employment_type, "intern") or has_keyword(employment_type, "internship"),
             )
         )
 
@@ -1162,6 +1170,8 @@ def fetch_workable_jobs(company, token):
             for loc in locations
         )
 
+        employment_type = job.get("employment_type", "")
+
         clean_jobs.append(
             make_job(
                 source="custom/workable",
@@ -1172,6 +1182,8 @@ def fetch_workable_jobs(company, token):
                 updated_at=job.get("published_on", ""),
                 url=job.get("url", ""),
                 location=location,
+                employment_type=employment_type,
+                is_internship_meta=has_keyword(employment_type, "intern") or has_keyword(employment_type, "internship"),
             )
         )
 
