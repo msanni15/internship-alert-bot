@@ -89,6 +89,6 @@
   },
   "2026-07-16": {
     "new_jobs_found": 0,
-    "daily_summary_sent": false
+    "daily_summary_sent": true
   }
 }
