@@ -1,3 +1,4 @@
+import concurrent.futures
 import csv
 import json
 import os
@@ -1308,6 +1309,16 @@ def make_seen_key(job):
     return f"{job['source']}:{job['company']}:{job['id']}"
 
 
+def fetch_one_company(row):
+    # Pure I/O, no shared state - safe to run concurrently. Each company's
+    # ATS calls its own host, and requests.get() manages its own connection
+    # per call, so nothing here needs a lock.
+    try:
+        return row, fetch_jobs_for_company(row), None
+    except Exception as error:
+        return row, None, error
+
+
 def find_new_jobs(companies, seen_jobs):
     new_jobs = []
     errors = []
@@ -1318,22 +1329,30 @@ def find_new_jobs(companies, seen_jobs):
         "relevant_jobs_found": 0,
     }
 
-    for row in companies:
+    # Companies used to be fetched one at a time, so a handful of slow,
+    # sequential-search ATS calls (Workday, Amazon, Eightfold, Rippling,
+    # Uber) serialized behind ~100 fast ones and stretched a run from ~40s
+    # to 7+ minutes. Fetching concurrently overlaps that network wait
+    # instead of stacking it - executor.map preserves company order in the
+    # results, so everything below (seen_jobs, matched_keywords, sorting)
+    # is untouched and runs single-threaded exactly as before.
+    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
+        fetch_results = list(executor.map(fetch_one_company, companies))
+
+    for row, jobs, error in fetch_results:
         company = row.get("company", "").strip()
         priority = row.get("priority", "").strip().lower()
 
-        try:
-            jobs = fetch_jobs_for_company(row)
-            stats["companies_checked"] += 1
-            stats["total_jobs_fetched"] += len(jobs)
-
-            print(f"{company}: found {len(jobs)} jobs")
-
-        except Exception as error:
+        if error is not None:
             error_message = f"{company}: {error}"
             errors.append(error_message)
             print(f"ERROR: {error_message}")
             continue
+
+        stats["companies_checked"] += 1
+        stats["total_jobs_fetched"] += len(jobs)
+
+        print(f"{company}: found {len(jobs)} jobs")
 
         for job in jobs:
             job["priority"] = priority
