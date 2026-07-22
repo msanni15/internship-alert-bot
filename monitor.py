@@ -1243,6 +1243,70 @@ def fetch_gem_jobs(company, token):
     return clean_jobs
 
 
+def fetch_jibe_jobs(company, token):
+    # Some iCIMS customers (e.g. AMD) run a Jibe-powered branded career site
+    # with a clean, unauthenticated JSON API at {site}/api/jobs - no keyword
+    # search needed, just paginate through it like Greenhouse/Lever. Pages
+    # are 1-indexed via "page", not an item "offset" - the "offset" param
+    # name is silently ignored by the API and just re-returns page 1 every
+    # time, which would infinite-loop if terminating on "fewer than `limit`
+    # jobs back" (verified empty response past the real last page instead).
+    # seen_ids dedup + a hard page cap stay on as backstops regardless.
+    base_url = token.rstrip("/") + "/api/jobs"
+    limit = 100
+    page = 1
+    max_pages = 50
+    seen_ids = set()
+    clean_jobs = []
+
+    for _ in range(max_pages):
+        data = get_json(base_url, params={"limit": limit, "page": page})
+        jobs = data.get("jobs", [])
+
+        if not jobs:
+            break
+
+        new_this_page = 0
+
+        for job in jobs:
+            info = job.get("data") or {}
+            job_id = info.get("req_id", "")
+
+            if job_id in seen_ids:
+                continue
+
+            seen_ids.add(job_id)
+            new_this_page += 1
+
+            location = ", ".join(part for part in (info.get("city", ""), info.get("country", "")) if part)
+            categories = ", ".join(c.get("name", "") for c in (info.get("categories") or []))
+
+            clean_jobs.append(
+                make_job(
+                    source="custom/jibe",
+                    company=company,
+                    token=token,
+                    title=info.get("title", ""),
+                    job_id=job_id,
+                    updated_at=info.get("posted_date", ""),
+                    url=info.get("apply_url", ""),
+                    location=location,
+                    categories=categories,
+                    is_internship_meta=has_keyword(categories, "intern"),
+                )
+            )
+
+        if new_this_page == 0:
+            break
+
+        if len(jobs) < limit:
+            break
+
+        page += 1
+
+    return clean_jobs
+
+
 FETCHERS = {
     "greenhouse": fetch_greenhouse_jobs,
     "lever": fetch_lever_jobs,
@@ -1257,6 +1321,7 @@ FETCHERS = {
     "custom/uber": fetch_uber_jobs,
     "custom/workable": fetch_workable_jobs,
     "custom/gem": fetch_gem_jobs,
+    "custom/jibe": fetch_jibe_jobs,
 }
 
 
