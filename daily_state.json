@@ -110,5 +110,9 @@
   "2026-07-21": {
     "new_jobs_found": 5,
     "daily_summary_sent": false
+  },
+  "2026-07-22": {
+    "new_jobs_found": 0,
+    "daily_summary_sent": false
   }
 }
