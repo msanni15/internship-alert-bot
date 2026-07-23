@@ -65,6 +65,10 @@
   },
   "2026-07-22": {
     "new_jobs_found": 0,
+    "daily_summary_sent": true
+  },
+  "2026-07-23": {
+    "new_jobs_found": 0,
     "daily_summary_sent": false
   }
 }
