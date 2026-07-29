@@ -89,6 +89,10 @@
   },
   "2026-07-28": {
     "new_jobs_found": 0,
+    "daily_summary_sent": true
+  },
+  "2026-07-29": {
+    "new_jobs_found": 0,
     "daily_summary_sent": false
   }
 }
