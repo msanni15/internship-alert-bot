@@ -105,6 +105,10 @@
   },
   "2026-08-01": {
     "new_jobs_found": 0,
+    "daily_summary_sent": true
+  },
+  "2026-08-02": {
+    "new_jobs_found": 0,
     "daily_summary_sent": false
   }
 }
