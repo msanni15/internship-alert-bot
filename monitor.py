@@ -1313,6 +1313,36 @@ def fetch_jibe_jobs(company, token):
     return clean_jobs
 
 
+def fetch_aurora_jobs(company, token):
+    # Aurora migrated off Greenhouse to Ashby at some point (the old
+    # "aurorainnovation" board token now 404s), but their own site exposes
+    # a clean, self-hosted, pre-aggregated endpoint - a direct passthrough
+    # of the underlying Ashby data (applyLink even carries an ashby_jid),
+    # so no pagination or per-company Ashby token needed.
+    data = get_json(token)
+    clean_jobs = []
+
+    for job in data.get("jobs", []):
+        employment_type = job.get("employmentType", "")
+
+        clean_jobs.append(
+            make_job(
+                source="custom/aurora",
+                company=company,
+                token=token,
+                title=job.get("title", ""),
+                job_id=job.get("id", ""),
+                updated_at=job.get("updatedAt") or job.get("publishedDate", ""),
+                url=job.get("applyLink", ""),
+                location=" | ".join(job.get("locations") or []),
+                employment_type=employment_type,
+                is_internship_meta=has_keyword(employment_type, "intern"),
+            )
+        )
+
+    return clean_jobs
+
+
 FETCHERS = {
     "greenhouse": fetch_greenhouse_jobs,
     "lever": fetch_lever_jobs,
@@ -1328,6 +1358,7 @@ FETCHERS = {
     "custom/workable": fetch_workable_jobs,
     "custom/gem": fetch_gem_jobs,
     "custom/jibe": fetch_jibe_jobs,
+    "custom/aurora": fetch_aurora_jobs,
 }
 
 

@@ -60,7 +60,7 @@ LinkedIn,custom/manual,,High
 Waymo,greenhouse,waymo,High
 Zoox,lever,zoox,High
 Nuro,greenhouse,Nuro,Medium
-Aurora,greenhouse,aurorainnovation,Medium
+Aurora,custom/aurora,https://aurora.tech/api/jobs-index,Medium
 Skydio,ashby,skydio,Low
 Zipline,greenhouse,flyzipline,Medium
 Shield AI,lever,shieldai,Low
