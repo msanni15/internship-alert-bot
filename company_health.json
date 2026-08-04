@@ -81,9 +81,9 @@
   },
   "Tower Research": {
     "date": "2026-08-04",
-    "today_max_jobs": 74,
+    "today_max_jobs": 75,
     "today_last_error": null,
-    "historical_max_jobs": 74,
+    "historical_max_jobs": 75,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -113,9 +113,9 @@
   },
   "AQR": {
     "date": "2026-08-04",
-    "today_max_jobs": 48,
+    "today_max_jobs": 49,
     "today_last_error": null,
-    "historical_max_jobs": 48,
+    "historical_max_jobs": 49,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-08-04",
-    "today_max_jobs": 806,
+    "today_max_jobs": 808,
     "today_last_error": null,
     "historical_max_jobs": 808,
     "consecutive_bad_days": 0,
@@ -289,9 +289,9 @@
   },
   "Stripe": {
     "date": "2026-08-04",
-    "today_max_jobs": 545,
+    "today_max_jobs": 546,
     "today_last_error": null,
-    "historical_max_jobs": 545,
+    "historical_max_jobs": 546,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -313,9 +313,9 @@
   },
   "DoorDash": {
     "date": "2026-08-04",
-    "today_max_jobs": 470,
+    "today_max_jobs": 471,
     "today_last_error": null,
-    "historical_max_jobs": 470,
+    "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -753,9 +753,9 @@
   },
   "Cloudflare": {
     "date": "2026-08-04",
-    "today_max_jobs": 287,
+    "today_max_jobs": 289,
     "today_last_error": null,
-    "historical_max_jobs": 287,
+    "historical_max_jobs": 289,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-08-04",
-    "today_max_jobs": 2089,
+    "today_max_jobs": 2091,
     "today_last_error": null,
-    "historical_max_jobs": 2089,
+    "historical_max_jobs": 2091,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -977,9 +977,9 @@
   },
   "AMD": {
     "date": "2026-08-04",
-    "today_max_jobs": 1065,
+    "today_max_jobs": 1066,
     "today_last_error": null,
-    "historical_max_jobs": 1065,
+    "historical_max_jobs": 1066,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1017,9 +1017,9 @@
   },
   "ElevenLabs": {
     "date": "2026-08-04",
-    "today_max_jobs": 225,
+    "today_max_jobs": 226,
     "today_last_error": null,
-    "historical_max_jobs": 225,
+    "historical_max_jobs": 226,
     "consecutive_bad_days": 0,
     "alerted": false
   },
