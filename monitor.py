@@ -17,11 +17,13 @@ from bs4 import BeautifulSoup
 COMPANIES_FILE = "companies.csv"
 SEEN_JOBS_FILE = "seen_jobs.json"
 DAILY_STATE_FILE = "daily_state.json"
+COMPANY_HEALTH_FILE = "company_health.json"
 
 TIMEZONE = "America/Los_Angeles"
 DAILY_SUMMARY_HOUR = 23
 RECENT_JOB_WINDOW_DAYS = 90
 MIN_UPDATED_DATE = datetime.now(timezone.utc) - timedelta(days=RECENT_JOB_WINDOW_DAYS)
+CONSECUTIVE_BAD_DAYS_THRESHOLD = 2
 
 REQUEST_HEADERS = {
     "Accept": "application/json",
@@ -491,6 +493,15 @@ def load_daily_state():
 
 def save_daily_state(daily_state):
     save_json_file(DAILY_STATE_FILE, daily_state)
+
+
+def load_company_health():
+    data = load_json_file(COMPANY_HEALTH_FILE, {})
+    return data if isinstance(data, dict) else {}
+
+
+def save_company_health(company_health):
+    save_json_file(COMPANY_HEALTH_FILE, company_health)
 
 
 def today_string():
@@ -1424,6 +1435,7 @@ def fetch_one_company(row):
 def find_new_jobs(companies, seen_jobs):
     new_jobs = []
     errors = []
+    company_results = []
 
     stats = {
         "companies_checked": 0,
@@ -1448,11 +1460,13 @@ def find_new_jobs(companies, seen_jobs):
         if error is not None:
             error_message = f"{company}: {error}"
             errors.append(error_message)
+            company_results.append({"company": company, "job_count": 0, "error": error_message})
             print(f"ERROR: {error_message}")
             continue
 
         stats["companies_checked"] += 1
         stats["total_jobs_fetched"] += len(jobs)
+        company_results.append({"company": company, "job_count": len(jobs), "error": None})
 
         print(f"{company}: found {len(jobs)} jobs")
 
@@ -1502,7 +1516,93 @@ def find_new_jobs(companies, seen_jobs):
         )
     )
 
-    return new_jobs, errors, stats
+    return new_jobs, errors, stats, company_results
+
+
+def update_company_health(company_health, company_results):
+    # Distinguishes "genuinely broken" (Aurora-style: was returning jobs,
+    # dropped to zero) from "legitimately has nothing posted right now"
+    # (SSI/Mistral: added with zero jobs and have never had any) - only
+    # the former should ever alert, so a company with no track record of
+    # a nonzero fetch can't trigger this no matter how long it stays quiet.
+    today = today_string()
+    newly_flagged = []
+
+    for result in company_results:
+        company = result["company"]
+        job_count = result["job_count"]
+
+        record = company_health.setdefault(
+            company,
+            {
+                "date": today,
+                "today_max_jobs": 0,
+                "today_last_error": None,
+                "historical_max_jobs": 0,
+                "consecutive_bad_days": 0,
+                "alerted": False,
+            },
+        )
+
+        if record["date"] != today:
+            was_bad_day = record["today_max_jobs"] == 0
+            has_track_record = record["historical_max_jobs"] > 0
+
+            if was_bad_day and has_track_record:
+                record["consecutive_bad_days"] += 1
+            else:
+                record["consecutive_bad_days"] = 0
+                record["alerted"] = False
+
+            record["date"] = today
+            record["today_max_jobs"] = 0
+            record["today_last_error"] = None
+
+        record["today_max_jobs"] = max(record["today_max_jobs"], job_count)
+        record["historical_max_jobs"] = max(record["historical_max_jobs"], job_count)
+
+        if result["error"]:
+            record["today_last_error"] = result["error"]
+
+        if (
+            record["consecutive_bad_days"] >= CONSECUTIVE_BAD_DAYS_THRESHOLD
+            and not record["alerted"]
+            and record["historical_max_jobs"] > 0
+        ):
+            record["alerted"] = True
+            newly_flagged.append(
+                {
+                    "company": company,
+                    "consecutive_bad_days": record["consecutive_bad_days"],
+                    "last_error": record["today_last_error"],
+                    "historical_max_jobs": record["historical_max_jobs"],
+                }
+            )
+
+    return newly_flagged
+
+
+def format_company_health_email(newly_flagged):
+    lines = [
+        f"{len(newly_flagged)} company/companies may have a broken or stale listing source:",
+        "",
+    ]
+
+    for entry in newly_flagged:
+        lines.append(entry["company"])
+        lines.append(f"Zero jobs returned for {entry['consecutive_bad_days']} consecutive day(s)")
+        lines.append(f"Previously returned as many as {entry['historical_max_jobs']} jobs")
+
+        if entry["last_error"]:
+            lines.append(f"Last error: {entry['last_error']}")
+        else:
+            lines.append("No error raised - the fetch is succeeding but returning nothing")
+
+        lines.append("")
+
+    lines.append("This usually means the company changed ATS providers or moved their career page.")
+
+    return "\n".join(lines)
 
 
 def format_email_body(new_jobs, errors):
@@ -1592,8 +1692,20 @@ def main():
     seen_jobs = load_seen_jobs()
     daily_state = load_daily_state()
     today_state = get_today_state(daily_state)
+    company_health = load_company_health()
 
-    new_jobs, errors, stats = find_new_jobs(companies, seen_jobs)
+    new_jobs, errors, stats, company_results = find_new_jobs(companies, seen_jobs)
+
+    newly_flagged = update_company_health(company_health, company_results)
+
+    if newly_flagged:
+        subject = "1 company may need attention" if len(newly_flagged) == 1 else f"{len(newly_flagged)} companies may need attention"
+        email_body = format_company_health_email(newly_flagged)
+
+        print("")
+        print(email_body)
+
+        send_or_print_email(subject, email_body)
 
     if new_jobs:
         if not DRY_RUN:
@@ -1640,6 +1752,7 @@ def main():
     else:
         save_seen_jobs(seen_jobs)
         save_daily_state(daily_state)
+        save_company_health(company_health)
 
 
 if __name__ == "__main__":
