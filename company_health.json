@@ -209,25 +209,25 @@
   },
   "Intel": {
     "date": "2026-08-03",
-    "today_max_jobs": 0,
+    "today_max_jobs": 380,
     "today_last_error": "Intel: 429 error for https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs: <!DOCTYPE html>\n<html>\n\n<head>\n    <style>\n        body {\n            text-align: center;\n            margin: 0;\n            height: 100%;\n            width: 100%;\n            font-family: 'Roboto', sans-serif;\n            color: #333333;\n        }\n\n        .graphicsContainer {\n            background-color: #0b77e3;\n        }\n\n        .wdayLogo,\n        .signOutGraphic {\n            display: block;\n            margin: auto;\n        }\n\n        .wdayLogo {\n            padding: 16px 0 8px;\n        ",
-    "historical_max_jobs": 0,
+    "historical_max_jobs": 380,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Broadcom": {
     "date": "2026-08-03",
-    "today_max_jobs": 359,
+    "today_max_jobs": 361,
     "today_last_error": null,
-    "historical_max_jobs": 359,
+    "historical_max_jobs": 361,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Marvell": {
     "date": "2026-08-03",
-    "today_max_jobs": 0,
+    "today_max_jobs": 369,
     "today_last_error": "Marvell: 429 error for https://marvell.wd1.myworkdayjobs.com/wday/cxs/marvell/MarvellCareers/jobs: <!DOCTYPE html>\n<html>\n\n<head>\n    <style>\n        body {\n            text-align: center;\n            margin: 0;\n            height: 100%;\n            width: 100%;\n            font-family: 'Roboto', sans-serif;\n            color: #333333;\n        }\n\n        .graphicsContainer {\n            background-color: #0b77e3;\n        }\n\n        .wdayLogo,\n        .signOutGraphic {\n            display: block;\n            margin: auto;\n        }\n\n        .wdayLogo {\n            padding: 16px 0 8px;\n        ",
-    "historical_max_jobs": 0,
+    "historical_max_jobs": 369,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -297,9 +297,9 @@
   },
   "Airbnb": {
     "date": "2026-08-03",
-    "today_max_jobs": 189,
+    "today_max_jobs": 190,
     "today_last_error": null,
-    "historical_max_jobs": 189,
+    "historical_max_jobs": 190,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -465,9 +465,9 @@
   },
   "Waymo": {
     "date": "2026-08-03",
-    "today_max_jobs": 395,
+    "today_max_jobs": 396,
     "today_last_error": null,
-    "historical_max_jobs": 395,
+    "historical_max_jobs": 396,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -513,9 +513,9 @@
   },
   "Shield AI": {
     "date": "2026-08-03",
-    "today_max_jobs": 439,
+    "today_max_jobs": 442,
     "today_last_error": null,
-    "historical_max_jobs": 439,
+    "historical_max_jobs": 442,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -737,9 +737,9 @@
   },
   "Salesforce": {
     "date": "2026-08-03",
-    "today_max_jobs": 320,
+    "today_max_jobs": 360,
     "today_last_error": null,
-    "historical_max_jobs": 320,
+    "historical_max_jobs": 360,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-08-03",
-    "today_max_jobs": 2088,
+    "today_max_jobs": 2089,
     "today_last_error": null,
-    "historical_max_jobs": 2088,
+    "historical_max_jobs": 2089,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -980,6 +980,158 @@
     "today_max_jobs": 1062,
     "today_last_error": null,
     "historical_max_jobs": 1062,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Cognition": {
+    "date": "2026-08-03",
+    "today_max_jobs": 80,
+    "today_last_error": null,
+    "historical_max_jobs": 80,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Reflection AI": {
+    "date": "2026-08-03",
+    "today_max_jobs": 64,
+    "today_last_error": null,
+    "historical_max_jobs": 64,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "World Labs": {
+    "date": "2026-08-03",
+    "today_max_jobs": 9,
+    "today_last_error": null,
+    "historical_max_jobs": 9,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Sierra AI": {
+    "date": "2026-08-03",
+    "today_max_jobs": 175,
+    "today_last_error": null,
+    "historical_max_jobs": 175,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "ElevenLabs": {
+    "date": "2026-08-03",
+    "today_max_jobs": 223,
+    "today_last_error": null,
+    "historical_max_jobs": 223,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Runway": {
+    "date": "2026-08-03",
+    "today_max_jobs": 4,
+    "today_last_error": null,
+    "historical_max_jobs": 4,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Luma AI": {
+    "date": "2026-08-03",
+    "today_max_jobs": 49,
+    "today_last_error": null,
+    "historical_max_jobs": 49,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Together AI": {
+    "date": "2026-08-03",
+    "today_max_jobs": 56,
+    "today_last_error": null,
+    "historical_max_jobs": 56,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Suno": {
+    "date": "2026-08-03",
+    "today_max_jobs": 62,
+    "today_last_error": null,
+    "historical_max_jobs": 62,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Poolside AI": {
+    "date": "2026-08-03",
+    "today_max_jobs": 16,
+    "today_last_error": null,
+    "historical_max_jobs": 16,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Fireworks AI": {
+    "date": "2026-08-03",
+    "today_max_jobs": 48,
+    "today_last_error": null,
+    "historical_max_jobs": 48,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Imbue": {
+    "date": "2026-08-03",
+    "today_max_jobs": 2,
+    "today_last_error": null,
+    "historical_max_jobs": 2,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Outrider": {
+    "date": "2026-08-03",
+    "today_max_jobs": 11,
+    "today_last_error": null,
+    "historical_max_jobs": 11,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Dexory": {
+    "date": "2026-08-03",
+    "today_max_jobs": 25,
+    "today_last_error": null,
+    "historical_max_jobs": 25,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Formic": {
+    "date": "2026-08-03",
+    "today_max_jobs": 38,
+    "today_last_error": null,
+    "historical_max_jobs": 38,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Pickle Robot": {
+    "date": "2026-08-03",
+    "today_max_jobs": 14,
+    "today_last_error": null,
+    "historical_max_jobs": 14,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Osaro": {
+    "date": "2026-08-03",
+    "today_max_jobs": 11,
+    "today_last_error": null,
+    "historical_max_jobs": 11,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Cobalt Robotics": {
+    "date": "2026-08-03",
+    "today_max_jobs": 10,
+    "today_last_error": null,
+    "historical_max_jobs": 10,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Bright Machines": {
+    "date": "2026-08-03",
+    "today_max_jobs": 11,
+    "today_last_error": null,
+    "historical_max_jobs": 11,
     "consecutive_bad_days": 0,
     "alerted": false
   }
