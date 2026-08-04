@@ -289,9 +289,9 @@
   },
   "Stripe": {
     "date": "2026-08-04",
-    "today_max_jobs": 543,
+    "today_max_jobs": 545,
     "today_last_error": null,
-    "historical_max_jobs": 544,
+    "historical_max_jobs": 545,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -329,7 +329,7 @@
   },
   "Snap": {
     "date": "2026-08-04",
-    "today_max_jobs": 6,
+    "today_max_jobs": 169,
     "today_last_error": null,
     "historical_max_jobs": 169,
     "consecutive_bad_days": 0,
@@ -673,7 +673,7 @@
   },
   "Cohere": {
     "date": "2026-08-04",
-    "today_max_jobs": 140,
+    "today_max_jobs": 141,
     "today_last_error": null,
     "historical_max_jobs": 141,
     "consecutive_bad_days": 0,
@@ -713,7 +713,7 @@
   },
   "QRT": {
     "date": "2026-08-04",
-    "today_max_jobs": 198,
+    "today_max_jobs": 199,
     "today_last_error": null,
     "historical_max_jobs": 199,
     "consecutive_bad_days": 0,
@@ -1017,9 +1017,9 @@
   },
   "ElevenLabs": {
     "date": "2026-08-04",
-    "today_max_jobs": 223,
+    "today_max_jobs": 225,
     "today_last_error": null,
-    "historical_max_jobs": 223,
+    "historical_max_jobs": 225,
     "consecutive_bad_days": 0,
     "alerted": false
   },
