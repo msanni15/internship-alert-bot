@@ -137,9 +137,9 @@
   },
   "Voleon": {
     "date": "2026-08-04",
-    "today_max_jobs": 56,
+    "today_max_jobs": 57,
     "today_last_error": null,
-    "historical_max_jobs": 56,
+    "historical_max_jobs": 57,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -209,9 +209,9 @@
   },
   "Intel": {
     "date": "2026-08-04",
-    "today_max_jobs": 409,
+    "today_max_jobs": 413,
     "today_last_error": null,
-    "historical_max_jobs": 409,
+    "historical_max_jobs": 413,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -225,9 +225,9 @@
   },
   "Marvell": {
     "date": "2026-08-04",
-    "today_max_jobs": 412,
+    "today_max_jobs": 471,
     "today_last_error": null,
-    "historical_max_jobs": 412,
+    "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -313,17 +313,17 @@
   },
   "DoorDash": {
     "date": "2026-08-04",
-    "today_max_jobs": 472,
+    "today_max_jobs": 473,
     "today_last_error": null,
-    "historical_max_jobs": 472,
+    "historical_max_jobs": 473,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Pinterest": {
     "date": "2026-08-04",
-    "today_max_jobs": 225,
+    "today_max_jobs": 226,
     "today_last_error": null,
-    "historical_max_jobs": 225,
+    "historical_max_jobs": 226,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -337,9 +337,9 @@
   },
   "Scale AI": {
     "date": "2026-08-04",
-    "today_max_jobs": 216,
+    "today_max_jobs": 219,
     "today_last_error": null,
-    "historical_max_jobs": 216,
+    "historical_max_jobs": 219,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -473,9 +473,9 @@
   },
   "Zoox": {
     "date": "2026-08-04",
-    "today_max_jobs": 229,
+    "today_max_jobs": 233,
     "today_last_error": null,
-    "historical_max_jobs": 229,
+    "historical_max_jobs": 233,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -505,9 +505,9 @@
   },
   "Zipline": {
     "date": "2026-08-04",
-    "today_max_jobs": 255,
+    "today_max_jobs": 256,
     "today_last_error": null,
-    "historical_max_jobs": 255,
+    "historical_max_jobs": 256,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -529,9 +529,9 @@
   },
   "Boston Dynamics": {
     "date": "2026-08-04",
-    "today_max_jobs": 67,
+    "today_max_jobs": 68,
     "today_last_error": null,
-    "historical_max_jobs": 67,
+    "historical_max_jobs": 68,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -561,9 +561,9 @@
   },
   "Motional": {
     "date": "2026-08-04",
-    "today_max_jobs": 78,
+    "today_max_jobs": 79,
     "today_last_error": null,
-    "historical_max_jobs": 78,
+    "historical_max_jobs": 79,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -793,9 +793,9 @@
   },
   "Cadence": {
     "date": "2026-08-04",
-    "today_max_jobs": 160,
+    "today_max_jobs": 453,
     "today_last_error": null,
-    "historical_max_jobs": 160,
+    "historical_max_jobs": 453,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1041,9 +1041,9 @@
   },
   "Together AI": {
     "date": "2026-08-04",
-    "today_max_jobs": 56,
+    "today_max_jobs": 59,
     "today_last_error": null,
-    "historical_max_jobs": 56,
+    "historical_max_jobs": 59,
     "consecutive_bad_days": 0,
     "alerted": false
   },
