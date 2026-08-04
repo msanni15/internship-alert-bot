@@ -265,9 +265,9 @@
   },
   "Amazon": {
     "date": "2026-08-04",
-    "today_max_jobs": 1782,
+    "today_max_jobs": 1789,
     "today_last_error": null,
-    "historical_max_jobs": 1788,
+    "historical_max_jobs": 1789,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -289,9 +289,9 @@
   },
   "Stripe": {
     "date": "2026-08-04",
-    "today_max_jobs": 546,
+    "today_max_jobs": 547,
     "today_last_error": null,
-    "historical_max_jobs": 546,
+    "historical_max_jobs": 547,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -473,9 +473,9 @@
   },
   "Zoox": {
     "date": "2026-08-04",
-    "today_max_jobs": 225,
+    "today_max_jobs": 229,
     "today_last_error": null,
-    "historical_max_jobs": 225,
+    "historical_max_jobs": 229,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -521,9 +521,9 @@
   },
   "Figure AI": {
     "date": "2026-08-04",
-    "today_max_jobs": 113,
+    "today_max_jobs": 117,
     "today_last_error": null,
-    "historical_max_jobs": 114,
+    "historical_max_jobs": 117,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -537,9 +537,9 @@
   },
   "Agility Robotics": {
     "date": "2026-08-04",
-    "today_max_jobs": 58,
+    "today_max_jobs": 59,
     "today_last_error": null,
-    "historical_max_jobs": 58,
+    "historical_max_jobs": 59,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -553,9 +553,9 @@
   },
   "Waabi": {
     "date": "2026-08-04",
-    "today_max_jobs": 57,
+    "today_max_jobs": 58,
     "today_last_error": null,
-    "historical_max_jobs": 57,
+    "historical_max_jobs": 58,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -753,9 +753,9 @@
   },
   "Cloudflare": {
     "date": "2026-08-04",
-    "today_max_jobs": 291,
+    "today_max_jobs": 292,
     "today_last_error": null,
-    "historical_max_jobs": 291,
+    "historical_max_jobs": 292,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -777,9 +777,9 @@
   },
   "Rocket Lab": {
     "date": "2026-08-04",
-    "today_max_jobs": 395,
+    "today_max_jobs": 397,
     "today_last_error": null,
-    "historical_max_jobs": 395,
+    "historical_max_jobs": 397,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1049,9 +1049,9 @@
   },
   "Suno": {
     "date": "2026-08-04",
-    "today_max_jobs": 63,
+    "today_max_jobs": 64,
     "today_last_error": null,
-    "historical_max_jobs": 63,
+    "historical_max_jobs": 64,
     "consecutive_bad_days": 0,
     "alerted": false
   },
