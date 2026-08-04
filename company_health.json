@@ -105,9 +105,9 @@
   },
   "Point72": {
     "date": "2026-08-04",
-    "today_max_jobs": 231,
+    "today_max_jobs": 232,
     "today_last_error": null,
-    "historical_max_jobs": 231,
+    "historical_max_jobs": 232,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -289,9 +289,9 @@
   },
   "Stripe": {
     "date": "2026-08-04",
-    "today_max_jobs": 547,
+    "today_max_jobs": 548,
     "today_last_error": null,
-    "historical_max_jobs": 547,
+    "historical_max_jobs": 548,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -313,17 +313,17 @@
   },
   "DoorDash": {
     "date": "2026-08-04",
-    "today_max_jobs": 471,
+    "today_max_jobs": 472,
     "today_last_error": null,
-    "historical_max_jobs": 471,
+    "historical_max_jobs": 472,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Pinterest": {
     "date": "2026-08-04",
-    "today_max_jobs": 223,
+    "today_max_jobs": 225,
     "today_last_error": null,
-    "historical_max_jobs": 223,
+    "historical_max_jobs": 225,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -489,9 +489,9 @@
   },
   "Aurora": {
     "date": "2026-08-04",
-    "today_max_jobs": 74,
+    "today_max_jobs": 75,
     "today_last_error": null,
-    "historical_max_jobs": 74,
+    "historical_max_jobs": 75,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -529,9 +529,9 @@
   },
   "Boston Dynamics": {
     "date": "2026-08-04",
-    "today_max_jobs": 66,
+    "today_max_jobs": 67,
     "today_last_error": null,
-    "historical_max_jobs": 66,
+    "historical_max_jobs": 67,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -553,17 +553,17 @@
   },
   "Waabi": {
     "date": "2026-08-04",
-    "today_max_jobs": 58,
+    "today_max_jobs": 62,
     "today_last_error": null,
-    "historical_max_jobs": 58,
+    "historical_max_jobs": 62,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Motional": {
     "date": "2026-08-04",
-    "today_max_jobs": 77,
+    "today_max_jobs": 78,
     "today_last_error": null,
-    "historical_max_jobs": 77,
+    "historical_max_jobs": 78,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -665,17 +665,17 @@
   },
   "xAI": {
     "date": "2026-08-04",
-    "today_max_jobs": 201,
+    "today_max_jobs": 202,
     "today_last_error": null,
-    "historical_max_jobs": 201,
+    "historical_max_jobs": 202,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Cohere": {
     "date": "2026-08-04",
-    "today_max_jobs": 141,
+    "today_max_jobs": 142,
     "today_last_error": null,
-    "historical_max_jobs": 141,
+    "historical_max_jobs": 142,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -777,9 +777,9 @@
   },
   "Rocket Lab": {
     "date": "2026-08-04",
-    "today_max_jobs": 397,
+    "today_max_jobs": 398,
     "today_last_error": null,
-    "historical_max_jobs": 397,
+    "historical_max_jobs": 398,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -857,9 +857,9 @@
   },
   "Wing": {
     "date": "2026-08-04",
-    "today_max_jobs": 39,
+    "today_max_jobs": 40,
     "today_last_error": null,
-    "historical_max_jobs": 39,
+    "historical_max_jobs": 40,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -905,9 +905,9 @@
   },
   "Path Robotics": {
     "date": "2026-08-04",
-    "today_max_jobs": 46,
+    "today_max_jobs": 47,
     "today_last_error": null,
-    "historical_max_jobs": 46,
+    "historical_max_jobs": 47,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1049,9 +1049,9 @@
   },
   "Suno": {
     "date": "2026-08-04",
-    "today_max_jobs": 64,
+    "today_max_jobs": 66,
     "today_last_error": null,
-    "historical_max_jobs": 64,
+    "historical_max_jobs": 66,
     "consecutive_bad_days": 0,
     "alerted": false
   },
