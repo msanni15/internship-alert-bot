@@ -137,9 +137,9 @@
   },
   "Voleon": {
     "date": "2026-08-04",
-    "today_max_jobs": 54,
+    "today_max_jobs": 56,
     "today_last_error": null,
-    "historical_max_jobs": 54,
+    "historical_max_jobs": 56,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -225,9 +225,9 @@
   },
   "Marvell": {
     "date": "2026-08-04",
-    "today_max_jobs": 369,
+    "today_max_jobs": 412,
     "today_last_error": null,
-    "historical_max_jobs": 369,
+    "historical_max_jobs": 412,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -321,9 +321,9 @@
   },
   "Pinterest": {
     "date": "2026-08-04",
-    "today_max_jobs": 220,
+    "today_max_jobs": 223,
     "today_last_error": null,
-    "historical_max_jobs": 221,
+    "historical_max_jobs": 223,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -393,9 +393,9 @@
   },
   "Notion": {
     "date": "2026-08-04",
-    "today_max_jobs": 110,
+    "today_max_jobs": 111,
     "today_last_error": null,
-    "historical_max_jobs": 110,
+    "historical_max_jobs": 111,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -457,9 +457,9 @@
   },
   "1X": {
     "date": "2026-08-04",
-    "today_max_jobs": 80,
+    "today_max_jobs": 82,
     "today_last_error": null,
-    "historical_max_jobs": 80,
+    "historical_max_jobs": 82,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -481,17 +481,17 @@
   },
   "Nuro": {
     "date": "2026-08-04",
-    "today_max_jobs": 102,
+    "today_max_jobs": 103,
     "today_last_error": null,
-    "historical_max_jobs": 102,
+    "historical_max_jobs": 103,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Aurora": {
     "date": "2026-08-04",
-    "today_max_jobs": 72,
+    "today_max_jobs": 74,
     "today_last_error": null,
-    "historical_max_jobs": 72,
+    "historical_max_jobs": 74,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -665,9 +665,9 @@
   },
   "xAI": {
     "date": "2026-08-04",
-    "today_max_jobs": 199,
+    "today_max_jobs": 201,
     "today_last_error": null,
-    "historical_max_jobs": 199,
+    "historical_max_jobs": 201,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -753,25 +753,25 @@
   },
   "Cloudflare": {
     "date": "2026-08-04",
-    "today_max_jobs": 289,
+    "today_max_jobs": 291,
     "today_last_error": null,
-    "historical_max_jobs": 289,
+    "historical_max_jobs": 291,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Neuralink": {
     "date": "2026-08-04",
-    "today_max_jobs": 82,
+    "today_max_jobs": 83,
     "today_last_error": null,
-    "historical_max_jobs": 82,
+    "historical_max_jobs": 83,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "SpaceX": {
     "date": "2026-08-04",
-    "today_max_jobs": 2091,
+    "today_max_jobs": 2093,
     "today_last_error": null,
-    "historical_max_jobs": 2091,
+    "historical_max_jobs": 2093,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -905,9 +905,9 @@
   },
   "Path Robotics": {
     "date": "2026-08-04",
-    "today_max_jobs": 45,
+    "today_max_jobs": 46,
     "today_last_error": null,
-    "historical_max_jobs": 45,
+    "historical_max_jobs": 46,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -929,16 +929,16 @@
   },
   "Locus Robotics": {
     "date": "2026-08-04",
-    "today_max_jobs": 5,
+    "today_max_jobs": 9,
     "today_last_error": null,
-    "historical_max_jobs": 5,
+    "historical_max_jobs": 9,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Thinking Machines Lab": {
     "date": "2026-08-04",
     "today_max_jobs": 36,
-    "today_last_error": null,
+    "today_last_error": "Thinking Machines Lab: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/thinkingmachines/jobs?content=true",
     "historical_max_jobs": 36,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -1049,9 +1049,9 @@
   },
   "Suno": {
     "date": "2026-08-04",
-    "today_max_jobs": 62,
+    "today_max_jobs": 63,
     "today_last_error": null,
-    "historical_max_jobs": 62,
+    "historical_max_jobs": 63,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1129,9 +1129,9 @@
   },
   "Bright Machines": {
     "date": "2026-08-04",
-    "today_max_jobs": 11,
+    "today_max_jobs": 12,
     "today_last_error": null,
-    "historical_max_jobs": 11,
+    "historical_max_jobs": 12,
     "consecutive_bad_days": 0,
     "alerted": false
   }
