@@ -285,6 +285,31 @@ def get_html(url, timeout=20):
     return response.text
 
 
+def is_url_healthy(url, timeout=10):
+    # GET with stream=True instead of HEAD - some job-board CDNs mishandle
+    # or block HEAD (405/406) even though the page loads fine on GET, and
+    # streaming means we still don't pay for downloading the full body,
+    # just enough to read the status line before closing the connection.
+    if not url:
+        return False
+
+    try:
+        response = requests.get(
+            url,
+            headers={"User-Agent": "Mozilla/5.0"},
+            timeout=timeout,
+            allow_redirects=True,
+            stream=True,
+        )
+        response.close()
+        return response.status_code < 400
+    except requests.exceptions.RequestException:
+        # A failed check (timeout, DNS blip, connection reset) isn't proof
+        # the link is broken - fail open rather than silently dropping a
+        # real job because of an unrelated network hiccup.
+        return True
+
+
 def post_workday_json(url, json_body=None, attempts=2):
     # 429/5xx are transient (shared rate limiter, momentary overload) and
     # worth a short backoff - unlike get_json's callers, this previously had
@@ -1524,6 +1549,14 @@ def find_new_jobs(companies, seen_jobs):
             seen_key = make_seen_key(job)
 
             if seen_key in seen_jobs:
+                continue
+
+            if not is_url_healthy(job.get("url", "")):
+                # Deliberately not marked as seen - if this was a transient
+                # issue or a token bug that gets fixed, the next run picks
+                # it back up and sends it for real instead of it silently
+                # vanishing forever.
+                print(f"BROKEN LINK (skipping, will retry next run): {job['company']} - {job['title']} - {job.get('url', '')}")
                 continue
 
             job["matched_keywords"] = matched_keywords
