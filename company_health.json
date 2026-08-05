@@ -33,9 +33,9 @@
   },
   "Jump Trading": {
     "date": "2026-08-04",
-    "today_max_jobs": 105,
+    "today_max_jobs": 106,
     "today_last_error": null,
-    "historical_max_jobs": 105,
+    "historical_max_jobs": 106,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -329,9 +329,9 @@
   },
   "Snap": {
     "date": "2026-08-04",
-    "today_max_jobs": 169,
+    "today_max_jobs": 172,
     "today_last_error": null,
-    "historical_max_jobs": 169,
+    "historical_max_jobs": 172,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -353,7 +353,7 @@
   },
   "Anthropic": {
     "date": "2026-08-04",
-    "today_max_jobs": 396,
+    "today_max_jobs": 398,
     "today_last_error": null,
     "historical_max_jobs": 399,
     "consecutive_bad_days": 0,
@@ -505,9 +505,9 @@
   },
   "Zipline": {
     "date": "2026-08-04",
-    "today_max_jobs": 257,
+    "today_max_jobs": 258,
     "today_last_error": null,
-    "historical_max_jobs": 257,
+    "historical_max_jobs": 258,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -577,9 +577,9 @@
   },
   "FieldAI": {
     "date": "2026-08-04",
-    "today_max_jobs": 123,
+    "today_max_jobs": 126,
     "today_last_error": null,
-    "historical_max_jobs": 123,
+    "historical_max_jobs": 126,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -665,9 +665,9 @@
   },
   "xAI": {
     "date": "2026-08-04",
-    "today_max_jobs": 202,
+    "today_max_jobs": 203,
     "today_last_error": null,
-    "historical_max_jobs": 202,
+    "historical_max_jobs": 203,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-08-04",
-    "today_max_jobs": 2093,
+    "today_max_jobs": 2094,
     "today_last_error": null,
-    "historical_max_jobs": 2093,
+    "historical_max_jobs": 2094,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -969,9 +969,9 @@
   },
   "Man Group": {
     "date": "2026-08-04",
-    "today_max_jobs": 58,
+    "today_max_jobs": 59,
     "today_last_error": null,
-    "historical_max_jobs": 58,
+    "historical_max_jobs": 59,
     "consecutive_bad_days": 0,
     "alerted": false
   },
