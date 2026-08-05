@@ -297,9 +297,9 @@
   },
   "Airbnb": {
     "date": "2026-08-05",
-    "today_max_jobs": 192,
+    "today_max_jobs": 195,
     "today_last_error": null,
-    "historical_max_jobs": 192,
+    "historical_max_jobs": 195,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -473,9 +473,9 @@
   },
   "Zoox": {
     "date": "2026-08-05",
-    "today_max_jobs": 232,
+    "today_max_jobs": 234,
     "today_last_error": null,
-    "historical_max_jobs": 233,
+    "historical_max_jobs": 234,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -529,9 +529,9 @@
   },
   "Boston Dynamics": {
     "date": "2026-08-05",
-    "today_max_jobs": 69,
+    "today_max_jobs": 70,
     "today_last_error": null,
-    "historical_max_jobs": 69,
+    "historical_max_jobs": 70,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -577,9 +577,9 @@
   },
   "FieldAI": {
     "date": "2026-08-05",
-    "today_max_jobs": 126,
+    "today_max_jobs": 127,
     "today_last_error": null,
-    "historical_max_jobs": 126,
+    "historical_max_jobs": 127,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-08-05",
-    "today_max_jobs": 397,
+    "today_max_jobs": 399,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-08-05",
-    "today_max_jobs": 2099,
+    "today_max_jobs": 2103,
     "today_last_error": null,
-    "historical_max_jobs": 2099,
+    "historical_max_jobs": 2103,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -794,7 +794,7 @@
   "Cadence": {
     "date": "2026-08-05",
     "today_max_jobs": 434,
-    "today_last_error": null,
+    "today_last_error": "Cadence: HTTPSConnectionPool(host='cadence.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=8)",
     "historical_max_jobs": 453,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -857,9 +857,9 @@
   },
   "Wing": {
     "date": "2026-08-05",
-    "today_max_jobs": 42,
+    "today_max_jobs": 43,
     "today_last_error": null,
-    "historical_max_jobs": 42,
+    "historical_max_jobs": 43,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -905,9 +905,9 @@
   },
   "Path Robotics": {
     "date": "2026-08-05",
-    "today_max_jobs": 48,
+    "today_max_jobs": 49,
     "today_last_error": null,
-    "historical_max_jobs": 48,
+    "historical_max_jobs": 49,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -977,9 +977,9 @@
   },
   "AMD": {
     "date": "2026-08-05",
-    "today_max_jobs": 1072,
+    "today_max_jobs": 1075,
     "today_last_error": null,
-    "historical_max_jobs": 1072,
+    "historical_max_jobs": 1075,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1065,9 +1065,9 @@
   },
   "Fireworks AI": {
     "date": "2026-08-05",
-    "today_max_jobs": 49,
+    "today_max_jobs": 50,
     "today_last_error": null,
-    "historical_max_jobs": 49,
+    "historical_max_jobs": 50,
     "consecutive_bad_days": 0,
     "alerted": false
   },
