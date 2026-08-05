@@ -280,21 +280,48 @@ def get_html(url, timeout=20):
     return response.text
 
 
-def post_workday_json(url, json_body=None):
-    response = requests.post(
-        url,
-        json=json_body,
-        headers=REQUEST_HEADERS,
-        timeout=(5, 8),
-    )
+def post_workday_json(url, json_body=None, attempts=2):
+    # 429/5xx are transient (shared rate limiter, momentary overload) and
+    # worth a short backoff - unlike get_json's callers, this previously had
+    # no retry at all, so a single rate-limit hit surfaced straight to the
+    # run's error list. Other 4xx (400 wrong payload shape, 404 unknown
+    # tenant) fail immediately instead of retrying - waiting won't fix a
+    # malformed payload, and fetch_workday_page's payload-shape fallback
+    # already tries alternates for exactly that case. Kept to 2 attempts
+    # with a modest backoff since this sits inside a 4-shapes x 8-search-terms
+    # loop already bounded by SEARCH_TIME_BUDGET_SECONDS - retrying too
+    # aggressively here would eat into that budget instead of respecting it.
+    last_error = None
 
-    if response.status_code >= 400:
-        raise requests.exceptions.HTTPError(
-            f"{response.status_code} error for {url}: {response.text[:500]}",
-            response=response,
+    for attempt in range(1, attempts + 1):
+        response = requests.post(
+            url,
+            json=json_body,
+            headers=REQUEST_HEADERS,
+            timeout=(5, 8),
         )
 
-    return response.json()
+        if response.status_code == 429 or response.status_code >= 500:
+            last_error = requests.exceptions.HTTPError(
+                f"{response.status_code} error for {url}: {response.text[:500]}",
+                response=response,
+            )
+
+            if attempt < attempts:
+                wait_seconds = attempt * 8
+                print(f"Workday request got {response.status_code}. Retrying in {wait_seconds} seconds...")
+                time.sleep(wait_seconds)
+            continue
+
+        if response.status_code >= 400:
+            raise requests.exceptions.HTTPError(
+                f"{response.status_code} error for {url}: {response.text[:500]}",
+                response=response,
+            )
+
+        return response.json()
+
+    raise last_error
 
 
 def fetch_workday_page(api_url, search_term, limit, offset):
