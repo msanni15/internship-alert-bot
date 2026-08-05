@@ -209,9 +209,9 @@
   },
   "Intel": {
     "date": "2026-08-04",
-    "today_max_jobs": 413,
+    "today_max_jobs": 415,
     "today_last_error": null,
-    "historical_max_jobs": 413,
+    "historical_max_jobs": 415,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -305,9 +305,9 @@
   },
   "Uber": {
     "date": "2026-08-04",
-    "today_max_jobs": 41,
+    "today_max_jobs": 42,
     "today_last_error": null,
-    "historical_max_jobs": 41,
+    "historical_max_jobs": 42,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -505,9 +505,9 @@
   },
   "Zipline": {
     "date": "2026-08-04",
-    "today_max_jobs": 258,
+    "today_max_jobs": 259,
     "today_last_error": null,
-    "historical_max_jobs": 258,
+    "historical_max_jobs": 259,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -649,9 +649,9 @@
   },
   "Physical Intelligence": {
     "date": "2026-08-04",
-    "today_max_jobs": 28,
+    "today_max_jobs": 29,
     "today_last_error": null,
-    "historical_max_jobs": 28,
+    "historical_max_jobs": 29,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1009,9 +1009,9 @@
   },
   "Sierra AI": {
     "date": "2026-08-04",
-    "today_max_jobs": 175,
+    "today_max_jobs": 188,
     "today_last_error": null,
-    "historical_max_jobs": 175,
+    "historical_max_jobs": 188,
     "consecutive_bad_days": 0,
     "alerted": false
   },
