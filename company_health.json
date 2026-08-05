@@ -1009,9 +1009,9 @@
   },
   "Sierra AI": {
     "date": "2026-08-04",
-    "today_max_jobs": 188,
+    "today_max_jobs": 189,
     "today_last_error": null,
-    "historical_max_jobs": 188,
+    "historical_max_jobs": 189,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1065,9 +1065,9 @@
   },
   "Fireworks AI": {
     "date": "2026-08-04",
-    "today_max_jobs": 48,
+    "today_max_jobs": 49,
     "today_last_error": "Fireworks AI: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/fireworksai?includeCompensation=true",
-    "historical_max_jobs": 48,
+    "historical_max_jobs": 49,
     "consecutive_bad_days": 0,
     "alerted": false
   },
