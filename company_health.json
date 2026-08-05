@@ -49,9 +49,9 @@
   },
   "IMC": {
     "date": "2026-08-05",
-    "today_max_jobs": 158,
+    "today_max_jobs": 159,
     "today_last_error": null,
-    "historical_max_jobs": 158,
+    "historical_max_jobs": 159,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -281,9 +281,9 @@
   },
   "Databricks": {
     "date": "2026-08-05",
-    "today_max_jobs": 809,
+    "today_max_jobs": 811,
     "today_last_error": null,
-    "historical_max_jobs": 809,
+    "historical_max_jobs": 811,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -329,9 +329,9 @@
   },
   "Snap": {
     "date": "2026-08-05",
-    "today_max_jobs": 171,
+    "today_max_jobs": 174,
     "today_last_error": null,
-    "historical_max_jobs": 172,
+    "historical_max_jobs": 174,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -361,9 +361,9 @@
   },
   "Perplexity": {
     "date": "2026-08-05",
-    "today_max_jobs": 87,
+    "today_max_jobs": 88,
     "today_last_error": null,
-    "historical_max_jobs": 87,
+    "historical_max_jobs": 88,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-08-05",
-    "today_max_jobs": 396,
+    "today_max_jobs": 397,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -1129,9 +1129,9 @@
   },
   "Bright Machines": {
     "date": "2026-08-05",
-    "today_max_jobs": 12,
+    "today_max_jobs": 13,
     "today_last_error": null,
-    "historical_max_jobs": 12,
+    "historical_max_jobs": 13,
     "consecutive_bad_days": 0,
     "alerted": false
   }
