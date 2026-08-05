@@ -726,6 +726,10 @@ def fetch_ashby_jobs(company, token):
 
 
 def get_workday_api_url(token):
+    # Also returns "site" (e.g. "external_careers") - the API's own
+    # externalPath field never includes it (just "/job/CORK-01/Intern_..."),
+    # so building a browser-facing job URL from host + externalPath alone
+    # 404s. The site segment has to be reinserted between them.
     parsed_url = urlparse(token)
     host = parsed_url.netloc
     path_parts = [part for part in parsed_url.path.split("/") if part]
@@ -734,7 +738,9 @@ def get_workday_api_url(token):
         raise ValueError("Invalid Workday URL")
 
     if "/wday/cxs/" in token:
-        return token, host
+        # token is already a full API URL: https://{host}/wday/cxs/{tenant}/{site}/jobs
+        site = token.rstrip("/").removesuffix("/jobs").rsplit("/", 1)[-1]
+        return token, host, site
 
     if not path_parts:
         raise ValueError("Invalid Workday URL")
@@ -742,7 +748,7 @@ def get_workday_api_url(token):
     tenant = host.split(".")[0]
     site = path_parts[0]
 
-    return f"https://{host}/wday/cxs/{tenant}/{site}/jobs", host
+    return f"https://{host}/wday/cxs/{tenant}/{site}/jobs", host, site
 
 
 AMBIGUOUS_WORKDAY_LOCATION_PATTERN = re.compile(r"^\d+\s+locations?$", re.IGNORECASE)
@@ -760,7 +766,7 @@ def resolve_workday_locations(api_url, external_path):
 
 
 def fetch_workday_jobs(company, token):
-    api_url, host = get_workday_api_url(token)
+    api_url, host, site = get_workday_api_url(token)
 
     clean_jobs = []
     seen_urls = set()
@@ -793,7 +799,7 @@ def fetch_workday_jobs(company, token):
                 if external_path.startswith("http"):
                     job_url = external_path
                 else:
-                    job_url = f"https://{host}{external_path}"
+                    job_url = f"https://{host}/{site}{external_path}"
 
                 if job_url in seen_urls:
                     continue
