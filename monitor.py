@@ -95,6 +95,11 @@ BLOCKED_TITLE_KEYWORDS = [
     "mba",
     "new grad",
     "new college grad",
+    # Point-in-time, not a permanent rule: as of Aug 2026, Fall 2026
+    # postings are too-late-to-apply. Update to "fall 2027" once Fall 2026
+    # listings stop appearing and Fall 2027 becomes the "too late" one -
+    # don't leave this blocking a future fall's postings by mistake.
+    "fall 2026",
 ]
 
 BLOCKED_INTERNATIONAL_LOCATION_KEYWORDS = [
