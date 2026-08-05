@@ -49,7 +49,7 @@
   },
   "IMC": {
     "date": "2026-08-04",
-    "today_max_jobs": 157,
+    "today_max_jobs": 158,
     "today_last_error": null,
     "historical_max_jobs": 158,
     "consecutive_bad_days": 0,
@@ -217,9 +217,9 @@
   },
   "Broadcom": {
     "date": "2026-08-04",
-    "today_max_jobs": 360,
+    "today_max_jobs": 363,
     "today_last_error": null,
-    "historical_max_jobs": 361,
+    "historical_max_jobs": 363,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -289,9 +289,9 @@
   },
   "Stripe": {
     "date": "2026-08-04",
-    "today_max_jobs": 548,
+    "today_max_jobs": 550,
     "today_last_error": null,
-    "historical_max_jobs": 548,
+    "historical_max_jobs": 550,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -361,9 +361,9 @@
   },
   "Perplexity": {
     "date": "2026-08-04",
-    "today_max_jobs": 86,
+    "today_max_jobs": 87,
     "today_last_error": null,
-    "historical_max_jobs": 86,
+    "historical_max_jobs": 87,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -497,17 +497,17 @@
   },
   "Skydio": {
     "date": "2026-08-04",
-    "today_max_jobs": 114,
+    "today_max_jobs": 115,
     "today_last_error": null,
-    "historical_max_jobs": 114,
+    "historical_max_jobs": 115,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Zipline": {
     "date": "2026-08-04",
-    "today_max_jobs": 256,
+    "today_max_jobs": 257,
     "today_last_error": null,
-    "historical_max_jobs": 256,
+    "historical_max_jobs": 257,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -521,9 +521,9 @@
   },
   "Figure AI": {
     "date": "2026-08-04",
-    "today_max_jobs": 117,
+    "today_max_jobs": 126,
     "today_last_error": null,
-    "historical_max_jobs": 117,
+    "historical_max_jobs": 126,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -649,9 +649,9 @@
   },
   "Physical Intelligence": {
     "date": "2026-08-04",
-    "today_max_jobs": 27,
+    "today_max_jobs": 28,
     "today_last_error": null,
-    "historical_max_jobs": 27,
+    "historical_max_jobs": 28,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -777,9 +777,9 @@
   },
   "Rocket Lab": {
     "date": "2026-08-04",
-    "today_max_jobs": 398,
+    "today_max_jobs": 400,
     "today_last_error": null,
-    "historical_max_jobs": 398,
+    "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -857,9 +857,9 @@
   },
   "Wing": {
     "date": "2026-08-04",
-    "today_max_jobs": 40,
+    "today_max_jobs": 42,
     "today_last_error": null,
-    "historical_max_jobs": 40,
+    "historical_max_jobs": 42,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1066,7 +1066,7 @@
   "Fireworks AI": {
     "date": "2026-08-04",
     "today_max_jobs": 48,
-    "today_last_error": null,
+    "today_last_error": "Fireworks AI: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/fireworksai?includeCompensation=true",
     "historical_max_jobs": 48,
     "consecutive_bad_days": 0,
     "alerted": false
