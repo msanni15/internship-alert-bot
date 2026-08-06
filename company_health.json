@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-08-06",
-    "today_max_jobs": 300,
+    "today_max_jobs": 320,
     "today_last_error": null,
     "historical_max_jobs": 360,
     "consecutive_bad_days": 0,
@@ -217,9 +217,9 @@
   },
   "Broadcom": {
     "date": "2026-08-06",
-    "today_max_jobs": 285,
+    "today_max_jobs": 370,
     "today_last_error": null,
-    "historical_max_jobs": 368,
+    "historical_max_jobs": 370,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -321,7 +321,7 @@
   },
   "Pinterest": {
     "date": "2026-08-06",
-    "today_max_jobs": 224,
+    "today_max_jobs": 225,
     "today_last_error": null,
     "historical_max_jobs": 226,
     "consecutive_bad_days": 0,
@@ -393,9 +393,9 @@
   },
   "Notion": {
     "date": "2026-08-06",
-    "today_max_jobs": 117,
+    "today_max_jobs": 118,
     "today_last_error": null,
-    "historical_max_jobs": 117,
+    "historical_max_jobs": 118,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -625,9 +625,9 @@
   },
   "RIVR": {
     "date": "2026-08-06",
-    "today_max_jobs": 26,
+    "today_max_jobs": 27,
     "today_last_error": null,
-    "historical_max_jobs": 26,
+    "historical_max_jobs": 27,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -713,7 +713,7 @@
   },
   "QRT": {
     "date": "2026-08-06",
-    "today_max_jobs": 193,
+    "today_max_jobs": 194,
     "today_last_error": null,
     "historical_max_jobs": 199,
     "consecutive_bad_days": 0,
@@ -737,25 +737,25 @@
   },
   "Salesforce": {
     "date": "2026-08-06",
-    "today_max_jobs": 400,
+    "today_max_jobs": 440,
     "today_last_error": null,
-    "historical_max_jobs": 400,
+    "historical_max_jobs": 440,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Snowflake": {
     "date": "2026-08-06",
-    "today_max_jobs": 401,
+    "today_max_jobs": 402,
     "today_last_error": null,
-    "historical_max_jobs": 401,
+    "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Cloudflare": {
     "date": "2026-08-06",
-    "today_max_jobs": 292,
+    "today_max_jobs": 293,
     "today_last_error": null,
-    "historical_max_jobs": 292,
+    "historical_max_jobs": 293,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-08-06",
-    "today_max_jobs": 431,
+    "today_max_jobs": 458,
     "today_last_error": null,
     "historical_max_jobs": 458,
     "consecutive_bad_days": 0,
