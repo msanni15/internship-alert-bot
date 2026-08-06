@@ -41,17 +41,17 @@
   },
   "Optiver": {
     "date": "2026-08-06",
-    "today_max_jobs": 177,
+    "today_max_jobs": 178,
     "today_last_error": null,
-    "historical_max_jobs": 177,
+    "historical_max_jobs": 178,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "IMC": {
     "date": "2026-08-06",
-    "today_max_jobs": 163,
+    "today_max_jobs": 165,
     "today_last_error": null,
-    "historical_max_jobs": 163,
+    "historical_max_jobs": 165,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -161,7 +161,7 @@
   },
   "Flow Traders": {
     "date": "2026-08-06",
-    "today_max_jobs": 37,
+    "today_max_jobs": 38,
     "today_last_error": null,
     "historical_max_jobs": 38,
     "consecutive_bad_days": 0,
@@ -313,7 +313,7 @@
   },
   "DoorDash": {
     "date": "2026-08-06",
-    "today_max_jobs": 468,
+    "today_max_jobs": 469,
     "today_last_error": null,
     "historical_max_jobs": 473,
     "consecutive_bad_days": 0,
@@ -393,9 +393,9 @@
   },
   "Notion": {
     "date": "2026-08-06",
-    "today_max_jobs": 118,
+    "today_max_jobs": 120,
     "today_last_error": null,
-    "historical_max_jobs": 118,
+    "historical_max_jobs": 120,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -425,7 +425,7 @@
   },
   "Robinhood": {
     "date": "2026-08-06",
-    "today_max_jobs": 128,
+    "today_max_jobs": 129,
     "today_last_error": null,
     "historical_max_jobs": 129,
     "consecutive_bad_days": 0,
