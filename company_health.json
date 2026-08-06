@@ -209,9 +209,9 @@
   },
   "Intel": {
     "date": "2026-08-05",
-    "today_max_jobs": 360,
+    "today_max_jobs": 427,
     "today_last_error": null,
-    "historical_max_jobs": 415,
+    "historical_max_jobs": 427,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -265,9 +265,9 @@
   },
   "Amazon": {
     "date": "2026-08-05",
-    "today_max_jobs": 1797,
+    "today_max_jobs": 1798,
     "today_last_error": null,
-    "historical_max_jobs": 1797,
+    "historical_max_jobs": 1798,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -305,9 +305,9 @@
   },
   "Uber": {
     "date": "2026-08-05",
-    "today_max_jobs": 42,
+    "today_max_jobs": 43,
     "today_last_error": null,
-    "historical_max_jobs": 42,
+    "historical_max_jobs": 43,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -345,9 +345,9 @@
   },
   "OpenAI": {
     "date": "2026-08-05",
-    "today_max_jobs": 737,
+    "today_max_jobs": 740,
     "today_last_error": null,
-    "historical_max_jobs": 737,
+    "historical_max_jobs": 740,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -433,9 +433,9 @@
   },
   "Coinbase": {
     "date": "2026-08-05",
-    "today_max_jobs": 165,
+    "today_max_jobs": 166,
     "today_last_error": null,
-    "historical_max_jobs": 165,
+    "historical_max_jobs": 166,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -577,9 +577,9 @@
   },
   "FieldAI": {
     "date": "2026-08-05",
-    "today_max_jobs": 128,
+    "today_max_jobs": 129,
     "today_last_error": null,
-    "historical_max_jobs": 128,
+    "historical_max_jobs": 129,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -673,7 +673,7 @@
   },
   "Cohere": {
     "date": "2026-08-05",
-    "today_max_jobs": 141,
+    "today_max_jobs": 142,
     "today_last_error": null,
     "historical_max_jobs": 142,
     "consecutive_bad_days": 0,
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-08-05",
-    "today_max_jobs": 2122,
+    "today_max_jobs": 2125,
     "today_last_error": null,
-    "historical_max_jobs": 2122,
+    "historical_max_jobs": 2125,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -785,17 +785,17 @@
   },
   "Etched": {
     "date": "2026-08-05",
-    "today_max_jobs": 109,
+    "today_max_jobs": 110,
     "today_last_error": null,
-    "historical_max_jobs": 109,
+    "historical_max_jobs": 110,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Cadence": {
     "date": "2026-08-05",
-    "today_max_jobs": 434,
+    "today_max_jobs": 458,
     "today_last_error": "Cadence: HTTPSConnectionPool(host='cadence.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=8)",
-    "historical_max_jobs": 453,
+    "historical_max_jobs": 458,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -977,9 +977,9 @@
   },
   "AMD": {
     "date": "2026-08-05",
-    "today_max_jobs": 1075,
+    "today_max_jobs": 1078,
     "today_last_error": null,
-    "historical_max_jobs": 1075,
+    "historical_max_jobs": 1078,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1065,9 +1065,9 @@
   },
   "Fireworks AI": {
     "date": "2026-08-05",
-    "today_max_jobs": 50,
+    "today_max_jobs": 52,
     "today_last_error": null,
-    "historical_max_jobs": 50,
+    "historical_max_jobs": 52,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1097,9 +1097,9 @@
   },
   "Formic": {
     "date": "2026-08-05",
-    "today_max_jobs": 38,
+    "today_max_jobs": 41,
     "today_last_error": null,
-    "historical_max_jobs": 38,
+    "historical_max_jobs": 41,
     "consecutive_bad_days": 0,
     "alerted": false
   },
