@@ -121,7 +121,7 @@
   },
   "Millennium": {
     "date": "2026-08-06",
-    "today_max_jobs": 129,
+    "today_max_jobs": 130,
     "today_last_error": null,
     "historical_max_jobs": 132,
     "consecutive_bad_days": 0,
@@ -161,9 +161,9 @@
   },
   "Flow Traders": {
     "date": "2026-08-06",
-    "today_max_jobs": 38,
+    "today_max_jobs": 39,
     "today_last_error": null,
-    "historical_max_jobs": 38,
+    "historical_max_jobs": 39,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -225,7 +225,7 @@
   },
   "Marvell": {
     "date": "2026-08-06",
-    "today_max_jobs": 406,
+    "today_max_jobs": 462,
     "today_last_error": null,
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-08-06",
-    "today_max_jobs": 808,
+    "today_max_jobs": 809,
     "today_last_error": null,
     "historical_max_jobs": 811,
     "consecutive_bad_days": 0,
@@ -289,7 +289,7 @@
   },
   "Stripe": {
     "date": "2026-08-06",
-    "today_max_jobs": 549,
+    "today_max_jobs": 550,
     "today_last_error": null,
     "historical_max_jobs": 550,
     "consecutive_bad_days": 0,
@@ -305,7 +305,7 @@
   },
   "Uber": {
     "date": "2026-08-06",
-    "today_max_jobs": 42,
+    "today_max_jobs": 43,
     "today_last_error": null,
     "historical_max_jobs": 43,
     "consecutive_bad_days": 0,
@@ -313,7 +313,7 @@
   },
   "DoorDash": {
     "date": "2026-08-06",
-    "today_max_jobs": 469,
+    "today_max_jobs": 470,
     "today_last_error": null,
     "historical_max_jobs": 473,
     "consecutive_bad_days": 0,
@@ -329,9 +329,9 @@
   },
   "Snap": {
     "date": "2026-08-06",
-    "today_max_jobs": 174,
+    "today_max_jobs": 176,
     "today_last_error": null,
-    "historical_max_jobs": 174,
+    "historical_max_jobs": 176,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -489,9 +489,9 @@
   },
   "Aurora": {
     "date": "2026-08-06",
-    "today_max_jobs": 75,
+    "today_max_jobs": 77,
     "today_last_error": null,
-    "historical_max_jobs": 75,
+    "historical_max_jobs": 77,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-08-06",
-    "today_max_jobs": 2126,
+    "today_max_jobs": 2128,
     "today_last_error": null,
-    "historical_max_jobs": 2126,
+    "historical_max_jobs": 2128,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -921,7 +921,7 @@
   },
   "Standard Bots": {
     "date": "2026-08-06",
-    "today_max_jobs": 31,
+    "today_max_jobs": 33,
     "today_last_error": null,
     "historical_max_jobs": 33,
     "consecutive_bad_days": 0,
@@ -1017,9 +1017,9 @@
   },
   "ElevenLabs": {
     "date": "2026-08-06",
-    "today_max_jobs": 226,
+    "today_max_jobs": 228,
     "today_last_error": null,
-    "historical_max_jobs": 227,
+    "historical_max_jobs": 228,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1105,7 +1105,7 @@
   },
   "Pickle Robot": {
     "date": "2026-08-06",
-    "today_max_jobs": 8,
+    "today_max_jobs": 9,
     "today_last_error": null,
     "historical_max_jobs": 14,
     "consecutive_bad_days": 0,
