@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-08-07",
-    "today_max_jobs": 380,
+    "today_max_jobs": 399,
     "today_last_error": null,
     "historical_max_jobs": 427,
     "consecutive_bad_days": 0,
@@ -377,7 +377,7 @@
   },
   "Applied Intuition": {
     "date": "2026-08-07",
-    "today_max_jobs": 259,
+    "today_max_jobs": 260,
     "today_last_error": null,
     "historical_max_jobs": 264,
     "consecutive_bad_days": 0,
@@ -393,9 +393,9 @@
   },
   "Notion": {
     "date": "2026-08-07",
-    "today_max_jobs": 120,
+    "today_max_jobs": 122,
     "today_last_error": null,
-    "historical_max_jobs": 120,
+    "historical_max_jobs": 122,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -713,7 +713,7 @@
   },
   "QRT": {
     "date": "2026-08-07",
-    "today_max_jobs": 194,
+    "today_max_jobs": 195,
     "today_last_error": null,
     "historical_max_jobs": 199,
     "consecutive_bad_days": 0,
