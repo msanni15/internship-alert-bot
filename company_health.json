@@ -121,7 +121,7 @@
   },
   "Millennium": {
     "date": "2026-08-07",
-    "today_max_jobs": 128,
+    "today_max_jobs": 129,
     "today_last_error": null,
     "historical_max_jobs": 132,
     "consecutive_bad_days": 0,
@@ -226,7 +226,7 @@
   "Marvell": {
     "date": "2026-08-07",
     "today_max_jobs": 461,
-    "today_last_error": null,
+    "today_last_error": "Marvell: HTTPSConnectionPool(host='marvell.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/marvell/MarvellCareers/jobs (Caused by ConnectTimeoutError(<HTTPSConnection(host='marvell.wd1.myworkdayjobs.com', port=443) at 0x7f02a8dad410>, 'Connection to marvell.wd1.myworkdayjobs.com timed out. (connect timeout=5)'))",
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -289,7 +289,7 @@
   },
   "Stripe": {
     "date": "2026-08-07",
-    "today_max_jobs": 551,
+    "today_max_jobs": 552,
     "today_last_error": null,
     "historical_max_jobs": 552,
     "consecutive_bad_days": 0,
@@ -345,9 +345,9 @@
   },
   "OpenAI": {
     "date": "2026-08-07",
-    "today_max_jobs": 745,
+    "today_max_jobs": 746,
     "today_last_error": null,
-    "historical_max_jobs": 745,
+    "historical_max_jobs": 746,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -441,7 +441,7 @@
   },
   "Vercel": {
     "date": "2026-08-07",
-    "today_max_jobs": 80,
+    "today_max_jobs": 81,
     "today_last_error": null,
     "historical_max_jobs": 81,
     "consecutive_bad_days": 0,
@@ -657,7 +657,7 @@
   },
   "Apptronik": {
     "date": "2026-08-07",
-    "today_max_jobs": 83,
+    "today_max_jobs": 84,
     "today_last_error": null,
     "historical_max_jobs": 84,
     "consecutive_bad_days": 0,
@@ -753,9 +753,9 @@
   },
   "Cloudflare": {
     "date": "2026-08-07",
-    "today_max_jobs": 298,
+    "today_max_jobs": 299,
     "today_last_error": null,
-    "historical_max_jobs": 298,
+    "historical_max_jobs": 299,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-08-07",
-    "today_max_jobs": 1059,
+    "today_max_jobs": 1062,
     "today_last_error": null,
     "historical_max_jobs": 1078,
     "consecutive_bad_days": 0,
