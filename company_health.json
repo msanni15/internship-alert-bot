@@ -273,25 +273,25 @@
   },
   "Roblox": {
     "date": "2026-08-07",
-    "today_max_jobs": 222,
+    "today_max_jobs": 223,
     "today_last_error": null,
-    "historical_max_jobs": 222,
+    "historical_max_jobs": 223,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Databricks": {
     "date": "2026-08-07",
-    "today_max_jobs": 815,
+    "today_max_jobs": 816,
     "today_last_error": null,
-    "historical_max_jobs": 815,
+    "historical_max_jobs": 816,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Stripe": {
     "date": "2026-08-07",
-    "today_max_jobs": 554,
+    "today_max_jobs": 556,
     "today_last_error": null,
-    "historical_max_jobs": 554,
+    "historical_max_jobs": 556,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -321,7 +321,7 @@
   },
   "Pinterest": {
     "date": "2026-08-07",
-    "today_max_jobs": 224,
+    "today_max_jobs": 225,
     "today_last_error": null,
     "historical_max_jobs": 226,
     "consecutive_bad_days": 0,
@@ -345,9 +345,9 @@
   },
   "OpenAI": {
     "date": "2026-08-07",
-    "today_max_jobs": 747,
+    "today_max_jobs": 748,
     "today_last_error": null,
-    "historical_max_jobs": 747,
+    "historical_max_jobs": 748,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -425,9 +425,9 @@
   },
   "Robinhood": {
     "date": "2026-08-07",
-    "today_max_jobs": 134,
+    "today_max_jobs": 136,
     "today_last_error": null,
-    "historical_max_jobs": 134,
+    "historical_max_jobs": 136,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -665,7 +665,7 @@
   },
   "xAI": {
     "date": "2026-08-07",
-    "today_max_jobs": 200,
+    "today_max_jobs": 201,
     "today_last_error": null,
     "historical_max_jobs": 203,
     "consecutive_bad_days": 0,
@@ -753,9 +753,9 @@
   },
   "Cloudflare": {
     "date": "2026-08-07",
-    "today_max_jobs": 299,
+    "today_max_jobs": 300,
     "today_last_error": null,
-    "historical_max_jobs": 299,
+    "historical_max_jobs": 300,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -777,7 +777,7 @@
   },
   "Rocket Lab": {
     "date": "2026-08-07",
-    "today_max_jobs": 399,
+    "today_max_jobs": 400,
     "today_last_error": null,
     "historical_max_jobs": 406,
     "consecutive_bad_days": 0,
@@ -921,9 +921,9 @@
   },
   "Standard Bots": {
     "date": "2026-08-07",
-    "today_max_jobs": 33,
+    "today_max_jobs": 34,
     "today_last_error": null,
-    "historical_max_jobs": 33,
+    "historical_max_jobs": 34,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-08-07",
-    "today_max_jobs": 1062,
+    "today_max_jobs": 1064,
     "today_last_error": null,
     "historical_max_jobs": 1078,
     "consecutive_bad_days": 0,
@@ -985,9 +985,9 @@
   },
   "Cognition": {
     "date": "2026-08-07",
-    "today_max_jobs": 83,
+    "today_max_jobs": 84,
     "today_last_error": null,
-    "historical_max_jobs": 83,
+    "historical_max_jobs": 84,
     "consecutive_bad_days": 0,
     "alerted": false
   },
