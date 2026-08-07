@@ -89,7 +89,7 @@
   },
   "Akuna Capital": {
     "date": "2026-08-07",
-    "today_max_jobs": 33,
+    "today_max_jobs": 34,
     "today_last_error": null,
     "historical_max_jobs": 34,
     "consecutive_bad_days": 0,
@@ -281,9 +281,9 @@
   },
   "Databricks": {
     "date": "2026-08-07",
-    "today_max_jobs": 818,
+    "today_max_jobs": 819,
     "today_last_error": null,
-    "historical_max_jobs": 818,
+    "historical_max_jobs": 819,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -353,7 +353,7 @@
   },
   "Anthropic": {
     "date": "2026-08-07",
-    "today_max_jobs": 388,
+    "today_max_jobs": 390,
     "today_last_error": null,
     "historical_max_jobs": 399,
     "consecutive_bad_days": 0,
@@ -537,15 +537,15 @@
   },
   "Agility Robotics": {
     "date": "2026-08-07",
-    "today_max_jobs": 58,
+    "today_max_jobs": 60,
     "today_last_error": null,
-    "historical_max_jobs": 59,
+    "historical_max_jobs": 60,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Kodiak Robotics": {
     "date": "2026-08-07",
-    "today_max_jobs": 67,
+    "today_max_jobs": 68,
     "today_last_error": null,
     "historical_max_jobs": 68,
     "consecutive_bad_days": 0,
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-08-07",
-    "today_max_jobs": 2148,
+    "today_max_jobs": 2149,
     "today_last_error": null,
-    "historical_max_jobs": 2148,
+    "historical_max_jobs": 2149,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-08-07",
-    "today_max_jobs": 1064,
+    "today_max_jobs": 1066,
     "today_last_error": null,
     "historical_max_jobs": 1078,
     "consecutive_bad_days": 0,
