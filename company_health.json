@@ -146,7 +146,7 @@
   "G-Research": {
     "date": "2026-08-07",
     "today_max_jobs": 63,
-    "today_last_error": null,
+    "today_last_error": "G-Research: HTTPSConnectionPool(host='www.gresearch.com', port=443): Read timed out. (read timeout=20)",
     "historical_max_jobs": 66,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -737,9 +737,9 @@
   },
   "Salesforce": {
     "date": "2026-08-07",
-    "today_max_jobs": 400,
+    "today_max_jobs": 540,
     "today_last_error": null,
-    "historical_max_jobs": 440,
+    "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
     "alerted": false
   },
