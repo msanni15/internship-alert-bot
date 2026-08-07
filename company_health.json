@@ -57,9 +57,9 @@
   },
   "DRW": {
     "date": "2026-08-07",
-    "today_max_jobs": 163,
+    "today_max_jobs": 165,
     "today_last_error": null,
-    "historical_max_jobs": 164,
+    "historical_max_jobs": 165,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -241,9 +241,9 @@
   },
   "Samsung Semiconductor": {
     "date": "2026-08-07",
-    "today_max_jobs": 53,
+    "today_max_jobs": 54,
     "today_last_error": null,
-    "historical_max_jobs": 53,
+    "historical_max_jobs": 54,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -353,7 +353,7 @@
   },
   "Anthropic": {
     "date": "2026-08-07",
-    "today_max_jobs": 390,
+    "today_max_jobs": 391,
     "today_last_error": null,
     "historical_max_jobs": 399,
     "consecutive_bad_days": 0,
@@ -393,9 +393,9 @@
   },
   "Notion": {
     "date": "2026-08-07",
-    "today_max_jobs": 127,
+    "today_max_jobs": 128,
     "today_last_error": null,
-    "historical_max_jobs": 127,
+    "historical_max_jobs": 128,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -441,9 +441,9 @@
   },
   "Vercel": {
     "date": "2026-08-07",
-    "today_max_jobs": 82,
+    "today_max_jobs": 84,
     "today_last_error": null,
-    "historical_max_jobs": 82,
+    "historical_max_jobs": 84,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -465,7 +465,7 @@
   },
   "Waymo": {
     "date": "2026-08-07",
-    "today_max_jobs": 393,
+    "today_max_jobs": 394,
     "today_last_error": null,
     "historical_max_jobs": 396,
     "consecutive_bad_days": 0,
@@ -769,15 +769,15 @@
   },
   "SpaceX": {
     "date": "2026-08-07",
-    "today_max_jobs": 2149,
+    "today_max_jobs": 2154,
     "today_last_error": null,
-    "historical_max_jobs": 2149,
+    "historical_max_jobs": 2154,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Rocket Lab": {
     "date": "2026-08-07",
-    "today_max_jobs": 400,
+    "today_max_jobs": 402,
     "today_last_error": null,
     "historical_max_jobs": 406,
     "consecutive_bad_days": 0,
@@ -857,7 +857,7 @@
   },
   "Wing": {
     "date": "2026-08-07",
-    "today_max_jobs": 42,
+    "today_max_jobs": 43,
     "today_last_error": null,
     "historical_max_jobs": 43,
     "consecutive_bad_days": 0,
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-08-07",
-    "today_max_jobs": 1066,
+    "today_max_jobs": 1067,
     "today_last_error": null,
     "historical_max_jobs": 1078,
     "consecutive_bad_days": 0,
