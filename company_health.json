@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-08-07",
-    "today_max_jobs": 320,
+    "today_max_jobs": 340,
     "today_last_error": null,
     "historical_max_jobs": 360,
     "consecutive_bad_days": 0,
@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-08-07",
-    "today_max_jobs": 1794,
+    "today_max_jobs": 1797,
     "today_last_error": null,
     "historical_max_jobs": 1798,
     "consecutive_bad_days": 0,
@@ -281,9 +281,9 @@
   },
   "Databricks": {
     "date": "2026-08-07",
-    "today_max_jobs": 817,
+    "today_max_jobs": 818,
     "today_last_error": null,
-    "historical_max_jobs": 817,
+    "historical_max_jobs": 818,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -329,9 +329,9 @@
   },
   "Snap": {
     "date": "2026-08-07",
-    "today_max_jobs": 178,
+    "today_max_jobs": 179,
     "today_last_error": null,
-    "historical_max_jobs": 178,
+    "historical_max_jobs": 179,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -393,9 +393,9 @@
   },
   "Notion": {
     "date": "2026-08-07",
-    "today_max_jobs": 125,
+    "today_max_jobs": 126,
     "today_last_error": null,
-    "historical_max_jobs": 125,
+    "historical_max_jobs": 126,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -425,9 +425,9 @@
   },
   "Robinhood": {
     "date": "2026-08-07",
-    "today_max_jobs": 136,
+    "today_max_jobs": 137,
     "today_last_error": null,
-    "historical_max_jobs": 136,
+    "historical_max_jobs": 137,
     "consecutive_bad_days": 0,
     "alerted": false
   },
