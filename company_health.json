@@ -185,9 +185,9 @@
   },
   "Belvedere Trading": {
     "date": "2026-08-07",
-    "today_max_jobs": 10,
+    "today_max_jobs": 15,
     "today_last_error": null,
-    "historical_max_jobs": 10,
+    "historical_max_jobs": 15,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -401,7 +401,7 @@
   },
   "Ramp": {
     "date": "2026-08-07",
-    "today_max_jobs": 122,
+    "today_max_jobs": 123,
     "today_last_error": null,
     "historical_max_jobs": 124,
     "consecutive_bad_days": 0,
@@ -417,7 +417,7 @@
   },
   "Plaid": {
     "date": "2026-08-07",
-    "today_max_jobs": 107,
+    "today_max_jobs": 108,
     "today_last_error": null,
     "historical_max_jobs": 112,
     "consecutive_bad_days": 0,
@@ -433,9 +433,9 @@
   },
   "Coinbase": {
     "date": "2026-08-07",
-    "today_max_jobs": 170,
+    "today_max_jobs": 174,
     "today_last_error": null,
-    "historical_max_jobs": 170,
+    "historical_max_jobs": 174,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -521,7 +521,7 @@
   },
   "Figure AI": {
     "date": "2026-08-07",
-    "today_max_jobs": 127,
+    "today_max_jobs": 128,
     "today_last_error": null,
     "historical_max_jobs": 128,
     "consecutive_bad_days": 0,
@@ -665,7 +665,7 @@
   },
   "xAI": {
     "date": "2026-08-07",
-    "today_max_jobs": 201,
+    "today_max_jobs": 202,
     "today_last_error": null,
     "historical_max_jobs": 203,
     "consecutive_bad_days": 0,
@@ -1065,9 +1065,9 @@
   },
   "Fireworks AI": {
     "date": "2026-08-07",
-    "today_max_jobs": 55,
+    "today_max_jobs": 56,
     "today_last_error": null,
-    "historical_max_jobs": 55,
+    "historical_max_jobs": 56,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1129,7 +1129,7 @@
   },
   "Bright Machines": {
     "date": "2026-08-07",
-    "today_max_jobs": 12,
+    "today_max_jobs": 13,
     "today_last_error": null,
     "historical_max_jobs": 13,
     "consecutive_bad_days": 0,
