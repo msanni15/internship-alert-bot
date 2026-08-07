@@ -57,7 +57,7 @@
   },
   "DRW": {
     "date": "2026-08-07",
-    "today_max_jobs": 162,
+    "today_max_jobs": 163,
     "today_last_error": null,
     "historical_max_jobs": 164,
     "consecutive_bad_days": 0,
@@ -121,7 +121,7 @@
   },
   "Millennium": {
     "date": "2026-08-07",
-    "today_max_jobs": 129,
+    "today_max_jobs": 130,
     "today_last_error": null,
     "historical_max_jobs": 132,
     "consecutive_bad_days": 0,
@@ -145,7 +145,7 @@
   },
   "G-Research": {
     "date": "2026-08-07",
-    "today_max_jobs": 63,
+    "today_max_jobs": 64,
     "today_last_error": "G-Research: HTTPSConnectionPool(host='www.gresearch.com', port=443): Read timed out. (read timeout=20)",
     "historical_max_jobs": 66,
     "consecutive_bad_days": 0,
@@ -289,9 +289,9 @@
   },
   "Stripe": {
     "date": "2026-08-07",
-    "today_max_jobs": 552,
+    "today_max_jobs": 554,
     "today_last_error": null,
-    "historical_max_jobs": 552,
+    "historical_max_jobs": 554,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -345,15 +345,15 @@
   },
   "OpenAI": {
     "date": "2026-08-07",
-    "today_max_jobs": 746,
+    "today_max_jobs": 747,
     "today_last_error": null,
-    "historical_max_jobs": 746,
+    "historical_max_jobs": 747,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Anthropic": {
     "date": "2026-08-07",
-    "today_max_jobs": 387,
+    "today_max_jobs": 388,
     "today_last_error": null,
     "historical_max_jobs": 399,
     "consecutive_bad_days": 0,
@@ -393,9 +393,9 @@
   },
   "Notion": {
     "date": "2026-08-07",
-    "today_max_jobs": 124,
+    "today_max_jobs": 125,
     "today_last_error": null,
-    "historical_max_jobs": 124,
+    "historical_max_jobs": 125,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -665,7 +665,7 @@
   },
   "xAI": {
     "date": "2026-08-07",
-    "today_max_jobs": 199,
+    "today_max_jobs": 200,
     "today_last_error": null,
     "historical_max_jobs": 203,
     "consecutive_bad_days": 0,
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-08-07",
-    "today_max_jobs": 397,
+    "today_max_jobs": 398,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
@@ -793,9 +793,9 @@
   },
   "Cadence": {
     "date": "2026-08-07",
-    "today_max_jobs": 463,
+    "today_max_jobs": 465,
     "today_last_error": null,
-    "historical_max_jobs": 463,
+    "historical_max_jobs": 465,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1105,7 +1105,7 @@
   },
   "Pickle Robot": {
     "date": "2026-08-07",
-    "today_max_jobs": 10,
+    "today_max_jobs": 11,
     "today_last_error": null,
     "historical_max_jobs": 14,
     "consecutive_bad_days": 0,
