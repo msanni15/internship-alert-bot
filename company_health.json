@@ -281,9 +281,9 @@
   },
   "Databricks": {
     "date": "2026-08-07",
-    "today_max_jobs": 816,
+    "today_max_jobs": 817,
     "today_last_error": null,
-    "historical_max_jobs": 816,
+    "historical_max_jobs": 817,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -441,9 +441,9 @@
   },
   "Vercel": {
     "date": "2026-08-07",
-    "today_max_jobs": 81,
+    "today_max_jobs": 82,
     "today_last_error": null,
-    "historical_max_jobs": 81,
+    "historical_max_jobs": 82,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -481,7 +481,7 @@
   },
   "Nuro": {
     "date": "2026-08-07",
-    "today_max_jobs": 102,
+    "today_max_jobs": 103,
     "today_last_error": null,
     "historical_max_jobs": 103,
     "consecutive_bad_days": 0,
@@ -537,7 +537,7 @@
   },
   "Agility Robotics": {
     "date": "2026-08-07",
-    "today_max_jobs": 57,
+    "today_max_jobs": 58,
     "today_last_error": null,
     "historical_max_jobs": 59,
     "consecutive_bad_days": 0,
@@ -561,9 +561,9 @@
   },
   "Motional": {
     "date": "2026-08-07",
-    "today_max_jobs": 81,
+    "today_max_jobs": 82,
     "today_last_error": null,
-    "historical_max_jobs": 81,
+    "historical_max_jobs": 82,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-08-07",
-    "today_max_jobs": 2146,
+    "today_max_jobs": 2148,
     "today_last_error": null,
-    "historical_max_jobs": 2146,
+    "historical_max_jobs": 2148,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1017,9 +1017,9 @@
   },
   "ElevenLabs": {
     "date": "2026-08-07",
-    "today_max_jobs": 228,
+    "today_max_jobs": 229,
     "today_last_error": null,
-    "historical_max_jobs": 228,
+    "historical_max_jobs": 229,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1065,9 +1065,9 @@
   },
   "Fireworks AI": {
     "date": "2026-08-07",
-    "today_max_jobs": 56,
+    "today_max_jobs": 57,
     "today_last_error": null,
-    "historical_max_jobs": 56,
+    "historical_max_jobs": 57,
     "consecutive_bad_days": 0,
     "alerted": false
   },
