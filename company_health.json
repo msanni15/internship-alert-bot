@@ -57,7 +57,7 @@
   },
   "DRW": {
     "date": "2026-08-07",
-    "today_max_jobs": 161,
+    "today_max_jobs": 162,
     "today_last_error": null,
     "historical_max_jobs": 164,
     "consecutive_bad_days": 0,
@@ -393,7 +393,7 @@
   },
   "Notion": {
     "date": "2026-08-07",
-    "today_max_jobs": 119,
+    "today_max_jobs": 120,
     "today_last_error": null,
     "historical_max_jobs": 120,
     "consecutive_bad_days": 0,
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-08-07",
-    "today_max_jobs": 300,
+    "today_max_jobs": 400,
     "today_last_error": null,
     "historical_max_jobs": 440,
     "consecutive_bad_days": 0,
@@ -793,9 +793,9 @@
   },
   "Cadence": {
     "date": "2026-08-07",
-    "today_max_jobs": 451,
+    "today_max_jobs": 463,
     "today_last_error": null,
-    "historical_max_jobs": 460,
+    "historical_max_jobs": 463,
     "consecutive_bad_days": 0,
     "alerted": false
   },
