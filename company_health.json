@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-08-07",
-    "today_max_jobs": 340,
+    "today_max_jobs": 360,
     "today_last_error": null,
     "historical_max_jobs": 360,
     "consecutive_bad_days": 0,
@@ -329,9 +329,9 @@
   },
   "Snap": {
     "date": "2026-08-07",
-    "today_max_jobs": 179,
+    "today_max_jobs": 180,
     "today_last_error": null,
-    "historical_max_jobs": 179,
+    "historical_max_jobs": 180,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -353,7 +353,7 @@
   },
   "Anthropic": {
     "date": "2026-08-07",
-    "today_max_jobs": 391,
+    "today_max_jobs": 392,
     "today_last_error": null,
     "historical_max_jobs": 399,
     "consecutive_bad_days": 0,
@@ -465,7 +465,7 @@
   },
   "Waymo": {
     "date": "2026-08-07",
-    "today_max_jobs": 394,
+    "today_max_jobs": 396,
     "today_last_error": null,
     "historical_max_jobs": 396,
     "consecutive_bad_days": 0,
@@ -489,7 +489,7 @@
   },
   "Aurora": {
     "date": "2026-08-07",
-    "today_max_jobs": 74,
+    "today_max_jobs": 75,
     "today_last_error": null,
     "historical_max_jobs": 77,
     "consecutive_bad_days": 0,
@@ -649,9 +649,9 @@
   },
   "Physical Intelligence": {
     "date": "2026-08-07",
-    "today_max_jobs": 29,
+    "today_max_jobs": 30,
     "today_last_error": null,
-    "historical_max_jobs": 29,
+    "historical_max_jobs": 30,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -665,9 +665,9 @@
   },
   "xAI": {
     "date": "2026-08-07",
-    "today_max_jobs": 202,
+    "today_max_jobs": 212,
     "today_last_error": null,
-    "historical_max_jobs": 203,
+    "historical_max_jobs": 212,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1065,9 +1065,9 @@
   },
   "Fireworks AI": {
     "date": "2026-08-07",
-    "today_max_jobs": 57,
+    "today_max_jobs": 58,
     "today_last_error": null,
-    "historical_max_jobs": 57,
+    "historical_max_jobs": 58,
     "consecutive_bad_days": 0,
     "alerted": false
   },
