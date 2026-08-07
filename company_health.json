@@ -49,9 +49,9 @@
   },
   "IMC": {
     "date": "2026-08-06",
-    "today_max_jobs": 165,
+    "today_max_jobs": 166,
     "today_last_error": null,
-    "historical_max_jobs": 165,
+    "historical_max_jobs": 166,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-08-06",
-    "today_max_jobs": 380,
+    "today_max_jobs": 399,
     "today_last_error": null,
     "historical_max_jobs": 427,
     "consecutive_bad_days": 0,
@@ -505,9 +505,9 @@
   },
   "Zipline": {
     "date": "2026-08-06",
-    "today_max_jobs": 266,
+    "today_max_jobs": 267,
     "today_last_error": null,
-    "historical_max_jobs": 266,
+    "historical_max_jobs": 267,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -753,9 +753,9 @@
   },
   "Cloudflare": {
     "date": "2026-08-06",
-    "today_max_jobs": 297,
+    "today_max_jobs": 298,
     "today_last_error": null,
-    "historical_max_jobs": 297,
+    "historical_max_jobs": 298,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -793,9 +793,9 @@
   },
   "Cadence": {
     "date": "2026-08-06",
-    "today_max_jobs": 459,
+    "today_max_jobs": 460,
     "today_last_error": null,
-    "historical_max_jobs": 459,
+    "historical_max_jobs": 460,
     "consecutive_bad_days": 0,
     "alerted": false
   },
