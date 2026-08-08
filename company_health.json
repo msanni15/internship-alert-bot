@@ -1017,9 +1017,9 @@
   },
   "ElevenLabs": {
     "date": "2026-08-08",
-    "today_max_jobs": 229,
+    "today_max_jobs": 230,
     "today_last_error": null,
-    "historical_max_jobs": 229,
+    "historical_max_jobs": 230,
     "consecutive_bad_days": 0,
     "alerted": false
   },
