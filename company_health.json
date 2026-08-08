@@ -265,9 +265,9 @@
   },
   "Amazon": {
     "date": "2026-08-07",
-    "today_max_jobs": 1798,
+    "today_max_jobs": 1799,
     "today_last_error": null,
-    "historical_max_jobs": 1798,
+    "historical_max_jobs": 1799,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-08-07",
-    "today_max_jobs": 2154,
+    "today_max_jobs": 2155,
     "today_last_error": null,
-    "historical_max_jobs": 2154,
+    "historical_max_jobs": 2155,
     "consecutive_bad_days": 0,
     "alerted": false
   },
