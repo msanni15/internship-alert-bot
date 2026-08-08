@@ -353,7 +353,7 @@
   },
   "Anthropic": {
     "date": "2026-08-07",
-    "today_max_jobs": 392,
+    "today_max_jobs": 393,
     "today_last_error": null,
     "historical_max_jobs": 399,
     "consecutive_bad_days": 0,
@@ -481,9 +481,9 @@
   },
   "Nuro": {
     "date": "2026-08-07",
-    "today_max_jobs": 103,
+    "today_max_jobs": 104,
     "today_last_error": null,
-    "historical_max_jobs": 103,
+    "historical_max_jobs": 104,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -665,9 +665,9 @@
   },
   "xAI": {
     "date": "2026-08-07",
-    "today_max_jobs": 212,
+    "today_max_jobs": 218,
     "today_last_error": null,
-    "historical_max_jobs": 212,
+    "historical_max_jobs": 218,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -777,7 +777,7 @@
   },
   "Rocket Lab": {
     "date": "2026-08-07",
-    "today_max_jobs": 402,
+    "today_max_jobs": 403,
     "today_last_error": null,
     "historical_max_jobs": 406,
     "consecutive_bad_days": 0,
@@ -913,9 +913,9 @@
   },
   "Diligent Robotics": {
     "date": "2026-08-07",
-    "today_max_jobs": 13,
+    "today_max_jobs": 14,
     "today_last_error": null,
-    "historical_max_jobs": 13,
+    "historical_max_jobs": 14,
     "consecutive_bad_days": 0,
     "alerted": false
   },
