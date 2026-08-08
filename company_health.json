@@ -281,9 +281,9 @@
   },
   "Databricks": {
     "date": "2026-08-08",
-    "today_max_jobs": 819,
+    "today_max_jobs": 820,
     "today_last_error": null,
-    "historical_max_jobs": 819,
+    "historical_max_jobs": 820,
     "consecutive_bad_days": 0,
     "alerted": false
   },
