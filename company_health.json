@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-08-08",
-    "today_max_jobs": 400,
+    "today_max_jobs": 408,
     "today_last_error": "Intel: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 427,
     "consecutive_bad_days": 0,
@@ -225,7 +225,7 @@
   },
   "Marvell": {
     "date": "2026-08-08",
-    "today_max_jobs": 457,
+    "today_max_jobs": 461,
     "today_last_error": "Marvell: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
@@ -377,7 +377,7 @@
   },
   "Applied Intuition": {
     "date": "2026-08-08",
-    "today_max_jobs": 260,
+    "today_max_jobs": 263,
     "today_last_error": null,
     "historical_max_jobs": 264,
     "consecutive_bad_days": 0,
