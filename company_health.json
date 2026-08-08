@@ -321,7 +321,7 @@
   },
   "Pinterest": {
     "date": "2026-08-08",
-    "today_max_jobs": 223,
+    "today_max_jobs": 224,
     "today_last_error": null,
     "historical_max_jobs": 226,
     "consecutive_bad_days": 0,
@@ -513,7 +513,7 @@
   },
   "Shield AI": {
     "date": "2026-08-08",
-    "today_max_jobs": 432,
+    "today_max_jobs": 433,
     "today_last_error": null,
     "historical_max_jobs": 442,
     "consecutive_bad_days": 0,
