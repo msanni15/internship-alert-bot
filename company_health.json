@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-08-08",
-    "today_max_jobs": 0,
+    "today_max_jobs": 400,
     "today_last_error": "Intel: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 427,
     "consecutive_bad_days": 0,
@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-08-08",
-    "today_max_jobs": 0,
+    "today_max_jobs": 356,
     "today_last_error": "Broadcom: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 376,
     "consecutive_bad_days": 0,
@@ -225,7 +225,7 @@
   },
   "Marvell": {
     "date": "2026-08-08",
-    "today_max_jobs": 0,
+    "today_max_jobs": 457,
     "today_last_error": "Marvell: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
@@ -529,7 +529,7 @@
   },
   "Boston Dynamics": {
     "date": "2026-08-08",
-    "today_max_jobs": 0,
+    "today_max_jobs": 66,
     "today_last_error": "Boston Dynamics: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 70,
     "consecutive_bad_days": 0,
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-08-08",
-    "today_max_jobs": 0,
+    "today_max_jobs": 462,
     "today_last_error": "Cadence: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 465,
     "consecutive_bad_days": 0,
@@ -978,7 +978,7 @@
   "AMD": {
     "date": "2026-08-08",
     "today_max_jobs": 1066,
-    "today_last_error": null,
+    "today_last_error": "AMD: 403 Client Error: Forbidden for url: https://careers.amd.com/api/jobs?limit=100&page=1",
     "historical_max_jobs": 1078,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -1017,7 +1017,7 @@
   },
   "ElevenLabs": {
     "date": "2026-08-08",
-    "today_max_jobs": 228,
+    "today_max_jobs": 229,
     "today_last_error": null,
     "historical_max_jobs": 229,
     "consecutive_bad_days": 0,
