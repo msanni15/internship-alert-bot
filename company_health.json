@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-08-08",
-    "today_max_jobs": 0,
+    "today_max_jobs": 300,
     "today_last_error": "NVIDIA: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 360,
     "consecutive_bad_days": 0,
