@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-08-09",
-    "today_max_jobs": 2154,
+    "today_max_jobs": 2156,
     "today_last_error": null,
-    "historical_max_jobs": 2155,
+    "historical_max_jobs": 2156,
     "consecutive_bad_days": 0,
     "alerted": false
   },
