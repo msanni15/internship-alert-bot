@@ -281,9 +281,9 @@
   },
   "Databricks": {
     "date": "2026-08-08",
-    "today_max_jobs": 820,
+    "today_max_jobs": 821,
     "today_last_error": null,
-    "historical_max_jobs": 820,
+    "historical_max_jobs": 821,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -465,9 +465,9 @@
   },
   "Waymo": {
     "date": "2026-08-08",
-    "today_max_jobs": 396,
+    "today_max_jobs": 397,
     "today_last_error": null,
-    "historical_max_jobs": 396,
+    "historical_max_jobs": 397,
     "consecutive_bad_days": 0,
     "alerted": false
   },
