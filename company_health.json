@@ -345,9 +345,9 @@
   },
   "OpenAI": {
     "date": "2026-08-08",
-    "today_max_jobs": 747,
+    "today_max_jobs": 750,
     "today_last_error": null,
-    "historical_max_jobs": 748,
+    "historical_max_jobs": 750,
     "consecutive_bad_days": 0,
     "alerted": false
   },
