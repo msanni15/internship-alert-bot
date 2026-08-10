@@ -265,9 +265,9 @@
   },
   "Amazon": {
     "date": "2026-08-10",
-    "today_max_jobs": 1818,
+    "today_max_jobs": 1825,
     "today_last_error": null,
-    "historical_max_jobs": 1818,
+    "historical_max_jobs": 1825,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -329,9 +329,9 @@
   },
   "Snap": {
     "date": "2026-08-10",
-    "today_max_jobs": 181,
+    "today_max_jobs": 182,
     "today_last_error": null,
-    "historical_max_jobs": 181,
+    "historical_max_jobs": 182,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -577,7 +577,7 @@
   },
   "FieldAI": {
     "date": "2026-08-10",
-    "today_max_jobs": 123,
+    "today_max_jobs": 124,
     "today_last_error": null,
     "historical_max_jobs": 129,
     "consecutive_bad_days": 0,
