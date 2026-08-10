@@ -265,9 +265,9 @@
   },
   "Amazon": {
     "date": "2026-08-10",
-    "today_max_jobs": 1809,
+    "today_max_jobs": 1817,
     "today_last_error": null,
-    "historical_max_jobs": 1809,
+    "historical_max_jobs": 1817,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -385,7 +385,7 @@
   },
   "Figma": {
     "date": "2026-08-10",
-    "today_max_jobs": 165,
+    "today_max_jobs": 166,
     "today_last_error": null,
     "historical_max_jobs": 177,
     "consecutive_bad_days": 0,
@@ -465,9 +465,9 @@
   },
   "Waymo": {
     "date": "2026-08-10",
-    "today_max_jobs": 398,
+    "today_max_jobs": 400,
     "today_last_error": null,
-    "historical_max_jobs": 398,
+    "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -513,7 +513,7 @@
   },
   "Shield AI": {
     "date": "2026-08-10",
-    "today_max_jobs": 434,
+    "today_max_jobs": 435,
     "today_last_error": null,
     "historical_max_jobs": 442,
     "consecutive_bad_days": 0,
@@ -857,9 +857,9 @@
   },
   "Wing": {
     "date": "2026-08-10",
-    "today_max_jobs": 45,
+    "today_max_jobs": 46,
     "today_last_error": null,
-    "historical_max_jobs": 45,
+    "historical_max_jobs": 46,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-08-10",
-    "today_max_jobs": 1068,
+    "today_max_jobs": 1070,
     "today_last_error": null,
     "historical_max_jobs": 1078,
     "consecutive_bad_days": 0,
