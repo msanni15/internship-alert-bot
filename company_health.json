@@ -353,7 +353,7 @@
   },
   "Anthropic": {
     "date": "2026-08-10",
-    "today_max_jobs": 391,
+    "today_max_jobs": 392,
     "today_last_error": null,
     "historical_max_jobs": 399,
     "consecutive_bad_days": 0,
@@ -393,7 +393,7 @@
   },
   "Notion": {
     "date": "2026-08-10",
-    "today_max_jobs": 127,
+    "today_max_jobs": 128,
     "today_last_error": null,
     "historical_max_jobs": 128,
     "consecutive_bad_days": 0,
@@ -401,9 +401,9 @@
   },
   "Ramp": {
     "date": "2026-08-10",
-    "today_max_jobs": 125,
+    "today_max_jobs": 128,
     "today_last_error": null,
-    "historical_max_jobs": 125,
+    "historical_max_jobs": 128,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -457,7 +457,7 @@
   },
   "1X": {
     "date": "2026-08-10",
-    "today_max_jobs": 79,
+    "today_max_jobs": 81,
     "today_last_error": null,
     "historical_max_jobs": 82,
     "consecutive_bad_days": 0,
@@ -537,9 +537,9 @@
   },
   "Agility Robotics": {
     "date": "2026-08-10",
-    "today_max_jobs": 60,
+    "today_max_jobs": 61,
     "today_last_error": null,
-    "historical_max_jobs": 60,
+    "historical_max_jobs": 61,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-08-10",
-    "today_max_jobs": 2158,
+    "today_max_jobs": 2159,
     "today_last_error": null,
-    "historical_max_jobs": 2158,
+    "historical_max_jobs": 2159,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -785,7 +785,7 @@
   },
   "Etched": {
     "date": "2026-08-10",
-    "today_max_jobs": 108,
+    "today_max_jobs": 109,
     "today_last_error": null,
     "historical_max_jobs": 110,
     "consecutive_bad_days": 0,
@@ -873,9 +873,9 @@
   },
   "Dexterity": {
     "date": "2026-08-10",
-    "today_max_jobs": 27,
+    "today_max_jobs": 28,
     "today_last_error": null,
-    "historical_max_jobs": 27,
+    "historical_max_jobs": 28,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -921,7 +921,7 @@
   },
   "Standard Bots": {
     "date": "2026-08-10",
-    "today_max_jobs": 33,
+    "today_max_jobs": 34,
     "today_last_error": null,
     "historical_max_jobs": 34,
     "consecutive_bad_days": 0,
@@ -1033,9 +1033,9 @@
   },
   "Luma AI": {
     "date": "2026-08-10",
-    "today_max_jobs": 49,
+    "today_max_jobs": 50,
     "today_last_error": null,
-    "historical_max_jobs": 49,
+    "historical_max_jobs": 50,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1105,7 +1105,7 @@
   },
   "Pickle Robot": {
     "date": "2026-08-10",
-    "today_max_jobs": 12,
+    "today_max_jobs": 13,
     "today_last_error": null,
     "historical_max_jobs": 14,
     "consecutive_bad_days": 0,
