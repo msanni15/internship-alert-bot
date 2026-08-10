@@ -265,9 +265,9 @@
   },
   "Amazon": {
     "date": "2026-08-10",
-    "today_max_jobs": 1817,
+    "today_max_jobs": 1818,
     "today_last_error": null,
-    "historical_max_jobs": 1817,
+    "historical_max_jobs": 1818,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -521,9 +521,9 @@
   },
   "Figure AI": {
     "date": "2026-08-10",
-    "today_max_jobs": 127,
+    "today_max_jobs": 129,
     "today_last_error": null,
-    "historical_max_jobs": 128,
+    "historical_max_jobs": 129,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -537,9 +537,9 @@
   },
   "Agility Robotics": {
     "date": "2026-08-10",
-    "today_max_jobs": 61,
+    "today_max_jobs": 63,
     "today_last_error": null,
-    "historical_max_jobs": 61,
+    "historical_max_jobs": 63,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-08-10",
-    "today_max_jobs": 1072,
+    "today_max_jobs": 1073,
     "today_last_error": null,
     "historical_max_jobs": 1078,
     "consecutive_bad_days": 0,
@@ -1017,9 +1017,9 @@
   },
   "ElevenLabs": {
     "date": "2026-08-10",
-    "today_max_jobs": 232,
+    "today_max_jobs": 238,
     "today_last_error": null,
-    "historical_max_jobs": 232,
+    "historical_max_jobs": 238,
     "consecutive_bad_days": 0,
     "alerted": false
   },
