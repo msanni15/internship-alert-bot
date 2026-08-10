@@ -49,9 +49,9 @@
   },
   "IMC": {
     "date": "2026-08-09",
-    "today_max_jobs": 170,
+    "today_max_jobs": 171,
     "today_last_error": null,
-    "historical_max_jobs": 170,
+    "historical_max_jobs": 171,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -345,9 +345,9 @@
   },
   "OpenAI": {
     "date": "2026-08-09",
-    "today_max_jobs": 751,
+    "today_max_jobs": 752,
     "today_last_error": null,
-    "historical_max_jobs": 751,
+    "historical_max_jobs": 752,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-08-09",
-    "today_max_jobs": 1069,
+    "today_max_jobs": 1071,
     "today_last_error": null,
     "historical_max_jobs": 1078,
     "consecutive_bad_days": 0,
