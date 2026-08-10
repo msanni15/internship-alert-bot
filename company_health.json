@@ -105,7 +105,7 @@
   },
   "Point72": {
     "date": "2026-08-10",
-    "today_max_jobs": 231,
+    "today_max_jobs": 232,
     "today_last_error": null,
     "historical_max_jobs": 233,
     "consecutive_bad_days": 0,
@@ -289,7 +289,7 @@
   },
   "Stripe": {
     "date": "2026-08-10",
-    "today_max_jobs": 553,
+    "today_max_jobs": 555,
     "today_last_error": null,
     "historical_max_jobs": 556,
     "consecutive_bad_days": 0,
@@ -705,7 +705,7 @@
   },
   "Squarepoint Capital": {
     "date": "2026-08-10",
-    "today_max_jobs": 87,
+    "today_max_jobs": 88,
     "today_last_error": null,
     "historical_max_jobs": 89,
     "consecutive_bad_days": 0,
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-08-10",
-    "today_max_jobs": 2157,
+    "today_max_jobs": 2158,
     "today_last_error": null,
-    "historical_max_jobs": 2157,
+    "historical_max_jobs": 2158,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1009,7 +1009,7 @@
   },
   "Sierra AI": {
     "date": "2026-08-10",
-    "today_max_jobs": 190,
+    "today_max_jobs": 191,
     "today_last_error": null,
     "historical_max_jobs": 193,
     "consecutive_bad_days": 0,
@@ -1089,9 +1089,9 @@
   },
   "Dexory": {
     "date": "2026-08-10",
-    "today_max_jobs": 28,
+    "today_max_jobs": 30,
     "today_last_error": null,
-    "historical_max_jobs": 28,
+    "historical_max_jobs": 30,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1105,7 +1105,7 @@
   },
   "Pickle Robot": {
     "date": "2026-08-10",
-    "today_max_jobs": 11,
+    "today_max_jobs": 12,
     "today_last_error": null,
     "historical_max_jobs": 14,
     "consecutive_bad_days": 0,
