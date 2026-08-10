@@ -177,7 +177,7 @@
   },
   "Old Mission": {
     "date": "2026-08-10",
-    "today_max_jobs": 34,
+    "today_max_jobs": 35,
     "today_last_error": null,
     "historical_max_jobs": 35,
     "consecutive_bad_days": 0,
@@ -265,17 +265,17 @@
   },
   "Amazon": {
     "date": "2026-08-10",
-    "today_max_jobs": 1808,
+    "today_max_jobs": 1809,
     "today_last_error": null,
-    "historical_max_jobs": 1808,
+    "historical_max_jobs": 1809,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Roblox": {
     "date": "2026-08-10",
-    "today_max_jobs": 221,
+    "today_max_jobs": 224,
     "today_last_error": null,
-    "historical_max_jobs": 223,
+    "historical_max_jobs": 224,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -401,9 +401,9 @@
   },
   "Ramp": {
     "date": "2026-08-10",
-    "today_max_jobs": 124,
+    "today_max_jobs": 125,
     "today_last_error": null,
-    "historical_max_jobs": 124,
+    "historical_max_jobs": 125,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -585,7 +585,7 @@
   },
   "Hermeus": {
     "date": "2026-08-10",
-    "today_max_jobs": 87,
+    "today_max_jobs": 89,
     "today_last_error": null,
     "historical_max_jobs": 91,
     "consecutive_bad_days": 0,
@@ -665,9 +665,9 @@
   },
   "xAI": {
     "date": "2026-08-10",
-    "today_max_jobs": 219,
+    "today_max_jobs": 220,
     "today_last_error": null,
-    "historical_max_jobs": 219,
+    "historical_max_jobs": 220,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -857,9 +857,9 @@
   },
   "Wing": {
     "date": "2026-08-10",
-    "today_max_jobs": 44,
+    "today_max_jobs": 45,
     "today_last_error": null,
-    "historical_max_jobs": 44,
+    "historical_max_jobs": 45,
     "consecutive_bad_days": 0,
     "alerted": false
   },
