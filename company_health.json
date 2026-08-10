@@ -289,7 +289,7 @@
   },
   "Stripe": {
     "date": "2026-08-10",
-    "today_max_jobs": 555,
+    "today_max_jobs": 556,
     "today_last_error": null,
     "historical_max_jobs": 556,
     "consecutive_bad_days": 0,
@@ -377,7 +377,7 @@
   },
   "Applied Intuition": {
     "date": "2026-08-10",
-    "today_max_jobs": 261,
+    "today_max_jobs": 262,
     "today_last_error": null,
     "historical_max_jobs": 264,
     "consecutive_bad_days": 0,
@@ -465,9 +465,9 @@
   },
   "Waymo": {
     "date": "2026-08-10",
-    "today_max_jobs": 397,
+    "today_max_jobs": 398,
     "today_last_error": null,
-    "historical_max_jobs": 397,
+    "historical_max_jobs": 398,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -529,7 +529,7 @@
   },
   "Boston Dynamics": {
     "date": "2026-08-10",
-    "today_max_jobs": 66,
+    "today_max_jobs": 67,
     "today_last_error": null,
     "historical_max_jobs": 70,
     "consecutive_bad_days": 0,
@@ -657,7 +657,7 @@
   },
   "Apptronik": {
     "date": "2026-08-10",
-    "today_max_jobs": 82,
+    "today_max_jobs": 83,
     "today_last_error": null,
     "historical_max_jobs": 84,
     "consecutive_bad_days": 0,
@@ -1009,7 +1009,7 @@
   },
   "Sierra AI": {
     "date": "2026-08-10",
-    "today_max_jobs": 191,
+    "today_max_jobs": 192,
     "today_last_error": null,
     "historical_max_jobs": 193,
     "consecutive_bad_days": 0,
