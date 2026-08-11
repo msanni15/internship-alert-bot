@@ -329,7 +329,7 @@
   },
   "Snap": {
     "date": "2026-08-11",
-    "today_max_jobs": 180,
+    "today_max_jobs": 181,
     "today_last_error": null,
     "historical_max_jobs": 182,
     "consecutive_bad_days": 0,
@@ -777,7 +777,7 @@
   },
   "Rocket Lab": {
     "date": "2026-08-11",
-    "today_max_jobs": 402,
+    "today_max_jobs": 404,
     "today_last_error": null,
     "historical_max_jobs": 406,
     "consecutive_bad_days": 0,
