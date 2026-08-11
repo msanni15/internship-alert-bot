@@ -41,7 +41,7 @@
   },
   "Optiver": {
     "date": "2026-08-11",
-    "today_max_jobs": 169,
+    "today_max_jobs": 171,
     "today_last_error": null,
     "historical_max_jobs": 178,
     "consecutive_bad_days": 0,
@@ -89,9 +89,9 @@
   },
   "Akuna Capital": {
     "date": "2026-08-11",
-    "today_max_jobs": 34,
+    "today_max_jobs": 35,
     "today_last_error": null,
-    "historical_max_jobs": 34,
+    "historical_max_jobs": 35,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -137,7 +137,7 @@
   },
   "Voleon": {
     "date": "2026-08-11",
-    "today_max_jobs": 56,
+    "today_max_jobs": 57,
     "today_last_error": null,
     "historical_max_jobs": 57,
     "consecutive_bad_days": 0,
@@ -265,9 +265,9 @@
   },
   "Amazon": {
     "date": "2026-08-11",
-    "today_max_jobs": 1854,
+    "today_max_jobs": 1858,
     "today_last_error": null,
-    "historical_max_jobs": 1854,
+    "historical_max_jobs": 1858,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -289,9 +289,9 @@
   },
   "Stripe": {
     "date": "2026-08-11",
-    "today_max_jobs": 564,
+    "today_max_jobs": 565,
     "today_last_error": null,
-    "historical_max_jobs": 564,
+    "historical_max_jobs": 565,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -337,7 +337,7 @@
   },
   "Scale AI": {
     "date": "2026-08-11",
-    "today_max_jobs": 209,
+    "today_max_jobs": 210,
     "today_last_error": null,
     "historical_max_jobs": 220,
     "consecutive_bad_days": 0,
