@@ -289,9 +289,9 @@
   },
   "Stripe": {
     "date": "2026-08-11",
-    "today_max_jobs": 560,
+    "today_max_jobs": 561,
     "today_last_error": null,
-    "historical_max_jobs": 560,
+    "historical_max_jobs": 561,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -673,9 +673,9 @@
   },
   "Cohere": {
     "date": "2026-08-11",
-    "today_max_jobs": 141,
+    "today_max_jobs": 143,
     "today_last_error": null,
-    "historical_max_jobs": 142,
+    "historical_max_jobs": 143,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -753,9 +753,9 @@
   },
   "Cloudflare": {
     "date": "2026-08-11",
-    "today_max_jobs": 301,
+    "today_max_jobs": 302,
     "today_last_error": null,
-    "historical_max_jobs": 301,
+    "historical_max_jobs": 302,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-08-11",
-    "today_max_jobs": 1072,
+    "today_max_jobs": 1073,
     "today_last_error": null,
     "historical_max_jobs": 1078,
     "consecutive_bad_days": 0,
