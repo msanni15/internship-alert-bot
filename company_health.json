@@ -81,9 +81,9 @@
   },
   "Tower Research": {
     "date": "2026-08-10",
-    "today_max_jobs": 72,
+    "today_max_jobs": 78,
     "today_last_error": null,
-    "historical_max_jobs": 75,
+    "historical_max_jobs": 78,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -265,9 +265,9 @@
   },
   "Amazon": {
     "date": "2026-08-10",
-    "today_max_jobs": 1825,
+    "today_max_jobs": 1826,
     "today_last_error": null,
-    "historical_max_jobs": 1825,
+    "historical_max_jobs": 1826,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -353,7 +353,7 @@
   },
   "Anthropic": {
     "date": "2026-08-10",
-    "today_max_jobs": 393,
+    "today_max_jobs": 395,
     "today_last_error": null,
     "historical_max_jobs": 399,
     "consecutive_bad_days": 0,
@@ -377,7 +377,7 @@
   },
   "Applied Intuition": {
     "date": "2026-08-10",
-    "today_max_jobs": 262,
+    "today_max_jobs": 264,
     "today_last_error": null,
     "historical_max_jobs": 264,
     "consecutive_bad_days": 0,
@@ -753,9 +753,9 @@
   },
   "Cloudflare": {
     "date": "2026-08-10",
-    "today_max_jobs": 300,
+    "today_max_jobs": 301,
     "today_last_error": null,
-    "historical_max_jobs": 300,
+    "historical_max_jobs": 301,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-08-10",
-    "today_max_jobs": 1073,
+    "today_max_jobs": 1075,
     "today_last_error": null,
     "historical_max_jobs": 1078,
     "consecutive_bad_days": 0,
@@ -985,9 +985,9 @@
   },
   "Cognition": {
     "date": "2026-08-10",
-    "today_max_jobs": 84,
+    "today_max_jobs": 85,
     "today_last_error": null,
-    "historical_max_jobs": 84,
+    "historical_max_jobs": 85,
     "consecutive_bad_days": 0,
     "alerted": false
   },
