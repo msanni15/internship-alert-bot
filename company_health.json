@@ -57,9 +57,9 @@
   },
   "DRW": {
     "date": "2026-08-11",
-    "today_max_jobs": 165,
+    "today_max_jobs": 166,
     "today_last_error": null,
-    "historical_max_jobs": 165,
+    "historical_max_jobs": 166,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -137,7 +137,7 @@
   },
   "Voleon": {
     "date": "2026-08-11",
-    "today_max_jobs": 55,
+    "today_max_jobs": 56,
     "today_last_error": null,
     "historical_max_jobs": 57,
     "consecutive_bad_days": 0,
@@ -265,9 +265,9 @@
   },
   "Amazon": {
     "date": "2026-08-11",
-    "today_max_jobs": 1828,
+    "today_max_jobs": 1836,
     "today_last_error": null,
-    "historical_max_jobs": 1828,
+    "historical_max_jobs": 1836,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -330,7 +330,7 @@
   "Snap": {
     "date": "2026-08-11",
     "today_max_jobs": 181,
-    "today_last_error": null,
+    "today_last_error": "Snap: 403 Client Error: Forbidden for url: https://careers.snap.com/jobs",
     "historical_max_jobs": 182,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -489,7 +489,7 @@
   },
   "Aurora": {
     "date": "2026-08-11",
-    "today_max_jobs": 71,
+    "today_max_jobs": 72,
     "today_last_error": null,
     "historical_max_jobs": 77,
     "consecutive_bad_days": 0,
@@ -537,9 +537,9 @@
   },
   "Agility Robotics": {
     "date": "2026-08-11",
-    "today_max_jobs": 64,
+    "today_max_jobs": 65,
     "today_last_error": null,
-    "historical_max_jobs": 64,
+    "historical_max_jobs": 65,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -553,7 +553,7 @@
   },
   "Waabi": {
     "date": "2026-08-11",
-    "today_max_jobs": 57,
+    "today_max_jobs": 58,
     "today_last_error": null,
     "historical_max_jobs": 62,
     "consecutive_bad_days": 0,
@@ -561,7 +561,7 @@
   },
   "Motional": {
     "date": "2026-08-11",
-    "today_max_jobs": 79,
+    "today_max_jobs": 80,
     "today_last_error": null,
     "historical_max_jobs": 82,
     "consecutive_bad_days": 0,
@@ -777,9 +777,9 @@
   },
   "Rocket Lab": {
     "date": "2026-08-11",
-    "today_max_jobs": 406,
+    "today_max_jobs": 407,
     "today_last_error": null,
-    "historical_max_jobs": 406,
+    "historical_max_jobs": 407,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-08-11",
-    "today_max_jobs": 437,
+    "today_max_jobs": 446,
     "today_last_error": null,
     "historical_max_jobs": 465,
     "consecutive_bad_days": 0,
@@ -897,9 +897,9 @@
   },
   "Serve Robotics": {
     "date": "2026-08-11",
-    "today_max_jobs": 52,
+    "today_max_jobs": 53,
     "today_last_error": null,
-    "historical_max_jobs": 52,
+    "historical_max_jobs": 53,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1017,9 +1017,9 @@
   },
   "ElevenLabs": {
     "date": "2026-08-11",
-    "today_max_jobs": 240,
+    "today_max_jobs": 242,
     "today_last_error": null,
-    "historical_max_jobs": 240,
+    "historical_max_jobs": 242,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1097,9 +1097,9 @@
   },
   "Formic": {
     "date": "2026-08-11",
-    "today_max_jobs": 41,
+    "today_max_jobs": 43,
     "today_last_error": null,
-    "historical_max_jobs": 41,
+    "historical_max_jobs": 43,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1129,7 +1129,7 @@
   },
   "Bright Machines": {
     "date": "2026-08-11",
-    "today_max_jobs": 12,
+    "today_max_jobs": 13,
     "today_last_error": null,
     "historical_max_jobs": 13,
     "consecutive_bad_days": 0,
