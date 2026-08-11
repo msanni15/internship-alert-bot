@@ -265,9 +265,9 @@
   },
   "Amazon": {
     "date": "2026-08-11",
-    "today_max_jobs": 1836,
+    "today_max_jobs": 1854,
     "today_last_error": null,
-    "historical_max_jobs": 1836,
+    "historical_max_jobs": 1854,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -329,9 +329,9 @@
   },
   "Snap": {
     "date": "2026-08-11",
-    "today_max_jobs": 181,
+    "today_max_jobs": 183,
     "today_last_error": "Snap: 403 Client Error: Forbidden for url: https://careers.snap.com/jobs",
-    "historical_max_jobs": 182,
+    "historical_max_jobs": 183,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-08-11",
-    "today_max_jobs": 738,
+    "today_max_jobs": 739,
     "today_last_error": null,
     "historical_max_jobs": 752,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-11",
-    "today_max_jobs": 400,
+    "today_max_jobs": 401,
     "today_last_error": null,
-    "historical_max_jobs": 400,
+    "historical_max_jobs": 401,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -481,15 +481,15 @@
   },
   "Nuro": {
     "date": "2026-08-11",
-    "today_max_jobs": 105,
+    "today_max_jobs": 107,
     "today_last_error": null,
-    "historical_max_jobs": 105,
+    "historical_max_jobs": 107,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Aurora": {
     "date": "2026-08-11",
-    "today_max_jobs": 72,
+    "today_max_jobs": 74,
     "today_last_error": null,
     "historical_max_jobs": 77,
     "consecutive_bad_days": 0,
@@ -753,9 +753,9 @@
   },
   "Cloudflare": {
     "date": "2026-08-11",
-    "today_max_jobs": 302,
+    "today_max_jobs": 303,
     "today_last_error": null,
-    "historical_max_jobs": 302,
+    "historical_max_jobs": 303,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-08-11",
-    "today_max_jobs": 446,
+    "today_max_jobs": 456,
     "today_last_error": null,
     "historical_max_jobs": 465,
     "consecutive_bad_days": 0,
@@ -1009,7 +1009,7 @@
   },
   "Sierra AI": {
     "date": "2026-08-11",
-    "today_max_jobs": 191,
+    "today_max_jobs": 192,
     "today_last_error": null,
     "historical_max_jobs": 193,
     "consecutive_bad_days": 0,
