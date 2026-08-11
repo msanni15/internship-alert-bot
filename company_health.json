@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-08-11",
-    "today_max_jobs": 813,
+    "today_max_jobs": 815,
     "today_last_error": null,
     "historical_max_jobs": 823,
     "consecutive_bad_days": 0,
@@ -289,9 +289,9 @@
   },
   "Stripe": {
     "date": "2026-08-11",
-    "today_max_jobs": 563,
+    "today_max_jobs": 564,
     "today_last_error": null,
-    "historical_max_jobs": 563,
+    "historical_max_jobs": 564,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-08-11",
-    "today_max_jobs": 731,
+    "today_max_jobs": 734,
     "today_last_error": null,
     "historical_max_jobs": 752,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-11",
-    "today_max_jobs": 397,
+    "today_max_jobs": 400,
     "today_last_error": null,
-    "historical_max_jobs": 399,
+    "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -401,9 +401,9 @@
   },
   "Ramp": {
     "date": "2026-08-11",
-    "today_max_jobs": 129,
+    "today_max_jobs": 130,
     "today_last_error": null,
-    "historical_max_jobs": 129,
+    "historical_max_jobs": 130,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -441,7 +441,7 @@
   },
   "Vercel": {
     "date": "2026-08-11",
-    "today_max_jobs": 83,
+    "today_max_jobs": 84,
     "today_last_error": null,
     "historical_max_jobs": 84,
     "consecutive_bad_days": 0,
@@ -473,7 +473,7 @@
   },
   "Zoox": {
     "date": "2026-08-11",
-    "today_max_jobs": 238,
+    "today_max_jobs": 239,
     "today_last_error": null,
     "historical_max_jobs": 240,
     "consecutive_bad_days": 0,
@@ -505,7 +505,7 @@
   },
   "Zipline": {
     "date": "2026-08-11",
-    "today_max_jobs": 260,
+    "today_max_jobs": 265,
     "today_last_error": null,
     "historical_max_jobs": 268,
     "consecutive_bad_days": 0,
@@ -537,17 +537,17 @@
   },
   "Agility Robotics": {
     "date": "2026-08-11",
-    "today_max_jobs": 63,
+    "today_max_jobs": 64,
     "today_last_error": null,
-    "historical_max_jobs": 63,
+    "historical_max_jobs": 64,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Kodiak Robotics": {
     "date": "2026-08-11",
-    "today_max_jobs": 69,
+    "today_max_jobs": 70,
     "today_last_error": null,
-    "historical_max_jobs": 69,
+    "historical_max_jobs": 70,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -721,7 +721,7 @@
   },
   "CTC": {
     "date": "2026-08-11",
-    "today_max_jobs": 22,
+    "today_max_jobs": 23,
     "today_last_error": null,
     "historical_max_jobs": 23,
     "consecutive_bad_days": 0,
@@ -913,9 +913,9 @@
   },
   "Diligent Robotics": {
     "date": "2026-08-11",
-    "today_max_jobs": 14,
+    "today_max_jobs": 15,
     "today_last_error": null,
-    "historical_max_jobs": 14,
+    "historical_max_jobs": 15,
     "consecutive_bad_days": 0,
     "alerted": false
   },
