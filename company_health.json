@@ -57,7 +57,7 @@
   },
   "DRW": {
     "date": "2026-08-11",
-    "today_max_jobs": 163,
+    "today_max_jobs": 164,
     "today_last_error": null,
     "historical_max_jobs": 165,
     "consecutive_bad_days": 0,
@@ -81,9 +81,9 @@
   },
   "Tower Research": {
     "date": "2026-08-11",
-    "today_max_jobs": 78,
+    "today_max_jobs": 79,
     "today_last_error": null,
-    "historical_max_jobs": 78,
+    "historical_max_jobs": 79,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -289,15 +289,15 @@
   },
   "Stripe": {
     "date": "2026-08-11",
-    "today_max_jobs": 558,
+    "today_max_jobs": 560,
     "today_last_error": null,
-    "historical_max_jobs": 559,
+    "historical_max_jobs": 560,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Airbnb": {
     "date": "2026-08-11",
-    "today_max_jobs": 182,
+    "today_max_jobs": 183,
     "today_last_error": null,
     "historical_max_jobs": 197,
     "consecutive_bad_days": 0,
@@ -329,7 +329,7 @@
   },
   "Snap": {
     "date": "2026-08-11",
-    "today_max_jobs": 2,
+    "today_max_jobs": 180,
     "today_last_error": null,
     "historical_max_jobs": 182,
     "consecutive_bad_days": 0,
@@ -1017,9 +1017,9 @@
   },
   "ElevenLabs": {
     "date": "2026-08-11",
-    "today_max_jobs": 238,
+    "today_max_jobs": 239,
     "today_last_error": null,
-    "historical_max_jobs": 238,
+    "historical_max_jobs": 239,
     "consecutive_bad_days": 0,
     "alerted": false
   },
