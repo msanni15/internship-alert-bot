@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-08-11",
-    "today_max_jobs": 734,
+    "today_max_jobs": 736,
     "today_last_error": null,
     "historical_max_jobs": 752,
     "consecutive_bad_days": 0,
@@ -401,9 +401,9 @@
   },
   "Ramp": {
     "date": "2026-08-11",
-    "today_max_jobs": 130,
+    "today_max_jobs": 133,
     "today_last_error": null,
-    "historical_max_jobs": 130,
+    "historical_max_jobs": 133,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -457,7 +457,7 @@
   },
   "1X": {
     "date": "2026-08-11",
-    "today_max_jobs": 81,
+    "today_max_jobs": 82,
     "today_last_error": null,
     "historical_max_jobs": 82,
     "consecutive_bad_days": 0,
@@ -473,7 +473,7 @@
   },
   "Zoox": {
     "date": "2026-08-11",
-    "today_max_jobs": 239,
+    "today_max_jobs": 240,
     "today_last_error": null,
     "historical_max_jobs": 240,
     "consecutive_bad_days": 0,
@@ -673,9 +673,9 @@
   },
   "Cohere": {
     "date": "2026-08-11",
-    "today_max_jobs": 143,
+    "today_max_jobs": 144,
     "today_last_error": null,
-    "historical_max_jobs": 143,
+    "historical_max_jobs": 144,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -777,7 +777,7 @@
   },
   "Rocket Lab": {
     "date": "2026-08-11",
-    "today_max_jobs": 404,
+    "today_max_jobs": 405,
     "today_last_error": null,
     "historical_max_jobs": 406,
     "consecutive_bad_days": 0,
