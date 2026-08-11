@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-08-10",
-    "today_max_jobs": 320,
+    "today_max_jobs": 360,
     "today_last_error": null,
     "historical_max_jobs": 360,
     "consecutive_bad_days": 0,
@@ -265,9 +265,9 @@
   },
   "Amazon": {
     "date": "2026-08-10",
-    "today_max_jobs": 1826,
+    "today_max_jobs": 1827,
     "today_last_error": null,
-    "historical_max_jobs": 1826,
+    "historical_max_jobs": 1827,
     "consecutive_bad_days": 0,
     "alerted": false
   },
