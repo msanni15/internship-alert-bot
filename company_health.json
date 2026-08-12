@@ -313,7 +313,7 @@
   },
   "DoorDash": {
     "date": "2026-08-12",
-    "today_max_jobs": 472,
+    "today_max_jobs": 473,
     "today_last_error": null,
     "historical_max_jobs": 473,
     "consecutive_bad_days": 0,
@@ -625,9 +625,9 @@
   },
   "RIVR": {
     "date": "2026-08-12",
-    "today_max_jobs": 27,
+    "today_max_jobs": 28,
     "today_last_error": null,
-    "historical_max_jobs": 27,
+    "historical_max_jobs": 28,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -857,7 +857,7 @@
   },
   "Wing": {
     "date": "2026-08-12",
-    "today_max_jobs": 45,
+    "today_max_jobs": 46,
     "today_last_error": null,
     "historical_max_jobs": 46,
     "consecutive_bad_days": 0,
@@ -1009,9 +1009,9 @@
   },
   "Sierra AI": {
     "date": "2026-08-12",
-    "today_max_jobs": 193,
+    "today_max_jobs": 194,
     "today_last_error": null,
-    "historical_max_jobs": 193,
+    "historical_max_jobs": 194,
     "consecutive_bad_days": 0,
     "alerted": false
   },
