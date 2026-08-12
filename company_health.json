@@ -1,7 +1,7 @@
 {
   "Jane Street": {
     "date": "2026-08-12",
-    "today_max_jobs": 231,
+    "today_max_jobs": 232,
     "today_last_error": null,
     "historical_max_jobs": 232,
     "consecutive_bad_days": 0,
@@ -145,7 +145,7 @@
   },
   "G-Research": {
     "date": "2026-08-12",
-    "today_max_jobs": 62,
+    "today_max_jobs": 63,
     "today_last_error": null,
     "historical_max_jobs": 66,
     "consecutive_bad_days": 0,
@@ -153,7 +153,7 @@
   },
   "Virtu Financial": {
     "date": "2026-08-12",
-    "today_max_jobs": 46,
+    "today_max_jobs": 47,
     "today_last_error": null,
     "historical_max_jobs": 48,
     "consecutive_bad_days": 0,
@@ -353,17 +353,17 @@
   },
   "Anthropic": {
     "date": "2026-08-12",
-    "today_max_jobs": 403,
+    "today_max_jobs": 404,
     "today_last_error": null,
-    "historical_max_jobs": 403,
+    "historical_max_jobs": 404,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Perplexity": {
     "date": "2026-08-12",
-    "today_max_jobs": 93,
+    "today_max_jobs": 95,
     "today_last_error": null,
-    "historical_max_jobs": 93,
+    "historical_max_jobs": 95,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-08-12",
-    "today_max_jobs": 340,
+    "today_max_jobs": 360,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-08-12",
-    "today_max_jobs": 1057,
+    "today_max_jobs": 1060,
     "today_last_error": null,
     "historical_max_jobs": 1078,
     "consecutive_bad_days": 0,
