@@ -433,7 +433,7 @@
   },
   "Coinbase": {
     "date": "2026-08-12",
-    "today_max_jobs": 166,
+    "today_max_jobs": 168,
     "today_last_error": null,
     "historical_max_jobs": 175,
     "consecutive_bad_days": 0,
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-08-12",
-    "today_max_jobs": 360,
+    "today_max_jobs": 400,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-08-12",
-    "today_max_jobs": 2152,
+    "today_max_jobs": 2155,
     "today_last_error": null,
     "historical_max_jobs": 2159,
     "consecutive_bad_days": 0,
@@ -777,7 +777,7 @@
   },
   "Rocket Lab": {
     "date": "2026-08-12",
-    "today_max_jobs": 404,
+    "today_max_jobs": 406,
     "today_last_error": null,
     "historical_max_jobs": 407,
     "consecutive_bad_days": 0,
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-08-12",
-    "today_max_jobs": 1060,
+    "today_max_jobs": 1061,
     "today_last_error": null,
     "historical_max_jobs": 1078,
     "consecutive_bad_days": 0,
