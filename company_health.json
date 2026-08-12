@@ -41,7 +41,7 @@
   },
   "Optiver": {
     "date": "2026-08-12",
-    "today_max_jobs": 171,
+    "today_max_jobs": 176,
     "today_last_error": null,
     "historical_max_jobs": 178,
     "consecutive_bad_days": 0,
@@ -121,7 +121,7 @@
   },
   "Millennium": {
     "date": "2026-08-12",
-    "today_max_jobs": 121,
+    "today_max_jobs": 122,
     "today_last_error": null,
     "historical_max_jobs": 132,
     "consecutive_bad_days": 0,
@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-08-12",
-    "today_max_jobs": 300,
+    "today_max_jobs": 340,
     "today_last_error": null,
     "historical_max_jobs": 360,
     "consecutive_bad_days": 0,
@@ -297,7 +297,7 @@
   },
   "Airbnb": {
     "date": "2026-08-12",
-    "today_max_jobs": 176,
+    "today_max_jobs": 177,
     "today_last_error": null,
     "historical_max_jobs": 197,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-12",
-    "today_max_jobs": 402,
+    "today_max_jobs": 403,
     "today_last_error": null,
-    "historical_max_jobs": 402,
+    "historical_max_jobs": 403,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -393,7 +393,7 @@
   },
   "Notion": {
     "date": "2026-08-12",
-    "today_max_jobs": 127,
+    "today_max_jobs": 129,
     "today_last_error": null,
     "historical_max_jobs": 129,
     "consecutive_bad_days": 0,
@@ -969,7 +969,7 @@
   },
   "Man Group": {
     "date": "2026-08-12",
-    "today_max_jobs": 58,
+    "today_max_jobs": 59,
     "today_last_error": null,
     "historical_max_jobs": 60,
     "consecutive_bad_days": 0,
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-08-12",
-    "today_max_jobs": 1056,
+    "today_max_jobs": 1057,
     "today_last_error": null,
     "historical_max_jobs": 1078,
     "consecutive_bad_days": 0,
@@ -1009,7 +1009,7 @@
   },
   "Sierra AI": {
     "date": "2026-08-12",
-    "today_max_jobs": 192,
+    "today_max_jobs": 193,
     "today_last_error": null,
     "historical_max_jobs": 193,
     "consecutive_bad_days": 0,
@@ -1017,9 +1017,9 @@
   },
   "ElevenLabs": {
     "date": "2026-08-12",
-    "today_max_jobs": 242,
+    "today_max_jobs": 243,
     "today_last_error": null,
-    "historical_max_jobs": 242,
+    "historical_max_jobs": 243,
     "consecutive_bad_days": 0,
     "alerted": false
   },
