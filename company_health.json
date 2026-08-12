@@ -265,9 +265,9 @@
   },
   "Amazon": {
     "date": "2026-08-11",
-    "today_max_jobs": 1863,
+    "today_max_jobs": 1865,
     "today_last_error": null,
-    "historical_max_jobs": 1863,
+    "historical_max_jobs": 1865,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -313,7 +313,7 @@
   },
   "DoorDash": {
     "date": "2026-08-11",
-    "today_max_jobs": 468,
+    "today_max_jobs": 470,
     "today_last_error": null,
     "historical_max_jobs": 473,
     "consecutive_bad_days": 0,
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-08-11",
-    "today_max_jobs": 390,
+    "today_max_jobs": 391,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
