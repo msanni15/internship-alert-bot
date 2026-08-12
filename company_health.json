@@ -265,9 +265,9 @@
   },
   "Amazon": {
     "date": "2026-08-11",
-    "today_max_jobs": 1865,
+    "today_max_jobs": 1867,
     "today_last_error": null,
-    "historical_max_jobs": 1865,
+    "historical_max_jobs": 1867,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -505,7 +505,7 @@
   },
   "Zipline": {
     "date": "2026-08-11",
-    "today_max_jobs": 265,
+    "today_max_jobs": 266,
     "today_last_error": null,
     "historical_max_jobs": 268,
     "consecutive_bad_days": 0,
