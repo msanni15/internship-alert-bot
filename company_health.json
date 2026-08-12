@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-12",
-    "today_max_jobs": 408,
+    "today_max_jobs": 412,
     "today_last_error": null,
-    "historical_max_jobs": 408,
+    "historical_max_jobs": 412,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-08-12",
-    "today_max_jobs": 2155,
+    "today_max_jobs": 2157,
     "today_last_error": null,
     "historical_max_jobs": 2159,
     "consecutive_bad_days": 0,
@@ -777,7 +777,7 @@
   },
   "Rocket Lab": {
     "date": "2026-08-12",
-    "today_max_jobs": 406,
+    "today_max_jobs": 407,
     "today_last_error": null,
     "historical_max_jobs": 407,
     "consecutive_bad_days": 0,
@@ -857,9 +857,9 @@
   },
   "Wing": {
     "date": "2026-08-12",
-    "today_max_jobs": 46,
+    "today_max_jobs": 47,
     "today_last_error": null,
-    "historical_max_jobs": 46,
+    "historical_max_jobs": 47,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-08-12",
-    "today_max_jobs": 1061,
+    "today_max_jobs": 1062,
     "today_last_error": null,
     "historical_max_jobs": 1078,
     "consecutive_bad_days": 0,
