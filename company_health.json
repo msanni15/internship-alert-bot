@@ -49,7 +49,7 @@
   },
   "IMC": {
     "date": "2026-08-12",
-    "today_max_jobs": 165,
+    "today_max_jobs": 166,
     "today_last_error": null,
     "historical_max_jobs": 171,
     "consecutive_bad_days": 0,
@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-08-12",
-    "today_max_jobs": 359,
+    "today_max_jobs": 360,
     "today_last_error": null,
     "historical_max_jobs": 376,
     "consecutive_bad_days": 0,
@@ -273,7 +273,7 @@
   },
   "Roblox": {
     "date": "2026-08-12",
-    "today_max_jobs": 219,
+    "today_max_jobs": 220,
     "today_last_error": null,
     "historical_max_jobs": 224,
     "consecutive_bad_days": 0,
@@ -297,7 +297,7 @@
   },
   "Airbnb": {
     "date": "2026-08-12",
-    "today_max_jobs": 177,
+    "today_max_jobs": 178,
     "today_last_error": null,
     "historical_max_jobs": 197,
     "consecutive_bad_days": 0,
@@ -441,9 +441,9 @@
   },
   "Vercel": {
     "date": "2026-08-12",
-    "today_max_jobs": 84,
+    "today_max_jobs": 85,
     "today_last_error": null,
-    "historical_max_jobs": 84,
+    "historical_max_jobs": 85,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -761,7 +761,7 @@
   },
   "Neuralink": {
     "date": "2026-08-12",
-    "today_max_jobs": 78,
+    "today_max_jobs": 79,
     "today_last_error": null,
     "historical_max_jobs": 83,
     "consecutive_bad_days": 0,
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-08-12",
-    "today_max_jobs": 2139,
+    "today_max_jobs": 2140,
     "today_last_error": null,
     "historical_max_jobs": 2159,
     "consecutive_bad_days": 0,
