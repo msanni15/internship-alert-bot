@@ -265,9 +265,9 @@
   },
   "Amazon": {
     "date": "2026-08-11",
-    "today_max_jobs": 1860,
+    "today_max_jobs": 1863,
     "today_last_error": null,
-    "historical_max_jobs": 1860,
+    "historical_max_jobs": 1863,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -289,9 +289,9 @@
   },
   "Stripe": {
     "date": "2026-08-11",
-    "today_max_jobs": 566,
+    "today_max_jobs": 567,
     "today_last_error": null,
-    "historical_max_jobs": 566,
+    "historical_max_jobs": 567,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -673,9 +673,9 @@
   },
   "Cohere": {
     "date": "2026-08-11",
-    "today_max_jobs": 144,
+    "today_max_jobs": 145,
     "today_last_error": null,
-    "historical_max_jobs": 144,
+    "historical_max_jobs": 145,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-08-11",
-    "today_max_jobs": 2139,
+    "today_max_jobs": 2143,
     "today_last_error": null,
     "historical_max_jobs": 2159,
     "consecutive_bad_days": 0,
