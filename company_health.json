@@ -81,7 +81,7 @@
   },
   "Tower Research": {
     "date": "2026-08-12",
-    "today_max_jobs": 78,
+    "today_max_jobs": 79,
     "today_last_error": null,
     "historical_max_jobs": 79,
     "consecutive_bad_days": 0,
@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-08-12",
-    "today_max_jobs": 358,
+    "today_max_jobs": 359,
     "today_last_error": null,
     "historical_max_jobs": 376,
     "consecutive_bad_days": 0,
@@ -313,7 +313,7 @@
   },
   "DoorDash": {
     "date": "2026-08-12",
-    "today_max_jobs": 470,
+    "today_max_jobs": 472,
     "today_last_error": null,
     "historical_max_jobs": 473,
     "consecutive_bad_days": 0,
@@ -337,7 +337,7 @@
   },
   "Scale AI": {
     "date": "2026-08-12",
-    "today_max_jobs": 210,
+    "today_max_jobs": 211,
     "today_last_error": null,
     "historical_max_jobs": 220,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-12",
-    "today_max_jobs": 404,
+    "today_max_jobs": 406,
     "today_last_error": null,
-    "historical_max_jobs": 404,
+    "historical_max_jobs": 406,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -465,7 +465,7 @@
   },
   "Waymo": {
     "date": "2026-08-12",
-    "today_max_jobs": 392,
+    "today_max_jobs": 393,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -713,7 +713,7 @@
   },
   "QRT": {
     "date": "2026-08-12",
-    "today_max_jobs": 192,
+    "today_max_jobs": 193,
     "today_last_error": null,
     "historical_max_jobs": 199,
     "consecutive_bad_days": 0,
@@ -969,7 +969,7 @@
   },
   "Man Group": {
     "date": "2026-08-12",
-    "today_max_jobs": 59,
+    "today_max_jobs": 60,
     "today_last_error": null,
     "historical_max_jobs": 60,
     "consecutive_bad_days": 0,
@@ -1017,9 +1017,9 @@
   },
   "ElevenLabs": {
     "date": "2026-08-12",
-    "today_max_jobs": 243,
+    "today_max_jobs": 244,
     "today_last_error": null,
-    "historical_max_jobs": 243,
+    "historical_max_jobs": 244,
     "consecutive_bad_days": 0,
     "alerted": false
   },
