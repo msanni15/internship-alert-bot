@@ -241,9 +241,9 @@
   },
   "Samsung Semiconductor": {
     "date": "2026-08-12",
-    "today_max_jobs": 55,
+    "today_max_jobs": 56,
     "today_last_error": null,
-    "historical_max_jobs": 55,
+    "historical_max_jobs": 56,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -273,7 +273,7 @@
   },
   "Roblox": {
     "date": "2026-08-12",
-    "today_max_jobs": 220,
+    "today_max_jobs": 221,
     "today_last_error": null,
     "historical_max_jobs": 224,
     "consecutive_bad_days": 0,
@@ -289,7 +289,7 @@
   },
   "Stripe": {
     "date": "2026-08-12",
-    "today_max_jobs": 566,
+    "today_max_jobs": 567,
     "today_last_error": null,
     "historical_max_jobs": 567,
     "consecutive_bad_days": 0,
@@ -353,17 +353,17 @@
   },
   "Anthropic": {
     "date": "2026-08-12",
-    "today_max_jobs": 406,
+    "today_max_jobs": 408,
     "today_last_error": null,
-    "historical_max_jobs": 406,
+    "historical_max_jobs": 408,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Perplexity": {
     "date": "2026-08-12",
-    "today_max_jobs": 95,
+    "today_max_jobs": 96,
     "today_last_error": null,
-    "historical_max_jobs": 95,
+    "historical_max_jobs": 96,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -377,7 +377,7 @@
   },
   "Applied Intuition": {
     "date": "2026-08-12",
-    "today_max_jobs": 262,
+    "today_max_jobs": 263,
     "today_last_error": null,
     "historical_max_jobs": 264,
     "consecutive_bad_days": 0,
@@ -401,9 +401,9 @@
   },
   "Ramp": {
     "date": "2026-08-12",
-    "today_max_jobs": 133,
+    "today_max_jobs": 134,
     "today_last_error": null,
-    "historical_max_jobs": 133,
+    "historical_max_jobs": 134,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -473,7 +473,7 @@
   },
   "Zoox": {
     "date": "2026-08-12",
-    "today_max_jobs": 239,
+    "today_max_jobs": 240,
     "today_last_error": null,
     "historical_max_jobs": 240,
     "consecutive_bad_days": 0,
@@ -529,7 +529,7 @@
   },
   "Boston Dynamics": {
     "date": "2026-08-12",
-    "today_max_jobs": 64,
+    "today_max_jobs": 65,
     "today_last_error": null,
     "historical_max_jobs": 70,
     "consecutive_bad_days": 0,
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-08-12",
-    "today_max_jobs": 2140,
+    "today_max_jobs": 2142,
     "today_last_error": null,
     "historical_max_jobs": 2159,
     "consecutive_bad_days": 0,
@@ -1017,9 +1017,9 @@
   },
   "ElevenLabs": {
     "date": "2026-08-12",
-    "today_max_jobs": 244,
+    "today_max_jobs": 250,
     "today_last_error": null,
-    "historical_max_jobs": 244,
+    "historical_max_jobs": 250,
     "consecutive_bad_days": 0,
     "alerted": false
   },
