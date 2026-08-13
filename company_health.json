@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-08-12",
-    "today_max_jobs": 394,
+    "today_max_jobs": 421,
     "today_last_error": "Intel: HTTPSConnectionPool(host='intel.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=8)",
     "historical_max_jobs": 448,
     "consecutive_bad_days": 0,
@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-08-12",
-    "today_max_jobs": 361,
+    "today_max_jobs": 362,
     "today_last_error": null,
     "historical_max_jobs": 376,
     "consecutive_bad_days": 0,
@@ -577,7 +577,7 @@
   },
   "FieldAI": {
     "date": "2026-08-12",
-    "today_max_jobs": 124,
+    "today_max_jobs": 125,
     "today_last_error": null,
     "historical_max_jobs": 129,
     "consecutive_bad_days": 0,
@@ -713,7 +713,7 @@
   },
   "QRT": {
     "date": "2026-08-12",
-    "today_max_jobs": 193,
+    "today_max_jobs": 194,
     "today_last_error": null,
     "historical_max_jobs": 199,
     "consecutive_bad_days": 0,
@@ -1065,9 +1065,9 @@
   },
   "Fireworks AI": {
     "date": "2026-08-12",
-    "today_max_jobs": 58,
+    "today_max_jobs": 59,
     "today_last_error": null,
-    "historical_max_jobs": 58,
+    "historical_max_jobs": 59,
     "consecutive_bad_days": 0,
     "alerted": false
   },
