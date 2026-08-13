@@ -33,7 +33,7 @@
   },
   "Jump Trading": {
     "date": "2026-08-13",
-    "today_max_jobs": 103,
+    "today_max_jobs": 104,
     "today_last_error": null,
     "historical_max_jobs": 106,
     "consecutive_bad_days": 0,
@@ -265,9 +265,9 @@
   },
   "Amazon": {
     "date": "2026-08-13",
-    "today_max_jobs": 1865,
+    "today_max_jobs": 1871,
     "today_last_error": null,
-    "historical_max_jobs": 1867,
+    "historical_max_jobs": 1871,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -321,7 +321,7 @@
   },
   "Pinterest": {
     "date": "2026-08-13",
-    "today_max_jobs": 216,
+    "today_max_jobs": 217,
     "today_last_error": null,
     "historical_max_jobs": 226,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-13",
-    "today_max_jobs": 419,
+    "today_max_jobs": 420,
     "today_last_error": null,
-    "historical_max_jobs": 419,
+    "historical_max_jobs": 420,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -401,7 +401,7 @@
   },
   "Ramp": {
     "date": "2026-08-13",
-    "today_max_jobs": 135,
+    "today_max_jobs": 136,
     "today_last_error": null,
     "historical_max_jobs": 136,
     "consecutive_bad_days": 0,
@@ -417,7 +417,7 @@
   },
   "Plaid": {
     "date": "2026-08-13",
-    "today_max_jobs": 102,
+    "today_max_jobs": 103,
     "today_last_error": null,
     "historical_max_jobs": 112,
     "consecutive_bad_days": 0,
@@ -425,7 +425,7 @@
   },
   "Robinhood": {
     "date": "2026-08-13",
-    "today_max_jobs": 122,
+    "today_max_jobs": 123,
     "today_last_error": null,
     "historical_max_jobs": 139,
     "consecutive_bad_days": 0,
@@ -537,7 +537,7 @@
   },
   "Agility Robotics": {
     "date": "2026-08-13",
-    "today_max_jobs": 62,
+    "today_max_jobs": 63,
     "today_last_error": null,
     "historical_max_jobs": 65,
     "consecutive_bad_days": 0,
@@ -769,15 +769,15 @@
   },
   "SpaceX": {
     "date": "2026-08-13",
-    "today_max_jobs": 2167,
+    "today_max_jobs": 2171,
     "today_last_error": null,
-    "historical_max_jobs": 2167,
+    "historical_max_jobs": 2171,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Rocket Lab": {
     "date": "2026-08-13",
-    "today_max_jobs": 406,
+    "today_max_jobs": 407,
     "today_last_error": null,
     "historical_max_jobs": 407,
     "consecutive_bad_days": 0,
