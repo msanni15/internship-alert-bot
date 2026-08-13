@@ -265,9 +265,9 @@
   },
   "Amazon": {
     "date": "2026-08-13",
-    "today_max_jobs": 1877,
+    "today_max_jobs": 1881,
     "today_last_error": null,
-    "historical_max_jobs": 1877,
+    "historical_max_jobs": 1881,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-08-13",
-    "today_max_jobs": 807,
+    "today_max_jobs": 808,
     "today_last_error": null,
     "historical_max_jobs": 823,
     "consecutive_bad_days": 0,
@@ -985,7 +985,7 @@
   },
   "Cognition": {
     "date": "2026-08-13",
-    "today_max_jobs": 84,
+    "today_max_jobs": 85,
     "today_last_error": null,
     "historical_max_jobs": 85,
     "consecutive_bad_days": 0,
