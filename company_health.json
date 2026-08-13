@@ -121,7 +121,7 @@
   },
   "Millennium": {
     "date": "2026-08-13",
-    "today_max_jobs": 123,
+    "today_max_jobs": 124,
     "today_last_error": null,
     "historical_max_jobs": 132,
     "consecutive_bad_days": 0,
@@ -161,9 +161,9 @@
   },
   "Flow Traders": {
     "date": "2026-08-13",
-    "today_max_jobs": 44,
+    "today_max_jobs": 45,
     "today_last_error": null,
-    "historical_max_jobs": 44,
+    "historical_max_jobs": 45,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-08-13",
-    "today_max_jobs": 320,
+    "today_max_jobs": 340,
     "today_last_error": null,
     "historical_max_jobs": 448,
     "consecutive_bad_days": 0,
@@ -313,7 +313,7 @@
   },
   "DoorDash": {
     "date": "2026-08-13",
-    "today_max_jobs": 471,
+    "today_max_jobs": 472,
     "today_last_error": null,
     "historical_max_jobs": 473,
     "consecutive_bad_days": 0,
@@ -321,7 +321,7 @@
   },
   "Pinterest": {
     "date": "2026-08-13",
-    "today_max_jobs": 215,
+    "today_max_jobs": 216,
     "today_last_error": null,
     "historical_max_jobs": 226,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-13",
-    "today_max_jobs": 413,
+    "today_max_jobs": 414,
     "today_last_error": null,
-    "historical_max_jobs": 413,
+    "historical_max_jobs": 414,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -505,7 +505,7 @@
   },
   "Zipline": {
     "date": "2026-08-13",
-    "today_max_jobs": 260,
+    "today_max_jobs": 264,
     "today_last_error": null,
     "historical_max_jobs": 268,
     "consecutive_bad_days": 0,
@@ -753,9 +753,9 @@
   },
   "Cloudflare": {
     "date": "2026-08-13",
-    "today_max_jobs": 306,
+    "today_max_jobs": 307,
     "today_last_error": null,
-    "historical_max_jobs": 306,
+    "historical_max_jobs": 307,
     "consecutive_bad_days": 0,
     "alerted": false
   },
