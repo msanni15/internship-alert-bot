@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-12",
-    "today_max_jobs": 412,
+    "today_max_jobs": 413,
     "today_last_error": null,
-    "historical_max_jobs": 412,
+    "historical_max_jobs": 413,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -401,15 +401,15 @@
   },
   "Ramp": {
     "date": "2026-08-12",
-    "today_max_jobs": 135,
+    "today_max_jobs": 136,
     "today_last_error": null,
-    "historical_max_jobs": 135,
+    "historical_max_jobs": 136,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Rippling": {
     "date": "2026-08-12",
-    "today_max_jobs": 79,
+    "today_max_jobs": 82,
     "today_last_error": null,
     "historical_max_jobs": 88,
     "consecutive_bad_days": 0,
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-08-12",
-    "today_max_jobs": 1062,
+    "today_max_jobs": 1063,
     "today_last_error": null,
     "historical_max_jobs": 1078,
     "consecutive_bad_days": 0,
