@@ -25,7 +25,7 @@
   },
   "Hudson River Trading": {
     "date": "2026-08-13",
-    "today_max_jobs": 69,
+    "today_max_jobs": 70,
     "today_last_error": null,
     "historical_max_jobs": 72,
     "consecutive_bad_days": 0,
@@ -33,7 +33,7 @@
   },
   "Jump Trading": {
     "date": "2026-08-13",
-    "today_max_jobs": 102,
+    "today_max_jobs": 103,
     "today_last_error": null,
     "historical_max_jobs": 106,
     "consecutive_bad_days": 0,
@@ -121,7 +121,7 @@
   },
   "Millennium": {
     "date": "2026-08-13",
-    "today_max_jobs": 121,
+    "today_max_jobs": 123,
     "today_last_error": null,
     "historical_max_jobs": 132,
     "consecutive_bad_days": 0,
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-08-13",
-    "today_max_jobs": 728,
+    "today_max_jobs": 729,
     "today_last_error": null,
     "historical_max_jobs": 752,
     "consecutive_bad_days": 0,
@@ -673,9 +673,9 @@
   },
   "Cohere": {
     "date": "2026-08-13",
-    "today_max_jobs": 147,
+    "today_max_jobs": 148,
     "today_last_error": null,
-    "historical_max_jobs": 147,
+    "historical_max_jobs": 148,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-08-13",
-    "today_max_jobs": 380,
+    "today_max_jobs": 460,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -753,9 +753,9 @@
   },
   "Cloudflare": {
     "date": "2026-08-13",
-    "today_max_jobs": 305,
+    "today_max_jobs": 306,
     "today_last_error": null,
-    "historical_max_jobs": 305,
+    "historical_max_jobs": 306,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-08-13",
-    "today_max_jobs": 353,
+    "today_max_jobs": 444,
     "today_last_error": null,
     "historical_max_jobs": 465,
     "consecutive_bad_days": 0,
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-08-13",
-    "today_max_jobs": 1061,
+    "today_max_jobs": 1063,
     "today_last_error": null,
     "historical_max_jobs": 1078,
     "consecutive_bad_days": 0,
@@ -1017,7 +1017,7 @@
   },
   "ElevenLabs": {
     "date": "2026-08-13",
-    "today_max_jobs": 249,
+    "today_max_jobs": 250,
     "today_last_error": null,
     "historical_max_jobs": 250,
     "consecutive_bad_days": 0,
@@ -1089,7 +1089,7 @@
   },
   "Dexory": {
     "date": "2026-08-13",
-    "today_max_jobs": 29,
+    "today_max_jobs": 30,
     "today_last_error": null,
     "historical_max_jobs": 30,
     "consecutive_bad_days": 0,
