@@ -409,7 +409,7 @@
   },
   "Rippling": {
     "date": "2026-08-12",
-    "today_max_jobs": 82,
+    "today_max_jobs": 83,
     "today_last_error": null,
     "historical_max_jobs": 88,
     "consecutive_bad_days": 0,
