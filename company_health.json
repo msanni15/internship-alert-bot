@@ -97,9 +97,9 @@
   },
   "Wolverine Trading": {
     "date": "2026-08-13",
-    "today_max_jobs": 11,
+    "today_max_jobs": 12,
     "today_last_error": null,
-    "historical_max_jobs": 11,
+    "historical_max_jobs": 12,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -265,9 +265,9 @@
   },
   "Amazon": {
     "date": "2026-08-13",
-    "today_max_jobs": 1871,
+    "today_max_jobs": 1877,
     "today_last_error": null,
-    "historical_max_jobs": 1871,
+    "historical_max_jobs": 1877,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -297,7 +297,7 @@
   },
   "Airbnb": {
     "date": "2026-08-13",
-    "today_max_jobs": 183,
+    "today_max_jobs": 185,
     "today_last_error": null,
     "historical_max_jobs": 197,
     "consecutive_bad_days": 0,
@@ -321,7 +321,7 @@
   },
   "Pinterest": {
     "date": "2026-08-13",
-    "today_max_jobs": 217,
+    "today_max_jobs": 218,
     "today_last_error": null,
     "historical_max_jobs": 226,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-13",
-    "today_max_jobs": 420,
+    "today_max_jobs": 421,
     "today_last_error": null,
-    "historical_max_jobs": 420,
+    "historical_max_jobs": 421,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -425,7 +425,7 @@
   },
   "Robinhood": {
     "date": "2026-08-13",
-    "today_max_jobs": 123,
+    "today_max_jobs": 124,
     "today_last_error": null,
     "historical_max_jobs": 139,
     "consecutive_bad_days": 0,
@@ -505,7 +505,7 @@
   },
   "Zipline": {
     "date": "2026-08-13",
-    "today_max_jobs": 264,
+    "today_max_jobs": 266,
     "today_last_error": null,
     "historical_max_jobs": 268,
     "consecutive_bad_days": 0,
