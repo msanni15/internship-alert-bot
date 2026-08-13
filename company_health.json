@@ -273,7 +273,7 @@
   },
   "Roblox": {
     "date": "2026-08-12",
-    "today_max_jobs": 222,
+    "today_max_jobs": 223,
     "today_last_error": null,
     "historical_max_jobs": 224,
     "consecutive_bad_days": 0,
@@ -705,7 +705,7 @@
   },
   "Squarepoint Capital": {
     "date": "2026-08-12",
-    "today_max_jobs": 87,
+    "today_max_jobs": 88,
     "today_last_error": null,
     "historical_max_jobs": 89,
     "consecutive_bad_days": 0,
