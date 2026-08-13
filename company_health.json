@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-08-13",
-    "today_max_jobs": 1861,
+    "today_max_jobs": 1862,
     "today_last_error": null,
     "historical_max_jobs": 1867,
     "consecutive_bad_days": 0,
@@ -273,9 +273,9 @@
   },
   "Roblox": {
     "date": "2026-08-13",
-    "today_max_jobs": 224,
+    "today_max_jobs": 225,
     "today_last_error": null,
-    "historical_max_jobs": 224,
+    "historical_max_jobs": 225,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -297,7 +297,7 @@
   },
   "Airbnb": {
     "date": "2026-08-13",
-    "today_max_jobs": 181,
+    "today_max_jobs": 182,
     "today_last_error": null,
     "historical_max_jobs": 197,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-13",
-    "today_max_jobs": 416,
+    "today_max_jobs": 419,
     "today_last_error": null,
-    "historical_max_jobs": 416,
+    "historical_max_jobs": 419,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -393,7 +393,7 @@
   },
   "Notion": {
     "date": "2026-08-13",
-    "today_max_jobs": 128,
+    "today_max_jobs": 129,
     "today_last_error": null,
     "historical_max_jobs": 129,
     "consecutive_bad_days": 0,
@@ -473,9 +473,9 @@
   },
   "Zoox": {
     "date": "2026-08-13",
-    "today_max_jobs": 242,
+    "today_max_jobs": 243,
     "today_last_error": null,
-    "historical_max_jobs": 242,
+    "historical_max_jobs": 243,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -665,7 +665,7 @@
   },
   "xAI": {
     "date": "2026-08-13",
-    "today_max_jobs": 216,
+    "today_max_jobs": 217,
     "today_last_error": null,
     "historical_max_jobs": 220,
     "consecutive_bad_days": 0,
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-08-13",
-    "today_max_jobs": 389,
+    "today_max_jobs": 391,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-08-13",
-    "today_max_jobs": 2164,
+    "today_max_jobs": 2166,
     "today_last_error": null,
-    "historical_max_jobs": 2164,
+    "historical_max_jobs": 2166,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -873,9 +873,9 @@
   },
   "Dexterity": {
     "date": "2026-08-13",
-    "today_max_jobs": 29,
+    "today_max_jobs": 30,
     "today_last_error": null,
-    "historical_max_jobs": 29,
+    "historical_max_jobs": 30,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1009,7 +1009,7 @@
   },
   "Sierra AI": {
     "date": "2026-08-13",
-    "today_max_jobs": 189,
+    "today_max_jobs": 190,
     "today_last_error": null,
     "historical_max_jobs": 194,
     "consecutive_bad_days": 0,
