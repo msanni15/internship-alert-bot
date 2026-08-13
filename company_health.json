@@ -225,7 +225,7 @@
   },
   "Marvell": {
     "date": "2026-08-13",
-    "today_max_jobs": 399,
+    "today_max_jobs": 401,
     "today_last_error": null,
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
