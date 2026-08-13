@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-08-13",
-    "today_max_jobs": 361,
+    "today_max_jobs": 362,
     "today_last_error": null,
     "historical_max_jobs": 376,
     "consecutive_bad_days": 0,
@@ -273,7 +273,7 @@
   },
   "Roblox": {
     "date": "2026-08-13",
-    "today_max_jobs": 223,
+    "today_max_jobs": 224,
     "today_last_error": null,
     "historical_max_jobs": 224,
     "consecutive_bad_days": 0,
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-08-13",
-    "today_max_jobs": 729,
+    "today_max_jobs": 731,
     "today_last_error": null,
     "historical_max_jobs": 752,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-13",
-    "today_max_jobs": 414,
+    "today_max_jobs": 415,
     "today_last_error": null,
-    "historical_max_jobs": 414,
+    "historical_max_jobs": 415,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -425,7 +425,7 @@
   },
   "Robinhood": {
     "date": "2026-08-13",
-    "today_max_jobs": 121,
+    "today_max_jobs": 122,
     "today_last_error": null,
     "historical_max_jobs": 139,
     "consecutive_bad_days": 0,
@@ -657,7 +657,7 @@
   },
   "Apptronik": {
     "date": "2026-08-13",
-    "today_max_jobs": 78,
+    "today_max_jobs": 79,
     "today_last_error": null,
     "historical_max_jobs": 84,
     "consecutive_bad_days": 0,
@@ -705,9 +705,9 @@
   },
   "Squarepoint Capital": {
     "date": "2026-08-13",
-    "today_max_jobs": 88,
+    "today_max_jobs": 90,
     "today_last_error": null,
-    "historical_max_jobs": 89,
+    "historical_max_jobs": 90,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-08-13",
-    "today_max_jobs": 2152,
+    "today_max_jobs": 2159,
     "today_last_error": null,
     "historical_max_jobs": 2159,
     "consecutive_bad_days": 0,
@@ -881,7 +881,7 @@
   },
   "Nimble Robotics": {
     "date": "2026-08-13",
-    "today_max_jobs": 26,
+    "today_max_jobs": 27,
     "today_last_error": null,
     "historical_max_jobs": 30,
     "consecutive_bad_days": 0,
@@ -929,7 +929,7 @@
   },
   "Locus Robotics": {
     "date": "2026-08-13",
-    "today_max_jobs": 8,
+    "today_max_jobs": 9,
     "today_last_error": null,
     "historical_max_jobs": 9,
     "consecutive_bad_days": 0,
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-08-13",
-    "today_max_jobs": 1063,
+    "today_max_jobs": 1064,
     "today_last_error": null,
     "historical_max_jobs": 1078,
     "consecutive_bad_days": 0,
