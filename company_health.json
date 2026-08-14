@@ -193,9 +193,9 @@
   },
   "TransMarket Group": {
     "date": "2026-08-14",
-    "today_max_jobs": 17,
+    "today_max_jobs": 18,
     "today_last_error": null,
-    "historical_max_jobs": 17,
+    "historical_max_jobs": 18,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -289,9 +289,9 @@
   },
   "Stripe": {
     "date": "2026-08-14",
-    "today_max_jobs": 570,
+    "today_max_jobs": 573,
     "today_last_error": null,
-    "historical_max_jobs": 570,
+    "historical_max_jobs": 573,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -417,7 +417,7 @@
   },
   "Plaid": {
     "date": "2026-08-14",
-    "today_max_jobs": 103,
+    "today_max_jobs": 104,
     "today_last_error": null,
     "historical_max_jobs": 112,
     "consecutive_bad_days": 0,
@@ -425,7 +425,7 @@
   },
   "Robinhood": {
     "date": "2026-08-14",
-    "today_max_jobs": 124,
+    "today_max_jobs": 125,
     "today_last_error": null,
     "historical_max_jobs": 139,
     "consecutive_bad_days": 0,
@@ -753,7 +753,7 @@
   },
   "Cloudflare": {
     "date": "2026-08-14",
-    "today_max_jobs": 301,
+    "today_max_jobs": 304,
     "today_last_error": null,
     "historical_max_jobs": 307,
     "consecutive_bad_days": 0,
@@ -977,9 +977,9 @@
   },
   "AMD": {
     "date": "2026-08-14",
-    "today_max_jobs": 1110,
+    "today_max_jobs": 1155,
     "today_last_error": null,
-    "historical_max_jobs": 1110,
+    "historical_max_jobs": 1155,
     "consecutive_bad_days": 0,
     "alerted": false
   },
