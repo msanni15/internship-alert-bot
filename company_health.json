@@ -289,9 +289,9 @@
   },
   "Stripe": {
     "date": "2026-08-14",
-    "today_max_jobs": 573,
+    "today_max_jobs": 574,
     "today_last_error": null,
-    "historical_max_jobs": 573,
+    "historical_max_jobs": 574,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -337,7 +337,7 @@
   },
   "Scale AI": {
     "date": "2026-08-14",
-    "today_max_jobs": 210,
+    "today_max_jobs": 212,
     "today_last_error": null,
     "historical_max_jobs": 220,
     "consecutive_bad_days": 0,
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-08-14",
-    "today_max_jobs": 734,
+    "today_max_jobs": 736,
     "today_last_error": null,
     "historical_max_jobs": 752,
     "consecutive_bad_days": 0,
@@ -385,7 +385,7 @@
   },
   "Figma": {
     "date": "2026-08-14",
-    "today_max_jobs": 160,
+    "today_max_jobs": 161,
     "today_last_error": null,
     "historical_max_jobs": 177,
     "consecutive_bad_days": 0,
@@ -473,7 +473,7 @@
   },
   "Zoox": {
     "date": "2026-08-14",
-    "today_max_jobs": 240,
+    "today_max_jobs": 241,
     "today_last_error": null,
     "historical_max_jobs": 243,
     "consecutive_bad_days": 0,
@@ -497,7 +497,7 @@
   },
   "Skydio": {
     "date": "2026-08-14",
-    "today_max_jobs": 109,
+    "today_max_jobs": 110,
     "today_last_error": null,
     "historical_max_jobs": 115,
     "consecutive_bad_days": 0,
@@ -521,7 +521,7 @@
   },
   "Figure AI": {
     "date": "2026-08-14",
-    "today_max_jobs": 126,
+    "today_max_jobs": 127,
     "today_last_error": null,
     "historical_max_jobs": 129,
     "consecutive_bad_days": 0,
@@ -665,7 +665,7 @@
   },
   "xAI": {
     "date": "2026-08-14",
-    "today_max_jobs": 216,
+    "today_max_jobs": 220,
     "today_last_error": null,
     "historical_max_jobs": 220,
     "consecutive_bad_days": 0,
@@ -753,7 +753,7 @@
   },
   "Cloudflare": {
     "date": "2026-08-14",
-    "today_max_jobs": 304,
+    "today_max_jobs": 305,
     "today_last_error": null,
     "historical_max_jobs": 307,
     "consecutive_bad_days": 0,
