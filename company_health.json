@@ -33,7 +33,7 @@
   },
   "Jump Trading": {
     "date": "2026-08-14",
-    "today_max_jobs": 104,
+    "today_max_jobs": 105,
     "today_last_error": null,
     "historical_max_jobs": 106,
     "consecutive_bad_days": 0,
@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-08-14",
-    "today_max_jobs": 300,
+    "today_max_jobs": 318,
     "today_last_error": null,
     "historical_max_jobs": 360,
     "consecutive_bad_days": 0,
@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-08-14",
-    "today_max_jobs": 260,
+    "today_max_jobs": 399,
     "today_last_error": null,
     "historical_max_jobs": 448,
     "consecutive_bad_days": 0,
@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-08-14",
-    "today_max_jobs": 361,
+    "today_max_jobs": 362,
     "today_last_error": null,
     "historical_max_jobs": 376,
     "consecutive_bad_days": 0,
@@ -289,15 +289,15 @@
   },
   "Stripe": {
     "date": "2026-08-14",
-    "today_max_jobs": 566,
+    "today_max_jobs": 568,
     "today_last_error": null,
-    "historical_max_jobs": 567,
+    "historical_max_jobs": 568,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Airbnb": {
     "date": "2026-08-14",
-    "today_max_jobs": 183,
+    "today_max_jobs": 184,
     "today_last_error": null,
     "historical_max_jobs": 197,
     "consecutive_bad_days": 0,
@@ -561,7 +561,7 @@
   },
   "Motional": {
     "date": "2026-08-14",
-    "today_max_jobs": 80,
+    "today_max_jobs": 82,
     "today_last_error": null,
     "historical_max_jobs": 82,
     "consecutive_bad_days": 0,
@@ -713,7 +713,7 @@
   },
   "QRT": {
     "date": "2026-08-14",
-    "today_max_jobs": 195,
+    "today_max_jobs": 196,
     "today_last_error": null,
     "historical_max_jobs": 199,
     "consecutive_bad_days": 0,
