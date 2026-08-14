@@ -273,9 +273,9 @@
   },
   "Roblox": {
     "date": "2026-08-13",
-    "today_max_jobs": 227,
+    "today_max_jobs": 228,
     "today_last_error": null,
-    "historical_max_jobs": 227,
+    "historical_max_jobs": 228,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -297,7 +297,7 @@
   },
   "Airbnb": {
     "date": "2026-08-13",
-    "today_max_jobs": 185,
+    "today_max_jobs": 186,
     "today_last_error": null,
     "historical_max_jobs": 197,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-13",
-    "today_max_jobs": 425,
+    "today_max_jobs": 426,
     "today_last_error": null,
-    "historical_max_jobs": 425,
+    "historical_max_jobs": 426,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -369,7 +369,7 @@
   },
   "Cursor / Anysphere": {
     "date": "2026-08-13",
-    "today_max_jobs": 114,
+    "today_max_jobs": 115,
     "today_last_error": null,
     "historical_max_jobs": 119,
     "consecutive_bad_days": 0,
@@ -521,7 +521,7 @@
   },
   "Figure AI": {
     "date": "2026-08-13",
-    "today_max_jobs": 125,
+    "today_max_jobs": 126,
     "today_last_error": null,
     "historical_max_jobs": 129,
     "consecutive_bad_days": 0,
