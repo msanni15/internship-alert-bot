@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-08-14",
-    "today_max_jobs": 741,
+    "today_max_jobs": 744,
     "today_last_error": null,
     "historical_max_jobs": 752,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-14",
-    "today_max_jobs": 432,
+    "today_max_jobs": 437,
     "today_last_error": null,
-    "historical_max_jobs": 432,
+    "historical_max_jobs": 437,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -377,9 +377,9 @@
   },
   "Applied Intuition": {
     "date": "2026-08-14",
-    "today_max_jobs": 273,
+    "today_max_jobs": 275,
     "today_last_error": null,
-    "historical_max_jobs": 273,
+    "historical_max_jobs": 275,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -433,7 +433,7 @@
   },
   "Coinbase": {
     "date": "2026-08-14",
-    "today_max_jobs": 165,
+    "today_max_jobs": 166,
     "today_last_error": null,
     "historical_max_jobs": 175,
     "consecutive_bad_days": 0,
@@ -649,9 +649,9 @@
   },
   "Physical Intelligence": {
     "date": "2026-08-14",
-    "today_max_jobs": 30,
+    "today_max_jobs": 31,
     "today_last_error": null,
-    "historical_max_jobs": 30,
+    "historical_max_jobs": 31,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -665,9 +665,9 @@
   },
   "xAI": {
     "date": "2026-08-14",
-    "today_max_jobs": 220,
+    "today_max_jobs": 221,
     "today_last_error": null,
-    "historical_max_jobs": 220,
+    "historical_max_jobs": 221,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -761,7 +761,7 @@
   },
   "Neuralink": {
     "date": "2026-08-14",
-    "today_max_jobs": 77,
+    "today_max_jobs": 78,
     "today_last_error": null,
     "historical_max_jobs": 83,
     "consecutive_bad_days": 0,
