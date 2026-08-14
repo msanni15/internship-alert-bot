@@ -289,9 +289,9 @@
   },
   "Stripe": {
     "date": "2026-08-14",
-    "today_max_jobs": 574,
+    "today_max_jobs": 576,
     "today_last_error": null,
-    "historical_max_jobs": 574,
+    "historical_max_jobs": 576,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -481,9 +481,9 @@
   },
   "Nuro": {
     "date": "2026-08-14",
-    "today_max_jobs": 107,
+    "today_max_jobs": 108,
     "today_last_error": null,
-    "historical_max_jobs": 107,
+    "historical_max_jobs": 108,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -785,7 +785,7 @@
   },
   "Etched": {
     "date": "2026-08-14",
-    "today_max_jobs": 109,
+    "today_max_jobs": 110,
     "today_last_error": null,
     "historical_max_jobs": 110,
     "consecutive_bad_days": 0,
