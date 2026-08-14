@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-08-14",
-    "today_max_jobs": 399,
+    "today_max_jobs": 401,
     "today_last_error": null,
     "historical_max_jobs": 448,
     "consecutive_bad_days": 0,
@@ -297,7 +297,7 @@
   },
   "Airbnb": {
     "date": "2026-08-14",
-    "today_max_jobs": 186,
+    "today_max_jobs": 187,
     "today_last_error": null,
     "historical_max_jobs": 197,
     "consecutive_bad_days": 0,
@@ -321,7 +321,7 @@
   },
   "Pinterest": {
     "date": "2026-08-14",
-    "today_max_jobs": 217,
+    "today_max_jobs": 219,
     "today_last_error": null,
     "historical_max_jobs": 226,
     "consecutive_bad_days": 0,
@@ -337,7 +337,7 @@
   },
   "Scale AI": {
     "date": "2026-08-14",
-    "today_max_jobs": 212,
+    "today_max_jobs": 213,
     "today_last_error": null,
     "historical_max_jobs": 220,
     "consecutive_bad_days": 0,
@@ -473,7 +473,7 @@
   },
   "Zoox": {
     "date": "2026-08-14",
-    "today_max_jobs": 241,
+    "today_max_jobs": 242,
     "today_last_error": null,
     "historical_max_jobs": 243,
     "consecutive_bad_days": 0,
@@ -569,7 +569,7 @@
   },
   "WeRide": {
     "date": "2026-08-14",
-    "today_max_jobs": 28,
+    "today_max_jobs": 30,
     "today_last_error": null,
     "historical_max_jobs": 31,
     "consecutive_bad_days": 0,
@@ -577,7 +577,7 @@
   },
   "FieldAI": {
     "date": "2026-08-14",
-    "today_max_jobs": 126,
+    "today_max_jobs": 127,
     "today_last_error": null,
     "historical_max_jobs": 129,
     "consecutive_bad_days": 0,
