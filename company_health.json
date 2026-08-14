@@ -33,7 +33,7 @@
   },
   "Jump Trading": {
     "date": "2026-08-14",
-    "today_max_jobs": 105,
+    "today_max_jobs": 106,
     "today_last_error": null,
     "historical_max_jobs": 106,
     "consecutive_bad_days": 0,
@@ -321,7 +321,7 @@
   },
   "Pinterest": {
     "date": "2026-08-14",
-    "today_max_jobs": 219,
+    "today_max_jobs": 220,
     "today_last_error": null,
     "historical_max_jobs": 226,
     "consecutive_bad_days": 0,
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-08-14",
-    "today_max_jobs": 736,
+    "today_max_jobs": 738,
     "today_last_error": null,
     "historical_max_jobs": 752,
     "consecutive_bad_days": 0,
@@ -393,9 +393,9 @@
   },
   "Notion": {
     "date": "2026-08-14",
-    "today_max_jobs": 130,
+    "today_max_jobs": 133,
     "today_last_error": null,
-    "historical_max_jobs": 130,
+    "historical_max_jobs": 133,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -473,7 +473,7 @@
   },
   "Zoox": {
     "date": "2026-08-14",
-    "today_max_jobs": 242,
+    "today_max_jobs": 243,
     "today_last_error": null,
     "historical_max_jobs": 243,
     "consecutive_bad_days": 0,
@@ -529,7 +529,7 @@
   },
   "Boston Dynamics": {
     "date": "2026-08-14",
-    "today_max_jobs": 66,
+    "today_max_jobs": 67,
     "today_last_error": null,
     "historical_max_jobs": 70,
     "consecutive_bad_days": 0,
