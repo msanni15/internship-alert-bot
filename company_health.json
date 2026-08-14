@@ -273,9 +273,9 @@
   },
   "Roblox": {
     "date": "2026-08-13",
-    "today_max_jobs": 225,
+    "today_max_jobs": 227,
     "today_last_error": null,
-    "historical_max_jobs": 225,
+    "historical_max_jobs": 227,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-13",
-    "today_max_jobs": 421,
+    "today_max_jobs": 423,
     "today_last_error": null,
-    "historical_max_jobs": 421,
+    "historical_max_jobs": 423,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -377,9 +377,9 @@
   },
   "Applied Intuition": {
     "date": "2026-08-13",
-    "today_max_jobs": 268,
+    "today_max_jobs": 269,
     "today_last_error": null,
-    "historical_max_jobs": 268,
+    "historical_max_jobs": 269,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-08-13",
-    "today_max_jobs": 392,
+    "today_max_jobs": 393,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
