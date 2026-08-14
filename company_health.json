@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-08-14",
-    "today_max_jobs": 801,
+    "today_max_jobs": 802,
     "today_last_error": null,
     "historical_max_jobs": 823,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-14",
-    "today_max_jobs": 426,
+    "today_max_jobs": 427,
     "today_last_error": null,
-    "historical_max_jobs": 426,
+    "historical_max_jobs": 427,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -425,7 +425,7 @@
   },
   "Robinhood": {
     "date": "2026-08-14",
-    "today_max_jobs": 125,
+    "today_max_jobs": 126,
     "today_last_error": null,
     "historical_max_jobs": 139,
     "consecutive_bad_days": 0,
@@ -1129,9 +1129,9 @@
   },
   "Bright Machines": {
     "date": "2026-08-14",
-    "today_max_jobs": 13,
+    "today_max_jobs": 14,
     "today_last_error": null,
-    "historical_max_jobs": 13,
+    "historical_max_jobs": 14,
     "consecutive_bad_days": 0,
     "alerted": false
   }
