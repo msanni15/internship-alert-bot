@@ -161,9 +161,9 @@
   },
   "Flow Traders": {
     "date": "2026-08-13",
-    "today_max_jobs": 45,
+    "today_max_jobs": 46,
     "today_last_error": null,
-    "historical_max_jobs": 45,
+    "historical_max_jobs": 46,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-13",
-    "today_max_jobs": 423,
+    "today_max_jobs": 425,
     "today_last_error": null,
-    "historical_max_jobs": 423,
+    "historical_max_jobs": 425,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -377,9 +377,9 @@
   },
   "Applied Intuition": {
     "date": "2026-08-13",
-    "today_max_jobs": 269,
+    "today_max_jobs": 272,
     "today_last_error": null,
-    "historical_max_jobs": 269,
+    "historical_max_jobs": 272,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -505,7 +505,7 @@
   },
   "Zipline": {
     "date": "2026-08-13",
-    "today_max_jobs": 266,
+    "today_max_jobs": 267,
     "today_last_error": null,
     "historical_max_jobs": 268,
     "consecutive_bad_days": 0,
@@ -857,9 +857,9 @@
   },
   "Wing": {
     "date": "2026-08-13",
-    "today_max_jobs": 47,
+    "today_max_jobs": 48,
     "today_last_error": null,
-    "historical_max_jobs": 47,
+    "historical_max_jobs": 48,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-08-13",
-    "today_max_jobs": 1065,
+    "today_max_jobs": 1066,
     "today_last_error": null,
     "historical_max_jobs": 1078,
     "consecutive_bad_days": 0,
