@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-08-14",
-    "today_max_jobs": 802,
+    "today_max_jobs": 809,
     "today_last_error": null,
     "historical_max_jobs": 823,
     "consecutive_bad_days": 0,
@@ -321,7 +321,7 @@
   },
   "Pinterest": {
     "date": "2026-08-14",
-    "today_max_jobs": 220,
+    "today_max_jobs": 221,
     "today_last_error": null,
     "historical_max_jobs": 226,
     "consecutive_bad_days": 0,
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-08-14",
-    "today_max_jobs": 738,
+    "today_max_jobs": 740,
     "today_last_error": null,
     "historical_max_jobs": 752,
     "consecutive_bad_days": 0,
@@ -497,7 +497,7 @@
   },
   "Skydio": {
     "date": "2026-08-14",
-    "today_max_jobs": 110,
+    "today_max_jobs": 111,
     "today_last_error": null,
     "historical_max_jobs": 115,
     "consecutive_bad_days": 0,
