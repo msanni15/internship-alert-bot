@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-08-15",
-    "today_max_jobs": 402,
+    "today_max_jobs": 444,
     "today_last_error": "Intel: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 448,
     "consecutive_bad_days": 0,
@@ -1081,7 +1081,7 @@
   },
   "Outrider": {
     "date": "2026-08-15",
-    "today_max_jobs": 9,
+    "today_max_jobs": 10,
     "today_last_error": null,
     "historical_max_jobs": 11,
     "consecutive_bad_days": 0,
