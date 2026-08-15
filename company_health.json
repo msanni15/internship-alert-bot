@@ -361,9 +361,9 @@
   },
   "Perplexity": {
     "date": "2026-08-14",
-    "today_max_jobs": 99,
+    "today_max_jobs": 100,
     "today_last_error": null,
-    "historical_max_jobs": 99,
+    "historical_max_jobs": 100,
     "consecutive_bad_days": 0,
     "alerted": false
   },
