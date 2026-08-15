@@ -305,7 +305,7 @@
   },
   "Uber": {
     "date": "2026-08-14",
-    "today_max_jobs": 42,
+    "today_max_jobs": 43,
     "today_last_error": null,
     "historical_max_jobs": 44,
     "consecutive_bad_days": 0,
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-08-14",
-    "today_max_jobs": 746,
+    "today_max_jobs": 747,
     "today_last_error": null,
     "historical_max_jobs": 752,
     "consecutive_bad_days": 0,
