@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-15",
-    "today_max_jobs": 440,
+    "today_max_jobs": 441,
     "today_last_error": null,
-    "historical_max_jobs": 440,
+    "historical_max_jobs": 441,
     "consecutive_bad_days": 0,
     "alerted": false
   },
