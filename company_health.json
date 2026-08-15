@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-08-15",
-    "today_max_jobs": 0,
+    "today_max_jobs": 320,
     "today_last_error": "NVIDIA: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 360,
     "consecutive_bad_days": 0,
@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-08-15",
-    "today_max_jobs": 0,
+    "today_max_jobs": 340,
     "today_last_error": "Intel: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 448,
     "consecutive_bad_days": 0,
@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-08-15",
-    "today_max_jobs": 0,
+    "today_max_jobs": 356,
     "today_last_error": "Broadcom: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 376,
     "consecutive_bad_days": 0,
@@ -225,7 +225,7 @@
   },
   "Marvell": {
     "date": "2026-08-15",
-    "today_max_jobs": 0,
+    "today_max_jobs": 322,
     "today_last_error": "Marvell: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
@@ -329,7 +329,7 @@
   },
   "Snap": {
     "date": "2026-08-15",
-    "today_max_jobs": 177,
+    "today_max_jobs": 178,
     "today_last_error": null,
     "historical_max_jobs": 183,
     "consecutive_bad_days": 0,
@@ -529,7 +529,7 @@
   },
   "Boston Dynamics": {
     "date": "2026-08-15",
-    "today_max_jobs": 0,
+    "today_max_jobs": 67,
     "today_last_error": "Boston Dynamics: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 70,
     "consecutive_bad_days": 0,
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-08-15",
-    "today_max_jobs": 0,
+    "today_max_jobs": 337,
     "today_last_error": "Cadence: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 465,
     "consecutive_bad_days": 0,
