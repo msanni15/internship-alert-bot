@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-08-14",
-    "today_max_jobs": 401,
+    "today_max_jobs": 403,
     "today_last_error": null,
     "historical_max_jobs": 448,
     "consecutive_bad_days": 0,
@@ -273,9 +273,9 @@
   },
   "Roblox": {
     "date": "2026-08-14",
-    "today_max_jobs": 229,
+    "today_max_jobs": 230,
     "today_last_error": null,
-    "historical_max_jobs": 229,
+    "historical_max_jobs": 230,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -313,7 +313,7 @@
   },
   "DoorDash": {
     "date": "2026-08-14",
-    "today_max_jobs": 467,
+    "today_max_jobs": 468,
     "today_last_error": null,
     "historical_max_jobs": 473,
     "consecutive_bad_days": 0,
@@ -321,7 +321,7 @@
   },
   "Pinterest": {
     "date": "2026-08-14",
-    "today_max_jobs": 221,
+    "today_max_jobs": 222,
     "today_last_error": null,
     "historical_max_jobs": 226,
     "consecutive_bad_days": 0,
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-08-14",
-    "today_max_jobs": 744,
+    "today_max_jobs": 746,
     "today_last_error": null,
     "historical_max_jobs": 752,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-14",
-    "today_max_jobs": 437,
+    "today_max_jobs": 440,
     "today_last_error": null,
-    "historical_max_jobs": 437,
+    "historical_max_jobs": 440,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -385,7 +385,7 @@
   },
   "Figma": {
     "date": "2026-08-14",
-    "today_max_jobs": 161,
+    "today_max_jobs": 162,
     "today_last_error": null,
     "historical_max_jobs": 177,
     "consecutive_bad_days": 0,
@@ -433,7 +433,7 @@
   },
   "Coinbase": {
     "date": "2026-08-14",
-    "today_max_jobs": 166,
+    "today_max_jobs": 167,
     "today_last_error": null,
     "historical_max_jobs": 175,
     "consecutive_bad_days": 0,
@@ -665,9 +665,9 @@
   },
   "xAI": {
     "date": "2026-08-14",
-    "today_max_jobs": 221,
+    "today_max_jobs": 226,
     "today_last_error": null,
-    "historical_max_jobs": 221,
+    "historical_max_jobs": 226,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -689,9 +689,9 @@
   },
   "Cerebras": {
     "date": "2026-08-14",
-    "today_max_jobs": 125,
+    "today_max_jobs": 126,
     "today_last_error": null,
-    "historical_max_jobs": 125,
+    "historical_max_jobs": 126,
     "consecutive_bad_days": 0,
     "alerted": false
   },
