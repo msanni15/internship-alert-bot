@@ -97,9 +97,9 @@
   },
   "Wolverine Trading": {
     "date": "2026-08-15",
-    "today_max_jobs": 12,
+    "today_max_jobs": 13,
     "today_last_error": null,
-    "historical_max_jobs": 12,
+    "historical_max_jobs": 13,
     "consecutive_bad_days": 0,
     "alerted": false
   },
