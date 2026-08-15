@@ -289,9 +289,9 @@
   },
   "Stripe": {
     "date": "2026-08-14",
-    "today_max_jobs": 576,
+    "today_max_jobs": 578,
     "today_last_error": null,
-    "historical_max_jobs": 576,
+    "historical_max_jobs": 578,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -313,7 +313,7 @@
   },
   "DoorDash": {
     "date": "2026-08-14",
-    "today_max_jobs": 468,
+    "today_max_jobs": 469,
     "today_last_error": null,
     "historical_max_jobs": 473,
     "consecutive_bad_days": 0,
