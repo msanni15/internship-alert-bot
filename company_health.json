@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-08-15",
-    "today_max_jobs": 320,
+    "today_max_jobs": 340,
     "today_last_error": "NVIDIA: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 360,
     "consecutive_bad_days": 0,
@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-08-15",
-    "today_max_jobs": 340,
+    "today_max_jobs": 400,
     "today_last_error": "Intel: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 448,
     "consecutive_bad_days": 0,
@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-08-15",
-    "today_max_jobs": 809,
+    "today_max_jobs": 810,
     "today_last_error": null,
     "historical_max_jobs": 823,
     "consecutive_bad_days": 0,
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-08-15",
-    "today_max_jobs": 337,
+    "today_max_jobs": 442,
     "today_last_error": "Cadence: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 465,
     "consecutive_bad_days": 0,
