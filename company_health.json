@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-08-15",
-    "today_max_jobs": 1150,
+    "today_max_jobs": 1152,
     "today_last_error": null,
     "historical_max_jobs": 1155,
     "consecutive_bad_days": 0,
