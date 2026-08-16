@@ -881,7 +881,7 @@
   },
   "Nimble Robotics": {
     "date": "2026-08-16",
-    "today_max_jobs": 26,
+    "today_max_jobs": 27,
     "today_last_error": null,
     "historical_max_jobs": 30,
     "consecutive_bad_days": 0,
