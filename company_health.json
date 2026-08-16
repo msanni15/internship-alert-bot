@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-08-15",
-    "today_max_jobs": 480,
+    "today_max_jobs": 540,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
