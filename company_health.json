@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-08-16",
-    "today_max_jobs": 340,
+    "today_max_jobs": 360,
     "today_last_error": null,
     "historical_max_jobs": 380,
     "consecutive_bad_days": 0,
@@ -433,7 +433,7 @@
   },
   "Coinbase": {
     "date": "2026-08-16",
-    "today_max_jobs": 167,
+    "today_max_jobs": 169,
     "today_last_error": null,
     "historical_max_jobs": 175,
     "consecutive_bad_days": 0,
