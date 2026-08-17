@@ -777,7 +777,7 @@
   },
   "Rocket Lab": {
     "date": "2026-08-16",
-    "today_max_jobs": 405,
+    "today_max_jobs": 406,
     "today_last_error": null,
     "historical_max_jobs": 407,
     "consecutive_bad_days": 0,
