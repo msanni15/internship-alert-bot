@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-08-16",
-    "today_max_jobs": 389,
+    "today_max_jobs": 390,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
@@ -753,7 +753,7 @@
   },
   "Cloudflare": {
     "date": "2026-08-16",
-    "today_max_jobs": 305,
+    "today_max_jobs": 306,
     "today_last_error": null,
     "historical_max_jobs": 307,
     "consecutive_bad_days": 0,
