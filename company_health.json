@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-17",
-    "today_max_jobs": 453,
+    "today_max_jobs": 459,
     "today_last_error": null,
-    "historical_max_jobs": 453,
+    "historical_max_jobs": 459,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -369,7 +369,7 @@
   },
   "Cursor / Anysphere": {
     "date": "2026-08-17",
-    "today_max_jobs": 115,
+    "today_max_jobs": 116,
     "today_last_error": null,
     "historical_max_jobs": 119,
     "consecutive_bad_days": 0,
@@ -377,15 +377,15 @@
   },
   "Applied Intuition": {
     "date": "2026-08-17",
-    "today_max_jobs": 280,
+    "today_max_jobs": 283,
     "today_last_error": null,
-    "historical_max_jobs": 280,
+    "historical_max_jobs": 283,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Figma": {
     "date": "2026-08-17",
-    "today_max_jobs": 163,
+    "today_max_jobs": 164,
     "today_last_error": null,
     "historical_max_jobs": 177,
     "consecutive_bad_days": 0,
@@ -505,7 +505,7 @@
   },
   "Zipline": {
     "date": "2026-08-17",
-    "today_max_jobs": 261,
+    "today_max_jobs": 263,
     "today_last_error": null,
     "historical_max_jobs": 268,
     "consecutive_bad_days": 0,
@@ -1017,7 +1017,7 @@
   },
   "ElevenLabs": {
     "date": "2026-08-17",
-    "today_max_jobs": 249,
+    "today_max_jobs": 250,
     "today_last_error": null,
     "historical_max_jobs": 250,
     "consecutive_bad_days": 0,
