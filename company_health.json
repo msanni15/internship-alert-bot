@@ -137,9 +137,9 @@
   },
   "Voleon": {
     "date": "2026-08-17",
-    "today_max_jobs": 57,
+    "today_max_jobs": 58,
     "today_last_error": null,
-    "historical_max_jobs": 57,
+    "historical_max_jobs": 58,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -297,7 +297,7 @@
   },
   "Airbnb": {
     "date": "2026-08-17",
-    "today_max_jobs": 192,
+    "today_max_jobs": 193,
     "today_last_error": null,
     "historical_max_jobs": 197,
     "consecutive_bad_days": 0,
@@ -433,7 +433,7 @@
   },
   "Coinbase": {
     "date": "2026-08-17",
-    "today_max_jobs": 169,
+    "today_max_jobs": 170,
     "today_last_error": null,
     "historical_max_jobs": 175,
     "consecutive_bad_days": 0,
@@ -537,7 +537,7 @@
   },
   "Agility Robotics": {
     "date": "2026-08-17",
-    "today_max_jobs": 63,
+    "today_max_jobs": 64,
     "today_last_error": null,
     "historical_max_jobs": 65,
     "consecutive_bad_days": 0,
@@ -665,9 +665,9 @@
   },
   "xAI": {
     "date": "2026-08-17",
-    "today_max_jobs": 227,
+    "today_max_jobs": 231,
     "today_last_error": null,
-    "historical_max_jobs": 227,
+    "historical_max_jobs": 231,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -777,9 +777,9 @@
   },
   "Rocket Lab": {
     "date": "2026-08-17",
-    "today_max_jobs": 408,
+    "today_max_jobs": 409,
     "today_last_error": null,
-    "historical_max_jobs": 408,
+    "historical_max_jobs": 409,
     "consecutive_bad_days": 0,
     "alerted": false
   },
