@@ -41,7 +41,7 @@
   },
   "Optiver": {
     "date": "2026-08-17",
-    "today_max_jobs": 171,
+    "today_max_jobs": 178,
     "today_last_error": null,
     "historical_max_jobs": 178,
     "consecutive_bad_days": 0,
@@ -81,9 +81,9 @@
   },
   "Tower Research": {
     "date": "2026-08-17",
-    "today_max_jobs": 79,
+    "today_max_jobs": 80,
     "today_last_error": null,
-    "historical_max_jobs": 79,
+    "historical_max_jobs": 80,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-17",
-    "today_max_jobs": 442,
+    "today_max_jobs": 444,
     "today_last_error": null,
-    "historical_max_jobs": 442,
+    "historical_max_jobs": 444,
     "consecutive_bad_days": 0,
     "alerted": false
   },
