@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-08-17",
-    "today_max_jobs": 1855,
+    "today_max_jobs": 1856,
     "today_last_error": null,
     "historical_max_jobs": 1881,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-17",
-    "today_max_jobs": 452,
+    "today_max_jobs": 453,
     "today_last_error": null,
-    "historical_max_jobs": 452,
+    "historical_max_jobs": 453,
     "consecutive_bad_days": 0,
     "alerted": false
   },
