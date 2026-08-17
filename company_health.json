@@ -161,7 +161,7 @@
   },
   "Flow Traders": {
     "date": "2026-08-17",
-    "today_max_jobs": 45,
+    "today_max_jobs": 46,
     "today_last_error": null,
     "historical_max_jobs": 46,
     "consecutive_bad_days": 0,
@@ -321,7 +321,7 @@
   },
   "Pinterest": {
     "date": "2026-08-17",
-    "today_max_jobs": 220,
+    "today_max_jobs": 221,
     "today_last_error": null,
     "historical_max_jobs": 226,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-17",
-    "today_max_jobs": 448,
+    "today_max_jobs": 450,
     "today_last_error": null,
-    "historical_max_jobs": 448,
+    "historical_max_jobs": 450,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -377,9 +377,9 @@
   },
   "Applied Intuition": {
     "date": "2026-08-17",
-    "today_max_jobs": 275,
+    "today_max_jobs": 280,
     "today_last_error": null,
-    "historical_max_jobs": 275,
+    "historical_max_jobs": 280,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -625,7 +625,7 @@
   },
   "RIVR": {
     "date": "2026-08-17",
-    "today_max_jobs": 27,
+    "today_max_jobs": 28,
     "today_last_error": null,
     "historical_max_jobs": 28,
     "consecutive_bad_days": 0,
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-08-17",
-    "today_max_jobs": 2097,
+    "today_max_jobs": 2099,
     "today_last_error": null,
     "historical_max_jobs": 2171,
     "consecutive_bad_days": 0,
