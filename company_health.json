@@ -33,9 +33,9 @@
   },
   "Jump Trading": {
     "date": "2026-08-17",
-    "today_max_jobs": 106,
+    "today_max_jobs": 107,
     "today_last_error": null,
-    "historical_max_jobs": 106,
+    "historical_max_jobs": 107,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-08-17",
-    "today_max_jobs": 807,
+    "today_max_jobs": 811,
     "today_last_error": null,
     "historical_max_jobs": 823,
     "consecutive_bad_days": 0,
@@ -329,7 +329,7 @@
   },
   "Snap": {
     "date": "2026-08-17",
-    "today_max_jobs": 6,
+    "today_max_jobs": 20,
     "today_last_error": null,
     "historical_max_jobs": 183,
     "consecutive_bad_days": 0,
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-08-17",
-    "today_max_jobs": 320,
+    "today_max_jobs": 380,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -753,7 +753,7 @@
   },
   "Cloudflare": {
     "date": "2026-08-17",
-    "today_max_jobs": 304,
+    "today_max_jobs": 306,
     "today_last_error": null,
     "historical_max_jobs": 307,
     "consecutive_bad_days": 0,
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-08-17",
-    "today_max_jobs": 457,
+    "today_max_jobs": 459,
     "today_last_error": null,
     "historical_max_jobs": 465,
     "consecutive_bad_days": 0,
@@ -1009,7 +1009,7 @@
   },
   "Sierra AI": {
     "date": "2026-08-17",
-    "today_max_jobs": 191,
+    "today_max_jobs": 192,
     "today_last_error": null,
     "historical_max_jobs": 194,
     "consecutive_bad_days": 0,
@@ -1017,7 +1017,7 @@
   },
   "ElevenLabs": {
     "date": "2026-08-17",
-    "today_max_jobs": 244,
+    "today_max_jobs": 245,
     "today_last_error": null,
     "historical_max_jobs": 250,
     "consecutive_bad_days": 0,
