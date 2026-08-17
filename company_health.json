@@ -225,7 +225,7 @@
   },
   "Marvell": {
     "date": "2026-08-17",
-    "today_max_jobs": 367,
+    "today_max_jobs": 382,
     "today_last_error": null,
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
@@ -385,7 +385,7 @@
   },
   "Figma": {
     "date": "2026-08-17",
-    "today_max_jobs": 162,
+    "today_max_jobs": 163,
     "today_last_error": null,
     "historical_max_jobs": 177,
     "consecutive_bad_days": 0,
@@ -1033,7 +1033,7 @@
   },
   "Luma AI": {
     "date": "2026-08-17",
-    "today_max_jobs": 50,
+    "today_max_jobs": 51,
     "today_last_error": null,
     "historical_max_jobs": 51,
     "consecutive_bad_days": 0,
