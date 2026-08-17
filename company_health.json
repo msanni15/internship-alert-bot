@@ -49,7 +49,7 @@
   },
   "IMC": {
     "date": "2026-08-17",
-    "today_max_jobs": 165,
+    "today_max_jobs": 166,
     "today_last_error": null,
     "historical_max_jobs": 171,
     "consecutive_bad_days": 0,
@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-08-17",
-    "today_max_jobs": 1844,
+    "today_max_jobs": 1850,
     "today_last_error": null,
     "historical_max_jobs": 1881,
     "consecutive_bad_days": 0,
@@ -385,7 +385,7 @@
   },
   "Figma": {
     "date": "2026-08-17",
-    "today_max_jobs": 161,
+    "today_max_jobs": 162,
     "today_last_error": null,
     "historical_max_jobs": 177,
     "consecutive_bad_days": 0,
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-08-17",
-    "today_max_jobs": 2101,
+    "today_max_jobs": 2103,
     "today_last_error": null,
     "historical_max_jobs": 2171,
     "consecutive_bad_days": 0,
@@ -1041,9 +1041,9 @@
   },
   "Together AI": {
     "date": "2026-08-17",
-    "today_max_jobs": 60,
+    "today_max_jobs": 61,
     "today_last_error": null,
-    "historical_max_jobs": 60,
+    "historical_max_jobs": 61,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1065,9 +1065,9 @@
   },
   "Fireworks AI": {
     "date": "2026-08-17",
-    "today_max_jobs": 60,
+    "today_max_jobs": 61,
     "today_last_error": null,
-    "historical_max_jobs": 60,
+    "historical_max_jobs": 61,
     "consecutive_bad_days": 0,
     "alerted": false
   },
