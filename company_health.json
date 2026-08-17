@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-08-17",
-    "today_max_jobs": 280,
+    "today_max_jobs": 300,
     "today_last_error": null,
     "historical_max_jobs": 380,
     "consecutive_bad_days": 0,
@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-08-17",
-    "today_max_jobs": 400,
+    "today_max_jobs": 417,
     "today_last_error": null,
     "historical_max_jobs": 448,
     "consecutive_bad_days": 0,
@@ -377,7 +377,7 @@
   },
   "Applied Intuition": {
     "date": "2026-08-17",
-    "today_max_jobs": 274,
+    "today_max_jobs": 275,
     "today_last_error": null,
     "historical_max_jobs": 275,
     "consecutive_bad_days": 0,
@@ -705,9 +705,9 @@
   },
   "Squarepoint Capital": {
     "date": "2026-08-17",
-    "today_max_jobs": 90,
+    "today_max_jobs": 91,
     "today_last_error": null,
-    "historical_max_jobs": 90,
+    "historical_max_jobs": 91,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-08-17",
-    "today_max_jobs": 380,
+    "today_max_jobs": 400,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
