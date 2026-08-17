@@ -297,7 +297,7 @@
   },
   "Airbnb": {
     "date": "2026-08-17",
-    "today_max_jobs": 191,
+    "today_max_jobs": 192,
     "today_last_error": null,
     "historical_max_jobs": 197,
     "consecutive_bad_days": 0,
@@ -361,9 +361,9 @@
   },
   "Perplexity": {
     "date": "2026-08-17",
-    "today_max_jobs": 100,
+    "today_max_jobs": 101,
     "today_last_error": null,
-    "historical_max_jobs": 100,
+    "historical_max_jobs": 101,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -777,9 +777,9 @@
   },
   "Rocket Lab": {
     "date": "2026-08-17",
-    "today_max_jobs": 407,
+    "today_max_jobs": 408,
     "today_last_error": null,
-    "historical_max_jobs": 407,
+    "historical_max_jobs": 408,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1017,9 +1017,9 @@
   },
   "ElevenLabs": {
     "date": "2026-08-17",
-    "today_max_jobs": 250,
+    "today_max_jobs": 252,
     "today_last_error": null,
-    "historical_max_jobs": 250,
+    "historical_max_jobs": 252,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1049,7 +1049,7 @@
   },
   "Suno": {
     "date": "2026-08-17",
-    "today_max_jobs": 60,
+    "today_max_jobs": 61,
     "today_last_error": null,
     "historical_max_jobs": 66,
     "consecutive_bad_days": 0,
