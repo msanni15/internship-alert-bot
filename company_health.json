@@ -329,7 +329,7 @@
   },
   "Snap": {
     "date": "2026-08-17",
-    "today_max_jobs": 176,
+    "today_max_jobs": 177,
     "today_last_error": null,
     "historical_max_jobs": 183,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-17",
-    "today_max_jobs": 459,
+    "today_max_jobs": 460,
     "today_last_error": null,
-    "historical_max_jobs": 459,
+    "historical_max_jobs": 460,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -377,9 +377,9 @@
   },
   "Applied Intuition": {
     "date": "2026-08-17",
-    "today_max_jobs": 283,
+    "today_max_jobs": 284,
     "today_last_error": null,
-    "historical_max_jobs": 283,
+    "historical_max_jobs": 284,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1017,9 +1017,9 @@
   },
   "ElevenLabs": {
     "date": "2026-08-17",
-    "today_max_jobs": 252,
+    "today_max_jobs": 255,
     "today_last_error": null,
-    "historical_max_jobs": 252,
+    "historical_max_jobs": 255,
     "consecutive_bad_days": 0,
     "alerted": false
   },
