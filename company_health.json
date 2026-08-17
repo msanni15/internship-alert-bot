@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-08-17",
-    "today_max_jobs": 417,
+    "today_max_jobs": 431,
     "today_last_error": null,
     "historical_max_jobs": 448,
     "consecutive_bad_days": 0,
@@ -297,7 +297,7 @@
   },
   "Airbnb": {
     "date": "2026-08-17",
-    "today_max_jobs": 185,
+    "today_max_jobs": 187,
     "today_last_error": null,
     "historical_max_jobs": 197,
     "consecutive_bad_days": 0,
@@ -313,7 +313,7 @@
   },
   "DoorDash": {
     "date": "2026-08-17",
-    "today_max_jobs": 469,
+    "today_max_jobs": 470,
     "today_last_error": null,
     "historical_max_jobs": 473,
     "consecutive_bad_days": 0,
@@ -329,7 +329,7 @@
   },
   "Snap": {
     "date": "2026-08-17",
-    "today_max_jobs": 20,
+    "today_max_jobs": 176,
     "today_last_error": null,
     "historical_max_jobs": 183,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-17",
-    "today_max_jobs": 441,
+    "today_max_jobs": 442,
     "today_last_error": null,
-    "historical_max_jobs": 441,
+    "historical_max_jobs": 442,
     "consecutive_bad_days": 0,
     "alerted": false
   },
