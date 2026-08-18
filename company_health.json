@@ -377,9 +377,9 @@
   },
   "Applied Intuition": {
     "date": "2026-08-17",
-    "today_max_jobs": 284,
+    "today_max_jobs": 285,
     "today_last_error": null,
-    "historical_max_jobs": 284,
+    "historical_max_jobs": 285,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -513,7 +513,7 @@
   },
   "Shield AI": {
     "date": "2026-08-17",
-    "today_max_jobs": 434,
+    "today_max_jobs": 437,
     "today_last_error": null,
     "historical_max_jobs": 443,
     "consecutive_bad_days": 0,
@@ -625,9 +625,9 @@
   },
   "RIVR": {
     "date": "2026-08-17",
-    "today_max_jobs": 28,
+    "today_max_jobs": 29,
     "today_last_error": null,
-    "historical_max_jobs": 28,
+    "historical_max_jobs": 29,
     "consecutive_bad_days": 0,
     "alerted": false
   },
