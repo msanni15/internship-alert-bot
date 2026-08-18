@@ -33,9 +33,9 @@
   },
   "Jump Trading": {
     "date": "2026-08-18",
-    "today_max_jobs": 107,
+    "today_max_jobs": 108,
     "today_last_error": null,
-    "historical_max_jobs": 107,
+    "historical_max_jobs": 108,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -329,7 +329,7 @@
   },
   "Snap": {
     "date": "2026-08-18",
-    "today_max_jobs": 29,
+    "today_max_jobs": 175,
     "today_last_error": null,
     "historical_max_jobs": 183,
     "consecutive_bad_days": 0,
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-08-18",
-    "today_max_jobs": 382,
+    "today_max_jobs": 383,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-08-18",
-    "today_max_jobs": 1146,
+    "today_max_jobs": 1147,
     "today_last_error": null,
     "historical_max_jobs": 1155,
     "consecutive_bad_days": 0,
