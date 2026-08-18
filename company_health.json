@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-08-18",
-    "today_max_jobs": 806,
+    "today_max_jobs": 807,
     "today_last_error": null,
     "historical_max_jobs": 823,
     "consecutive_bad_days": 0,
@@ -297,9 +297,9 @@
   },
   "Airbnb": {
     "date": "2026-08-18",
-    "today_max_jobs": 196,
+    "today_max_jobs": 198,
     "today_last_error": null,
-    "historical_max_jobs": 197,
+    "historical_max_jobs": 198,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-08-18",
-    "today_max_jobs": 732,
+    "today_max_jobs": 733,
     "today_last_error": null,
     "historical_max_jobs": 752,
     "consecutive_bad_days": 0,
@@ -417,7 +417,7 @@
   },
   "Plaid": {
     "date": "2026-08-18",
-    "today_max_jobs": 103,
+    "today_max_jobs": 104,
     "today_last_error": null,
     "historical_max_jobs": 112,
     "consecutive_bad_days": 0,
@@ -425,7 +425,7 @@
   },
   "Robinhood": {
     "date": "2026-08-18",
-    "today_max_jobs": 124,
+    "today_max_jobs": 125,
     "today_last_error": null,
     "historical_max_jobs": 139,
     "consecutive_bad_days": 0,
@@ -441,7 +441,7 @@
   },
   "Vercel": {
     "date": "2026-08-18",
-    "today_max_jobs": 84,
+    "today_max_jobs": 85,
     "today_last_error": null,
     "historical_max_jobs": 85,
     "consecutive_bad_days": 0,
@@ -497,7 +497,7 @@
   },
   "Skydio": {
     "date": "2026-08-18",
-    "today_max_jobs": 110,
+    "today_max_jobs": 112,
     "today_last_error": null,
     "historical_max_jobs": 115,
     "consecutive_bad_days": 0,
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-08-18",
-    "today_max_jobs": 1153,
+    "today_max_jobs": 1154,
     "today_last_error": null,
     "historical_max_jobs": 1155,
     "consecutive_bad_days": 0,
