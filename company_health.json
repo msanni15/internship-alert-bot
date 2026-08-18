@@ -121,7 +121,7 @@
   },
   "Millennium": {
     "date": "2026-08-18",
-    "today_max_jobs": 120,
+    "today_max_jobs": 121,
     "today_last_error": null,
     "historical_max_jobs": 132,
     "consecutive_bad_days": 0,
@@ -297,7 +297,7 @@
   },
   "Airbnb": {
     "date": "2026-08-18",
-    "today_max_jobs": 195,
+    "today_max_jobs": 196,
     "today_last_error": null,
     "historical_max_jobs": 197,
     "consecutive_bad_days": 0,
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-08-18",
-    "today_max_jobs": 730,
+    "today_max_jobs": 732,
     "today_last_error": null,
     "historical_max_jobs": 752,
     "consecutive_bad_days": 0,
@@ -417,7 +417,7 @@
   },
   "Plaid": {
     "date": "2026-08-18",
-    "today_max_jobs": 102,
+    "today_max_jobs": 103,
     "today_last_error": null,
     "historical_max_jobs": 112,
     "consecutive_bad_days": 0,
@@ -425,7 +425,7 @@
   },
   "Robinhood": {
     "date": "2026-08-18",
-    "today_max_jobs": 123,
+    "today_max_jobs": 124,
     "today_last_error": null,
     "historical_max_jobs": 139,
     "consecutive_bad_days": 0,
@@ -473,7 +473,7 @@
   },
   "Zoox": {
     "date": "2026-08-18",
-    "today_max_jobs": 240,
+    "today_max_jobs": 241,
     "today_last_error": null,
     "historical_max_jobs": 244,
     "consecutive_bad_days": 0,
@@ -505,9 +505,9 @@
   },
   "Zipline": {
     "date": "2026-08-18",
-    "today_max_jobs": 268,
+    "today_max_jobs": 274,
     "today_last_error": null,
-    "historical_max_jobs": 268,
+    "historical_max_jobs": 274,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -665,9 +665,9 @@
   },
   "xAI": {
     "date": "2026-08-18",
-    "today_max_jobs": 232,
+    "today_max_jobs": 237,
     "today_last_error": null,
-    "historical_max_jobs": 232,
+    "historical_max_jobs": 237,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -689,7 +689,7 @@
   },
   "Cerebras": {
     "date": "2026-08-18",
-    "today_max_jobs": 122,
+    "today_max_jobs": 123,
     "today_last_error": null,
     "historical_max_jobs": 126,
     "consecutive_bad_days": 0,
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-08-18",
-    "today_max_jobs": 387,
+    "today_max_jobs": 388,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-08-18",
-    "today_max_jobs": 2116,
+    "today_max_jobs": 2117,
     "today_last_error": null,
     "historical_max_jobs": 2171,
     "consecutive_bad_days": 0,
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-08-18",
-    "today_max_jobs": 1152,
+    "today_max_jobs": 1153,
     "today_last_error": null,
     "historical_max_jobs": 1155,
     "consecutive_bad_days": 0,
