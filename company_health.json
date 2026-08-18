@@ -313,7 +313,7 @@
   },
   "DoorDash": {
     "date": "2026-08-18",
-    "today_max_jobs": 463,
+    "today_max_jobs": 466,
     "today_last_error": null,
     "historical_max_jobs": 473,
     "consecutive_bad_days": 0,
@@ -329,7 +329,7 @@
   },
   "Snap": {
     "date": "2026-08-18",
-    "today_max_jobs": 176,
+    "today_max_jobs": 177,
     "today_last_error": null,
     "historical_max_jobs": 183,
     "consecutive_bad_days": 0,
@@ -665,9 +665,9 @@
   },
   "xAI": {
     "date": "2026-08-18",
-    "today_max_jobs": 245,
+    "today_max_jobs": 246,
     "today_last_error": null,
-    "historical_max_jobs": 245,
+    "historical_max_jobs": 246,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -785,7 +785,7 @@
   },
   "Etched": {
     "date": "2026-08-18",
-    "today_max_jobs": 108,
+    "today_max_jobs": 109,
     "today_last_error": null,
     "historical_max_jobs": 110,
     "consecutive_bad_days": 0,
@@ -857,7 +857,7 @@
   },
   "Wing": {
     "date": "2026-08-18",
-    "today_max_jobs": 47,
+    "today_max_jobs": 48,
     "today_last_error": null,
     "historical_max_jobs": 48,
     "consecutive_bad_days": 0,
