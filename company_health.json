@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-08-17",
-    "today_max_jobs": 1857,
+    "today_max_jobs": 1858,
     "today_last_error": null,
     "historical_max_jobs": 1881,
     "consecutive_bad_days": 0,
@@ -385,7 +385,7 @@
   },
   "Figma": {
     "date": "2026-08-17",
-    "today_max_jobs": 164,
+    "today_max_jobs": 165,
     "today_last_error": null,
     "historical_max_jobs": 177,
     "consecutive_bad_days": 0,
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-08-17",
-    "today_max_jobs": 420,
+    "today_max_jobs": 440,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
