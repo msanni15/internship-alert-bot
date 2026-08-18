@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-08-17",
-    "today_max_jobs": 353,
+    "today_max_jobs": 355,
     "today_last_error": null,
     "historical_max_jobs": 376,
     "consecutive_bad_days": 0,
@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-08-17",
-    "today_max_jobs": 1856,
+    "today_max_jobs": 1857,
     "today_last_error": null,
     "historical_max_jobs": 1881,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-17",
-    "today_max_jobs": 460,
+    "today_max_jobs": 461,
     "today_last_error": null,
-    "historical_max_jobs": 460,
+    "historical_max_jobs": 461,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -505,7 +505,7 @@
   },
   "Zipline": {
     "date": "2026-08-17",
-    "today_max_jobs": 263,
+    "today_max_jobs": 264,
     "today_last_error": null,
     "historical_max_jobs": 268,
     "consecutive_bad_days": 0,
@@ -665,9 +665,9 @@
   },
   "xAI": {
     "date": "2026-08-17",
-    "today_max_jobs": 231,
+    "today_max_jobs": 232,
     "today_last_error": null,
-    "historical_max_jobs": 231,
+    "historical_max_jobs": 232,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-08-17",
-    "today_max_jobs": 400,
+    "today_max_jobs": 420,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-08-17",
-    "today_max_jobs": 2111,
+    "today_max_jobs": 2114,
     "today_last_error": null,
     "historical_max_jobs": 2171,
     "consecutive_bad_days": 0,
@@ -873,9 +873,9 @@
   },
   "Dexterity": {
     "date": "2026-08-17",
-    "today_max_jobs": 30,
+    "today_max_jobs": 31,
     "today_last_error": null,
-    "historical_max_jobs": 30,
+    "historical_max_jobs": 31,
     "consecutive_bad_days": 0,
     "alerted": false
   },
