@@ -409,7 +409,7 @@
   },
   "Rippling": {
     "date": "2026-08-18",
-    "today_max_jobs": 73,
+    "today_max_jobs": 74,
     "today_last_error": null,
     "historical_max_jobs": 88,
     "consecutive_bad_days": 0,
@@ -497,17 +497,17 @@
   },
   "Skydio": {
     "date": "2026-08-18",
-    "today_max_jobs": 113,
+    "today_max_jobs": 117,
     "today_last_error": null,
-    "historical_max_jobs": 115,
+    "historical_max_jobs": 117,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Zipline": {
     "date": "2026-08-18",
-    "today_max_jobs": 279,
+    "today_max_jobs": 281,
     "today_last_error": null,
-    "historical_max_jobs": 279,
+    "historical_max_jobs": 281,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -753,7 +753,7 @@
   },
   "Cloudflare": {
     "date": "2026-08-18",
-    "today_max_jobs": 301,
+    "today_max_jobs": 303,
     "today_last_error": null,
     "historical_max_jobs": 307,
     "consecutive_bad_days": 0,
@@ -777,9 +777,9 @@
   },
   "Rocket Lab": {
     "date": "2026-08-18",
-    "today_max_jobs": 409,
+    "today_max_jobs": 412,
     "today_last_error": null,
-    "historical_max_jobs": 409,
+    "historical_max_jobs": 412,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -985,7 +985,7 @@
   },
   "Cognition": {
     "date": "2026-08-18",
-    "today_max_jobs": 84,
+    "today_max_jobs": 85,
     "today_last_error": null,
     "historical_max_jobs": 85,
     "consecutive_bad_days": 0,
