@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-08-18",
-    "today_max_jobs": 400,
+    "today_max_jobs": 402,
     "today_last_error": null,
     "historical_max_jobs": 448,
     "consecutive_bad_days": 0,
@@ -313,7 +313,7 @@
   },
   "DoorDash": {
     "date": "2026-08-18",
-    "today_max_jobs": 466,
+    "today_max_jobs": 467,
     "today_last_error": null,
     "historical_max_jobs": 473,
     "consecutive_bad_days": 0,
@@ -329,7 +329,7 @@
   },
   "Snap": {
     "date": "2026-08-18",
-    "today_max_jobs": 177,
+    "today_max_jobs": 179,
     "today_last_error": null,
     "historical_max_jobs": 183,
     "consecutive_bad_days": 0,
@@ -417,7 +417,7 @@
   },
   "Plaid": {
     "date": "2026-08-18",
-    "today_max_jobs": 104,
+    "today_max_jobs": 106,
     "today_last_error": null,
     "historical_max_jobs": 112,
     "consecutive_bad_days": 0,
@@ -665,9 +665,9 @@
   },
   "xAI": {
     "date": "2026-08-18",
-    "today_max_jobs": 246,
+    "today_max_jobs": 248,
     "today_last_error": null,
-    "historical_max_jobs": 246,
+    "historical_max_jobs": 248,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -753,7 +753,7 @@
   },
   "Cloudflare": {
     "date": "2026-08-18",
-    "today_max_jobs": 300,
+    "today_max_jobs": 301,
     "today_last_error": null,
     "historical_max_jobs": 307,
     "consecutive_bad_days": 0,
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-08-18",
-    "today_max_jobs": 2131,
+    "today_max_jobs": 2132,
     "today_last_error": null,
     "historical_max_jobs": 2171,
     "consecutive_bad_days": 0,
