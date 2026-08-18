@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-08-18",
-    "today_max_jobs": 1863,
+    "today_max_jobs": 1864,
     "today_last_error": null,
     "historical_max_jobs": 1881,
     "consecutive_bad_days": 0,
@@ -297,7 +297,7 @@
   },
   "Airbnb": {
     "date": "2026-08-18",
-    "today_max_jobs": 194,
+    "today_max_jobs": 195,
     "today_last_error": null,
     "historical_max_jobs": 197,
     "consecutive_bad_days": 0,
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-08-18",
-    "today_max_jobs": 729,
+    "today_max_jobs": 730,
     "today_last_error": null,
     "historical_max_jobs": 752,
     "consecutive_bad_days": 0,
@@ -673,7 +673,7 @@
   },
   "Cohere": {
     "date": "2026-08-18",
-    "today_max_jobs": 144,
+    "today_max_jobs": 145,
     "today_last_error": null,
     "historical_max_jobs": 148,
     "consecutive_bad_days": 0,
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-08-18",
-    "today_max_jobs": 384,
+    "today_max_jobs": 385,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
