@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-08-18",
-    "today_max_jobs": 392,
+    "today_max_jobs": 394,
     "today_last_error": null,
     "historical_max_jobs": 448,
     "consecutive_bad_days": 0,
@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-08-18",
-    "today_max_jobs": 355,
+    "today_max_jobs": 356,
     "today_last_error": null,
     "historical_max_jobs": 376,
     "consecutive_bad_days": 0,
@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-08-18",
-    "today_max_jobs": 1859,
+    "today_max_jobs": 1863,
     "today_last_error": null,
     "historical_max_jobs": 1881,
     "consecutive_bad_days": 0,
@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-08-18",
-    "today_max_jobs": 805,
+    "today_max_jobs": 806,
     "today_last_error": null,
     "historical_max_jobs": 823,
     "consecutive_bad_days": 0,
@@ -297,7 +297,7 @@
   },
   "Airbnb": {
     "date": "2026-08-18",
-    "today_max_jobs": 193,
+    "today_max_jobs": 194,
     "today_last_error": null,
     "historical_max_jobs": 197,
     "consecutive_bad_days": 0,
@@ -433,7 +433,7 @@
   },
   "Coinbase": {
     "date": "2026-08-18",
-    "today_max_jobs": 169,
+    "today_max_jobs": 170,
     "today_last_error": null,
     "historical_max_jobs": 175,
     "consecutive_bad_days": 0,
@@ -513,7 +513,7 @@
   },
   "Shield AI": {
     "date": "2026-08-18",
-    "today_max_jobs": 437,
+    "today_max_jobs": 438,
     "today_last_error": null,
     "historical_max_jobs": 443,
     "consecutive_bad_days": 0,
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-08-18",
-    "today_max_jobs": 383,
+    "today_max_jobs": 384,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
@@ -1017,9 +1017,9 @@
   },
   "ElevenLabs": {
     "date": "2026-08-18",
-    "today_max_jobs": 255,
+    "today_max_jobs": 256,
     "today_last_error": null,
-    "historical_max_jobs": 255,
+    "historical_max_jobs": 256,
     "consecutive_bad_days": 0,
     "alerted": false
   },
