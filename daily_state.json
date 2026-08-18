@@ -218,5 +218,9 @@
   "2026-08-17": {
     "new_jobs_found": 3,
     "daily_summary_sent": false
+  },
+  "2026-08-18": {
+    "new_jobs_found": 0,
+    "daily_summary_sent": false
   }
 }
