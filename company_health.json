@@ -65,7 +65,7 @@
   },
   "Five Rings": {
     "date": "2026-08-18",
-    "today_max_jobs": 17,
+    "today_max_jobs": 18,
     "today_last_error": null,
     "historical_max_jobs": 18,
     "consecutive_bad_days": 0,
@@ -121,7 +121,7 @@
   },
   "Millennium": {
     "date": "2026-08-18",
-    "today_max_jobs": 121,
+    "today_max_jobs": 122,
     "today_last_error": null,
     "historical_max_jobs": 132,
     "consecutive_bad_days": 0,
@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-08-18",
-    "today_max_jobs": 394,
+    "today_max_jobs": 400,
     "today_last_error": null,
     "historical_max_jobs": 448,
     "consecutive_bad_days": 0,
@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-08-18",
-    "today_max_jobs": 808,
+    "today_max_jobs": 809,
     "today_last_error": null,
     "historical_max_jobs": 823,
     "consecutive_bad_days": 0,
@@ -401,9 +401,9 @@
   },
   "Ramp": {
     "date": "2026-08-18",
-    "today_max_jobs": 136,
+    "today_max_jobs": 137,
     "today_last_error": null,
-    "historical_max_jobs": 136,
+    "historical_max_jobs": 137,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -505,9 +505,9 @@
   },
   "Zipline": {
     "date": "2026-08-18",
-    "today_max_jobs": 278,
+    "today_max_jobs": 279,
     "today_last_error": null,
-    "historical_max_jobs": 278,
+    "historical_max_jobs": 279,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -665,9 +665,9 @@
   },
   "xAI": {
     "date": "2026-08-18",
-    "today_max_jobs": 241,
+    "today_max_jobs": 245,
     "today_last_error": null,
-    "historical_max_jobs": 241,
+    "historical_max_jobs": 245,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-08-18",
-    "today_max_jobs": 2125,
+    "today_max_jobs": 2131,
     "today_last_error": null,
     "historical_max_jobs": 2171,
     "consecutive_bad_days": 0,
@@ -913,9 +913,9 @@
   },
   "Diligent Robotics": {
     "date": "2026-08-18",
-    "today_max_jobs": 15,
+    "today_max_jobs": 16,
     "today_last_error": null,
-    "historical_max_jobs": 15,
+    "historical_max_jobs": 16,
     "consecutive_bad_days": 0,
     "alerted": false
   },
