@@ -289,7 +289,7 @@
   },
   "Stripe": {
     "date": "2026-08-18",
-    "today_max_jobs": 573,
+    "today_max_jobs": 574,
     "today_last_error": null,
     "historical_max_jobs": 578,
     "consecutive_bad_days": 0,
@@ -297,7 +297,7 @@
   },
   "Airbnb": {
     "date": "2026-08-18",
-    "today_max_jobs": 192,
+    "today_max_jobs": 193,
     "today_last_error": null,
     "historical_max_jobs": 197,
     "consecutive_bad_days": 0,
@@ -377,9 +377,9 @@
   },
   "Applied Intuition": {
     "date": "2026-08-18",
-    "today_max_jobs": 286,
+    "today_max_jobs": 287,
     "today_last_error": null,
-    "historical_max_jobs": 286,
+    "historical_max_jobs": 287,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -529,7 +529,7 @@
   },
   "Boston Dynamics": {
     "date": "2026-08-18",
-    "today_max_jobs": 66,
+    "today_max_jobs": 67,
     "today_last_error": null,
     "historical_max_jobs": 70,
     "consecutive_bad_days": 0,
