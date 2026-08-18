@@ -121,7 +121,7 @@
   },
   "Millennium": {
     "date": "2026-08-18",
-    "today_max_jobs": 119,
+    "today_max_jobs": 120,
     "today_last_error": null,
     "historical_max_jobs": 132,
     "consecutive_bad_days": 0,
@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-08-18",
-    "today_max_jobs": 804,
+    "today_max_jobs": 805,
     "today_last_error": null,
     "historical_max_jobs": 823,
     "consecutive_bad_days": 0,
@@ -305,7 +305,7 @@
   },
   "Uber": {
     "date": "2026-08-18",
-    "today_max_jobs": 41,
+    "today_max_jobs": 43,
     "today_last_error": null,
     "historical_max_jobs": 44,
     "consecutive_bad_days": 0,
@@ -377,9 +377,9 @@
   },
   "Applied Intuition": {
     "date": "2026-08-18",
-    "today_max_jobs": 285,
+    "today_max_jobs": 286,
     "today_last_error": null,
-    "historical_max_jobs": 285,
+    "historical_max_jobs": 286,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -753,7 +753,7 @@
   },
   "Cloudflare": {
     "date": "2026-08-18",
-    "today_max_jobs": 298,
+    "today_max_jobs": 299,
     "today_last_error": null,
     "historical_max_jobs": 307,
     "consecutive_bad_days": 0,
