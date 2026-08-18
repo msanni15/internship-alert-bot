@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-08-17",
-    "today_max_jobs": 300,
+    "today_max_jobs": 320,
     "today_last_error": null,
     "historical_max_jobs": 380,
     "consecutive_bad_days": 0,
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-08-17",
-    "today_max_jobs": 440,
+    "today_max_jobs": 480,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
