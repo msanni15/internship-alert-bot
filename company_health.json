@@ -57,7 +57,7 @@
   },
   "DRW": {
     "date": "2026-08-18",
-    "today_max_jobs": 161,
+    "today_max_jobs": 162,
     "today_last_error": null,
     "historical_max_jobs": 166,
     "consecutive_bad_days": 0,
