@@ -265,9 +265,9 @@
   },
   "Amazon": {
     "date": "2026-08-19",
-    "today_max_jobs": 1891,
+    "today_max_jobs": 1896,
     "today_last_error": null,
-    "historical_max_jobs": 1891,
+    "historical_max_jobs": 1896,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -297,7 +297,7 @@
   },
   "Airbnb": {
     "date": "2026-08-19",
-    "today_max_jobs": 194,
+    "today_max_jobs": 195,
     "today_last_error": null,
     "historical_max_jobs": 198,
     "consecutive_bad_days": 0,
@@ -321,7 +321,7 @@
   },
   "Pinterest": {
     "date": "2026-08-19",
-    "today_max_jobs": 219,
+    "today_max_jobs": 220,
     "today_last_error": null,
     "historical_max_jobs": 226,
     "consecutive_bad_days": 0,
@@ -393,7 +393,7 @@
   },
   "Notion": {
     "date": "2026-08-19",
-    "today_max_jobs": 127,
+    "today_max_jobs": 128,
     "today_last_error": null,
     "historical_max_jobs": 133,
     "consecutive_bad_days": 0,
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-08-19",
-    "today_max_jobs": 2149,
+    "today_max_jobs": 2151,
     "today_last_error": null,
     "historical_max_jobs": 2171,
     "consecutive_bad_days": 0,
