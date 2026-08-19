@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-19",
-    "today_max_jobs": 467,
+    "today_max_jobs": 468,
     "today_last_error": null,
-    "historical_max_jobs": 467,
+    "historical_max_jobs": 468,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -529,7 +529,7 @@
   },
   "Boston Dynamics": {
     "date": "2026-08-19",
-    "today_max_jobs": 67,
+    "today_max_jobs": 68,
     "today_last_error": null,
     "historical_max_jobs": 70,
     "consecutive_bad_days": 0,
@@ -753,7 +753,7 @@
   },
   "Cloudflare": {
     "date": "2026-08-19",
-    "today_max_jobs": 304,
+    "today_max_jobs": 305,
     "today_last_error": null,
     "historical_max_jobs": 307,
     "consecutive_bad_days": 0,
