@@ -377,9 +377,9 @@
   },
   "Applied Intuition": {
     "date": "2026-08-18",
-    "today_max_jobs": 287,
+    "today_max_jobs": 288,
     "today_last_error": null,
-    "historical_max_jobs": 287,
+    "historical_max_jobs": 288,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -665,9 +665,9 @@
   },
   "xAI": {
     "date": "2026-08-18",
-    "today_max_jobs": 248,
+    "today_max_jobs": 249,
     "today_last_error": null,
-    "historical_max_jobs": 248,
+    "historical_max_jobs": 249,
     "consecutive_bad_days": 0,
     "alerted": false
   },
