@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-08-19",
-    "today_max_jobs": 808,
+    "today_max_jobs": 809,
     "today_last_error": null,
     "historical_max_jobs": 823,
     "consecutive_bad_days": 0,
@@ -289,7 +289,7 @@
   },
   "Stripe": {
     "date": "2026-08-19",
-    "today_max_jobs": 576,
+    "today_max_jobs": 577,
     "today_last_error": null,
     "historical_max_jobs": 578,
     "consecutive_bad_days": 0,
@@ -377,9 +377,9 @@
   },
   "Applied Intuition": {
     "date": "2026-08-19",
-    "today_max_jobs": 288,
+    "today_max_jobs": 292,
     "today_last_error": null,
-    "historical_max_jobs": 288,
+    "historical_max_jobs": 292,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -713,7 +713,7 @@
   },
   "QRT": {
     "date": "2026-08-19",
-    "today_max_jobs": 185,
+    "today_max_jobs": 186,
     "today_last_error": null,
     "historical_max_jobs": 199,
     "consecutive_bad_days": 0,
@@ -1009,7 +1009,7 @@
   },
   "Sierra AI": {
     "date": "2026-08-19",
-    "today_max_jobs": 194,
+    "today_max_jobs": 195,
     "today_last_error": null,
     "historical_max_jobs": 195,
     "consecutive_bad_days": 0,
@@ -1017,7 +1017,7 @@
   },
   "ElevenLabs": {
     "date": "2026-08-19",
-    "today_max_jobs": 253,
+    "today_max_jobs": 254,
     "today_last_error": null,
     "historical_max_jobs": 256,
     "consecutive_bad_days": 0,
