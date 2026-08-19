@@ -129,7 +129,7 @@
   },
   "Schonfeld": {
     "date": "2026-08-19",
-    "today_max_jobs": 53,
+    "today_max_jobs": 54,
     "today_last_error": null,
     "historical_max_jobs": 54,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-19",
-    "today_max_jobs": 468,
+    "today_max_jobs": 470,
     "today_last_error": null,
-    "historical_max_jobs": 468,
+    "historical_max_jobs": 470,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -489,7 +489,7 @@
   },
   "Aurora": {
     "date": "2026-08-19",
-    "today_max_jobs": 71,
+    "today_max_jobs": 73,
     "today_last_error": null,
     "historical_max_jobs": 77,
     "consecutive_bad_days": 0,
@@ -529,7 +529,7 @@
   },
   "Boston Dynamics": {
     "date": "2026-08-19",
-    "today_max_jobs": 68,
+    "today_max_jobs": 70,
     "today_last_error": null,
     "historical_max_jobs": 70,
     "consecutive_bad_days": 0,
@@ -673,7 +673,7 @@
   },
   "Cohere": {
     "date": "2026-08-19",
-    "today_max_jobs": 145,
+    "today_max_jobs": 147,
     "today_last_error": null,
     "historical_max_jobs": 148,
     "consecutive_bad_days": 0,
