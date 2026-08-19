@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-08-19",
-    "today_max_jobs": 359,
+    "today_max_jobs": 360,
     "today_last_error": null,
     "historical_max_jobs": 376,
     "consecutive_bad_days": 0,
@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-08-19",
-    "today_max_jobs": 809,
+    "today_max_jobs": 810,
     "today_last_error": null,
     "historical_max_jobs": 823,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-19",
-    "today_max_jobs": 470,
+    "today_max_jobs": 471,
     "today_last_error": null,
-    "historical_max_jobs": 470,
+    "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -529,9 +529,9 @@
   },
   "Boston Dynamics": {
     "date": "2026-08-19",
-    "today_max_jobs": 70,
+    "today_max_jobs": 71,
     "today_last_error": null,
-    "historical_max_jobs": 70,
+    "historical_max_jobs": 71,
     "consecutive_bad_days": 0,
     "alerted": false
   },
