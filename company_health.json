@@ -265,9 +265,9 @@
   },
   "Amazon": {
     "date": "2026-08-19",
-    "today_max_jobs": 1896,
+    "today_max_jobs": 1897,
     "today_last_error": null,
-    "historical_max_jobs": 1896,
+    "historical_max_jobs": 1897,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-08-19",
-    "today_max_jobs": 735,
+    "today_max_jobs": 739,
     "today_last_error": null,
     "historical_max_jobs": 752,
     "consecutive_bad_days": 0,
@@ -497,9 +497,9 @@
   },
   "Skydio": {
     "date": "2026-08-19",
-    "today_max_jobs": 119,
+    "today_max_jobs": 120,
     "today_last_error": null,
-    "historical_max_jobs": 119,
+    "historical_max_jobs": 120,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -577,7 +577,7 @@
   },
   "FieldAI": {
     "date": "2026-08-19",
-    "today_max_jobs": 124,
+    "today_max_jobs": 127,
     "today_last_error": null,
     "historical_max_jobs": 129,
     "consecutive_bad_days": 0,
@@ -649,7 +649,7 @@
   },
   "Physical Intelligence": {
     "date": "2026-08-19",
-    "today_max_jobs": 30,
+    "today_max_jobs": 31,
     "today_last_error": null,
     "historical_max_jobs": 31,
     "consecutive_bad_days": 0,
@@ -777,9 +777,9 @@
   },
   "Rocket Lab": {
     "date": "2026-08-19",
-    "today_max_jobs": 414,
+    "today_max_jobs": 416,
     "today_last_error": null,
-    "historical_max_jobs": 414,
+    "historical_max_jobs": 416,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -969,7 +969,7 @@
   },
   "Man Group": {
     "date": "2026-08-19",
-    "today_max_jobs": 53,
+    "today_max_jobs": 54,
     "today_last_error": null,
     "historical_max_jobs": 60,
     "consecutive_bad_days": 0,
