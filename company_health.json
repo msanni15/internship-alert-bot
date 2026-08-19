@@ -265,9 +265,9 @@
   },
   "Amazon": {
     "date": "2026-08-19",
-    "today_max_jobs": 1886,
+    "today_max_jobs": 1891,
     "today_last_error": null,
-    "historical_max_jobs": 1886,
+    "historical_max_jobs": 1891,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -289,9 +289,9 @@
   },
   "Stripe": {
     "date": "2026-08-19",
-    "today_max_jobs": 579,
+    "today_max_jobs": 581,
     "today_last_error": null,
-    "historical_max_jobs": 579,
+    "historical_max_jobs": 581,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-19",
-    "today_max_jobs": 475,
+    "today_max_jobs": 477,
     "today_last_error": null,
-    "historical_max_jobs": 475,
+    "historical_max_jobs": 477,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -425,7 +425,7 @@
   },
   "Robinhood": {
     "date": "2026-08-19",
-    "today_max_jobs": 125,
+    "today_max_jobs": 127,
     "today_last_error": null,
     "historical_max_jobs": 139,
     "consecutive_bad_days": 0,
@@ -497,9 +497,9 @@
   },
   "Skydio": {
     "date": "2026-08-19",
-    "today_max_jobs": 117,
+    "today_max_jobs": 119,
     "today_last_error": null,
-    "historical_max_jobs": 117,
+    "historical_max_jobs": 119,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -529,9 +529,9 @@
   },
   "Boston Dynamics": {
     "date": "2026-08-19",
-    "today_max_jobs": 71,
+    "today_max_jobs": 72,
     "today_last_error": "Boston Dynamics: HTTPSConnectionPool(host='bostondynamics.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=8)",
-    "historical_max_jobs": 71,
+    "historical_max_jobs": 72,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -553,9 +553,9 @@
   },
   "Waabi": {
     "date": "2026-08-19",
-    "today_max_jobs": 61,
+    "today_max_jobs": 63,
     "today_last_error": null,
-    "historical_max_jobs": 62,
+    "historical_max_jobs": 63,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -577,7 +577,7 @@
   },
   "FieldAI": {
     "date": "2026-08-19",
-    "today_max_jobs": 123,
+    "today_max_jobs": 124,
     "today_last_error": null,
     "historical_max_jobs": 129,
     "consecutive_bad_days": 0,
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-08-19",
-    "today_max_jobs": 2139,
+    "today_max_jobs": 2147,
     "today_last_error": null,
     "historical_max_jobs": 2171,
     "consecutive_bad_days": 0,
@@ -777,9 +777,9 @@
   },
   "Rocket Lab": {
     "date": "2026-08-19",
-    "today_max_jobs": 413,
+    "today_max_jobs": 414,
     "today_last_error": null,
-    "historical_max_jobs": 413,
+    "historical_max_jobs": 414,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -977,9 +977,9 @@
   },
   "AMD": {
     "date": "2026-08-19",
-    "today_max_jobs": 1159,
+    "today_max_jobs": 1162,
     "today_last_error": null,
-    "historical_max_jobs": 1159,
+    "historical_max_jobs": 1162,
     "consecutive_bad_days": 0,
     "alerted": false
   },
