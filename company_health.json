@@ -81,9 +81,9 @@
   },
   "Tower Research": {
     "date": "2026-08-18",
-    "today_max_jobs": 82,
+    "today_max_jobs": 83,
     "today_last_error": null,
-    "historical_max_jobs": 82,
+    "historical_max_jobs": 83,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-18",
-    "today_max_jobs": 464,
+    "today_max_jobs": 465,
     "today_last_error": null,
-    "historical_max_jobs": 464,
+    "historical_max_jobs": 465,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -489,7 +489,7 @@
   },
   "Aurora": {
     "date": "2026-08-18",
-    "today_max_jobs": 70,
+    "today_max_jobs": 71,
     "today_last_error": null,
     "historical_max_jobs": 77,
     "consecutive_bad_days": 0,
