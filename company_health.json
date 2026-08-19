@@ -145,7 +145,7 @@
   },
   "G-Research": {
     "date": "2026-08-19",
-    "today_max_jobs": 62,
+    "today_max_jobs": 63,
     "today_last_error": null,
     "historical_max_jobs": 66,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-19",
-    "today_max_jobs": 465,
+    "today_max_jobs": 467,
     "today_last_error": null,
-    "historical_max_jobs": 465,
+    "historical_max_jobs": 467,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -673,7 +673,7 @@
   },
   "Cohere": {
     "date": "2026-08-19",
-    "today_max_jobs": 144,
+    "today_max_jobs": 145,
     "today_last_error": null,
     "historical_max_jobs": 148,
     "consecutive_bad_days": 0,
@@ -713,7 +713,7 @@
   },
   "QRT": {
     "date": "2026-08-19",
-    "today_max_jobs": 186,
+    "today_max_jobs": 188,
     "today_last_error": null,
     "historical_max_jobs": 199,
     "consecutive_bad_days": 0,
