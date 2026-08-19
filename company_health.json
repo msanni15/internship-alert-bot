@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-08-19",
-    "today_max_jobs": 320,
+    "today_max_jobs": 340,
     "today_last_error": null,
     "historical_max_jobs": 380,
     "consecutive_bad_days": 0,
@@ -305,7 +305,7 @@
   },
   "Uber": {
     "date": "2026-08-19",
-    "today_max_jobs": 39,
+    "today_max_jobs": 40,
     "today_last_error": null,
     "historical_max_jobs": 44,
     "consecutive_bad_days": 0,
@@ -313,7 +313,7 @@
   },
   "DoorDash": {
     "date": "2026-08-19",
-    "today_max_jobs": 466,
+    "today_max_jobs": 467,
     "today_last_error": null,
     "historical_max_jobs": 473,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-19",
-    "today_max_jobs": 472,
+    "today_max_jobs": 473,
     "today_last_error": null,
-    "historical_max_jobs": 472,
+    "historical_max_jobs": 473,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -401,9 +401,9 @@
   },
   "Ramp": {
     "date": "2026-08-19",
-    "today_max_jobs": 137,
+    "today_max_jobs": 138,
     "today_last_error": null,
-    "historical_max_jobs": 137,
+    "historical_max_jobs": 138,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -537,7 +537,7 @@
   },
   "Agility Robotics": {
     "date": "2026-08-19",
-    "today_max_jobs": 64,
+    "today_max_jobs": 65,
     "today_last_error": null,
     "historical_max_jobs": 65,
     "consecutive_bad_days": 0,
@@ -665,9 +665,9 @@
   },
   "xAI": {
     "date": "2026-08-19",
-    "today_max_jobs": 250,
+    "today_max_jobs": 252,
     "today_last_error": null,
-    "historical_max_jobs": 250,
+    "historical_max_jobs": 252,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -689,7 +689,7 @@
   },
   "Cerebras": {
     "date": "2026-08-19",
-    "today_max_jobs": 122,
+    "today_max_jobs": 123,
     "today_last_error": null,
     "historical_max_jobs": 126,
     "consecutive_bad_days": 0,
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-08-19",
-    "today_max_jobs": 2131,
+    "today_max_jobs": 2133,
     "today_last_error": null,
     "historical_max_jobs": 2171,
     "consecutive_bad_days": 0,
