@@ -57,7 +57,7 @@
   },
   "DRW": {
     "date": "2026-08-19",
-    "today_max_jobs": 164,
+    "today_max_jobs": 165,
     "today_last_error": null,
     "historical_max_jobs": 166,
     "consecutive_bad_days": 0,
@@ -241,7 +241,7 @@
   },
   "Samsung Semiconductor": {
     "date": "2026-08-19",
-    "today_max_jobs": 53,
+    "today_max_jobs": 56,
     "today_last_error": null,
     "historical_max_jobs": 56,
     "consecutive_bad_days": 0,
@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-08-19",
-    "today_max_jobs": 1867,
+    "today_max_jobs": 1870,
     "today_last_error": null,
     "historical_max_jobs": 1881,
     "consecutive_bad_days": 0,
@@ -273,7 +273,7 @@
   },
   "Roblox": {
     "date": "2026-08-19",
-    "today_max_jobs": 221,
+    "today_max_jobs": 222,
     "today_last_error": null,
     "historical_max_jobs": 230,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-19",
-    "today_max_jobs": 473,
+    "today_max_jobs": 475,
     "today_last_error": null,
-    "historical_max_jobs": 473,
+    "historical_max_jobs": 475,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -665,9 +665,9 @@
   },
   "xAI": {
     "date": "2026-08-19",
-    "today_max_jobs": 252,
+    "today_max_jobs": 253,
     "today_last_error": null,
-    "historical_max_jobs": 252,
+    "historical_max_jobs": 253,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -897,7 +897,7 @@
   },
   "Serve Robotics": {
     "date": "2026-08-19",
-    "today_max_jobs": 40,
+    "today_max_jobs": 41,
     "today_last_error": null,
     "historical_max_jobs": 53,
     "consecutive_bad_days": 0,
