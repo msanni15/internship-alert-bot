@@ -105,7 +105,7 @@
   },
   "Point72": {
     "date": "2026-08-19",
-    "today_max_jobs": 227,
+    "today_max_jobs": 228,
     "today_last_error": null,
     "historical_max_jobs": 233,
     "consecutive_bad_days": 0,
@@ -210,7 +210,7 @@
   "Intel": {
     "date": "2026-08-19",
     "today_max_jobs": 403,
-    "today_last_error": null,
+    "today_last_error": "Intel: HTTPSConnectionPool(host='intel.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=8)",
     "historical_max_jobs": 448,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -218,7 +218,7 @@
   "Broadcom": {
     "date": "2026-08-19",
     "today_max_jobs": 360,
-    "today_last_error": null,
+    "today_last_error": "Broadcom: HTTPSConnectionPool(host='broadcom.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=8)",
     "historical_max_jobs": 376,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -226,7 +226,7 @@
   "Marvell": {
     "date": "2026-08-19",
     "today_max_jobs": 359,
-    "today_last_error": null,
+    "today_last_error": "Marvell: HTTPSConnectionPool(host='marvell.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=8)",
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -265,15 +265,15 @@
   },
   "Amazon": {
     "date": "2026-08-19",
-    "today_max_jobs": 1881,
+    "today_max_jobs": 1886,
     "today_last_error": null,
-    "historical_max_jobs": 1881,
+    "historical_max_jobs": 1886,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Roblox": {
     "date": "2026-08-19",
-    "today_max_jobs": 223,
+    "today_max_jobs": 224,
     "today_last_error": null,
     "historical_max_jobs": 230,
     "consecutive_bad_days": 0,
@@ -530,7 +530,7 @@
   "Boston Dynamics": {
     "date": "2026-08-19",
     "today_max_jobs": 71,
-    "today_last_error": null,
+    "today_last_error": "Boston Dynamics: HTTPSConnectionPool(host='bostondynamics.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=8)",
     "historical_max_jobs": 71,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-08-19",
-    "today_max_jobs": 2133,
+    "today_max_jobs": 2139,
     "today_last_error": null,
     "historical_max_jobs": 2171,
     "consecutive_bad_days": 0,
@@ -794,7 +794,7 @@
   "Cadence": {
     "date": "2026-08-19",
     "today_max_jobs": 447,
-    "today_last_error": null,
+    "today_last_error": "Cadence: HTTPSConnectionPool(host='cadence.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=8)",
     "historical_max_jobs": 465,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -905,7 +905,7 @@
   },
   "Path Robotics": {
     "date": "2026-08-19",
-    "today_max_jobs": 50,
+    "today_max_jobs": 51,
     "today_last_error": null,
     "historical_max_jobs": 51,
     "consecutive_bad_days": 0,
@@ -1065,9 +1065,9 @@
   },
   "Fireworks AI": {
     "date": "2026-08-19",
-    "today_max_jobs": 60,
+    "today_max_jobs": 62,
     "today_last_error": null,
-    "historical_max_jobs": 61,
+    "historical_max_jobs": 62,
     "consecutive_bad_days": 0,
     "alerted": false
   },
