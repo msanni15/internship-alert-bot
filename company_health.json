@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-08-19",
-    "today_max_jobs": 400,
+    "today_max_jobs": 403,
     "today_last_error": null,
     "historical_max_jobs": 448,
     "consecutive_bad_days": 0,
@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-08-19",
-    "today_max_jobs": 1866,
+    "today_max_jobs": 1867,
     "today_last_error": null,
     "historical_max_jobs": 1881,
     "consecutive_bad_days": 0,
@@ -385,7 +385,7 @@
   },
   "Figma": {
     "date": "2026-08-19",
-    "today_max_jobs": 162,
+    "today_max_jobs": 163,
     "today_last_error": null,
     "historical_max_jobs": 177,
     "consecutive_bad_days": 0,
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-08-19",
-    "today_max_jobs": 389,
+    "today_max_jobs": 390,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
