@@ -57,7 +57,7 @@
   },
   "DRW": {
     "date": "2026-08-19",
-    "today_max_jobs": 163,
+    "today_max_jobs": 164,
     "today_last_error": null,
     "historical_max_jobs": 166,
     "consecutive_bad_days": 0,
@@ -489,7 +489,7 @@
   },
   "Aurora": {
     "date": "2026-08-19",
-    "today_max_jobs": 73,
+    "today_max_jobs": 74,
     "today_last_error": null,
     "historical_max_jobs": 77,
     "consecutive_bad_days": 0,
@@ -505,9 +505,9 @@
   },
   "Zipline": {
     "date": "2026-08-19",
-    "today_max_jobs": 284,
+    "today_max_jobs": 291,
     "today_last_error": null,
-    "historical_max_jobs": 284,
+    "historical_max_jobs": 291,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -753,7 +753,7 @@
   },
   "Cloudflare": {
     "date": "2026-08-19",
-    "today_max_jobs": 305,
+    "today_max_jobs": 306,
     "today_last_error": null,
     "historical_max_jobs": 307,
     "consecutive_bad_days": 0,
@@ -977,9 +977,9 @@
   },
   "AMD": {
     "date": "2026-08-19",
-    "today_max_jobs": 1158,
+    "today_max_jobs": 1159,
     "today_last_error": null,
-    "historical_max_jobs": 1158,
+    "historical_max_jobs": 1159,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1033,17 +1033,17 @@
   },
   "Luma AI": {
     "date": "2026-08-19",
-    "today_max_jobs": 51,
+    "today_max_jobs": 52,
     "today_last_error": null,
-    "historical_max_jobs": 51,
+    "historical_max_jobs": 52,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Together AI": {
     "date": "2026-08-19",
-    "today_max_jobs": 63,
+    "today_max_jobs": 65,
     "today_last_error": null,
-    "historical_max_jobs": 63,
+    "historical_max_jobs": 65,
     "consecutive_bad_days": 0,
     "alerted": false
   },
