@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-08-18",
-    "today_max_jobs": 356,
+    "today_max_jobs": 357,
     "today_last_error": null,
     "historical_max_jobs": 376,
     "consecutive_bad_days": 0,
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-08-18",
-    "today_max_jobs": 734,
+    "today_max_jobs": 735,
     "today_last_error": null,
     "historical_max_jobs": 752,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-18",
-    "today_max_jobs": 463,
+    "today_max_jobs": 464,
     "today_last_error": null,
-    "historical_max_jobs": 463,
+    "historical_max_jobs": 464,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -505,9 +505,9 @@
   },
   "Zipline": {
     "date": "2026-08-18",
-    "today_max_jobs": 281,
+    "today_max_jobs": 282,
     "today_last_error": null,
-    "historical_max_jobs": 281,
+    "historical_max_jobs": 282,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -753,7 +753,7 @@
   },
   "Cloudflare": {
     "date": "2026-08-18",
-    "today_max_jobs": 303,
+    "today_max_jobs": 304,
     "today_last_error": null,
     "historical_max_jobs": 307,
     "consecutive_bad_days": 0,
@@ -881,7 +881,7 @@
   },
   "Nimble Robotics": {
     "date": "2026-08-18",
-    "today_max_jobs": 27,
+    "today_max_jobs": 29,
     "today_last_error": null,
     "historical_max_jobs": 30,
     "consecutive_bad_days": 0,
@@ -1041,9 +1041,9 @@
   },
   "Together AI": {
     "date": "2026-08-18",
-    "today_max_jobs": 62,
+    "today_max_jobs": 63,
     "today_last_error": null,
-    "historical_max_jobs": 62,
+    "historical_max_jobs": 63,
     "consecutive_bad_days": 0,
     "alerted": false
   },
