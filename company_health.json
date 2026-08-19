@@ -81,7 +81,7 @@
   },
   "Tower Research": {
     "date": "2026-08-19",
-    "today_max_jobs": 82,
+    "today_max_jobs": 83,
     "today_last_error": null,
     "historical_max_jobs": 83,
     "consecutive_bad_days": 0,
@@ -113,7 +113,7 @@
   },
   "AQR": {
     "date": "2026-08-19",
-    "today_max_jobs": 47,
+    "today_max_jobs": 48,
     "today_last_error": null,
     "historical_max_jobs": 49,
     "consecutive_bad_days": 0,
@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-08-19",
-    "today_max_jobs": 1870,
+    "today_max_jobs": 1881,
     "today_last_error": null,
     "historical_max_jobs": 1881,
     "consecutive_bad_days": 0,
@@ -273,7 +273,7 @@
   },
   "Roblox": {
     "date": "2026-08-19",
-    "today_max_jobs": 222,
+    "today_max_jobs": 223,
     "today_last_error": null,
     "historical_max_jobs": 230,
     "consecutive_bad_days": 0,
@@ -289,9 +289,9 @@
   },
   "Stripe": {
     "date": "2026-08-19",
-    "today_max_jobs": 577,
+    "today_max_jobs": 579,
     "today_last_error": null,
-    "historical_max_jobs": 578,
+    "historical_max_jobs": 579,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -425,7 +425,7 @@
   },
   "Robinhood": {
     "date": "2026-08-19",
-    "today_max_jobs": 124,
+    "today_max_jobs": 125,
     "today_last_error": null,
     "historical_max_jobs": 139,
     "consecutive_bad_days": 0,
@@ -505,9 +505,9 @@
   },
   "Zipline": {
     "date": "2026-08-19",
-    "today_max_jobs": 291,
+    "today_max_jobs": 292,
     "today_last_error": null,
-    "historical_max_jobs": 291,
+    "historical_max_jobs": 292,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -553,7 +553,7 @@
   },
   "Waabi": {
     "date": "2026-08-19",
-    "today_max_jobs": 58,
+    "today_max_jobs": 61,
     "today_last_error": null,
     "historical_max_jobs": 62,
     "consecutive_bad_days": 0,
@@ -577,7 +577,7 @@
   },
   "FieldAI": {
     "date": "2026-08-19",
-    "today_max_jobs": 122,
+    "today_max_jobs": 123,
     "today_last_error": null,
     "historical_max_jobs": 129,
     "consecutive_bad_days": 0,
