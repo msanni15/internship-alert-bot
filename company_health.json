@@ -41,7 +41,7 @@
   },
   "Optiver": {
     "date": "2026-08-20",
-    "today_max_jobs": 177,
+    "today_max_jobs": 178,
     "today_last_error": null,
     "historical_max_jobs": 178,
     "consecutive_bad_days": 0,
@@ -473,7 +473,7 @@
   },
   "Zoox": {
     "date": "2026-08-20",
-    "today_max_jobs": 235,
+    "today_max_jobs": 237,
     "today_last_error": null,
     "historical_max_jobs": 244,
     "consecutive_bad_days": 0,
@@ -497,17 +497,17 @@
   },
   "Skydio": {
     "date": "2026-08-20",
-    "today_max_jobs": 121,
+    "today_max_jobs": 122,
     "today_last_error": null,
-    "historical_max_jobs": 121,
+    "historical_max_jobs": 122,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Zipline": {
     "date": "2026-08-20",
-    "today_max_jobs": 300,
+    "today_max_jobs": 302,
     "today_last_error": null,
-    "historical_max_jobs": 300,
+    "historical_max_jobs": 302,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -609,7 +609,7 @@
   },
   "Saronic": {
     "date": "2026-08-20",
-    "today_max_jobs": 219,
+    "today_max_jobs": 224,
     "today_last_error": null,
     "historical_max_jobs": 260,
     "consecutive_bad_days": 0,
@@ -665,9 +665,9 @@
   },
   "xAI": {
     "date": "2026-08-20",
-    "today_max_jobs": 256,
+    "today_max_jobs": 257,
     "today_last_error": null,
-    "historical_max_jobs": 256,
+    "historical_max_jobs": 257,
     "consecutive_bad_days": 0,
     "alerted": false
   },
