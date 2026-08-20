@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-08-20",
-    "today_max_jobs": 364,
+    "today_max_jobs": 368,
     "today_last_error": null,
     "historical_max_jobs": 376,
     "consecutive_bad_days": 0,
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-08-20",
-    "today_max_jobs": 386,
+    "today_max_jobs": 387,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-08-20",
-    "today_max_jobs": 1159,
+    "today_max_jobs": 1162,
     "today_last_error": null,
     "historical_max_jobs": 1165,
     "consecutive_bad_days": 0,
