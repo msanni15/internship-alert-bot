@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-08-20",
-    "today_max_jobs": 320,
+    "today_max_jobs": 395,
     "today_last_error": null,
     "historical_max_jobs": 448,
     "consecutive_bad_days": 0,
@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-08-20",
-    "today_max_jobs": 1893,
+    "today_max_jobs": 1894,
     "today_last_error": null,
     "historical_max_jobs": 1897,
     "consecutive_bad_days": 0,
@@ -313,7 +313,7 @@
   },
   "DoorDash": {
     "date": "2026-08-20",
-    "today_max_jobs": 461,
+    "today_max_jobs": 463,
     "today_last_error": null,
     "historical_max_jobs": 473,
     "consecutive_bad_days": 0,
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-08-20",
-    "today_max_jobs": 387,
+    "today_max_jobs": 388,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
@@ -977,9 +977,9 @@
   },
   "AMD": {
     "date": "2026-08-20",
-    "today_max_jobs": 1162,
+    "today_max_jobs": 1166,
     "today_last_error": null,
-    "historical_max_jobs": 1165,
+    "historical_max_jobs": 1166,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1041,7 +1041,7 @@
   },
   "Together AI": {
     "date": "2026-08-20",
-    "today_max_jobs": 62,
+    "today_max_jobs": 63,
     "today_last_error": null,
     "historical_max_jobs": 65,
     "consecutive_bad_days": 0,
