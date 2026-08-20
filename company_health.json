@@ -441,7 +441,7 @@
   },
   "Vercel": {
     "date": "2026-08-20",
-    "today_max_jobs": 83,
+    "today_max_jobs": 84,
     "today_last_error": null,
     "historical_max_jobs": 85,
     "consecutive_bad_days": 0,
@@ -465,7 +465,7 @@
   },
   "Waymo": {
     "date": "2026-08-20",
-    "today_max_jobs": 362,
+    "today_max_jobs": 363,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -665,9 +665,9 @@
   },
   "xAI": {
     "date": "2026-08-20",
-    "today_max_jobs": 255,
+    "today_max_jobs": 256,
     "today_last_error": null,
-    "historical_max_jobs": 255,
+    "historical_max_jobs": 256,
     "consecutive_bad_days": 0,
     "alerted": false
   },
