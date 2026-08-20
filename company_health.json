@@ -297,7 +297,7 @@
   },
   "Airbnb": {
     "date": "2026-08-20",
-    "today_max_jobs": 192,
+    "today_max_jobs": 193,
     "today_last_error": null,
     "historical_max_jobs": 198,
     "consecutive_bad_days": 0,
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-08-20",
-    "today_max_jobs": 388,
+    "today_max_jobs": 389,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
@@ -753,7 +753,7 @@
   },
   "Cloudflare": {
     "date": "2026-08-20",
-    "today_max_jobs": 304,
+    "today_max_jobs": 305,
     "today_last_error": null,
     "historical_max_jobs": 307,
     "consecutive_bad_days": 0,
