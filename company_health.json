@@ -321,7 +321,7 @@
   },
   "Pinterest": {
     "date": "2026-08-20",
-    "today_max_jobs": 220,
+    "today_max_jobs": 221,
     "today_last_error": null,
     "historical_max_jobs": 226,
     "consecutive_bad_days": 0,
