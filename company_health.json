@@ -273,7 +273,7 @@
   },
   "Roblox": {
     "date": "2026-08-19",
-    "today_max_jobs": 224,
+    "today_max_jobs": 225,
     "today_last_error": null,
     "historical_max_jobs": 230,
     "consecutive_bad_days": 0,
@@ -305,7 +305,7 @@
   },
   "Uber": {
     "date": "2026-08-19",
-    "today_max_jobs": 40,
+    "today_max_jobs": 41,
     "today_last_error": null,
     "historical_max_jobs": 44,
     "consecutive_bad_days": 0,
