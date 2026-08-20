@@ -273,7 +273,7 @@
   },
   "Roblox": {
     "date": "2026-08-20",
-    "today_max_jobs": 226,
+    "today_max_jobs": 229,
     "today_last_error": null,
     "historical_max_jobs": 230,
     "consecutive_bad_days": 0,
@@ -489,7 +489,7 @@
   },
   "Aurora": {
     "date": "2026-08-20",
-    "today_max_jobs": 73,
+    "today_max_jobs": 74,
     "today_last_error": null,
     "historical_max_jobs": 77,
     "consecutive_bad_days": 0,
@@ -873,9 +873,9 @@
   },
   "Dexterity": {
     "date": "2026-08-20",
-    "today_max_jobs": 31,
+    "today_max_jobs": 32,
     "today_last_error": null,
-    "historical_max_jobs": 31,
+    "historical_max_jobs": 32,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1065,9 +1065,9 @@
   },
   "Fireworks AI": {
     "date": "2026-08-20",
-    "today_max_jobs": 63,
+    "today_max_jobs": 64,
     "today_last_error": null,
-    "historical_max_jobs": 63,
+    "historical_max_jobs": 64,
     "consecutive_bad_days": 0,
     "alerted": false
   },
