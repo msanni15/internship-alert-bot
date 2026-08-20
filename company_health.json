@@ -393,7 +393,7 @@
   },
   "Notion": {
     "date": "2026-08-19",
-    "today_max_jobs": 129,
+    "today_max_jobs": 130,
     "today_last_error": null,
     "historical_max_jobs": 133,
     "consecutive_bad_days": 0,
@@ -530,7 +530,7 @@
   "Boston Dynamics": {
     "date": "2026-08-19",
     "today_max_jobs": 72,
-    "today_last_error": "Boston Dynamics: HTTPSConnectionPool(host='bostondynamics.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=8)",
+    "today_last_error": "Boston Dynamics: HTTPSConnectionPool(host='bostondynamics.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=5)",
     "historical_max_jobs": 72,
     "consecutive_bad_days": 0,
     "alerted": false
