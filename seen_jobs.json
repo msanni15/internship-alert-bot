@@ -1738,5 +1738,101 @@
     "title": "Software Engineer Intern (Spring 2027)",
     "url": "https://www.zipline.com/open-roles?gh_jid=7907191003",
     "updated_at": "2026-08-20T14:47:04-04:00"
+  },
+  "greenhouse:Databricks:8732364002": {
+    "company": "Databricks",
+    "title": "Software Engineering Intern (2027 Start) - Winter",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8732364002",
+    "updated_at": "2026-08-20T19:40:25-04:00"
+  },
+  "greenhouse:Zipline:7918888003": {
+    "company": "Zipline",
+    "title": "Maintenance Tool Engineering Intern (Summer 2027)",
+    "url": "https://www.zipline.com/open-roles?gh_jid=7918888003",
+    "updated_at": "2026-08-20T18:59:40-04:00"
+  },
+  "custom/jibe:AMD:91227": {
+    "company": "AMD",
+    "title": "2027 Undergrad Product Development Engineering Intern/Co-op",
+    "url": "https://campus-amd.icims.com/jobs/91227/login",
+    "updated_at": "2026-08-20T23:28:00+0000"
+  },
+  "custom/jibe:AMD:91175": {
+    "company": "AMD",
+    "title": "2027 Undergrad Data Analyst Intern/co-op",
+    "url": "https://campus-amd.icims.com/jobs/91175/login",
+    "updated_at": "2026-08-20T23:28:00+0000"
+  },
+  "custom/jibe:AMD:91173": {
+    "company": "AMD",
+    "title": "2027 Undergrad Hardware Engineering intern/co-op",
+    "url": "https://campus-amd.icims.com/jobs/91173/login",
+    "updated_at": "2026-08-20T23:28:00+0000"
+  },
+  "custom/jibe:AMD:91170": {
+    "company": "AMD",
+    "title": "2027 Undergrad Machine Learning (ML)/ Artificial Intelligence (AI) intern/co-op",
+    "url": "https://campus-amd.icims.com/jobs/91170/login",
+    "updated_at": "2026-08-20T23:28:00+0000"
+  },
+  "custom/jibe:AMD:90947": {
+    "company": "AMD",
+    "title": "2027 Undergrad Software Engineer Intern/Co-op",
+    "url": "https://campus-amd.icims.com/jobs/90947/login",
+    "updated_at": "2026-08-20T23:28:00+0000"
+  },
+  "custom/jibe:AMD:90895": {
+    "company": "AMD",
+    "title": "2027 Undergrad Data Analyst Intern/co-op",
+    "url": "https://campus-amd.icims.com/jobs/90895/login",
+    "updated_at": "2026-08-20T23:28:00+0000"
+  },
+  "custom/jibe:AMD:90894": {
+    "company": "AMD",
+    "title": "2027 Undergrad Hardware Engineering intern/co-op",
+    "url": "https://campus-amd.icims.com/jobs/90894/login",
+    "updated_at": "2026-08-20T23:28:00+0000"
+  },
+  "custom/jibe:AMD:90892": {
+    "company": "AMD",
+    "title": "2027 Undergrad Machine Learning (ML)/ Artificial Intelligence (AI) intern/co-op",
+    "url": "https://campus-amd.icims.com/jobs/90892/login",
+    "updated_at": "2026-08-20T23:28:00+0000"
+  },
+  "custom/jibe:AMD:90891": {
+    "company": "AMD",
+    "title": "2027 Undergrad Software Engineer Intern/Co-op",
+    "url": "https://campus-amd.icims.com/jobs/90891/login",
+    "updated_at": "2026-08-20T23:28:00+0000"
+  },
+  "custom/jibe:AMD:90820": {
+    "company": "AMD",
+    "title": "2027 Undergrad Hadware Design Verification Engineering Intern/Co-Op",
+    "url": "https://campus-amd.icims.com/jobs/90820/login",
+    "updated_at": "2026-08-20T23:28:00+0000"
+  },
+  "custom/jibe:AMD:90811": {
+    "company": "AMD",
+    "title": "2027 Undergrad Hardware Design Verification Engineering Co-op/Intern",
+    "url": "https://campus-amd.icims.com/jobs/90811/login",
+    "updated_at": "2026-08-20T23:28:00+0000"
+  },
+  "custom/jibe:AMD:90807": {
+    "company": "AMD",
+    "title": "2027 Undergrad Firmware Engineering Co-op/Intern",
+    "url": "https://campus-amd.icims.com/jobs/90807/login",
+    "updated_at": "2026-08-20T23:28:00+0000"
+  },
+  "custom/jibe:AMD:90801": {
+    "company": "AMD",
+    "title": "2027 Undergrad Firmware Engineering Intern/Co-op",
+    "url": "https://campus-amd.icims.com/jobs/90801/login",
+    "updated_at": "2026-08-20T23:28:00+0000"
+  },
+  "custom/jibe:AMD:90790": {
+    "company": "AMD",
+    "title": "2027 Undergrad Product Development Engineering Intern/Co-op",
+    "url": "https://campus-amd.icims.com/jobs/90790/login",
+    "updated_at": "2026-08-20T23:28:00+0000"
   }
 }
