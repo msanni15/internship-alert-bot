@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-19",
-    "today_max_jobs": 483,
+    "today_max_jobs": 484,
     "today_last_error": null,
-    "historical_max_jobs": 483,
+    "historical_max_jobs": 484,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -385,7 +385,7 @@
   },
   "Figma": {
     "date": "2026-08-19",
-    "today_max_jobs": 163,
+    "today_max_jobs": 164,
     "today_last_error": null,
     "historical_max_jobs": 177,
     "consecutive_bad_days": 0,
