@@ -89,7 +89,7 @@
   },
   "Akuna Capital": {
     "date": "2026-08-20",
-    "today_max_jobs": 33,
+    "today_max_jobs": 34,
     "today_last_error": null,
     "historical_max_jobs": 35,
     "consecutive_bad_days": 0,
@@ -97,7 +97,7 @@
   },
   "Wolverine Trading": {
     "date": "2026-08-20",
-    "today_max_jobs": 12,
+    "today_max_jobs": 13,
     "today_last_error": null,
     "historical_max_jobs": 13,
     "consecutive_bad_days": 0,
@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-08-20",
-    "today_max_jobs": 809,
+    "today_max_jobs": 810,
     "today_last_error": null,
     "historical_max_jobs": 823,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-20",
-    "today_max_jobs": 487,
+    "today_max_jobs": 490,
     "today_last_error": null,
-    "historical_max_jobs": 487,
+    "historical_max_jobs": 490,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -433,7 +433,7 @@
   },
   "Coinbase": {
     "date": "2026-08-20",
-    "today_max_jobs": 169,
+    "today_max_jobs": 170,
     "today_last_error": null,
     "historical_max_jobs": 175,
     "consecutive_bad_days": 0,
@@ -505,9 +505,9 @@
   },
   "Zipline": {
     "date": "2026-08-20",
-    "today_max_jobs": 307,
+    "today_max_jobs": 308,
     "today_last_error": null,
-    "historical_max_jobs": 307,
+    "historical_max_jobs": 308,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -529,9 +529,9 @@
   },
   "Boston Dynamics": {
     "date": "2026-08-20",
-    "today_max_jobs": 74,
+    "today_max_jobs": 75,
     "today_last_error": null,
-    "historical_max_jobs": 74,
+    "historical_max_jobs": 75,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -553,9 +553,9 @@
   },
   "Waabi": {
     "date": "2026-08-20",
-    "today_max_jobs": 63,
+    "today_max_jobs": 64,
     "today_last_error": null,
-    "historical_max_jobs": 63,
+    "historical_max_jobs": 64,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-08-20",
-    "today_max_jobs": 2159,
+    "today_max_jobs": 2166,
     "today_last_error": null,
     "historical_max_jobs": 2171,
     "consecutive_bad_days": 0,
@@ -777,9 +777,9 @@
   },
   "Rocket Lab": {
     "date": "2026-08-20",
-    "today_max_jobs": 415,
+    "today_max_jobs": 417,
     "today_last_error": null,
-    "historical_max_jobs": 416,
+    "historical_max_jobs": 417,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -857,9 +857,9 @@
   },
   "Wing": {
     "date": "2026-08-20",
-    "today_max_jobs": 51,
+    "today_max_jobs": 52,
     "today_last_error": null,
-    "historical_max_jobs": 51,
+    "historical_max_jobs": 52,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -921,9 +921,9 @@
   },
   "Standard Bots": {
     "date": "2026-08-20",
-    "today_max_jobs": 35,
+    "today_max_jobs": 36,
     "today_last_error": null,
-    "historical_max_jobs": 35,
+    "historical_max_jobs": 36,
     "consecutive_bad_days": 0,
     "alerted": false
   },
