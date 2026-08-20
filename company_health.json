@@ -145,7 +145,7 @@
   },
   "G-Research": {
     "date": "2026-08-20",
-    "today_max_jobs": 62,
+    "today_max_jobs": 64,
     "today_last_error": null,
     "historical_max_jobs": 66,
     "consecutive_bad_days": 0,
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-08-20",
-    "today_max_jobs": 440,
+    "today_max_jobs": 441,
     "today_last_error": null,
     "historical_max_jobs": 465,
     "consecutive_bad_days": 0,
