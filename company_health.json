@@ -81,9 +81,9 @@
   },
   "Tower Research": {
     "date": "2026-08-20",
-    "today_max_jobs": 84,
+    "today_max_jobs": 85,
     "today_last_error": null,
-    "historical_max_jobs": 84,
+    "historical_max_jobs": 85,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-08-20",
-    "today_max_jobs": 804,
+    "today_max_jobs": 805,
     "today_last_error": null,
     "historical_max_jobs": 823,
     "consecutive_bad_days": 0,
@@ -329,7 +329,7 @@
   },
   "Snap": {
     "date": "2026-08-20",
-    "today_max_jobs": 177,
+    "today_max_jobs": 178,
     "today_last_error": null,
     "historical_max_jobs": 183,
     "consecutive_bad_days": 0,
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-08-20",
-    "today_max_jobs": 389,
+    "today_max_jobs": 390,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
