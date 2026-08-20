@@ -113,7 +113,7 @@
   },
   "AQR": {
     "date": "2026-08-20",
-    "today_max_jobs": 47,
+    "today_max_jobs": 48,
     "today_last_error": null,
     "historical_max_jobs": 49,
     "consecutive_bad_days": 0,
@@ -273,7 +273,7 @@
   },
   "Roblox": {
     "date": "2026-08-20",
-    "today_max_jobs": 224,
+    "today_max_jobs": 226,
     "today_last_error": null,
     "historical_max_jobs": 230,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-20",
-    "today_max_jobs": 484,
+    "today_max_jobs": 487,
     "today_last_error": null,
-    "historical_max_jobs": 484,
+    "historical_max_jobs": 487,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -393,7 +393,7 @@
   },
   "Notion": {
     "date": "2026-08-20",
-    "today_max_jobs": 129,
+    "today_max_jobs": 130,
     "today_last_error": null,
     "historical_max_jobs": 133,
     "consecutive_bad_days": 0,
@@ -401,7 +401,7 @@
   },
   "Ramp": {
     "date": "2026-08-20",
-    "today_max_jobs": 136,
+    "today_max_jobs": 137,
     "today_last_error": null,
     "historical_max_jobs": 138,
     "consecutive_bad_days": 0,
@@ -433,7 +433,7 @@
   },
   "Coinbase": {
     "date": "2026-08-20",
-    "today_max_jobs": 168,
+    "today_max_jobs": 169,
     "today_last_error": null,
     "historical_max_jobs": 175,
     "consecutive_bad_days": 0,
@@ -473,7 +473,7 @@
   },
   "Zoox": {
     "date": "2026-08-20",
-    "today_max_jobs": 234,
+    "today_max_jobs": 235,
     "today_last_error": null,
     "historical_max_jobs": 244,
     "consecutive_bad_days": 0,
@@ -497,9 +497,9 @@
   },
   "Skydio": {
     "date": "2026-08-20",
-    "today_max_jobs": 120,
+    "today_max_jobs": 121,
     "today_last_error": null,
-    "historical_max_jobs": 120,
+    "historical_max_jobs": 121,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -521,7 +521,7 @@
   },
   "Figure AI": {
     "date": "2026-08-20",
-    "today_max_jobs": 124,
+    "today_max_jobs": 125,
     "today_last_error": null,
     "historical_max_jobs": 129,
     "consecutive_bad_days": 0,
@@ -609,7 +609,7 @@
   },
   "Saronic": {
     "date": "2026-08-20",
-    "today_max_jobs": 217,
+    "today_max_jobs": 219,
     "today_last_error": null,
     "historical_max_jobs": 260,
     "consecutive_bad_days": 0,
