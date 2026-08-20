@@ -49,7 +49,7 @@
   },
   "IMC": {
     "date": "2026-08-19",
-    "today_max_jobs": 165,
+    "today_max_jobs": 166,
     "today_last_error": null,
     "historical_max_jobs": 171,
     "consecutive_bad_days": 0,
@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-08-19",
-    "today_max_jobs": 403,
+    "today_max_jobs": 426,
     "today_last_error": "Intel: HTTPSConnectionPool(host='intel.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=8)",
     "historical_max_jobs": 448,
     "consecutive_bad_days": 0,
@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-08-19",
-    "today_max_jobs": 360,
+    "today_max_jobs": 366,
     "today_last_error": "Broadcom: HTTPSConnectionPool(host='broadcom.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=8)",
     "historical_max_jobs": 376,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-19",
-    "today_max_jobs": 479,
+    "today_max_jobs": 483,
     "today_last_error": null,
-    "historical_max_jobs": 479,
+    "historical_max_jobs": 483,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -393,7 +393,7 @@
   },
   "Notion": {
     "date": "2026-08-19",
-    "today_max_jobs": 128,
+    "today_max_jobs": 129,
     "today_last_error": null,
     "historical_max_jobs": 133,
     "consecutive_bad_days": 0,
@@ -505,9 +505,9 @@
   },
   "Zipline": {
     "date": "2026-08-19",
-    "today_max_jobs": 293,
+    "today_max_jobs": 299,
     "today_last_error": null,
-    "historical_max_jobs": 293,
+    "historical_max_jobs": 299,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -665,9 +665,9 @@
   },
   "xAI": {
     "date": "2026-08-19",
-    "today_max_jobs": 253,
+    "today_max_jobs": 255,
     "today_last_error": null,
-    "historical_max_jobs": 253,
+    "historical_max_jobs": 255,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -689,7 +689,7 @@
   },
   "Cerebras": {
     "date": "2026-08-19",
-    "today_max_jobs": 123,
+    "today_max_jobs": 124,
     "today_last_error": null,
     "historical_max_jobs": 126,
     "consecutive_bad_days": 0,
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-08-19",
-    "today_max_jobs": 2151,
+    "today_max_jobs": 2153,
     "today_last_error": null,
     "historical_max_jobs": 2171,
     "consecutive_bad_days": 0,
@@ -897,7 +897,7 @@
   },
   "Serve Robotics": {
     "date": "2026-08-19",
-    "today_max_jobs": 41,
+    "today_max_jobs": 42,
     "today_last_error": null,
     "historical_max_jobs": 53,
     "consecutive_bad_days": 0,
@@ -1097,7 +1097,7 @@
   },
   "Formic": {
     "date": "2026-08-19",
-    "today_max_jobs": 41,
+    "today_max_jobs": 42,
     "today_last_error": null,
     "historical_max_jobs": 43,
     "consecutive_bad_days": 0,
