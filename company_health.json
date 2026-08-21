@@ -97,9 +97,9 @@
   },
   "Wolverine Trading": {
     "date": "2026-08-21",
-    "today_max_jobs": 13,
+    "today_max_jobs": 14,
     "today_last_error": null,
-    "historical_max_jobs": 13,
+    "historical_max_jobs": 14,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -137,7 +137,7 @@
   },
   "Voleon": {
     "date": "2026-08-21",
-    "today_max_jobs": 56,
+    "today_max_jobs": 57,
     "today_last_error": null,
     "historical_max_jobs": 58,
     "consecutive_bad_days": 0,
@@ -241,9 +241,9 @@
   },
   "Samsung Semiconductor": {
     "date": "2026-08-21",
-    "today_max_jobs": 59,
+    "today_max_jobs": 60,
     "today_last_error": null,
-    "historical_max_jobs": 59,
+    "historical_max_jobs": 60,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -273,9 +273,9 @@
   },
   "Roblox": {
     "date": "2026-08-21",
-    "today_max_jobs": 230,
+    "today_max_jobs": 231,
     "today_last_error": null,
-    "historical_max_jobs": 230,
+    "historical_max_jobs": 231,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -313,7 +313,7 @@
   },
   "DoorDash": {
     "date": "2026-08-21",
-    "today_max_jobs": 462,
+    "today_max_jobs": 464,
     "today_last_error": null,
     "historical_max_jobs": 473,
     "consecutive_bad_days": 0,
@@ -345,17 +345,17 @@
   },
   "OpenAI": {
     "date": "2026-08-21",
-    "today_max_jobs": 751,
+    "today_max_jobs": 754,
     "today_last_error": null,
-    "historical_max_jobs": 752,
+    "historical_max_jobs": 754,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Anthropic": {
     "date": "2026-08-21",
-    "today_max_jobs": 510,
+    "today_max_jobs": 511,
     "today_last_error": null,
-    "historical_max_jobs": 510,
+    "historical_max_jobs": 511,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -425,7 +425,7 @@
   },
   "Robinhood": {
     "date": "2026-08-21",
-    "today_max_jobs": 129,
+    "today_max_jobs": 130,
     "today_last_error": null,
     "historical_max_jobs": 139,
     "consecutive_bad_days": 0,
@@ -433,7 +433,7 @@
   },
   "Coinbase": {
     "date": "2026-08-21",
-    "today_max_jobs": 170,
+    "today_max_jobs": 173,
     "today_last_error": null,
     "historical_max_jobs": 175,
     "consecutive_bad_days": 0,
@@ -473,7 +473,7 @@
   },
   "Zoox": {
     "date": "2026-08-21",
-    "today_max_jobs": 237,
+    "today_max_jobs": 238,
     "today_last_error": null,
     "historical_max_jobs": 244,
     "consecutive_bad_days": 0,
@@ -505,9 +505,9 @@
   },
   "Zipline": {
     "date": "2026-08-21",
-    "today_max_jobs": 315,
+    "today_max_jobs": 322,
     "today_last_error": null,
-    "historical_max_jobs": 315,
+    "historical_max_jobs": 322,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -649,9 +649,9 @@
   },
   "Physical Intelligence": {
     "date": "2026-08-21",
-    "today_max_jobs": 31,
+    "today_max_jobs": 32,
     "today_last_error": null,
-    "historical_max_jobs": 31,
+    "historical_max_jobs": 32,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -761,7 +761,7 @@
   },
   "Neuralink": {
     "date": "2026-08-21",
-    "today_max_jobs": 76,
+    "today_max_jobs": 78,
     "today_last_error": null,
     "historical_max_jobs": 83,
     "consecutive_bad_days": 0,
@@ -777,7 +777,7 @@
   },
   "Rocket Lab": {
     "date": "2026-08-21",
-    "today_max_jobs": 421,
+    "today_max_jobs": 422,
     "today_last_error": null,
     "historical_max_jobs": 422,
     "consecutive_bad_days": 0,
@@ -937,7 +937,7 @@
   },
   "Thinking Machines Lab": {
     "date": "2026-08-21",
-    "today_max_jobs": 33,
+    "today_max_jobs": 34,
     "today_last_error": null,
     "historical_max_jobs": 36,
     "consecutive_bad_days": 0,
@@ -1049,7 +1049,7 @@
   },
   "Suno": {
     "date": "2026-08-21",
-    "today_max_jobs": 61,
+    "today_max_jobs": 62,
     "today_last_error": null,
     "historical_max_jobs": 66,
     "consecutive_bad_days": 0,
