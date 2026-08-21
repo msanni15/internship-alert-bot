@@ -57,7 +57,7 @@
   },
   "DRW": {
     "date": "2026-08-21",
-    "today_max_jobs": 163,
+    "today_max_jobs": 164,
     "today_last_error": null,
     "historical_max_jobs": 166,
     "consecutive_bad_days": 0,
@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-08-21",
-    "today_max_jobs": 810,
+    "today_max_jobs": 812,
     "today_last_error": null,
     "historical_max_jobs": 823,
     "consecutive_bad_days": 0,
@@ -297,7 +297,7 @@
   },
   "Airbnb": {
     "date": "2026-08-21",
-    "today_max_jobs": 191,
+    "today_max_jobs": 192,
     "today_last_error": null,
     "historical_max_jobs": 198,
     "consecutive_bad_days": 0,
@@ -321,7 +321,7 @@
   },
   "Pinterest": {
     "date": "2026-08-21",
-    "today_max_jobs": 220,
+    "today_max_jobs": 221,
     "today_last_error": null,
     "historical_max_jobs": 226,
     "consecutive_bad_days": 0,
@@ -329,7 +329,7 @@
   },
   "Snap": {
     "date": "2026-08-21",
-    "today_max_jobs": 6,
+    "today_max_jobs": 176,
     "today_last_error": null,
     "historical_max_jobs": 183,
     "consecutive_bad_days": 0,
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-08-21",
-    "today_max_jobs": 746,
+    "today_max_jobs": 747,
     "today_last_error": null,
     "historical_max_jobs": 752,
     "consecutive_bad_days": 0,
@@ -353,7 +353,7 @@
   },
   "Anthropic": {
     "date": "2026-08-21",
-    "today_max_jobs": 498,
+    "today_max_jobs": 499,
     "today_last_error": null,
     "historical_max_jobs": 499,
     "consecutive_bad_days": 0,
@@ -713,7 +713,7 @@
   },
   "QRT": {
     "date": "2026-08-21",
-    "today_max_jobs": 185,
+    "today_max_jobs": 186,
     "today_last_error": null,
     "historical_max_jobs": 199,
     "consecutive_bad_days": 0,
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-08-21",
-    "today_max_jobs": 389,
+    "today_max_jobs": 390,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
