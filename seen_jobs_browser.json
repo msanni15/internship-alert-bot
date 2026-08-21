@@ -412,5 +412,35 @@
     "title": "Intern - Photomask Wet Process Engineering",
     "url": "https://careers.micron.com/careers/job/43943567",
     "updated_at": "Posted a day ago"
+  },
+  "browser/icims:SIG:https://careers.sig.com/intern-co-op/jobs/11335?lang=en-us": {
+    "company": "SIG",
+    "title": "Trading Systems Engineering Internship: Summer 2027 (Dublin)",
+    "url": "https://careers.sig.com/intern-co-op/jobs/11335?lang=en-us",
+    "updated_at": ""
+  },
+  "browser/icims:SIG:https://careers.sig.com/intern-co-op/jobs/11334?lang=en-us": {
+    "company": "SIG",
+    "title": "Trading Systems Engineering Internship: Summer 2027 (London)",
+    "url": "https://careers.sig.com/intern-co-op/jobs/11334?lang=en-us",
+    "updated_at": ""
+  },
+  "browser/icims:SIG:https://careers.sig.com/intern-co-op/jobs/11333?lang=en-us": {
+    "company": "SIG",
+    "title": "Quantitative Strategy Developer Internship: Summer 2027 (London)",
+    "url": "https://careers.sig.com/intern-co-op/jobs/11333?lang=en-us",
+    "updated_at": ""
+  },
+  "browser/icims:SIG:https://careers.sig.com/intern-co-op/jobs/11332?lang=en-us": {
+    "company": "SIG",
+    "title": "Quantitative Strategy Developer Internship: Summer 2027 (Dublin)",
+    "url": "https://careers.sig.com/intern-co-op/jobs/11332?lang=en-us",
+    "updated_at": ""
+  },
+  "browser/eightfold:Micron:https://careers.micron.com/careers/job/43943574": {
+    "company": "Micron",
+    "title": "Intern - HBM SoC RTL Design Engineer",
+    "url": "https://careers.micron.com/careers/job/43943574",
+    "updated_at": "Posted 2 days ago"
   }
 }
