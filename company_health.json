@@ -81,9 +81,9 @@
   },
   "Tower Research": {
     "date": "2026-08-20",
-    "today_max_jobs": 85,
+    "today_max_jobs": 86,
     "today_last_error": null,
-    "historical_max_jobs": 85,
+    "historical_max_jobs": 86,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-08-20",
-    "today_max_jobs": 395,
+    "today_max_jobs": 420,
     "today_last_error": null,
     "historical_max_jobs": 448,
     "consecutive_bad_days": 0,
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-08-20",
-    "today_max_jobs": 741,
+    "today_max_jobs": 743,
     "today_last_error": null,
     "historical_max_jobs": 752,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-20",
-    "today_max_jobs": 496,
+    "today_max_jobs": 499,
     "today_last_error": null,
-    "historical_max_jobs": 496,
+    "historical_max_jobs": 499,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -377,9 +377,9 @@
   },
   "Applied Intuition": {
     "date": "2026-08-20",
-    "today_max_jobs": 291,
+    "today_max_jobs": 293,
     "today_last_error": null,
-    "historical_max_jobs": 292,
+    "historical_max_jobs": 293,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -617,7 +617,7 @@
   },
   "Ambi Robotics": {
     "date": "2026-08-20",
-    "today_max_jobs": 6,
+    "today_max_jobs": 7,
     "today_last_error": null,
     "historical_max_jobs": 7,
     "consecutive_bad_days": 0,
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-08-20",
-    "today_max_jobs": 2170,
+    "today_max_jobs": 2171,
     "today_last_error": null,
     "historical_max_jobs": 2171,
     "consecutive_bad_days": 0,
