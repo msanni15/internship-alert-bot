@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-21",
-    "today_max_jobs": 512,
+    "today_max_jobs": 517,
     "today_last_error": null,
-    "historical_max_jobs": 512,
+    "historical_max_jobs": 517,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -473,7 +473,7 @@
   },
   "Zoox": {
     "date": "2026-08-21",
-    "today_max_jobs": 238,
+    "today_max_jobs": 239,
     "today_last_error": null,
     "historical_max_jobs": 244,
     "consecutive_bad_days": 0,
@@ -649,9 +649,9 @@
   },
   "Physical Intelligence": {
     "date": "2026-08-21",
-    "today_max_jobs": 32,
+    "today_max_jobs": 33,
     "today_last_error": null,
-    "historical_max_jobs": 32,
+    "historical_max_jobs": 33,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-08-21",
-    "today_max_jobs": 2178,
+    "today_max_jobs": 2179,
     "today_last_error": null,
-    "historical_max_jobs": 2178,
+    "historical_max_jobs": 2179,
     "consecutive_bad_days": 0,
     "alerted": false
   },
