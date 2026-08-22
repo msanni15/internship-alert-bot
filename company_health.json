@@ -1049,7 +1049,7 @@
   },
   "Suno": {
     "date": "2026-08-22",
-    "today_max_jobs": 62,
+    "today_max_jobs": 63,
     "today_last_error": null,
     "historical_max_jobs": 66,
     "consecutive_bad_days": 0,
