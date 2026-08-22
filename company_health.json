@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-08-22",
-    "today_max_jobs": 399,
+    "today_max_jobs": 400,
     "today_last_error": "Intel: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 448,
     "consecutive_bad_days": 0,
@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-08-22",
-    "today_max_jobs": 819,
+    "today_max_jobs": 821,
     "today_last_error": null,
     "historical_max_jobs": 823,
     "consecutive_bad_days": 0,
