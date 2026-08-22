@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-08-22",
-    "today_max_jobs": 398,
+    "today_max_jobs": 399,
     "today_last_error": "Intel: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 448,
     "consecutive_bad_days": 0,
