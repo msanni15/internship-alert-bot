@@ -201,15 +201,15 @@
   },
   "NVIDIA": {
     "date": "2026-08-22",
-    "today_max_jobs": 0,
+    "today_max_jobs": 400,
     "today_last_error": "NVIDIA: Expecting value: line 1 column 1 (char 0)",
-    "historical_max_jobs": 380,
+    "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Intel": {
     "date": "2026-08-22",
-    "today_max_jobs": 0,
+    "today_max_jobs": 398,
     "today_last_error": "Intel: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 448,
     "consecutive_bad_days": 0,
@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-08-22",
-    "today_max_jobs": 0,
+    "today_max_jobs": 362,
     "today_last_error": "Broadcom: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 376,
     "consecutive_bad_days": 0,
@@ -225,7 +225,7 @@
   },
   "Marvell": {
     "date": "2026-08-22",
-    "today_max_jobs": 0,
+    "today_max_jobs": 349,
     "today_last_error": "Marvell: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
@@ -529,7 +529,7 @@
   },
   "Boston Dynamics": {
     "date": "2026-08-22",
-    "today_max_jobs": 0,
+    "today_max_jobs": 75,
     "today_last_error": "Boston Dynamics: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 75,
     "consecutive_bad_days": 0,
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-08-22",
-    "today_max_jobs": 400,
+    "today_max_jobs": 460,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-08-22",
-    "today_max_jobs": 0,
+    "today_max_jobs": 444,
     "today_last_error": "Cadence: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 465,
     "consecutive_bad_days": 0,
