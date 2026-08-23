@@ -305,7 +305,7 @@
   },
   "Uber": {
     "date": "2026-08-22",
-    "today_max_jobs": 38,
+    "today_max_jobs": 39,
     "today_last_error": null,
     "historical_max_jobs": 44,
     "consecutive_bad_days": 0,
