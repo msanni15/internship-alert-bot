@@ -289,7 +289,7 @@
   },
   "Stripe": {
     "date": "2026-08-23",
-    "today_max_jobs": 575,
+    "today_max_jobs": 578,
     "today_last_error": null,
     "historical_max_jobs": 581,
     "consecutive_bad_days": 0,
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-08-23",
-    "today_max_jobs": 750,
+    "today_max_jobs": 751,
     "today_last_error": null,
     "historical_max_jobs": 754,
     "consecutive_bad_days": 0,
@@ -665,7 +665,7 @@
   },
   "xAI": {
     "date": "2026-08-23",
-    "today_max_jobs": 259,
+    "today_max_jobs": 261,
     "today_last_error": null,
     "historical_max_jobs": 261,
     "consecutive_bad_days": 0,
