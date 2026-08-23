@@ -209,9 +209,9 @@
   },
   "Intel": {
     "date": "2026-08-23",
-    "today_max_jobs": 417,
+    "today_max_jobs": 458,
     "today_last_error": null,
-    "historical_max_jobs": 448,
+    "historical_max_jobs": 458,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -753,9 +753,9 @@
   },
   "Cloudflare": {
     "date": "2026-08-23",
-    "today_max_jobs": 308,
+    "today_max_jobs": 310,
     "today_last_error": null,
-    "historical_max_jobs": 308,
+    "historical_max_jobs": 310,
     "consecutive_bad_days": 0,
     "alerted": false
   },
