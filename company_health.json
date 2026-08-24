@@ -41,7 +41,7 @@
   },
   "Optiver": {
     "date": "2026-08-23",
-    "today_max_jobs": 176,
+    "today_max_jobs": 177,
     "today_last_error": null,
     "historical_max_jobs": 178,
     "consecutive_bad_days": 0,
@@ -105,7 +105,7 @@
   },
   "Point72": {
     "date": "2026-08-23",
-    "today_max_jobs": 230,
+    "today_max_jobs": 233,
     "today_last_error": null,
     "historical_max_jobs": 233,
     "consecutive_bad_days": 0,
@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-08-23",
-    "today_max_jobs": 359,
+    "today_max_jobs": 362,
     "today_last_error": null,
     "historical_max_jobs": 376,
     "consecutive_bad_days": 0,
@@ -409,7 +409,7 @@
   },
   "Rippling": {
     "date": "2026-08-23",
-    "today_max_jobs": 74,
+    "today_max_jobs": 75,
     "today_last_error": null,
     "historical_max_jobs": 88,
     "consecutive_bad_days": 0,
@@ -657,7 +657,7 @@
   },
   "Apptronik": {
     "date": "2026-08-23",
-    "today_max_jobs": 76,
+    "today_max_jobs": 78,
     "today_last_error": null,
     "historical_max_jobs": 84,
     "consecutive_bad_days": 0,
@@ -673,9 +673,9 @@
   },
   "Cohere": {
     "date": "2026-08-23",
-    "today_max_jobs": 150,
+    "today_max_jobs": 152,
     "today_last_error": null,
-    "historical_max_jobs": 151,
+    "historical_max_jobs": 152,
     "consecutive_bad_days": 0,
     "alerted": false
   },
