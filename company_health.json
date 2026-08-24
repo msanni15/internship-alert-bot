@@ -210,7 +210,7 @@
   "Intel": {
     "date": "2026-08-24",
     "today_max_jobs": 396,
-    "today_last_error": null,
+    "today_last_error": "Intel: HTTPSConnectionPool(host='intel.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=8)",
     "historical_max_jobs": 458,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -281,9 +281,9 @@
   },
   "Databricks": {
     "date": "2026-08-24",
-    "today_max_jobs": 826,
+    "today_max_jobs": 827,
     "today_last_error": null,
-    "historical_max_jobs": 826,
+    "historical_max_jobs": 827,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -505,7 +505,7 @@
   },
   "Zipline": {
     "date": "2026-08-24",
-    "today_max_jobs": 321,
+    "today_max_jobs": 322,
     "today_last_error": null,
     "historical_max_jobs": 322,
     "consecutive_bad_days": 0,
@@ -530,7 +530,7 @@
   "Boston Dynamics": {
     "date": "2026-08-24",
     "today_max_jobs": 73,
-    "today_last_error": null,
+    "today_last_error": "Boston Dynamics: HTTPSConnectionPool(host='bostondynamics.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=8)",
     "historical_max_jobs": 75,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-08-24",
-    "today_max_jobs": 1169,
+    "today_max_jobs": 1172,
     "today_last_error": null,
     "historical_max_jobs": 1191,
     "consecutive_bad_days": 0,
@@ -1089,7 +1089,7 @@
   },
   "Dexory": {
     "date": "2026-08-24",
-    "today_max_jobs": 31,
+    "today_max_jobs": 32,
     "today_last_error": null,
     "historical_max_jobs": 33,
     "consecutive_bad_days": 0,
