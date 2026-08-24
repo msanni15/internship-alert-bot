@@ -33,7 +33,7 @@
   },
   "Jump Trading": {
     "date": "2026-08-24",
-    "today_max_jobs": 107,
+    "today_max_jobs": 109,
     "today_last_error": null,
     "historical_max_jobs": 109,
     "consecutive_bad_days": 0,
@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-08-24",
-    "today_max_jobs": 320,
+    "today_max_jobs": 340,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -225,7 +225,7 @@
   },
   "Marvell": {
     "date": "2026-08-24",
-    "today_max_jobs": 347,
+    "today_max_jobs": 348,
     "today_last_error": null,
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
@@ -281,15 +281,15 @@
   },
   "Databricks": {
     "date": "2026-08-24",
-    "today_max_jobs": 822,
+    "today_max_jobs": 826,
     "today_last_error": null,
-    "historical_max_jobs": 823,
+    "historical_max_jobs": 826,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Stripe": {
     "date": "2026-08-24",
-    "today_max_jobs": 580,
+    "today_max_jobs": 581,
     "today_last_error": null,
     "historical_max_jobs": 581,
     "consecutive_bad_days": 0,
@@ -353,7 +353,7 @@
   },
   "Anthropic": {
     "date": "2026-08-24",
-    "today_max_jobs": 515,
+    "today_max_jobs": 516,
     "today_last_error": null,
     "historical_max_jobs": 518,
     "consecutive_bad_days": 0,
@@ -625,9 +625,9 @@
   },
   "RIVR": {
     "date": "2026-08-24",
-    "today_max_jobs": 31,
+    "today_max_jobs": 32,
     "today_last_error": null,
-    "historical_max_jobs": 31,
+    "historical_max_jobs": 32,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-08-24",
-    "today_max_jobs": 400,
+    "today_max_jobs": 480,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-08-24",
-    "today_max_jobs": 1166,
+    "today_max_jobs": 1169,
     "today_last_error": null,
     "historical_max_jobs": 1191,
     "consecutive_bad_days": 0,
