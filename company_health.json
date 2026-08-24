@@ -33,9 +33,9 @@
   },
   "Jump Trading": {
     "date": "2026-08-24",
-    "today_max_jobs": 109,
+    "today_max_jobs": 110,
     "today_last_error": null,
-    "historical_max_jobs": 109,
+    "historical_max_jobs": 110,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -89,7 +89,7 @@
   },
   "Akuna Capital": {
     "date": "2026-08-24",
-    "today_max_jobs": 33,
+    "today_max_jobs": 34,
     "today_last_error": null,
     "historical_max_jobs": 35,
     "consecutive_bad_days": 0,
@@ -297,7 +297,7 @@
   },
   "Airbnb": {
     "date": "2026-08-24",
-    "today_max_jobs": 189,
+    "today_max_jobs": 192,
     "today_last_error": null,
     "historical_max_jobs": 198,
     "consecutive_bad_days": 0,
@@ -337,7 +337,7 @@
   },
   "Scale AI": {
     "date": "2026-08-24",
-    "today_max_jobs": 208,
+    "today_max_jobs": 209,
     "today_last_error": null,
     "historical_max_jobs": 220,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-24",
-    "today_max_jobs": 516,
+    "today_max_jobs": 525,
     "today_last_error": null,
-    "historical_max_jobs": 518,
+    "historical_max_jobs": 525,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -393,7 +393,7 @@
   },
   "Notion": {
     "date": "2026-08-24",
-    "today_max_jobs": 128,
+    "today_max_jobs": 130,
     "today_last_error": null,
     "historical_max_jobs": 133,
     "consecutive_bad_days": 0,
@@ -425,7 +425,7 @@
   },
   "Robinhood": {
     "date": "2026-08-24",
-    "today_max_jobs": 128,
+    "today_max_jobs": 129,
     "today_last_error": null,
     "historical_max_jobs": 139,
     "consecutive_bad_days": 0,
@@ -513,7 +513,7 @@
   },
   "Shield AI": {
     "date": "2026-08-24",
-    "today_max_jobs": 433,
+    "today_max_jobs": 434,
     "today_last_error": null,
     "historical_max_jobs": 443,
     "consecutive_bad_days": 0,
@@ -529,7 +529,7 @@
   },
   "Boston Dynamics": {
     "date": "2026-08-24",
-    "today_max_jobs": 73,
+    "today_max_jobs": 74,
     "today_last_error": "Boston Dynamics: HTTPSConnectionPool(host='bostondynamics.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=8)",
     "historical_max_jobs": 75,
     "consecutive_bad_days": 0,
@@ -545,7 +545,7 @@
   },
   "Kodiak Robotics": {
     "date": "2026-08-24",
-    "today_max_jobs": 64,
+    "today_max_jobs": 65,
     "today_last_error": null,
     "historical_max_jobs": 70,
     "consecutive_bad_days": 0,
@@ -657,7 +657,7 @@
   },
   "Apptronik": {
     "date": "2026-08-24",
-    "today_max_jobs": 78,
+    "today_max_jobs": 79,
     "today_last_error": null,
     "historical_max_jobs": 84,
     "consecutive_bad_days": 0,
@@ -665,9 +665,9 @@
   },
   "xAI": {
     "date": "2026-08-24",
-    "today_max_jobs": 261,
+    "today_max_jobs": 262,
     "today_last_error": null,
-    "historical_max_jobs": 261,
+    "historical_max_jobs": 262,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,17 +769,17 @@
   },
   "SpaceX": {
     "date": "2026-08-24",
-    "today_max_jobs": 2176,
+    "today_max_jobs": 2180,
     "today_last_error": null,
-    "historical_max_jobs": 2179,
+    "historical_max_jobs": 2180,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Rocket Lab": {
     "date": "2026-08-24",
-    "today_max_jobs": 421,
+    "today_max_jobs": 423,
     "today_last_error": null,
-    "historical_max_jobs": 422,
+    "historical_max_jobs": 423,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-08-24",
-    "today_max_jobs": 1172,
+    "today_max_jobs": 1175,
     "today_last_error": null,
     "historical_max_jobs": 1191,
     "consecutive_bad_days": 0,
@@ -985,9 +985,9 @@
   },
   "Cognition": {
     "date": "2026-08-24",
-    "today_max_jobs": 84,
+    "today_max_jobs": 86,
     "today_last_error": null,
-    "historical_max_jobs": 85,
+    "historical_max_jobs": 86,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1033,7 +1033,7 @@
   },
   "Luma AI": {
     "date": "2026-08-24",
-    "today_max_jobs": 49,
+    "today_max_jobs": 50,
     "today_last_error": null,
     "historical_max_jobs": 52,
     "consecutive_bad_days": 0,
