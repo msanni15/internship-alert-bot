@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-08-24",
-    "today_max_jobs": 375,
+    "today_max_jobs": 376,
     "today_last_error": null,
     "historical_max_jobs": 376,
     "consecutive_bad_days": 0,
@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-08-24",
-    "today_max_jobs": 1870,
+    "today_max_jobs": 1874,
     "today_last_error": null,
     "historical_max_jobs": 1897,
     "consecutive_bad_days": 0,
@@ -273,9 +273,9 @@
   },
   "Roblox": {
     "date": "2026-08-24",
-    "today_max_jobs": 233,
+    "today_max_jobs": 234,
     "today_last_error": null,
-    "historical_max_jobs": 233,
+    "historical_max_jobs": 234,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -297,7 +297,7 @@
   },
   "Airbnb": {
     "date": "2026-08-24",
-    "today_max_jobs": 192,
+    "today_max_jobs": 194,
     "today_last_error": null,
     "historical_max_jobs": 198,
     "consecutive_bad_days": 0,
@@ -345,23 +345,23 @@
   },
   "OpenAI": {
     "date": "2026-08-24",
-    "today_max_jobs": 754,
+    "today_max_jobs": 756,
     "today_last_error": null,
-    "historical_max_jobs": 754,
+    "historical_max_jobs": 756,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Anthropic": {
     "date": "2026-08-24",
-    "today_max_jobs": 528,
+    "today_max_jobs": 534,
     "today_last_error": null,
-    "historical_max_jobs": 528,
+    "historical_max_jobs": 534,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Perplexity": {
     "date": "2026-08-24",
-    "today_max_jobs": 100,
+    "today_max_jobs": 101,
     "today_last_error": null,
     "historical_max_jobs": 101,
     "consecutive_bad_days": 0,
@@ -401,7 +401,7 @@
   },
   "Ramp": {
     "date": "2026-08-24",
-    "today_max_jobs": 137,
+    "today_max_jobs": 138,
     "today_last_error": null,
     "historical_max_jobs": 138,
     "consecutive_bad_days": 0,
@@ -433,7 +433,7 @@
   },
   "Coinbase": {
     "date": "2026-08-24",
-    "today_max_jobs": 173,
+    "today_max_jobs": 174,
     "today_last_error": null,
     "historical_max_jobs": 175,
     "consecutive_bad_days": 0,
@@ -473,7 +473,7 @@
   },
   "Zoox": {
     "date": "2026-08-24",
-    "today_max_jobs": 239,
+    "today_max_jobs": 241,
     "today_last_error": null,
     "historical_max_jobs": 244,
     "consecutive_bad_days": 0,
@@ -497,9 +497,9 @@
   },
   "Skydio": {
     "date": "2026-08-24",
-    "today_max_jobs": 124,
+    "today_max_jobs": 125,
     "today_last_error": null,
-    "historical_max_jobs": 124,
+    "historical_max_jobs": 125,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -545,7 +545,7 @@
   },
   "Kodiak Robotics": {
     "date": "2026-08-24",
-    "today_max_jobs": 69,
+    "today_max_jobs": 70,
     "today_last_error": null,
     "historical_max_jobs": 70,
     "consecutive_bad_days": 0,
@@ -553,15 +553,15 @@
   },
   "Waabi": {
     "date": "2026-08-24",
-    "today_max_jobs": 71,
+    "today_max_jobs": 76,
     "today_last_error": null,
-    "historical_max_jobs": 71,
+    "historical_max_jobs": 76,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Motional": {
     "date": "2026-08-24",
-    "today_max_jobs": 82,
+    "today_max_jobs": 83,
     "today_last_error": null,
     "historical_max_jobs": 83,
     "consecutive_bad_days": 0,
@@ -593,7 +593,7 @@
   },
   "Toyota Research Institute": {
     "date": "2026-08-24",
-    "today_max_jobs": 13,
+    "today_max_jobs": 14,
     "today_last_error": null,
     "historical_max_jobs": 17,
     "consecutive_bad_days": 0,
@@ -873,17 +873,17 @@
   },
   "Dexterity": {
     "date": "2026-08-24",
-    "today_max_jobs": 32,
+    "today_max_jobs": 33,
     "today_last_error": null,
-    "historical_max_jobs": 32,
+    "historical_max_jobs": 33,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Nimble Robotics": {
     "date": "2026-08-24",
-    "today_max_jobs": 32,
+    "today_max_jobs": 33,
     "today_last_error": null,
-    "historical_max_jobs": 32,
+    "historical_max_jobs": 33,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -929,7 +929,7 @@
   },
   "Locus Robotics": {
     "date": "2026-08-24",
-    "today_max_jobs": 7,
+    "today_max_jobs": 8,
     "today_last_error": null,
     "historical_max_jobs": 9,
     "consecutive_bad_days": 0,
