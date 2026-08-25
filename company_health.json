@@ -345,17 +345,17 @@
   },
   "OpenAI": {
     "date": "2026-08-24",
-    "today_max_jobs": 757,
+    "today_max_jobs": 758,
     "today_last_error": null,
-    "historical_max_jobs": 757,
+    "historical_max_jobs": 758,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Anthropic": {
     "date": "2026-08-24",
-    "today_max_jobs": 535,
+    "today_max_jobs": 537,
     "today_last_error": null,
-    "historical_max_jobs": 535,
+    "historical_max_jobs": 537,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -393,7 +393,7 @@
   },
   "Notion": {
     "date": "2026-08-24",
-    "today_max_jobs": 131,
+    "today_max_jobs": 132,
     "today_last_error": null,
     "historical_max_jobs": 133,
     "consecutive_bad_days": 0,
@@ -481,7 +481,7 @@
   },
   "Nuro": {
     "date": "2026-08-24",
-    "today_max_jobs": 104,
+    "today_max_jobs": 105,
     "today_last_error": null,
     "historical_max_jobs": 109,
     "consecutive_bad_days": 0,
@@ -785,7 +785,7 @@
   },
   "Etched": {
     "date": "2026-08-24",
-    "today_max_jobs": 105,
+    "today_max_jobs": 107,
     "today_last_error": null,
     "historical_max_jobs": 110,
     "consecutive_bad_days": 0,
