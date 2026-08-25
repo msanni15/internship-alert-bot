@@ -113,7 +113,7 @@
   },
   "AQR": {
     "date": "2026-08-25",
-    "today_max_jobs": 47,
+    "today_max_jobs": 48,
     "today_last_error": null,
     "historical_max_jobs": 49,
     "consecutive_bad_days": 0,
@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-08-25",
-    "today_max_jobs": 379,
+    "today_max_jobs": 381,
     "today_last_error": null,
     "historical_max_jobs": 382,
     "consecutive_bad_days": 0,
@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-08-25",
-    "today_max_jobs": 1883,
+    "today_max_jobs": 1886,
     "today_last_error": null,
     "historical_max_jobs": 1897,
     "consecutive_bad_days": 0,
@@ -313,7 +313,7 @@
   },
   "DoorDash": {
     "date": "2026-08-25",
-    "today_max_jobs": 460,
+    "today_max_jobs": 464,
     "today_last_error": null,
     "historical_max_jobs": 473,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-25",
-    "today_max_jobs": 537,
+    "today_max_jobs": 541,
     "today_last_error": null,
-    "historical_max_jobs": 537,
+    "historical_max_jobs": 541,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -377,9 +377,9 @@
   },
   "Applied Intuition": {
     "date": "2026-08-25",
-    "today_max_jobs": 301,
+    "today_max_jobs": 302,
     "today_last_error": null,
-    "historical_max_jobs": 301,
+    "historical_max_jobs": 302,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -425,7 +425,7 @@
   },
   "Robinhood": {
     "date": "2026-08-25",
-    "today_max_jobs": 129,
+    "today_max_jobs": 130,
     "today_last_error": null,
     "historical_max_jobs": 139,
     "consecutive_bad_days": 0,
@@ -553,9 +553,9 @@
   },
   "Waabi": {
     "date": "2026-08-25",
-    "today_max_jobs": 76,
+    "today_max_jobs": 81,
     "today_last_error": null,
-    "historical_max_jobs": 76,
+    "historical_max_jobs": 81,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -601,7 +601,7 @@
   },
   "Pyka": {
     "date": "2026-08-25",
-    "today_max_jobs": 14,
+    "today_max_jobs": 16,
     "today_last_error": null,
     "historical_max_jobs": 16,
     "consecutive_bad_days": 0,
@@ -609,7 +609,7 @@
   },
   "Saronic": {
     "date": "2026-08-25",
-    "today_max_jobs": 198,
+    "today_max_jobs": 199,
     "today_last_error": null,
     "historical_max_jobs": 260,
     "consecutive_bad_days": 0,
@@ -657,7 +657,7 @@
   },
   "Apptronik": {
     "date": "2026-08-25",
-    "today_max_jobs": 78,
+    "today_max_jobs": 79,
     "today_last_error": null,
     "historical_max_jobs": 84,
     "consecutive_bad_days": 0,
@@ -721,7 +721,7 @@
   },
   "CTC": {
     "date": "2026-08-25",
-    "today_max_jobs": 22,
+    "today_max_jobs": 23,
     "today_last_error": null,
     "historical_max_jobs": 23,
     "consecutive_bad_days": 0,
@@ -753,7 +753,7 @@
   },
   "Cloudflare": {
     "date": "2026-08-25",
-    "today_max_jobs": 307,
+    "today_max_jobs": 308,
     "today_last_error": null,
     "historical_max_jobs": 310,
     "consecutive_bad_days": 0,
@@ -777,9 +777,9 @@
   },
   "Rocket Lab": {
     "date": "2026-08-25",
-    "today_max_jobs": 424,
+    "today_max_jobs": 428,
     "today_last_error": null,
-    "historical_max_jobs": 425,
+    "historical_max_jobs": 428,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -937,7 +937,7 @@
   },
   "Thinking Machines Lab": {
     "date": "2026-08-25",
-    "today_max_jobs": 34,
+    "today_max_jobs": 35,
     "today_last_error": null,
     "historical_max_jobs": 36,
     "consecutive_bad_days": 0,
@@ -977,17 +977,17 @@
   },
   "AMD": {
     "date": "2026-08-25",
-    "today_max_jobs": 1195,
+    "today_max_jobs": 1198,
     "today_last_error": null,
-    "historical_max_jobs": 1195,
+    "historical_max_jobs": 1198,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Cognition": {
     "date": "2026-08-25",
-    "today_max_jobs": 86,
+    "today_max_jobs": 88,
     "today_last_error": null,
-    "historical_max_jobs": 86,
+    "historical_max_jobs": 88,
     "consecutive_bad_days": 0,
     "alerted": false
   },
