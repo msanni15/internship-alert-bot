@@ -113,9 +113,9 @@
   },
   "AQR": {
     "date": "2026-08-25",
-    "today_max_jobs": 48,
+    "today_max_jobs": 50,
     "today_last_error": null,
-    "historical_max_jobs": 49,
+    "historical_max_jobs": 50,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -289,9 +289,9 @@
   },
   "Stripe": {
     "date": "2026-08-25",
-    "today_max_jobs": 586,
+    "today_max_jobs": 590,
     "today_last_error": null,
-    "historical_max_jobs": 586,
+    "historical_max_jobs": 590,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-25",
-    "today_max_jobs": 541,
+    "today_max_jobs": 543,
     "today_last_error": null,
-    "historical_max_jobs": 541,
+    "historical_max_jobs": 543,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -409,7 +409,7 @@
   },
   "Rippling": {
     "date": "2026-08-25",
-    "today_max_jobs": 70,
+    "today_max_jobs": 74,
     "today_last_error": null,
     "historical_max_jobs": 88,
     "consecutive_bad_days": 0,
@@ -433,17 +433,17 @@
   },
   "Coinbase": {
     "date": "2026-08-25",
-    "today_max_jobs": 174,
+    "today_max_jobs": 176,
     "today_last_error": null,
-    "historical_max_jobs": 175,
+    "historical_max_jobs": 176,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Vercel": {
     "date": "2026-08-25",
-    "today_max_jobs": 86,
+    "today_max_jobs": 87,
     "today_last_error": null,
-    "historical_max_jobs": 86,
+    "historical_max_jobs": 87,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -529,9 +529,9 @@
   },
   "Boston Dynamics": {
     "date": "2026-08-25",
-    "today_max_jobs": 73,
+    "today_max_jobs": 77,
     "today_last_error": null,
-    "historical_max_jobs": 75,
+    "historical_max_jobs": 77,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -553,9 +553,9 @@
   },
   "Waabi": {
     "date": "2026-08-25",
-    "today_max_jobs": 81,
+    "today_max_jobs": 82,
     "today_last_error": null,
-    "historical_max_jobs": 81,
+    "historical_max_jobs": 82,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -577,7 +577,7 @@
   },
   "FieldAI": {
     "date": "2026-08-25",
-    "today_max_jobs": 117,
+    "today_max_jobs": 118,
     "today_last_error": null,
     "historical_max_jobs": 129,
     "consecutive_bad_days": 0,
@@ -609,7 +609,7 @@
   },
   "Saronic": {
     "date": "2026-08-25",
-    "today_max_jobs": 199,
+    "today_max_jobs": 201,
     "today_last_error": null,
     "historical_max_jobs": 260,
     "consecutive_bad_days": 0,
@@ -753,7 +753,7 @@
   },
   "Cloudflare": {
     "date": "2026-08-25",
-    "today_max_jobs": 308,
+    "today_max_jobs": 310,
     "today_last_error": null,
     "historical_max_jobs": 310,
     "consecutive_bad_days": 0,
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-08-25",
-    "today_max_jobs": 2171,
+    "today_max_jobs": 2176,
     "today_last_error": null,
     "historical_max_jobs": 2183,
     "consecutive_bad_days": 0,
@@ -777,9 +777,9 @@
   },
   "Rocket Lab": {
     "date": "2026-08-25",
-    "today_max_jobs": 428,
+    "today_max_jobs": 431,
     "today_last_error": null,
-    "historical_max_jobs": 428,
+    "historical_max_jobs": 431,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -913,9 +913,9 @@
   },
   "Diligent Robotics": {
     "date": "2026-08-25",
-    "today_max_jobs": 16,
+    "today_max_jobs": 17,
     "today_last_error": null,
-    "historical_max_jobs": 16,
+    "historical_max_jobs": 17,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -985,15 +985,15 @@
   },
   "Cognition": {
     "date": "2026-08-25",
-    "today_max_jobs": 88,
+    "today_max_jobs": 89,
     "today_last_error": null,
-    "historical_max_jobs": 88,
+    "historical_max_jobs": 89,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Reflection AI": {
     "date": "2026-08-25",
-    "today_max_jobs": 53,
+    "today_max_jobs": 54,
     "today_last_error": null,
     "historical_max_jobs": 64,
     "consecutive_bad_days": 0,
