@@ -137,7 +137,7 @@
   },
   "Voleon": {
     "date": "2026-08-24",
-    "today_max_jobs": 57,
+    "today_max_jobs": 58,
     "today_last_error": null,
     "historical_max_jobs": 58,
     "consecutive_bad_days": 0,
@@ -217,9 +217,9 @@
   },
   "Broadcom": {
     "date": "2026-08-24",
-    "today_max_jobs": 376,
+    "today_max_jobs": 382,
     "today_last_error": null,
-    "historical_max_jobs": 376,
+    "historical_max_jobs": 382,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-08-24",
-    "today_max_jobs": 1874,
+    "today_max_jobs": 1875,
     "today_last_error": null,
     "historical_max_jobs": 1897,
     "consecutive_bad_days": 0,
@@ -273,9 +273,9 @@
   },
   "Roblox": {
     "date": "2026-08-24",
-    "today_max_jobs": 234,
+    "today_max_jobs": 237,
     "today_last_error": null,
-    "historical_max_jobs": 234,
+    "historical_max_jobs": 237,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -289,15 +289,15 @@
   },
   "Stripe": {
     "date": "2026-08-24",
-    "today_max_jobs": 581,
+    "today_max_jobs": 583,
     "today_last_error": null,
-    "historical_max_jobs": 581,
+    "historical_max_jobs": 583,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Airbnb": {
     "date": "2026-08-24",
-    "today_max_jobs": 194,
+    "today_max_jobs": 195,
     "today_last_error": null,
     "historical_max_jobs": 198,
     "consecutive_bad_days": 0,
@@ -337,7 +337,7 @@
   },
   "Scale AI": {
     "date": "2026-08-24",
-    "today_max_jobs": 213,
+    "today_max_jobs": 216,
     "today_last_error": null,
     "historical_max_jobs": 220,
     "consecutive_bad_days": 0,
@@ -345,17 +345,17 @@
   },
   "OpenAI": {
     "date": "2026-08-24",
-    "today_max_jobs": 756,
+    "today_max_jobs": 757,
     "today_last_error": null,
-    "historical_max_jobs": 756,
+    "historical_max_jobs": 757,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Anthropic": {
     "date": "2026-08-24",
-    "today_max_jobs": 534,
+    "today_max_jobs": 535,
     "today_last_error": null,
-    "historical_max_jobs": 534,
+    "historical_max_jobs": 535,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -369,7 +369,7 @@
   },
   "Cursor / Anysphere": {
     "date": "2026-08-24",
-    "today_max_jobs": 113,
+    "today_max_jobs": 115,
     "today_last_error": null,
     "historical_max_jobs": 119,
     "consecutive_bad_days": 0,
@@ -377,9 +377,9 @@
   },
   "Applied Intuition": {
     "date": "2026-08-24",
-    "today_max_jobs": 295,
+    "today_max_jobs": 299,
     "today_last_error": null,
-    "historical_max_jobs": 295,
+    "historical_max_jobs": 299,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -393,7 +393,7 @@
   },
   "Notion": {
     "date": "2026-08-24",
-    "today_max_jobs": 130,
+    "today_max_jobs": 131,
     "today_last_error": null,
     "historical_max_jobs": 133,
     "consecutive_bad_days": 0,
@@ -401,9 +401,9 @@
   },
   "Ramp": {
     "date": "2026-08-24",
-    "today_max_jobs": 138,
+    "today_max_jobs": 139,
     "today_last_error": null,
-    "historical_max_jobs": 138,
+    "historical_max_jobs": 139,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -497,9 +497,9 @@
   },
   "Skydio": {
     "date": "2026-08-24",
-    "today_max_jobs": 125,
+    "today_max_jobs": 126,
     "today_last_error": null,
-    "historical_max_jobs": 125,
+    "historical_max_jobs": 126,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -545,9 +545,9 @@
   },
   "Kodiak Robotics": {
     "date": "2026-08-24",
-    "today_max_jobs": 70,
+    "today_max_jobs": 71,
     "today_last_error": null,
-    "historical_max_jobs": 70,
+    "historical_max_jobs": 71,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -593,7 +593,7 @@
   },
   "Toyota Research Institute": {
     "date": "2026-08-24",
-    "today_max_jobs": 14,
+    "today_max_jobs": 15,
     "today_last_error": null,
     "historical_max_jobs": 17,
     "consecutive_bad_days": 0,
