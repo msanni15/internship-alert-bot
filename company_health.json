@@ -33,7 +33,7 @@
   },
   "Jump Trading": {
     "date": "2026-08-25",
-    "today_max_jobs": 109,
+    "today_max_jobs": 110,
     "today_last_error": null,
     "historical_max_jobs": 110,
     "consecutive_bad_days": 0,
@@ -105,9 +105,9 @@
   },
   "Point72": {
     "date": "2026-08-25",
-    "today_max_jobs": 233,
+    "today_max_jobs": 235,
     "today_last_error": null,
-    "historical_max_jobs": 234,
+    "historical_max_jobs": 235,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -305,7 +305,7 @@
   },
   "Uber": {
     "date": "2026-08-25",
-    "today_max_jobs": 39,
+    "today_max_jobs": 40,
     "today_last_error": null,
     "historical_max_jobs": 44,
     "consecutive_bad_days": 0,
@@ -329,7 +329,7 @@
   },
   "Snap": {
     "date": "2026-08-25",
-    "today_max_jobs": 175,
+    "today_max_jobs": 177,
     "today_last_error": null,
     "historical_max_jobs": 183,
     "consecutive_bad_days": 0,
@@ -441,9 +441,9 @@
   },
   "Vercel": {
     "date": "2026-08-25",
-    "today_max_jobs": 82,
+    "today_max_jobs": 86,
     "today_last_error": null,
-    "historical_max_jobs": 85,
+    "historical_max_jobs": 86,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -969,7 +969,7 @@
   },
   "Man Group": {
     "date": "2026-08-25",
-    "today_max_jobs": 51,
+    "today_max_jobs": 55,
     "today_last_error": null,
     "historical_max_jobs": 60,
     "consecutive_bad_days": 0,
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-08-25",
-    "today_max_jobs": 1189,
+    "today_max_jobs": 1190,
     "today_last_error": null,
     "historical_max_jobs": 1191,
     "consecutive_bad_days": 0,
@@ -1033,7 +1033,7 @@
   },
   "Luma AI": {
     "date": "2026-08-25",
-    "today_max_jobs": 49,
+    "today_max_jobs": 50,
     "today_last_error": null,
     "historical_max_jobs": 52,
     "consecutive_bad_days": 0,
