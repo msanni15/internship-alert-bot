@@ -33,7 +33,7 @@
   },
   "Jump Trading": {
     "date": "2026-08-25",
-    "today_max_jobs": 108,
+    "today_max_jobs": 109,
     "today_last_error": null,
     "historical_max_jobs": 110,
     "consecutive_bad_days": 0,
@@ -121,7 +121,7 @@
   },
   "Millennium": {
     "date": "2026-08-25",
-    "today_max_jobs": 110,
+    "today_max_jobs": 111,
     "today_last_error": null,
     "historical_max_jobs": 132,
     "consecutive_bad_days": 0,
@@ -289,9 +289,9 @@
   },
   "Stripe": {
     "date": "2026-08-25",
-    "today_max_jobs": 583,
+    "today_max_jobs": 585,
     "today_last_error": null,
-    "historical_max_jobs": 583,
+    "historical_max_jobs": 585,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -305,7 +305,7 @@
   },
   "Uber": {
     "date": "2026-08-25",
-    "today_max_jobs": 37,
+    "today_max_jobs": 39,
     "today_last_error": null,
     "historical_max_jobs": 44,
     "consecutive_bad_days": 0,
@@ -313,7 +313,7 @@
   },
   "DoorDash": {
     "date": "2026-08-25",
-    "today_max_jobs": 458,
+    "today_max_jobs": 460,
     "today_last_error": null,
     "historical_max_jobs": 473,
     "consecutive_bad_days": 0,
@@ -393,7 +393,7 @@
   },
   "Notion": {
     "date": "2026-08-25",
-    "today_max_jobs": 132,
+    "today_max_jobs": 133,
     "today_last_error": null,
     "historical_max_jobs": 133,
     "consecutive_bad_days": 0,
@@ -513,7 +513,7 @@
   },
   "Shield AI": {
     "date": "2026-08-25",
-    "today_max_jobs": 430,
+    "today_max_jobs": 431,
     "today_last_error": null,
     "historical_max_jobs": 443,
     "consecutive_bad_days": 0,
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-08-25",
-    "today_max_jobs": 400,
+    "today_max_jobs": 420,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -753,7 +753,7 @@
   },
   "Cloudflare": {
     "date": "2026-08-25",
-    "today_max_jobs": 306,
+    "today_max_jobs": 307,
     "today_last_error": null,
     "historical_max_jobs": 310,
     "consecutive_bad_days": 0,
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-08-25",
-    "today_max_jobs": 432,
+    "today_max_jobs": 443,
     "today_last_error": null,
     "historical_max_jobs": 465,
     "consecutive_bad_days": 0,
@@ -969,7 +969,7 @@
   },
   "Man Group": {
     "date": "2026-08-25",
-    "today_max_jobs": 49,
+    "today_max_jobs": 51,
     "today_last_error": null,
     "historical_max_jobs": 60,
     "consecutive_bad_days": 0,
