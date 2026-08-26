@@ -497,9 +497,9 @@
   },
   "Skydio": {
     "date": "2026-08-25",
-    "today_max_jobs": 126,
+    "today_max_jobs": 129,
     "today_last_error": null,
-    "historical_max_jobs": 126,
+    "historical_max_jobs": 129,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -753,9 +753,9 @@
   },
   "Cloudflare": {
     "date": "2026-08-25",
-    "today_max_jobs": 310,
+    "today_max_jobs": 312,
     "today_last_error": null,
-    "historical_max_jobs": 310,
+    "historical_max_jobs": 312,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-08-25",
-    "today_max_jobs": 2179,
+    "today_max_jobs": 2183,
     "today_last_error": null,
     "historical_max_jobs": 2183,
     "consecutive_bad_days": 0,
