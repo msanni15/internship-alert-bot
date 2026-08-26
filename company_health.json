@@ -49,7 +49,7 @@
   },
   "IMC": {
     "date": "2026-08-26",
-    "today_max_jobs": 167,
+    "today_max_jobs": 170,
     "today_last_error": null,
     "historical_max_jobs": 171,
     "consecutive_bad_days": 0,
@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-08-26",
-    "today_max_jobs": 240,
+    "today_max_jobs": 320,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-08-26",
-    "today_max_jobs": 340,
+    "today_max_jobs": 400,
     "today_last_error": null,
     "historical_max_jobs": 458,
     "consecutive_bad_days": 0,
@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-08-26",
-    "today_max_jobs": 386,
+    "today_max_jobs": 387,
     "today_last_error": null,
     "historical_max_jobs": 389,
     "consecutive_bad_days": 0,
@@ -225,7 +225,7 @@
   },
   "Marvell": {
     "date": "2026-08-26",
-    "today_max_jobs": 333,
+    "today_max_jobs": 334,
     "today_last_error": null,
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-08-26",
-    "today_max_jobs": 823,
+    "today_max_jobs": 826,
     "today_last_error": null,
     "historical_max_jobs": 827,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-26",
-    "today_max_jobs": 546,
+    "today_max_jobs": 548,
     "today_last_error": null,
-    "historical_max_jobs": 546,
+    "historical_max_jobs": 548,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -433,7 +433,7 @@
   },
   "Coinbase": {
     "date": "2026-08-26",
-    "today_max_jobs": 175,
+    "today_max_jobs": 176,
     "today_last_error": null,
     "historical_max_jobs": 176,
     "consecutive_bad_days": 0,
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-08-26",
-    "today_max_jobs": 320,
+    "today_max_jobs": 420,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-08-26",
-    "today_max_jobs": 376,
+    "today_max_jobs": 378,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-08-26",
-    "today_max_jobs": 376,
+    "today_max_jobs": 440,
     "today_last_error": null,
     "historical_max_jobs": 465,
     "consecutive_bad_days": 0,
