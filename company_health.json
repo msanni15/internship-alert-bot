@@ -33,7 +33,7 @@
   },
   "Jump Trading": {
     "date": "2026-08-26",
-    "today_max_jobs": 108,
+    "today_max_jobs": 109,
     "today_last_error": null,
     "historical_max_jobs": 110,
     "consecutive_bad_days": 0,
@@ -121,7 +121,7 @@
   },
   "Millennium": {
     "date": "2026-08-26",
-    "today_max_jobs": 114,
+    "today_max_jobs": 116,
     "today_last_error": null,
     "historical_max_jobs": 132,
     "consecutive_bad_days": 0,
@@ -153,7 +153,7 @@
   },
   "Virtu Financial": {
     "date": "2026-08-26",
-    "today_max_jobs": 46,
+    "today_max_jobs": 47,
     "today_last_error": null,
     "historical_max_jobs": 48,
     "consecutive_bad_days": 0,
@@ -241,9 +241,9 @@
   },
   "Samsung Semiconductor": {
     "date": "2026-08-26",
-    "today_max_jobs": 59,
+    "today_max_jobs": 61,
     "today_last_error": null,
-    "historical_max_jobs": 60,
+    "historical_max_jobs": 61,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-26",
-    "today_max_jobs": 551,
+    "today_max_jobs": 553,
     "today_last_error": null,
-    "historical_max_jobs": 551,
+    "historical_max_jobs": 553,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -441,9 +441,9 @@
   },
   "Vercel": {
     "date": "2026-08-26",
-    "today_max_jobs": 87,
+    "today_max_jobs": 89,
     "today_last_error": null,
-    "historical_max_jobs": 87,
+    "historical_max_jobs": 89,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -473,7 +473,7 @@
   },
   "Zoox": {
     "date": "2026-08-26",
-    "today_max_jobs": 242,
+    "today_max_jobs": 243,
     "today_last_error": null,
     "historical_max_jobs": 244,
     "consecutive_bad_days": 0,
@@ -505,7 +505,7 @@
   },
   "Zipline": {
     "date": "2026-08-26",
-    "today_max_jobs": 320,
+    "today_max_jobs": 321,
     "today_last_error": null,
     "historical_max_jobs": 322,
     "consecutive_bad_days": 0,
@@ -513,7 +513,7 @@
   },
   "Shield AI": {
     "date": "2026-08-26",
-    "today_max_jobs": 427,
+    "today_max_jobs": 433,
     "today_last_error": null,
     "historical_max_jobs": 443,
     "consecutive_bad_days": 0,
@@ -537,7 +537,7 @@
   },
   "Agility Robotics": {
     "date": "2026-08-26",
-    "today_max_jobs": 60,
+    "today_max_jobs": 61,
     "today_last_error": null,
     "historical_max_jobs": 65,
     "consecutive_bad_days": 0,
@@ -657,7 +657,7 @@
   },
   "Apptronik": {
     "date": "2026-08-26",
-    "today_max_jobs": 79,
+    "today_max_jobs": 80,
     "today_last_error": null,
     "historical_max_jobs": 84,
     "consecutive_bad_days": 0,
@@ -713,7 +713,7 @@
   },
   "QRT": {
     "date": "2026-08-26",
-    "today_max_jobs": 187,
+    "today_max_jobs": 191,
     "today_last_error": null,
     "historical_max_jobs": 199,
     "consecutive_bad_days": 0,
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-08-26",
-    "today_max_jobs": 378,
+    "today_max_jobs": 384,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-08-26",
-    "today_max_jobs": 2181,
+    "today_max_jobs": 2185,
     "today_last_error": null,
-    "historical_max_jobs": 2183,
+    "historical_max_jobs": 2185,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-08-26",
-    "today_max_jobs": 440,
+    "today_max_jobs": 441,
     "today_last_error": null,
     "historical_max_jobs": 465,
     "consecutive_bad_days": 0,
@@ -977,9 +977,9 @@
   },
   "AMD": {
     "date": "2026-08-26",
-    "today_max_jobs": 1200,
+    "today_max_jobs": 1201,
     "today_last_error": null,
-    "historical_max_jobs": 1200,
+    "historical_max_jobs": 1201,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1017,7 +1017,7 @@
   },
   "ElevenLabs": {
     "date": "2026-08-26",
-    "today_max_jobs": 246,
+    "today_max_jobs": 247,
     "today_last_error": null,
     "historical_max_jobs": 256,
     "consecutive_bad_days": 0,
@@ -1049,7 +1049,7 @@
   },
   "Suno": {
     "date": "2026-08-26",
-    "today_max_jobs": 59,
+    "today_max_jobs": 60,
     "today_last_error": null,
     "historical_max_jobs": 66,
     "consecutive_bad_days": 0,
@@ -1105,7 +1105,7 @@
   },
   "Pickle Robot": {
     "date": "2026-08-26",
-    "today_max_jobs": 13,
+    "today_max_jobs": 14,
     "today_last_error": null,
     "historical_max_jobs": 14,
     "consecutive_bad_days": 0,
