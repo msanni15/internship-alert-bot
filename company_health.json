@@ -49,7 +49,7 @@
   },
   "IMC": {
     "date": "2026-08-26",
-    "today_max_jobs": 170,
+    "today_max_jobs": 171,
     "today_last_error": null,
     "historical_max_jobs": 171,
     "consecutive_bad_days": 0,
@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-08-26",
-    "today_max_jobs": 320,
+    "today_max_jobs": 340,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -281,9 +281,9 @@
   },
   "Databricks": {
     "date": "2026-08-26",
-    "today_max_jobs": 831,
+    "today_max_jobs": 832,
     "today_last_error": null,
-    "historical_max_jobs": 831,
+    "historical_max_jobs": 832,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -313,7 +313,7 @@
   },
   "DoorDash": {
     "date": "2026-08-26",
-    "today_max_jobs": 471,
+    "today_max_jobs": 472,
     "today_last_error": null,
     "historical_max_jobs": 473,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-26",
-    "today_max_jobs": 555,
+    "today_max_jobs": 558,
     "today_last_error": null,
-    "historical_max_jobs": 555,
+    "historical_max_jobs": 558,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -433,9 +433,9 @@
   },
   "Coinbase": {
     "date": "2026-08-26",
-    "today_max_jobs": 177,
+    "today_max_jobs": 178,
     "today_last_error": null,
-    "historical_max_jobs": 177,
+    "historical_max_jobs": 178,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -473,9 +473,9 @@
   },
   "Zoox": {
     "date": "2026-08-26",
-    "today_max_jobs": 243,
+    "today_max_jobs": 245,
     "today_last_error": null,
-    "historical_max_jobs": 244,
+    "historical_max_jobs": 245,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -505,15 +505,15 @@
   },
   "Zipline": {
     "date": "2026-08-26",
-    "today_max_jobs": 322,
+    "today_max_jobs": 325,
     "today_last_error": null,
-    "historical_max_jobs": 322,
+    "historical_max_jobs": 325,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Shield AI": {
     "date": "2026-08-26",
-    "today_max_jobs": 433,
+    "today_max_jobs": 434,
     "today_last_error": null,
     "historical_max_jobs": 443,
     "consecutive_bad_days": 0,
@@ -521,7 +521,7 @@
   },
   "Figure AI": {
     "date": "2026-08-26",
-    "today_max_jobs": 126,
+    "today_max_jobs": 127,
     "today_last_error": null,
     "historical_max_jobs": 129,
     "consecutive_bad_days": 0,
@@ -577,7 +577,7 @@
   },
   "FieldAI": {
     "date": "2026-08-26",
-    "today_max_jobs": 118,
+    "today_max_jobs": 119,
     "today_last_error": null,
     "historical_max_jobs": 129,
     "consecutive_bad_days": 0,
@@ -633,7 +633,7 @@
   },
   "SK Hynix": {
     "date": "2026-08-26",
-    "today_max_jobs": 45,
+    "today_max_jobs": 47,
     "today_last_error": null,
     "historical_max_jobs": 47,
     "consecutive_bad_days": 0,
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-08-26",
-    "today_max_jobs": 420,
+    "today_max_jobs": 480,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-08-26",
-    "today_max_jobs": 2189,
+    "today_max_jobs": 2191,
     "today_last_error": null,
-    "historical_max_jobs": 2189,
+    "historical_max_jobs": 2191,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -921,9 +921,9 @@
   },
   "Standard Bots": {
     "date": "2026-08-26",
-    "today_max_jobs": 36,
+    "today_max_jobs": 39,
     "today_last_error": null,
-    "historical_max_jobs": 37,
+    "historical_max_jobs": 39,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -977,9 +977,9 @@
   },
   "AMD": {
     "date": "2026-08-26",
-    "today_max_jobs": 1201,
+    "today_max_jobs": 1203,
     "today_last_error": null,
-    "historical_max_jobs": 1201,
+    "historical_max_jobs": 1203,
     "consecutive_bad_days": 0,
     "alerted": false
   },
