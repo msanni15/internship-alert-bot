@@ -1936,5 +1936,35 @@
     "title": "Embedded Engineering Intern (Summer 2027)",
     "url": "https://www.zipline.com/open-roles?gh_jid=7978843003",
     "updated_at": "2026-08-26T19:46:25-04:00"
+  },
+  "greenhouse:AQR:8161563": {
+    "company": "AQR",
+    "title": "2027 Portfolio Finance Summer Analyst",
+    "url": "https://careers.aqr.com/jobs?gh_jid=8161563&gh_jid=8161563",
+    "updated_at": "2026-08-27T10:08:47-04:00"
+  },
+  "custom/amazon:Amazon:bd2255e0-314f-4d68-8982-a3875ca10f71": {
+    "company": "Amazon",
+    "title": "Cloud Hardware Development Engineer Intern, Annapurna Labs - 2027",
+    "url": "https://www.amazon.jobs/en/jobs/10517649/cloud-hardware-development-engineer-intern-annapurna-labs-2027",
+    "updated_at": "August 27, 2026"
+  },
+  "custom/amazon:Amazon:81e9673a-0b48-4f96-ac77-5e46d358db5c": {
+    "company": "Amazon",
+    "title": "Software Development Engineer Intern, Annapurna Labs - 2027",
+    "url": "https://www.amazon.jobs/en/jobs/10517567/software-development-engineer-intern-annapurna-labs-2027",
+    "updated_at": "August 27, 2026"
+  },
+  "custom/amazon:Amazon:66f3c67e-f2ab-46ad-8586-4b44c5ca8d0e": {
+    "company": "Amazon",
+    "title": "ASIC Engineer Intern, Annapurna Labs - 2027",
+    "url": "https://www.amazon.jobs/en/jobs/10517535/asic-engineer-intern-annapurna-labs-2027",
+    "updated_at": "August 27, 2026"
+  },
+  "custom/amazon:Amazon:28cf3d46-b881-4a66-9641-04bc27a54de5": {
+    "company": "Amazon",
+    "title": "Robotics - Software Development Engineer Fall Intern/Co-op - 2026",
+    "url": "https://www.amazon.jobs/en/jobs/10517149/robotics-software-development-engineer-fall-intern-co-op-2026",
+    "updated_at": "August 27, 2026"
   }
 }
