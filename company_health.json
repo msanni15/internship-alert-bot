@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-08-29",
-    "today_max_jobs": 1890,
+    "today_max_jobs": 1894,
     "today_last_error": null,
     "historical_max_jobs": 1897,
     "consecutive_bad_days": 0,
@@ -289,7 +289,7 @@
   },
   "Stripe": {
     "date": "2026-08-29",
-    "today_max_jobs": 573,
+    "today_max_jobs": 575,
     "today_last_error": null,
     "historical_max_jobs": 592,
     "consecutive_bad_days": 0,
@@ -401,7 +401,7 @@
   },
   "Ramp": {
     "date": "2026-08-29",
-    "today_max_jobs": 138,
+    "today_max_jobs": 139,
     "today_last_error": null,
     "historical_max_jobs": 139,
     "consecutive_bad_days": 0,
