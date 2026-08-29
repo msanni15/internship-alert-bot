@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-08-29",
-    "today_max_jobs": 1894,
+    "today_max_jobs": 1895,
     "today_last_error": null,
     "historical_max_jobs": 1897,
     "consecutive_bad_days": 0,
@@ -281,9 +281,9 @@
   },
   "Databricks": {
     "date": "2026-08-29",
-    "today_max_jobs": 857,
+    "today_max_jobs": 858,
     "today_last_error": null,
-    "historical_max_jobs": 857,
+    "historical_max_jobs": 858,
     "consecutive_bad_days": 0,
     "alerted": false
   },
