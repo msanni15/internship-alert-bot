@@ -241,7 +241,7 @@
   },
   "Samsung Semiconductor": {
     "date": "2026-08-29",
-    "today_max_jobs": 60,
+    "today_max_jobs": 61,
     "today_last_error": null,
     "historical_max_jobs": 61,
     "consecutive_bad_days": 0,
@@ -881,7 +881,7 @@
   },
   "Nimble Robotics": {
     "date": "2026-08-29",
-    "today_max_jobs": 34,
+    "today_max_jobs": 35,
     "today_last_error": null,
     "historical_max_jobs": 35,
     "consecutive_bad_days": 0,
