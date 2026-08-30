@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-08-30",
-    "today_max_jobs": 380,
+    "today_max_jobs": 401,
     "today_last_error": null,
     "historical_max_jobs": 458,
     "consecutive_bad_days": 0,
@@ -1009,7 +1009,7 @@
   },
   "Sierra AI": {
     "date": "2026-08-30",
-    "today_max_jobs": 199,
+    "today_max_jobs": 200,
     "today_last_error": null,
     "historical_max_jobs": 200,
     "consecutive_bad_days": 0,
