@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-08-29",
-    "today_max_jobs": 373,
+    "today_max_jobs": 427,
     "today_last_error": null,
     "historical_max_jobs": 458,
     "consecutive_bad_days": 0,
@@ -377,7 +377,7 @@
   },
   "Applied Intuition": {
     "date": "2026-08-29",
-    "today_max_jobs": 300,
+    "today_max_jobs": 301,
     "today_last_error": null,
     "historical_max_jobs": 302,
     "consecutive_bad_days": 0,
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-08-29",
-    "today_max_jobs": 2229,
+    "today_max_jobs": 2230,
     "today_last_error": null,
-    "historical_max_jobs": 2229,
+    "historical_max_jobs": 2230,
     "consecutive_bad_days": 0,
     "alerted": false
   },
