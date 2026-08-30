@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-08-30",
-    "today_max_jobs": 360,
+    "today_max_jobs": 380,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -289,7 +289,7 @@
   },
   "Stripe": {
     "date": "2026-08-30",
-    "today_max_jobs": 574,
+    "today_max_jobs": 575,
     "today_last_error": null,
     "historical_max_jobs": 592,
     "consecutive_bad_days": 0,
@@ -329,7 +329,7 @@
   },
   "Snap": {
     "date": "2026-08-30",
-    "today_max_jobs": 6,
+    "today_max_jobs": 175,
     "today_last_error": null,
     "historical_max_jobs": 183,
     "consecutive_bad_days": 0,
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-08-30",
-    "today_max_jobs": 400,
+    "today_max_jobs": 520,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-08-30",
-    "today_max_jobs": 2236,
+    "today_max_jobs": 2237,
     "today_last_error": null,
-    "historical_max_jobs": 2236,
+    "historical_max_jobs": 2237,
     "consecutive_bad_days": 0,
     "alerted": false
   },
