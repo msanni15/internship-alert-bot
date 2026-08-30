@@ -465,7 +465,7 @@
   },
   "Waymo": {
     "date": "2026-08-30",
-    "today_max_jobs": 350,
+    "today_max_jobs": 351,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-08-30",
-    "today_max_jobs": 389,
+    "today_max_jobs": 391,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
