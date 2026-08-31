@@ -41,7 +41,7 @@
   },
   "Optiver": {
     "date": "2026-08-30",
-    "today_max_jobs": 174,
+    "today_max_jobs": 175,
     "today_last_error": null,
     "historical_max_jobs": 178,
     "consecutive_bad_days": 0,
@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-08-30",
-    "today_max_jobs": 388,
+    "today_max_jobs": 389,
     "today_last_error": null,
     "historical_max_jobs": 392,
     "consecutive_bad_days": 0,
@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-08-30",
-    "today_max_jobs": 1885,
+    "today_max_jobs": 1888,
     "today_last_error": null,
     "historical_max_jobs": 1897,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-08-30",
-    "today_max_jobs": 571,
+    "today_max_jobs": 572,
     "today_last_error": null,
-    "historical_max_jobs": 571,
+    "historical_max_jobs": 572,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -433,9 +433,9 @@
   },
   "Coinbase": {
     "date": "2026-08-30",
-    "today_max_jobs": 188,
+    "today_max_jobs": 189,
     "today_last_error": null,
-    "historical_max_jobs": 188,
+    "historical_max_jobs": 189,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -457,7 +457,7 @@
   },
   "1X": {
     "date": "2026-08-30",
-    "today_max_jobs": 81,
+    "today_max_jobs": 82,
     "today_last_error": null,
     "historical_max_jobs": 84,
     "consecutive_bad_days": 0,
@@ -665,7 +665,7 @@
   },
   "xAI": {
     "date": "2026-08-30",
-    "today_max_jobs": 252,
+    "today_max_jobs": 253,
     "today_last_error": null,
     "historical_max_jobs": 263,
     "consecutive_bad_days": 0,
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-08-30",
-    "today_max_jobs": 391,
+    "today_max_jobs": 392,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-08-30",
-    "today_max_jobs": 2237,
+    "today_max_jobs": 2242,
     "today_last_error": null,
-    "historical_max_jobs": 2237,
+    "historical_max_jobs": 2242,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -937,7 +937,7 @@
   },
   "Thinking Machines Lab": {
     "date": "2026-08-30",
-    "today_max_jobs": 38,
+    "today_max_jobs": 40,
     "today_last_error": null,
     "historical_max_jobs": 43,
     "consecutive_bad_days": 0,
