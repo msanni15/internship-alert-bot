@@ -1,7 +1,7 @@
 {
   "Jane Street": {
     "date": "2026-09-01",
-    "today_max_jobs": 231,
+    "today_max_jobs": 232,
     "today_last_error": null,
     "historical_max_jobs": 234,
     "consecutive_bad_days": 0,
@@ -49,9 +49,9 @@
   },
   "IMC": {
     "date": "2026-09-01",
-    "today_max_jobs": 174,
+    "today_max_jobs": 175,
     "today_last_error": null,
-    "historical_max_jobs": 174,
+    "historical_max_jobs": 175,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -225,7 +225,7 @@
   },
   "Marvell": {
     "date": "2026-09-01",
-    "today_max_jobs": 113,
+    "today_max_jobs": 114,
     "today_last_error": null,
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
@@ -289,7 +289,7 @@
   },
   "Stripe": {
     "date": "2026-09-01",
-    "today_max_jobs": 582,
+    "today_max_jobs": 585,
     "today_last_error": null,
     "historical_max_jobs": 592,
     "consecutive_bad_days": 0,
@@ -313,7 +313,7 @@
   },
   "DoorDash": {
     "date": "2026-09-01",
-    "today_max_jobs": 472,
+    "today_max_jobs": 473,
     "today_last_error": null,
     "historical_max_jobs": 474,
     "consecutive_bad_days": 0,
@@ -329,7 +329,7 @@
   },
   "Snap": {
     "date": "2026-09-01",
-    "today_max_jobs": 178,
+    "today_max_jobs": 179,
     "today_last_error": null,
     "historical_max_jobs": 183,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-09-01",
-    "today_max_jobs": 569,
+    "today_max_jobs": 575,
     "today_last_error": null,
-    "historical_max_jobs": 572,
+    "historical_max_jobs": 575,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -505,7 +505,7 @@
   },
   "Zipline": {
     "date": "2026-09-01",
-    "today_max_jobs": 328,
+    "today_max_jobs": 329,
     "today_last_error": null,
     "historical_max_jobs": 329,
     "consecutive_bad_days": 0,
@@ -585,7 +585,7 @@
   },
   "Hermeus": {
     "date": "2026-09-01",
-    "today_max_jobs": 76,
+    "today_max_jobs": 77,
     "today_last_error": null,
     "historical_max_jobs": 91,
     "consecutive_bad_days": 0,
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-09-01",
-    "today_max_jobs": 382,
+    "today_max_jobs": 383,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
@@ -753,9 +753,9 @@
   },
   "Cloudflare": {
     "date": "2026-09-01",
-    "today_max_jobs": 315,
+    "today_max_jobs": 317,
     "today_last_error": null,
-    "historical_max_jobs": 315,
+    "historical_max_jobs": 317,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-09-01",
-    "today_max_jobs": 2239,
+    "today_max_jobs": 2242,
     "today_last_error": null,
     "historical_max_jobs": 2242,
     "consecutive_bad_days": 0,
@@ -794,7 +794,7 @@
   "Cadence": {
     "date": "2026-09-01",
     "today_max_jobs": 442,
-    "today_last_error": null,
+    "today_last_error": "Cadence: HTTPSConnectionPool(host='cadence.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=8)",
     "historical_max_jobs": 465,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -1097,7 +1097,7 @@
   },
   "Formic": {
     "date": "2026-09-01",
-    "today_max_jobs": 36,
+    "today_max_jobs": 37,
     "today_last_error": null,
     "historical_max_jobs": 43,
     "consecutive_bad_days": 0,
