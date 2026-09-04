@@ -105,7 +105,7 @@
   },
   "Point72": {
     "date": "2026-09-04",
-    "today_max_jobs": 230,
+    "today_max_jobs": 231,
     "today_last_error": null,
     "historical_max_jobs": 239,
     "consecutive_bad_days": 0,
@@ -129,9 +129,9 @@
   },
   "Schonfeld": {
     "date": "2026-09-04",
-    "today_max_jobs": 63,
+    "today_max_jobs": 68,
     "today_last_error": null,
-    "historical_max_jobs": 63,
+    "historical_max_jobs": 68,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -225,7 +225,7 @@
   },
   "Marvell": {
     "date": "2026-09-04",
-    "today_max_jobs": 124,
+    "today_max_jobs": 134,
     "today_last_error": null,
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-09-04",
-    "today_max_jobs": 1932,
+    "today_max_jobs": 1939,
     "today_last_error": null,
     "historical_max_jobs": 1940,
     "consecutive_bad_days": 0,
@@ -273,7 +273,7 @@
   },
   "Roblox": {
     "date": "2026-09-04",
-    "today_max_jobs": 228,
+    "today_max_jobs": 229,
     "today_last_error": null,
     "historical_max_jobs": 237,
     "consecutive_bad_days": 0,
@@ -281,17 +281,17 @@
   },
   "Databricks": {
     "date": "2026-09-04",
-    "today_max_jobs": 869,
+    "today_max_jobs": 871,
     "today_last_error": null,
-    "historical_max_jobs": 869,
+    "historical_max_jobs": 871,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Stripe": {
     "date": "2026-09-04",
-    "today_max_jobs": 614,
+    "today_max_jobs": 615,
     "today_last_error": null,
-    "historical_max_jobs": 614,
+    "historical_max_jobs": 615,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -345,9 +345,9 @@
   },
   "OpenAI": {
     "date": "2026-09-04",
-    "today_max_jobs": 774,
+    "today_max_jobs": 775,
     "today_last_error": null,
-    "historical_max_jobs": 774,
+    "historical_max_jobs": 775,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -409,7 +409,7 @@
   },
   "Rippling": {
     "date": "2026-09-04",
-    "today_max_jobs": 57,
+    "today_max_jobs": 62,
     "today_last_error": null,
     "historical_max_jobs": 88,
     "consecutive_bad_days": 0,
@@ -433,7 +433,7 @@
   },
   "Coinbase": {
     "date": "2026-09-04",
-    "today_max_jobs": 189,
+    "today_max_jobs": 192,
     "today_last_error": null,
     "historical_max_jobs": 193,
     "consecutive_bad_days": 0,
@@ -577,7 +577,7 @@
   },
   "FieldAI": {
     "date": "2026-09-04",
-    "today_max_jobs": 125,
+    "today_max_jobs": 126,
     "today_last_error": null,
     "historical_max_jobs": 129,
     "consecutive_bad_days": 0,
@@ -753,15 +753,15 @@
   },
   "Cloudflare": {
     "date": "2026-09-04",
-    "today_max_jobs": 331,
+    "today_max_jobs": 332,
     "today_last_error": null,
-    "historical_max_jobs": 331,
+    "historical_max_jobs": 332,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Neuralink": {
     "date": "2026-09-04",
-    "today_max_jobs": 76,
+    "today_max_jobs": 77,
     "today_last_error": null,
     "historical_max_jobs": 83,
     "consecutive_bad_days": 0,
@@ -769,17 +769,17 @@
   },
   "SpaceX": {
     "date": "2026-09-04",
-    "today_max_jobs": 2313,
+    "today_max_jobs": 2317,
     "today_last_error": null,
-    "historical_max_jobs": 2313,
+    "historical_max_jobs": 2317,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Rocket Lab": {
     "date": "2026-09-04",
-    "today_max_jobs": 454,
+    "today_max_jobs": 456,
     "today_last_error": null,
-    "historical_max_jobs": 454,
+    "historical_max_jobs": 456,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-09-04",
-    "today_max_jobs": 447,
+    "today_max_jobs": 449,
     "today_last_error": null,
     "historical_max_jobs": 465,
     "consecutive_bad_days": 0,
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-09-04",
-    "today_max_jobs": 1168,
+    "today_max_jobs": 1171,
     "today_last_error": null,
     "historical_max_jobs": 1205,
     "consecutive_bad_days": 0,
