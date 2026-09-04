@@ -2374,5 +2374,41 @@
     "title": "Software Engineering Intern (Summer 2027) ",
     "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730845005",
     "updated_at": "2026-09-04T12:00:19-04:00"
+  },
+  "greenhouse:Schonfeld:8171692": {
+    "company": "Schonfeld",
+    "title": "2027 Data Science Intern",
+    "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8171692",
+    "updated_at": "2026-09-04T12:42:57-04:00"
+  },
+  "greenhouse:Schonfeld:8180089": {
+    "company": "Schonfeld",
+    "title": "2027 Software Engineering Intern",
+    "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8180089",
+    "updated_at": "2026-09-04T12:41:36-04:00"
+  },
+  "custom/amazon:Amazon:6e12aea3-bd83-4edd-a5b3-bef826e05c1d": {
+    "company": "Amazon",
+    "title": "Cloud Hardware Development Engineer, AWS - Early Career (2026)",
+    "url": "https://www.amazon.jobs/en/jobs/10530353/cloud-hardware-development-engineer-aws-early-career-2026",
+    "updated_at": "September  4, 2026"
+  },
+  "greenhouse:Zipline:7986810003": {
+    "company": "Zipline",
+    "title": "Aircraft Software Integration Intern (Spring 2027)",
+    "url": "https://www.zipline.com/open-roles/7986810003?gh_jid=7986810003",
+    "updated_at": "2026-09-04T14:41:09-04:00"
+  },
+  "greenhouse:Zipline:7986848003": {
+    "company": "Zipline",
+    "title": "Aircraft Software Integration Intern (Summer 2027)",
+    "url": "https://www.zipline.com/open-roles/7986848003?gh_jid=7986848003",
+    "updated_at": "2026-09-04T15:04:08-04:00"
+  },
+  "greenhouse:Kodiak Robotics:4396622009": {
+    "company": "Kodiak Robotics",
+    "title": "Winter 2027 Intern, Data Engineering",
+    "url": "https://job-boards.greenhouse.io/kodiak/jobs/4396622009",
+    "updated_at": "2026-09-04T16:21:51-04:00"
   }
 }
