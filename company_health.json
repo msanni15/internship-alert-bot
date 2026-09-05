@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-09-05",
-    "today_max_jobs": 340,
+    "today_max_jobs": 371,
     "today_last_error": null,
     "historical_max_jobs": 458,
     "consecutive_bad_days": 0,
@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-09-05",
-    "today_max_jobs": 1931,
+    "today_max_jobs": 1932,
     "today_last_error": null,
     "historical_max_jobs": 1942,
     "consecutive_bad_days": 0,
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-09-05",
-    "today_max_jobs": 778,
+    "today_max_jobs": 779,
     "today_last_error": null,
     "historical_max_jobs": 779,
     "consecutive_bad_days": 0,
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-09-05",
-    "today_max_jobs": 360,
+    "today_max_jobs": 400,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
