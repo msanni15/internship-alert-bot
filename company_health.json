@@ -225,7 +225,7 @@
   },
   "Marvell": {
     "date": "2026-09-05",
-    "today_max_jobs": 134,
+    "today_max_jobs": 135,
     "today_last_error": null,
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
@@ -769,17 +769,17 @@
   },
   "SpaceX": {
     "date": "2026-09-05",
-    "today_max_jobs": 2335,
+    "today_max_jobs": 2337,
     "today_last_error": null,
-    "historical_max_jobs": 2335,
+    "historical_max_jobs": 2337,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Rocket Lab": {
     "date": "2026-09-05",
-    "today_max_jobs": 458,
+    "today_max_jobs": 459,
     "today_last_error": null,
-    "historical_max_jobs": 458,
+    "historical_max_jobs": 459,
     "consecutive_bad_days": 0,
     "alerted": false
   },
