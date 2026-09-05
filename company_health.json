@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-09-05",
-    "today_max_jobs": 360,
+    "today_max_jobs": 380,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-09-05",
-    "today_max_jobs": 1932,
+    "today_max_jobs": 1933,
     "today_last_error": null,
     "historical_max_jobs": 1942,
     "consecutive_bad_days": 0,
@@ -577,7 +577,7 @@
   },
   "FieldAI": {
     "date": "2026-09-05",
-    "today_max_jobs": 126,
+    "today_max_jobs": 129,
     "today_last_error": null,
     "historical_max_jobs": 129,
     "consecutive_bad_days": 0,
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-09-05",
-    "today_max_jobs": 400,
+    "today_max_jobs": 420,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -769,17 +769,17 @@
   },
   "SpaceX": {
     "date": "2026-09-05",
-    "today_max_jobs": 2334,
+    "today_max_jobs": 2335,
     "today_last_error": null,
-    "historical_max_jobs": 2334,
+    "historical_max_jobs": 2335,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Rocket Lab": {
     "date": "2026-09-05",
-    "today_max_jobs": 456,
+    "today_max_jobs": 458,
     "today_last_error": null,
-    "historical_max_jobs": 456,
+    "historical_max_jobs": 458,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1049,7 +1049,7 @@
   },
   "Suno": {
     "date": "2026-09-05",
-    "today_max_jobs": 64,
+    "today_max_jobs": 65,
     "today_last_error": null,
     "historical_max_jobs": 66,
     "consecutive_bad_days": 0,
