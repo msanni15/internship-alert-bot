@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-09-06",
-    "today_max_jobs": 320,
+    "today_max_jobs": 340,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-09-06",
-    "today_max_jobs": 300,
+    "today_max_jobs": 365,
     "today_last_error": null,
     "historical_max_jobs": 458,
     "consecutive_bad_days": 0,
@@ -289,7 +289,7 @@
   },
   "Stripe": {
     "date": "2026-09-06",
-    "today_max_jobs": 615,
+    "today_max_jobs": 616,
     "today_last_error": null,
     "historical_max_jobs": 616,
     "consecutive_bad_days": 0,
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-09-06",
-    "today_max_jobs": 260,
+    "today_max_jobs": 400,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-09-06",
-    "today_max_jobs": 1165,
+    "today_max_jobs": 1168,
     "today_last_error": null,
     "historical_max_jobs": 1205,
     "consecutive_bad_days": 0,
@@ -1009,7 +1009,7 @@
   },
   "Sierra AI": {
     "date": "2026-09-06",
-    "today_max_jobs": 207,
+    "today_max_jobs": 210,
     "today_last_error": null,
     "historical_max_jobs": 211,
     "consecutive_bad_days": 0,
