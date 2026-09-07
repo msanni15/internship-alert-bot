@@ -41,7 +41,7 @@
   },
   "Optiver": {
     "date": "2026-09-06",
-    "today_max_jobs": 164,
+    "today_max_jobs": 165,
     "today_last_error": null,
     "historical_max_jobs": 178,
     "consecutive_bad_days": 0,
@@ -289,9 +289,9 @@
   },
   "Stripe": {
     "date": "2026-09-06",
-    "today_max_jobs": 616,
+    "today_max_jobs": 617,
     "today_last_error": null,
-    "historical_max_jobs": 616,
+    "historical_max_jobs": 617,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -345,9 +345,9 @@
   },
   "OpenAI": {
     "date": "2026-09-06",
-    "today_max_jobs": 780,
+    "today_max_jobs": 782,
     "today_last_error": null,
-    "historical_max_jobs": 780,
+    "historical_max_jobs": 782,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-09-06",
-    "today_max_jobs": 400,
+    "today_max_jobs": 420,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -753,9 +753,9 @@
   },
   "Cloudflare": {
     "date": "2026-09-06",
-    "today_max_jobs": 331,
+    "today_max_jobs": 333,
     "today_last_error": null,
-    "historical_max_jobs": 332,
+    "historical_max_jobs": 333,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-09-06",
-    "today_max_jobs": 2336,
+    "today_max_jobs": 2337,
     "today_last_error": null,
     "historical_max_jobs": 2337,
     "consecutive_bad_days": 0,
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-09-06",
-    "today_max_jobs": 449,
+    "today_max_jobs": 451,
     "today_last_error": null,
     "historical_max_jobs": 465,
     "consecutive_bad_days": 0,
@@ -1009,9 +1009,9 @@
   },
   "Sierra AI": {
     "date": "2026-09-06",
-    "today_max_jobs": 210,
+    "today_max_jobs": 212,
     "today_last_error": null,
-    "historical_max_jobs": 211,
+    "historical_max_jobs": 212,
     "consecutive_bad_days": 0,
     "alerted": false
   },
