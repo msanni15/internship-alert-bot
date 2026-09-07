@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-09-07",
-    "today_max_jobs": 340,
+    "today_max_jobs": 360,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -273,7 +273,7 @@
   },
   "Roblox": {
     "date": "2026-09-07",
-    "today_max_jobs": 230,
+    "today_max_jobs": 231,
     "today_last_error": null,
     "historical_max_jobs": 237,
     "consecutive_bad_days": 0,
@@ -313,7 +313,7 @@
   },
   "DoorDash": {
     "date": "2026-09-07",
-    "today_max_jobs": 456,
+    "today_max_jobs": 457,
     "today_last_error": null,
     "historical_max_jobs": 475,
     "consecutive_bad_days": 0,
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-09-07",
-    "today_max_jobs": 2337,
+    "today_max_jobs": 2340,
     "today_last_error": null,
-    "historical_max_jobs": 2337,
+    "historical_max_jobs": 2340,
     "consecutive_bad_days": 0,
     "alerted": false
   },
