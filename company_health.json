@@ -577,9 +577,9 @@
   },
   "FieldAI": {
     "date": "2026-09-07",
-    "today_max_jobs": 129,
+    "today_max_jobs": 130,
     "today_last_error": null,
-    "historical_max_jobs": 129,
+    "historical_max_jobs": 130,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-09-07",
-    "today_max_jobs": 380,
+    "today_max_jobs": 420,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-09-07",
-    "today_max_jobs": 2340,
+    "today_max_jobs": 2344,
     "today_last_error": null,
-    "historical_max_jobs": 2340,
+    "historical_max_jobs": 2344,
     "consecutive_bad_days": 0,
     "alerted": false
   },
