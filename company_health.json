@@ -121,7 +121,7 @@
   },
   "Millennium": {
     "date": "2026-09-08",
-    "today_max_jobs": 111,
+    "today_max_jobs": 112,
     "today_last_error": null,
     "historical_max_jobs": 132,
     "consecutive_bad_days": 0,
@@ -265,9 +265,9 @@
   },
   "Amazon": {
     "date": "2026-09-08",
-    "today_max_jobs": 1944,
+    "today_max_jobs": 1945,
     "today_last_error": null,
-    "historical_max_jobs": 1944,
+    "historical_max_jobs": 1945,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -305,7 +305,7 @@
   },
   "Uber": {
     "date": "2026-09-08",
-    "today_max_jobs": 27,
+    "today_max_jobs": 28,
     "today_last_error": null,
     "historical_max_jobs": 44,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-09-08",
-    "today_max_jobs": 591,
+    "today_max_jobs": 597,
     "today_last_error": null,
-    "historical_max_jobs": 595,
+    "historical_max_jobs": 597,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -377,7 +377,7 @@
   },
   "Applied Intuition": {
     "date": "2026-09-08",
-    "today_max_jobs": 283,
+    "today_max_jobs": 285,
     "today_last_error": null,
     "historical_max_jobs": 307,
     "consecutive_bad_days": 0,
@@ -433,9 +433,9 @@
   },
   "Coinbase": {
     "date": "2026-09-08",
-    "today_max_jobs": 214,
+    "today_max_jobs": 217,
     "today_last_error": null,
-    "historical_max_jobs": 214,
+    "historical_max_jobs": 217,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-09-08",
-    "today_max_jobs": 380,
+    "today_max_jobs": 400,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -753,9 +753,9 @@
   },
   "Cloudflare": {
     "date": "2026-09-08",
-    "today_max_jobs": 334,
+    "today_max_jobs": 338,
     "today_last_error": null,
-    "historical_max_jobs": 335,
+    "historical_max_jobs": 338,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,15 +769,15 @@
   },
   "SpaceX": {
     "date": "2026-09-08",
-    "today_max_jobs": 2345,
+    "today_max_jobs": 2348,
     "today_last_error": null,
-    "historical_max_jobs": 2345,
+    "historical_max_jobs": 2348,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Rocket Lab": {
     "date": "2026-09-08",
-    "today_max_jobs": 450,
+    "today_max_jobs": 451,
     "today_last_error": null,
     "historical_max_jobs": 459,
     "consecutive_bad_days": 0,
