@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-09-09",
-    "today_max_jobs": 340,
+    "today_max_jobs": 360,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -225,7 +225,7 @@
   },
   "Marvell": {
     "date": "2026-09-09",
-    "today_max_jobs": 133,
+    "today_max_jobs": 134,
     "today_last_error": null,
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
@@ -265,9 +265,9 @@
   },
   "Amazon": {
     "date": "2026-09-09",
-    "today_max_jobs": 1965,
+    "today_max_jobs": 1966,
     "today_last_error": null,
-    "historical_max_jobs": 1965,
+    "historical_max_jobs": 1966,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -289,7 +289,7 @@
   },
   "Stripe": {
     "date": "2026-09-09",
-    "today_max_jobs": 619,
+    "today_max_jobs": 620,
     "today_last_error": null,
     "historical_max_jobs": 621,
     "consecutive_bad_days": 0,
@@ -329,7 +329,7 @@
   },
   "Snap": {
     "date": "2026-09-09",
-    "today_max_jobs": 177,
+    "today_max_jobs": 178,
     "today_last_error": null,
     "historical_max_jobs": 185,
     "consecutive_bad_days": 0,
@@ -377,7 +377,7 @@
   },
   "Applied Intuition": {
     "date": "2026-09-09",
-    "today_max_jobs": 287,
+    "today_max_jobs": 288,
     "today_last_error": null,
     "historical_max_jobs": 307,
     "consecutive_bad_days": 0,
@@ -401,9 +401,9 @@
   },
   "Ramp": {
     "date": "2026-09-09",
-    "today_max_jobs": 145,
+    "today_max_jobs": 146,
     "today_last_error": null,
-    "historical_max_jobs": 145,
+    "historical_max_jobs": 146,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -433,9 +433,9 @@
   },
   "Coinbase": {
     "date": "2026-09-09",
-    "today_max_jobs": 217,
+    "today_max_jobs": 218,
     "today_last_error": null,
-    "historical_max_jobs": 217,
+    "historical_max_jobs": 218,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -457,7 +457,7 @@
   },
   "1X": {
     "date": "2026-09-09",
-    "today_max_jobs": 86,
+    "today_max_jobs": 87,
     "today_last_error": null,
     "historical_max_jobs": 87,
     "consecutive_bad_days": 0,
@@ -505,9 +505,9 @@
   },
   "Zipline": {
     "date": "2026-09-09",
-    "today_max_jobs": 344,
+    "today_max_jobs": 348,
     "today_last_error": null,
-    "historical_max_jobs": 344,
+    "historical_max_jobs": 348,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -665,7 +665,7 @@
   },
   "xAI": {
     "date": "2026-09-09",
-    "today_max_jobs": 253,
+    "today_max_jobs": 254,
     "today_last_error": null,
     "historical_max_jobs": 263,
     "consecutive_bad_days": 0,
@@ -753,9 +753,9 @@
   },
   "Cloudflare": {
     "date": "2026-09-09",
-    "today_max_jobs": 351,
+    "today_max_jobs": 353,
     "today_last_error": null,
-    "historical_max_jobs": 351,
+    "historical_max_jobs": 353,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,17 +769,17 @@
   },
   "SpaceX": {
     "date": "2026-09-09",
-    "today_max_jobs": 2371,
+    "today_max_jobs": 2376,
     "today_last_error": null,
-    "historical_max_jobs": 2371,
+    "historical_max_jobs": 2376,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Rocket Lab": {
     "date": "2026-09-09",
-    "today_max_jobs": 465,
+    "today_max_jobs": 472,
     "today_last_error": null,
-    "historical_max_jobs": 465,
+    "historical_max_jobs": 472,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -985,9 +985,9 @@
   },
   "Cognition": {
     "date": "2026-09-09",
-    "today_max_jobs": 93,
+    "today_max_jobs": 94,
     "today_last_error": null,
-    "historical_max_jobs": 93,
+    "historical_max_jobs": 94,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1033,7 +1033,7 @@
   },
   "Luma AI": {
     "date": "2026-09-09",
-    "today_max_jobs": 44,
+    "today_max_jobs": 45,
     "today_last_error": null,
     "historical_max_jobs": 52,
     "consecutive_bad_days": 0,

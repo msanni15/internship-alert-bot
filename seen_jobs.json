@@ -2608,5 +2608,41 @@
     "title": "Software Engineer Intern, Agent (Winter 2027)",
     "url": "https://jobs.ashbyhq.com/sierra/02e1c456-8489-4a74-9fe7-af8845b040e4",
     "updated_at": "2026-09-01T01:18:27.232+00:00"
+  },
+  "workday:Intel:/job/PRC-Shanghai/Operations-Research-Engineer-Intern_JR0286945": {
+    "company": "Intel",
+    "title": "Operations Research Engineer Intern",
+    "url": "https://intel.wd1.myworkdayjobs.com/External/job/PRC-Shanghai/Operations-Research-Engineer-Intern_JR0286945",
+    "updated_at": "Posted Today"
+  },
+  "lever:Zoox:ae2785ae-dfee-484b-8add-3cf32ca2d10e": {
+    "company": "Zoox",
+    "title": "Contract Student Worker - Data Analyst (20 hrs/wk)",
+    "url": "https://jobs.lever.co/zoox/ae2785ae-dfee-484b-8add-3cf32ca2d10e",
+    "updated_at": 1788993848556
+  },
+  "lever:Shield AI:8c850c75-081d-4d09-bebf-096379a93010": {
+    "company": "Shield AI",
+    "title": "Summer 2027 - Software Engineer Intern",
+    "url": "https://jobs.lever.co/shieldai/8c850c75-081d-4d09-bebf-096379a93010",
+    "updated_at": 1788901056032
+  },
+  "greenhouse:Rocket Lab:7990268003": {
+    "company": "Rocket Lab",
+    "title": "HITL Engineering Intern Summer 2027",
+    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990268003",
+    "updated_at": "2026-09-09T19:36:36-04:00"
+  },
+  "greenhouse:Rocket Lab:7987044003": {
+    "company": "Rocket Lab",
+    "title": "Systems Engineering Intern Spring 2027",
+    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987044003",
+    "updated_at": "2026-09-09T19:39:35-04:00"
+  },
+  "greenhouse:Rocket Lab:7987046003": {
+    "company": "Rocket Lab",
+    "title": "Systems Engineering Intern Summer 2027",
+    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987046003",
+    "updated_at": "2026-09-09T19:40:26-04:00"
   }
 }
