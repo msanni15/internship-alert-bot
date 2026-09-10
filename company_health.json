@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-09-10",
-    "today_max_jobs": 300,
+    "today_max_jobs": 320,
     "today_last_error": null,
     "historical_max_jobs": 458,
     "consecutive_bad_days": 0,
@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-09-10",
-    "today_max_jobs": 376,
+    "today_max_jobs": 377,
     "today_last_error": null,
     "historical_max_jobs": 392,
     "consecutive_bad_days": 0,
@@ -289,9 +289,9 @@
   },
   "Stripe": {
     "date": "2026-09-10",
-    "today_max_jobs": 616,
+    "today_max_jobs": 622,
     "today_last_error": null,
-    "historical_max_jobs": 621,
+    "historical_max_jobs": 622,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -337,9 +337,9 @@
   },
   "Scale AI": {
     "date": "2026-09-10",
-    "today_max_jobs": 221,
+    "today_max_jobs": 222,
     "today_last_error": null,
-    "historical_max_jobs": 221,
+    "historical_max_jobs": 222,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -489,7 +489,7 @@
   },
   "Aurora": {
     "date": "2026-09-10",
-    "today_max_jobs": 83,
+    "today_max_jobs": 84,
     "today_last_error": null,
     "historical_max_jobs": 84,
     "consecutive_bad_days": 0,
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-09-10",
-    "today_max_jobs": 364,
+    "today_max_jobs": 368,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
@@ -769,17 +769,17 @@
   },
   "SpaceX": {
     "date": "2026-09-10",
-    "today_max_jobs": 2382,
+    "today_max_jobs": 2384,
     "today_last_error": null,
-    "historical_max_jobs": 2382,
+    "historical_max_jobs": 2384,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Rocket Lab": {
     "date": "2026-09-10",
-    "today_max_jobs": 486,
+    "today_max_jobs": 488,
     "today_last_error": null,
-    "historical_max_jobs": 486,
+    "historical_max_jobs": 488,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1041,7 +1041,7 @@
   },
   "Together AI": {
     "date": "2026-09-10",
-    "today_max_jobs": 59,
+    "today_max_jobs": 60,
     "today_last_error": null,
     "historical_max_jobs": 65,
     "consecutive_bad_days": 0,
@@ -1049,9 +1049,9 @@
   },
   "Suno": {
     "date": "2026-09-10",
-    "today_max_jobs": 66,
+    "today_max_jobs": 67,
     "today_last_error": null,
-    "historical_max_jobs": 66,
+    "historical_max_jobs": 67,
     "consecutive_bad_days": 0,
     "alerted": false
   },
