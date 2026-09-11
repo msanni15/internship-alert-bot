@@ -89,9 +89,9 @@
   },
   "Akuna Capital": {
     "date": "2026-09-11",
-    "today_max_jobs": 37,
+    "today_max_jobs": 38,
     "today_last_error": null,
-    "historical_max_jobs": 37,
+    "historical_max_jobs": 38,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -121,7 +121,7 @@
   },
   "Millennium": {
     "date": "2026-09-11",
-    "today_max_jobs": 114,
+    "today_max_jobs": 115,
     "today_last_error": null,
     "historical_max_jobs": 132,
     "consecutive_bad_days": 0,
@@ -129,9 +129,9 @@
   },
   "Schonfeld": {
     "date": "2026-09-11",
-    "today_max_jobs": 70,
+    "today_max_jobs": 71,
     "today_last_error": null,
-    "historical_max_jobs": 70,
+    "historical_max_jobs": 71,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-09-11",
-    "today_max_jobs": 1952,
+    "today_max_jobs": 1954,
     "today_last_error": null,
     "historical_max_jobs": 1966,
     "consecutive_bad_days": 0,
@@ -281,17 +281,17 @@
   },
   "Databricks": {
     "date": "2026-09-11",
-    "today_max_jobs": 882,
+    "today_max_jobs": 884,
     "today_last_error": null,
-    "historical_max_jobs": 882,
+    "historical_max_jobs": 884,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Stripe": {
     "date": "2026-09-11",
-    "today_max_jobs": 626,
+    "today_max_jobs": 627,
     "today_last_error": null,
-    "historical_max_jobs": 626,
+    "historical_max_jobs": 627,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -313,7 +313,7 @@
   },
   "DoorDash": {
     "date": "2026-09-11",
-    "today_max_jobs": 451,
+    "today_max_jobs": 454,
     "today_last_error": null,
     "historical_max_jobs": 475,
     "consecutive_bad_days": 0,
@@ -353,7 +353,7 @@
   },
   "Anthropic": {
     "date": "2026-09-11",
-    "today_max_jobs": 594,
+    "today_max_jobs": 596,
     "today_last_error": null,
     "historical_max_jobs": 600,
     "consecutive_bad_days": 0,
@@ -377,7 +377,7 @@
   },
   "Applied Intuition": {
     "date": "2026-09-11",
-    "today_max_jobs": 288,
+    "today_max_jobs": 290,
     "today_last_error": null,
     "historical_max_jobs": 307,
     "consecutive_bad_days": 0,
@@ -441,7 +441,7 @@
   },
   "Vercel": {
     "date": "2026-09-11",
-    "today_max_jobs": 84,
+    "today_max_jobs": 86,
     "today_last_error": null,
     "historical_max_jobs": 91,
     "consecutive_bad_days": 0,
@@ -497,15 +497,15 @@
   },
   "Skydio": {
     "date": "2026-09-11",
-    "today_max_jobs": 132,
+    "today_max_jobs": 133,
     "today_last_error": null,
-    "historical_max_jobs": 132,
+    "historical_max_jobs": 133,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Zipline": {
     "date": "2026-09-11",
-    "today_max_jobs": 348,
+    "today_max_jobs": 349,
     "today_last_error": null,
     "historical_max_jobs": 350,
     "consecutive_bad_days": 0,
@@ -513,7 +513,7 @@
   },
   "Shield AI": {
     "date": "2026-09-11",
-    "today_max_jobs": 478,
+    "today_max_jobs": 481,
     "today_last_error": null,
     "historical_max_jobs": 484,
     "consecutive_bad_days": 0,
@@ -553,7 +553,7 @@
   },
   "Waabi": {
     "date": "2026-09-11",
-    "today_max_jobs": 82,
+    "today_max_jobs": 83,
     "today_last_error": null,
     "historical_max_jobs": 83,
     "consecutive_bad_days": 0,
@@ -585,7 +585,7 @@
   },
   "Hermeus": {
     "date": "2026-09-11",
-    "today_max_jobs": 90,
+    "today_max_jobs": 91,
     "today_last_error": null,
     "historical_max_jobs": 91,
     "consecutive_bad_days": 0,
@@ -657,7 +657,7 @@
   },
   "Apptronik": {
     "date": "2026-09-11",
-    "today_max_jobs": 83,
+    "today_max_jobs": 84,
     "today_last_error": null,
     "historical_max_jobs": 86,
     "consecutive_bad_days": 0,
@@ -705,7 +705,7 @@
   },
   "Squarepoint Capital": {
     "date": "2026-09-11",
-    "today_max_jobs": 92,
+    "today_max_jobs": 93,
     "today_last_error": null,
     "historical_max_jobs": 95,
     "consecutive_bad_days": 0,
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-09-11",
-    "today_max_jobs": 368,
+    "today_max_jobs": 371,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
@@ -753,7 +753,7 @@
   },
   "Cloudflare": {
     "date": "2026-09-11",
-    "today_max_jobs": 353,
+    "today_max_jobs": 354,
     "today_last_error": null,
     "historical_max_jobs": 354,
     "consecutive_bad_days": 0,
@@ -769,17 +769,17 @@
   },
   "SpaceX": {
     "date": "2026-09-11",
-    "today_max_jobs": 2383,
+    "today_max_jobs": 2390,
     "today_last_error": null,
-    "historical_max_jobs": 2384,
+    "historical_max_jobs": 2390,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Rocket Lab": {
     "date": "2026-09-11",
-    "today_max_jobs": 488,
+    "today_max_jobs": 498,
     "today_last_error": null,
-    "historical_max_jobs": 488,
+    "historical_max_jobs": 498,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -913,7 +913,7 @@
   },
   "Diligent Robotics": {
     "date": "2026-09-11",
-    "today_max_jobs": 11,
+    "today_max_jobs": 12,
     "today_last_error": null,
     "historical_max_jobs": 17,
     "consecutive_bad_days": 0,
@@ -969,7 +969,7 @@
   },
   "Man Group": {
     "date": "2026-09-11",
-    "today_max_jobs": 51,
+    "today_max_jobs": 53,
     "today_last_error": null,
     "historical_max_jobs": 60,
     "consecutive_bad_days": 0,
@@ -977,9 +977,9 @@
   },
   "AMD": {
     "date": "2026-09-11",
-    "today_max_jobs": 1202,
+    "today_max_jobs": 1206,
     "today_last_error": null,
-    "historical_max_jobs": 1205,
+    "historical_max_jobs": 1206,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1065,9 +1065,9 @@
   },
   "Fireworks AI": {
     "date": "2026-09-11",
-    "today_max_jobs": 72,
+    "today_max_jobs": 73,
     "today_last_error": null,
-    "historical_max_jobs": 72,
+    "historical_max_jobs": 73,
     "consecutive_bad_days": 0,
     "alerted": false
   },
