@@ -57,7 +57,7 @@
   },
   "DRW": {
     "date": "2026-09-10",
-    "today_max_jobs": 158,
+    "today_max_jobs": 159,
     "today_last_error": null,
     "historical_max_jobs": 166,
     "consecutive_bad_days": 0,
@@ -81,7 +81,7 @@
   },
   "Tower Research": {
     "date": "2026-09-10",
-    "today_max_jobs": 84,
+    "today_max_jobs": 85,
     "today_last_error": null,
     "historical_max_jobs": 86,
     "consecutive_bad_days": 0,
@@ -121,7 +121,7 @@
   },
   "Millennium": {
     "date": "2026-09-10",
-    "today_max_jobs": 112,
+    "today_max_jobs": 113,
     "today_last_error": null,
     "historical_max_jobs": 132,
     "consecutive_bad_days": 0,
@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-09-10",
-    "today_max_jobs": 320,
+    "today_max_jobs": 363,
     "today_last_error": null,
     "historical_max_jobs": 458,
     "consecutive_bad_days": 0,
@@ -281,17 +281,17 @@
   },
   "Databricks": {
     "date": "2026-09-10",
-    "today_max_jobs": 874,
+    "today_max_jobs": 877,
     "today_last_error": null,
-    "historical_max_jobs": 876,
+    "historical_max_jobs": 877,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Stripe": {
     "date": "2026-09-10",
-    "today_max_jobs": 622,
+    "today_max_jobs": 624,
     "today_last_error": null,
-    "historical_max_jobs": 622,
+    "historical_max_jobs": 624,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -361,9 +361,9 @@
   },
   "Perplexity": {
     "date": "2026-09-10",
-    "today_max_jobs": 113,
+    "today_max_jobs": 114,
     "today_last_error": null,
-    "historical_max_jobs": 113,
+    "historical_max_jobs": 114,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-09-10",
-    "today_max_jobs": 378,
+    "today_max_jobs": 462,
     "today_last_error": null,
     "historical_max_jobs": 465,
     "consecutive_bad_days": 0,
@@ -1009,7 +1009,7 @@
   },
   "Sierra AI": {
     "date": "2026-09-10",
-    "today_max_jobs": 209,
+    "today_max_jobs": 210,
     "today_last_error": null,
     "historical_max_jobs": 212,
     "consecutive_bad_days": 0,
@@ -1041,7 +1041,7 @@
   },
   "Together AI": {
     "date": "2026-09-10",
-    "today_max_jobs": 60,
+    "today_max_jobs": 62,
     "today_last_error": null,
     "historical_max_jobs": 65,
     "consecutive_bad_days": 0,
