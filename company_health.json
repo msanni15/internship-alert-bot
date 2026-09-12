@@ -33,7 +33,7 @@
   },
   "Jump Trading": {
     "date": "2026-09-12",
-    "today_max_jobs": 106,
+    "today_max_jobs": 107,
     "today_last_error": null,
     "historical_max_jobs": 110,
     "consecutive_bad_days": 0,
@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-09-12",
-    "today_max_jobs": 1949,
+    "today_max_jobs": 1950,
     "today_last_error": null,
     "historical_max_jobs": 1966,
     "consecutive_bad_days": 0,
@@ -345,9 +345,9 @@
   },
   "OpenAI": {
     "date": "2026-09-12",
-    "today_max_jobs": 795,
+    "today_max_jobs": 796,
     "today_last_error": null,
-    "historical_max_jobs": 795,
+    "historical_max_jobs": 796,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -513,7 +513,7 @@
   },
   "Shield AI": {
     "date": "2026-09-12",
-    "today_max_jobs": 472,
+    "today_max_jobs": 473,
     "today_last_error": null,
     "historical_max_jobs": 484,
     "consecutive_bad_days": 0,
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-09-12",
-    "today_max_jobs": 442,
+    "today_max_jobs": 466,
     "today_last_error": null,
     "historical_max_jobs": 467,
     "consecutive_bad_days": 0,
@@ -977,9 +977,9 @@
   },
   "AMD": {
     "date": "2026-09-12",
-    "today_max_jobs": 1218,
+    "today_max_jobs": 1222,
     "today_last_error": null,
-    "historical_max_jobs": 1219,
+    "historical_max_jobs": 1222,
     "consecutive_bad_days": 0,
     "alerted": false
   },
