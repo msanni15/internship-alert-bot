@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-09-12",
-    "today_max_jobs": 1950,
+    "today_max_jobs": 1951,
     "today_last_error": null,
     "historical_max_jobs": 1966,
     "consecutive_bad_days": 0,
