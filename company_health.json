@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-09-13",
-    "today_max_jobs": 368,
+    "today_max_jobs": 384,
     "today_last_error": null,
     "historical_max_jobs": 458,
     "consecutive_bad_days": 0,
@@ -577,9 +577,9 @@
   },
   "FieldAI": {
     "date": "2026-09-13",
-    "today_max_jobs": 134,
+    "today_max_jobs": 135,
     "today_last_error": null,
-    "historical_max_jobs": 134,
+    "historical_max_jobs": 135,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-09-13",
-    "today_max_jobs": 2412,
+    "today_max_jobs": 2413,
     "today_last_error": null,
-    "historical_max_jobs": 2412,
+    "historical_max_jobs": 2413,
     "consecutive_bad_days": 0,
     "alerted": false
   },
