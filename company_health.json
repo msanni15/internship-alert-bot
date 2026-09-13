@@ -417,7 +417,7 @@
   },
   "Plaid": {
     "date": "2026-09-13",
-    "today_max_jobs": 110,
+    "today_max_jobs": 111,
     "today_last_error": null,
     "historical_max_jobs": 112,
     "consecutive_bad_days": 0,
@@ -425,7 +425,7 @@
   },
   "Robinhood": {
     "date": "2026-09-13",
-    "today_max_jobs": 125,
+    "today_max_jobs": 126,
     "today_last_error": null,
     "historical_max_jobs": 139,
     "consecutive_bad_days": 0,
@@ -577,9 +577,9 @@
   },
   "FieldAI": {
     "date": "2026-09-13",
-    "today_max_jobs": 133,
+    "today_max_jobs": 134,
     "today_last_error": null,
-    "historical_max_jobs": 133,
+    "historical_max_jobs": 134,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -777,9 +777,9 @@
   },
   "Rocket Lab": {
     "date": "2026-09-13",
-    "today_max_jobs": 504,
+    "today_max_jobs": 505,
     "today_last_error": null,
-    "historical_max_jobs": 504,
+    "historical_max_jobs": 505,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-09-13",
-    "today_max_jobs": 466,
+    "today_max_jobs": 467,
     "today_last_error": null,
     "historical_max_jobs": 467,
     "consecutive_bad_days": 0,
