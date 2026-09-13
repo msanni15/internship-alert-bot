@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-09-12",
-    "today_max_jobs": 368,
+    "today_max_jobs": 381,
     "today_last_error": null,
     "historical_max_jobs": 458,
     "consecutive_bad_days": 0,
@@ -353,7 +353,7 @@
   },
   "Anthropic": {
     "date": "2026-09-12",
-    "today_max_jobs": 595,
+    "today_max_jobs": 596,
     "today_last_error": null,
     "historical_max_jobs": 600,
     "consecutive_bad_days": 0,
@@ -649,7 +649,7 @@
   },
   "Physical Intelligence": {
     "date": "2026-09-12",
-    "today_max_jobs": 34,
+    "today_max_jobs": 35,
     "today_last_error": null,
     "historical_max_jobs": 35,
     "consecutive_bad_days": 0,
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-09-12",
-    "today_max_jobs": 2405,
+    "today_max_jobs": 2412,
     "today_last_error": null,
-    "historical_max_jobs": 2405,
+    "historical_max_jobs": 2412,
     "consecutive_bad_days": 0,
     "alerted": false
   },
