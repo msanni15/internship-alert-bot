@@ -1,7 +1,7 @@
 {
   "Jane Street": {
     "date": "2026-09-14",
-    "today_max_jobs": 230,
+    "today_max_jobs": 231,
     "today_last_error": null,
     "historical_max_jobs": 235,
     "consecutive_bad_days": 0,
@@ -241,7 +241,7 @@
   },
   "Samsung Semiconductor": {
     "date": "2026-09-14",
-    "today_max_jobs": 64,
+    "today_max_jobs": 68,
     "today_last_error": null,
     "historical_max_jobs": 68,
     "consecutive_bad_days": 0,
@@ -265,15 +265,15 @@
   },
   "Amazon": {
     "date": "2026-09-14",
-    "today_max_jobs": 1964,
+    "today_max_jobs": 1973,
     "today_last_error": null,
-    "historical_max_jobs": 1966,
+    "historical_max_jobs": 1973,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Roblox": {
     "date": "2026-09-14",
-    "today_max_jobs": 235,
+    "today_max_jobs": 236,
     "today_last_error": null,
     "historical_max_jobs": 239,
     "consecutive_bad_days": 0,
@@ -345,9 +345,9 @@
   },
   "OpenAI": {
     "date": "2026-09-14",
-    "today_max_jobs": 802,
+    "today_max_jobs": 805,
     "today_last_error": null,
-    "historical_max_jobs": 802,
+    "historical_max_jobs": 805,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -441,7 +441,7 @@
   },
   "Vercel": {
     "date": "2026-09-14",
-    "today_max_jobs": 86,
+    "today_max_jobs": 87,
     "today_last_error": null,
     "historical_max_jobs": 91,
     "consecutive_bad_days": 0,
@@ -513,7 +513,7 @@
   },
   "Shield AI": {
     "date": "2026-09-14",
-    "today_max_jobs": 477,
+    "today_max_jobs": 478,
     "today_last_error": null,
     "historical_max_jobs": 484,
     "consecutive_bad_days": 0,
@@ -521,7 +521,7 @@
   },
   "Figure AI": {
     "date": "2026-09-14",
-    "today_max_jobs": 103,
+    "today_max_jobs": 104,
     "today_last_error": null,
     "historical_max_jobs": 129,
     "consecutive_bad_days": 0,
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-09-14",
-    "today_max_jobs": 440,
+    "today_max_jobs": 460,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-09-14",
-    "today_max_jobs": 2425,
+    "today_max_jobs": 2441,
     "today_last_error": null,
-    "historical_max_jobs": 2425,
+    "historical_max_jobs": 2441,
     "consecutive_bad_days": 0,
     "alerted": false
   },
