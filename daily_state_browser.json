@@ -289,6 +289,10 @@
   },
   "2026-09-16": {
     "new_jobs_found": 0,
+    "daily_summary_sent": true
+  },
+  "2026-09-17": {
+    "new_jobs_found": 0,
     "daily_summary_sent": false
   }
 }
