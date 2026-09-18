@@ -105,7 +105,7 @@
   },
   "Point72": {
     "date": "2026-09-18",
-    "today_max_jobs": 232,
+    "today_max_jobs": 233,
     "today_last_error": null,
     "historical_max_jobs": 239,
     "consecutive_bad_days": 0,
@@ -273,9 +273,9 @@
   },
   "Roblox": {
     "date": "2026-09-18",
-    "today_max_jobs": 242,
+    "today_max_jobs": 244,
     "today_last_error": null,
-    "historical_max_jobs": 242,
+    "historical_max_jobs": 244,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -361,9 +361,9 @@
   },
   "Perplexity": {
     "date": "2026-09-18",
-    "today_max_jobs": 116,
+    "today_max_jobs": 118,
     "today_last_error": null,
-    "historical_max_jobs": 117,
+    "historical_max_jobs": 118,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -465,7 +465,7 @@
   },
   "Waymo": {
     "date": "2026-09-18",
-    "today_max_jobs": 335,
+    "today_max_jobs": 338,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -497,9 +497,9 @@
   },
   "Skydio": {
     "date": "2026-09-18",
-    "today_max_jobs": 137,
+    "today_max_jobs": 138,
     "today_last_error": null,
-    "historical_max_jobs": 137,
+    "historical_max_jobs": 138,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -585,7 +585,7 @@
   },
   "Hermeus": {
     "date": "2026-09-18",
-    "today_max_jobs": 88,
+    "today_max_jobs": 89,
     "today_last_error": null,
     "historical_max_jobs": 91,
     "consecutive_bad_days": 0,
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-09-18",
-    "today_max_jobs": 360,
+    "today_max_jobs": 440,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -753,9 +753,9 @@
   },
   "Cloudflare": {
     "date": "2026-09-18",
-    "today_max_jobs": 379,
+    "today_max_jobs": 380,
     "today_last_error": null,
-    "historical_max_jobs": 379,
+    "historical_max_jobs": 380,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -785,7 +785,7 @@
   },
   "Etched": {
     "date": "2026-09-18",
-    "today_max_jobs": 105,
+    "today_max_jobs": 106,
     "today_last_error": null,
     "historical_max_jobs": 110,
     "consecutive_bad_days": 0,
@@ -1065,9 +1065,9 @@
   },
   "Fireworks AI": {
     "date": "2026-09-18",
-    "today_max_jobs": 78,
+    "today_max_jobs": 79,
     "today_last_error": null,
-    "historical_max_jobs": 78,
+    "historical_max_jobs": 79,
     "consecutive_bad_days": 0,
     "alerted": false
   },
