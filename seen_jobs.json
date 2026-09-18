@@ -3064,5 +3064,41 @@
     "title": "Test Engineering Intern Summer 2027",
     "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990350003",
     "updated_at": "2026-09-17T14:18:54-04:00"
+  },
+  "custom/amazon:Amazon:146ec6fd-d497-4119-8f37-d4eabb6d3139": {
+    "company": "Amazon",
+    "title": "Software Development Engineer Internship - Summer -2027 (USA)",
+    "url": "https://www.amazon.jobs/en/jobs/10552937/software-development-engineer-internship-summer-2027-usa",
+    "updated_at": "September 17, 2026"
+  },
+  "greenhouse:Stripe:8212508": {
+    "company": "Stripe",
+    "title": "Software Engineer, Early Career \u2014 Immediate Start",
+    "url": "https://stripe.com/jobs/search?gh_jid=8212508",
+    "updated_at": "2026-09-17T19:28:54-04:00"
+  },
+  "greenhouse:Stripe:8212517": {
+    "company": "Stripe",
+    "title": "Software Engineer, Early Career \u2014 Immediate Start",
+    "url": "https://stripe.com/jobs/search?gh_jid=8212517",
+    "updated_at": "2026-09-17T19:35:28-04:00"
+  },
+  "greenhouse:Rocket Lab:7992102003": {
+    "company": "Rocket Lab",
+    "title": "Optical Engineering Intern Summer 2027",
+    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7992102003",
+    "updated_at": "2026-09-17T19:21:05-04:00"
+  },
+  "greenhouse:Rocket Lab:7996578003": {
+    "company": "Rocket Lab",
+    "title": "R&D Engineering Intern Spring 2027",
+    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996578003",
+    "updated_at": "2026-09-17T19:22:06-04:00"
+  },
+  "greenhouse:Rocket Lab:7996576003": {
+    "company": "Rocket Lab",
+    "title": "R&D Engineering Intern Summer 2027",
+    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996576003",
+    "updated_at": "2026-09-17T19:23:13-04:00"
   }
 }
