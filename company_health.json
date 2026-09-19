@@ -329,7 +329,7 @@
   },
   "Snap": {
     "date": "2026-09-19",
-    "today_max_jobs": 26,
+    "today_max_jobs": 183,
     "today_last_error": null,
     "historical_max_jobs": 185,
     "consecutive_bad_days": 0,
@@ -353,7 +353,7 @@
   },
   "Anthropic": {
     "date": "2026-09-19",
-    "today_max_jobs": 609,
+    "today_max_jobs": 610,
     "today_last_error": null,
     "historical_max_jobs": 610,
     "consecutive_bad_days": 0,
