@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-09-19",
-    "today_max_jobs": 610,
+    "today_max_jobs": 611,
     "today_last_error": null,
-    "historical_max_jobs": 610,
+    "historical_max_jobs": 611,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-09-19",
-    "today_max_jobs": 2500,
+    "today_max_jobs": 2505,
     "today_last_error": null,
-    "historical_max_jobs": 2502,
+    "historical_max_jobs": 2505,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-09-19",
-    "today_max_jobs": 1220,
+    "today_max_jobs": 1221,
     "today_last_error": null,
     "historical_max_jobs": 1231,
     "consecutive_bad_days": 0,
