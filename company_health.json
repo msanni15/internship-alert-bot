@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-09-19",
-    "today_max_jobs": 345,
+    "today_max_jobs": 346,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-09-19",
-    "today_max_jobs": 2499,
+    "today_max_jobs": 2500,
     "today_last_error": null,
     "historical_max_jobs": 2502,
     "consecutive_bad_days": 0,
