@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-09-18",
-    "today_max_jobs": 340,
+    "today_max_jobs": 380,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -273,9 +273,9 @@
   },
   "Roblox": {
     "date": "2026-09-18",
-    "today_max_jobs": 244,
+    "today_max_jobs": 245,
     "today_last_error": null,
-    "historical_max_jobs": 244,
+    "historical_max_jobs": 245,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -329,7 +329,7 @@
   },
   "Snap": {
     "date": "2026-09-18",
-    "today_max_jobs": 182,
+    "today_max_jobs": 183,
     "today_last_error": null,
     "historical_max_jobs": 185,
     "consecutive_bad_days": 0,
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-09-18",
-    "today_max_jobs": 817,
+    "today_max_jobs": 818,
     "today_last_error": null,
     "historical_max_jobs": 819,
     "consecutive_bad_days": 0,
@@ -417,9 +417,9 @@
   },
   "Plaid": {
     "date": "2026-09-18",
-    "today_max_jobs": 113,
+    "today_max_jobs": 114,
     "today_last_error": null,
-    "historical_max_jobs": 113,
+    "historical_max_jobs": 114,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -465,7 +465,7 @@
   },
   "Waymo": {
     "date": "2026-09-18",
-    "today_max_jobs": 338,
+    "today_max_jobs": 339,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
