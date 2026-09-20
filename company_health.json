@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-09-20",
-    "today_max_jobs": 380,
+    "today_max_jobs": 381,
     "today_last_error": null,
     "historical_max_jobs": 458,
     "consecutive_bad_days": 0,
@@ -329,7 +329,7 @@
   },
   "Snap": {
     "date": "2026-09-20",
-    "today_max_jobs": 65,
+    "today_max_jobs": 182,
     "today_last_error": null,
     "historical_max_jobs": 185,
     "consecutive_bad_days": 0,
@@ -665,7 +665,7 @@
   },
   "xAI": {
     "date": "2026-09-20",
-    "today_max_jobs": 265,
+    "today_max_jobs": 266,
     "today_last_error": null,
     "historical_max_jobs": 266,
     "consecutive_bad_days": 0,
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-09-20",
-    "today_max_jobs": 480,
+    "today_max_jobs": 481,
     "today_last_error": null,
     "historical_max_jobs": 483,
     "consecutive_bad_days": 0,
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-09-20",
-    "today_max_jobs": 1223,
+    "today_max_jobs": 1224,
     "today_last_error": null,
     "historical_max_jobs": 1231,
     "consecutive_bad_days": 0,
