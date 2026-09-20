@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-09-20",
-    "today_max_jobs": 2003,
+    "today_max_jobs": 2004,
     "today_last_error": null,
     "historical_max_jobs": 2030,
     "consecutive_bad_days": 0,
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-09-20",
-    "today_max_jobs": 400,
+    "today_max_jobs": 420,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-09-20",
-    "today_max_jobs": 1224,
+    "today_max_jobs": 1226,
     "today_last_error": null,
     "historical_max_jobs": 1231,
     "consecutive_bad_days": 0,
