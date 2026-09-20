@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-09-19",
-    "today_max_jobs": 360,
+    "today_max_jobs": 380,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -425,9 +425,9 @@
   },
   "Robinhood": {
     "date": "2026-09-19",
-    "today_max_jobs": 155,
+    "today_max_jobs": 157,
     "today_last_error": null,
-    "historical_max_jobs": 155,
+    "historical_max_jobs": 157,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -665,7 +665,7 @@
   },
   "xAI": {
     "date": "2026-09-19",
-    "today_max_jobs": 264,
+    "today_max_jobs": 265,
     "today_last_error": null,
     "historical_max_jobs": 266,
     "consecutive_bad_days": 0,
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-09-19",
-    "today_max_jobs": 1221,
+    "today_max_jobs": 1223,
     "today_last_error": null,
     "historical_max_jobs": 1231,
     "consecutive_bad_days": 0,
