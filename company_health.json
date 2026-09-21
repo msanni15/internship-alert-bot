@@ -161,7 +161,7 @@
   },
   "Flow Traders": {
     "date": "2026-09-20",
-    "today_max_jobs": 45,
+    "today_max_jobs": 46,
     "today_last_error": null,
     "historical_max_jobs": 47,
     "consecutive_bad_days": 0,
@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-09-20",
-    "today_max_jobs": 370,
+    "today_max_jobs": 371,
     "today_last_error": null,
     "historical_max_jobs": 392,
     "consecutive_bad_days": 0,
@@ -241,7 +241,7 @@
   },
   "Samsung Semiconductor": {
     "date": "2026-09-20",
-    "today_max_jobs": 66,
+    "today_max_jobs": 67,
     "today_last_error": null,
     "historical_max_jobs": 70,
     "consecutive_bad_days": 0,
@@ -329,7 +329,7 @@
   },
   "Snap": {
     "date": "2026-09-20",
-    "today_max_jobs": 182,
+    "today_max_jobs": 183,
     "today_last_error": null,
     "historical_max_jobs": 185,
     "consecutive_bad_days": 0,
@@ -545,7 +545,7 @@
   },
   "Kodiak Robotics": {
     "date": "2026-09-20",
-    "today_max_jobs": 65,
+    "today_max_jobs": 66,
     "today_last_error": null,
     "historical_max_jobs": 72,
     "consecutive_bad_days": 0,
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-09-20",
-    "today_max_jobs": 345,
+    "today_max_jobs": 346,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
