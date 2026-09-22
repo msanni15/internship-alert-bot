@@ -185,9 +185,9 @@
   },
   "Belvedere Trading": {
     "date": "2026-09-22",
-    "today_max_jobs": 18,
+    "today_max_jobs": 20,
     "today_last_error": null,
-    "historical_max_jobs": 18,
+    "historical_max_jobs": 20,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -218,7 +218,7 @@
   "Broadcom": {
     "date": "2026-09-22",
     "today_max_jobs": 367,
-    "today_last_error": null,
+    "today_last_error": "Broadcom: HTTPSConnectionPool(host='broadcom.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=8)",
     "historical_max_jobs": 392,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -241,7 +241,7 @@
   },
   "Samsung Semiconductor": {
     "date": "2026-09-22",
-    "today_max_jobs": 66,
+    "today_max_jobs": 67,
     "today_last_error": null,
     "historical_max_jobs": 70,
     "consecutive_bad_days": 0,
@@ -265,17 +265,17 @@
   },
   "Amazon": {
     "date": "2026-09-22",
-    "today_max_jobs": 2022,
+    "today_max_jobs": 2038,
     "today_last_error": null,
-    "historical_max_jobs": 2030,
+    "historical_max_jobs": 2038,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Roblox": {
     "date": "2026-09-22",
-    "today_max_jobs": 250,
+    "today_max_jobs": 252,
     "today_last_error": null,
-    "historical_max_jobs": 251,
+    "historical_max_jobs": 252,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -289,15 +289,15 @@
   },
   "Stripe": {
     "date": "2026-09-22",
-    "today_max_jobs": 671,
+    "today_max_jobs": 677,
     "today_last_error": null,
-    "historical_max_jobs": 672,
+    "historical_max_jobs": 677,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Airbnb": {
     "date": "2026-09-22",
-    "today_max_jobs": 157,
+    "today_max_jobs": 158,
     "today_last_error": null,
     "historical_max_jobs": 198,
     "consecutive_bad_days": 0,
@@ -329,7 +329,7 @@
   },
   "Snap": {
     "date": "2026-09-22",
-    "today_max_jobs": 179,
+    "today_max_jobs": 182,
     "today_last_error": null,
     "historical_max_jobs": 185,
     "consecutive_bad_days": 0,
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-09-22",
-    "today_max_jobs": 811,
+    "today_max_jobs": 814,
     "today_last_error": null,
     "historical_max_jobs": 819,
     "consecutive_bad_days": 0,
@@ -353,17 +353,17 @@
   },
   "Anthropic": {
     "date": "2026-09-22",
-    "today_max_jobs": 618,
+    "today_max_jobs": 623,
     "today_last_error": null,
-    "historical_max_jobs": 620,
+    "historical_max_jobs": 623,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Perplexity": {
     "date": "2026-09-22",
-    "today_max_jobs": 119,
+    "today_max_jobs": 120,
     "today_last_error": null,
-    "historical_max_jobs": 119,
+    "historical_max_jobs": 120,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -377,7 +377,7 @@
   },
   "Applied Intuition": {
     "date": "2026-09-22",
-    "today_max_jobs": 296,
+    "today_max_jobs": 302,
     "today_last_error": null,
     "historical_max_jobs": 307,
     "consecutive_bad_days": 0,
@@ -425,9 +425,9 @@
   },
   "Robinhood": {
     "date": "2026-09-22",
-    "today_max_jobs": 161,
+    "today_max_jobs": 162,
     "today_last_error": null,
-    "historical_max_jobs": 161,
+    "historical_max_jobs": 162,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -441,7 +441,7 @@
   },
   "Vercel": {
     "date": "2026-09-22",
-    "today_max_jobs": 86,
+    "today_max_jobs": 89,
     "today_last_error": null,
     "historical_max_jobs": 91,
     "consecutive_bad_days": 0,
@@ -465,7 +465,7 @@
   },
   "Waymo": {
     "date": "2026-09-22",
-    "today_max_jobs": 349,
+    "today_max_jobs": 351,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -481,7 +481,7 @@
   },
   "Nuro": {
     "date": "2026-09-22",
-    "today_max_jobs": 106,
+    "today_max_jobs": 107,
     "today_last_error": null,
     "historical_max_jobs": 111,
     "consecutive_bad_days": 0,
@@ -489,9 +489,9 @@
   },
   "Aurora": {
     "date": "2026-09-22",
-    "today_max_jobs": 91,
+    "today_max_jobs": 92,
     "today_last_error": null,
-    "historical_max_jobs": 91,
+    "historical_max_jobs": 92,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -505,7 +505,7 @@
   },
   "Zipline": {
     "date": "2026-09-22",
-    "today_max_jobs": 336,
+    "today_max_jobs": 339,
     "today_last_error": null,
     "historical_max_jobs": 352,
     "consecutive_bad_days": 0,
@@ -513,9 +513,9 @@
   },
   "Shield AI": {
     "date": "2026-09-22",
-    "today_max_jobs": 508,
+    "today_max_jobs": 516,
     "today_last_error": null,
-    "historical_max_jobs": 508,
+    "historical_max_jobs": 516,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -545,7 +545,7 @@
   },
   "Kodiak Robotics": {
     "date": "2026-09-22",
-    "today_max_jobs": 66,
+    "today_max_jobs": 67,
     "today_last_error": null,
     "historical_max_jobs": 72,
     "consecutive_bad_days": 0,
@@ -698,7 +698,7 @@
   "Groq": {
     "date": "2026-09-22",
     "today_max_jobs": 0,
-    "today_last_error": null,
+    "today_last_error": "Groq: HTTPSConnectionPool(host='jobs.gem.com', port=443): Read timed out. (read timeout=20)",
     "historical_max_jobs": 1,
     "consecutive_bad_days": 19,
     "alerted": true
@@ -753,9 +753,9 @@
   },
   "Cloudflare": {
     "date": "2026-09-22",
-    "today_max_jobs": 389,
+    "today_max_jobs": 392,
     "today_last_error": null,
-    "historical_max_jobs": 389,
+    "historical_max_jobs": 392,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-09-22",
-    "today_max_jobs": 2533,
+    "today_max_jobs": 2539,
     "today_last_error": null,
-    "historical_max_jobs": 2533,
+    "historical_max_jobs": 2539,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -977,9 +977,9 @@
   },
   "AMD": {
     "date": "2026-09-22",
-    "today_max_jobs": 1243,
+    "today_max_jobs": 1249,
     "today_last_error": null,
-    "historical_max_jobs": 1243,
+    "historical_max_jobs": 1249,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1113,7 +1113,7 @@
   },
   "Osaro": {
     "date": "2026-09-22",
-    "today_max_jobs": 10,
+    "today_max_jobs": 11,
     "today_last_error": null,
     "historical_max_jobs": 11,
     "consecutive_bad_days": 0,
