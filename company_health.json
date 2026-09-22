@@ -105,7 +105,7 @@
   },
   "Point72": {
     "date": "2026-09-21",
-    "today_max_jobs": 233,
+    "today_max_jobs": 234,
     "today_last_error": null,
     "historical_max_jobs": 239,
     "consecutive_bad_days": 0,
@@ -161,7 +161,7 @@
   },
   "Flow Traders": {
     "date": "2026-09-21",
-    "today_max_jobs": 46,
+    "today_max_jobs": 47,
     "today_last_error": null,
     "historical_max_jobs": 47,
     "consecutive_bad_days": 0,
@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-09-21",
-    "today_max_jobs": 340,
+    "today_max_jobs": 360,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-09-21",
-    "today_max_jobs": 360,
+    "today_max_jobs": 377,
     "today_last_error": null,
     "historical_max_jobs": 458,
     "consecutive_bad_days": 0,
@@ -225,7 +225,7 @@
   },
   "Marvell": {
     "date": "2026-09-21",
-    "today_max_jobs": 204,
+    "today_max_jobs": 207,
     "today_last_error": null,
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-09-21",
-    "today_max_jobs": 2010,
+    "today_max_jobs": 2011,
     "today_last_error": null,
     "historical_max_jobs": 2030,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-09-21",
-    "today_max_jobs": 617,
+    "today_max_jobs": 620,
     "today_last_error": null,
-    "historical_max_jobs": 617,
+    "historical_max_jobs": 620,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -369,7 +369,7 @@
   },
   "Cursor / Anysphere": {
     "date": "2026-09-21",
-    "today_max_jobs": 122,
+    "today_max_jobs": 123,
     "today_last_error": null,
     "historical_max_jobs": 128,
     "consecutive_bad_days": 0,
@@ -433,7 +433,7 @@
   },
   "Coinbase": {
     "date": "2026-09-21",
-    "today_max_jobs": 217,
+    "today_max_jobs": 218,
     "today_last_error": null,
     "historical_max_jobs": 222,
     "consecutive_bad_days": 0,
@@ -441,7 +441,7 @@
   },
   "Vercel": {
     "date": "2026-09-21",
-    "today_max_jobs": 84,
+    "today_max_jobs": 86,
     "today_last_error": null,
     "historical_max_jobs": 91,
     "consecutive_bad_days": 0,
@@ -457,15 +457,15 @@
   },
   "1X": {
     "date": "2026-09-21",
-    "today_max_jobs": 89,
+    "today_max_jobs": 91,
     "today_last_error": null,
-    "historical_max_jobs": 89,
+    "historical_max_jobs": 91,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Waymo": {
     "date": "2026-09-21",
-    "today_max_jobs": 346,
+    "today_max_jobs": 347,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -513,9 +513,9 @@
   },
   "Shield AI": {
     "date": "2026-09-21",
-    "today_max_jobs": 503,
+    "today_max_jobs": 504,
     "today_last_error": null,
-    "historical_max_jobs": 503,
+    "historical_max_jobs": 504,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -633,7 +633,7 @@
   },
   "SK Hynix": {
     "date": "2026-09-21",
-    "today_max_jobs": 47,
+    "today_max_jobs": 49,
     "today_last_error": null,
     "historical_max_jobs": 49,
     "consecutive_bad_days": 0,
@@ -673,7 +673,7 @@
   },
   "Cohere": {
     "date": "2026-09-21",
-    "today_max_jobs": 142,
+    "today_max_jobs": 143,
     "today_last_error": null,
     "historical_max_jobs": 152,
     "consecutive_bad_days": 0,
@@ -769,15 +769,15 @@
   },
   "SpaceX": {
     "date": "2026-09-21",
-    "today_max_jobs": 2514,
+    "today_max_jobs": 2522,
     "today_last_error": null,
-    "historical_max_jobs": 2514,
+    "historical_max_jobs": 2522,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Rocket Lab": {
     "date": "2026-09-21",
-    "today_max_jobs": 524,
+    "today_max_jobs": 525,
     "today_last_error": null,
     "historical_max_jobs": 537,
     "consecutive_bad_days": 0,
@@ -785,7 +785,7 @@
   },
   "Etched": {
     "date": "2026-09-21",
-    "today_max_jobs": 106,
+    "today_max_jobs": 107,
     "today_last_error": null,
     "historical_max_jobs": 110,
     "consecutive_bad_days": 0,
@@ -977,9 +977,9 @@
   },
   "AMD": {
     "date": "2026-09-21",
-    "today_max_jobs": 1230,
+    "today_max_jobs": 1233,
     "today_last_error": null,
-    "historical_max_jobs": 1231,
+    "historical_max_jobs": 1233,
     "consecutive_bad_days": 0,
     "alerted": false
   },
