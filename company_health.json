@@ -1,7 +1,7 @@
 {
   "Jane Street": {
     "date": "2026-09-24",
-    "today_max_jobs": 227,
+    "today_max_jobs": 228,
     "today_last_error": null,
     "historical_max_jobs": 235,
     "consecutive_bad_days": 0,
@@ -33,9 +33,9 @@
   },
   "Jump Trading": {
     "date": "2026-09-24",
-    "today_max_jobs": 113,
+    "today_max_jobs": 114,
     "today_last_error": null,
-    "historical_max_jobs": 113,
+    "historical_max_jobs": 114,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -81,7 +81,7 @@
   },
   "Tower Research": {
     "date": "2026-09-24",
-    "today_max_jobs": 90,
+    "today_max_jobs": 91,
     "today_last_error": null,
     "historical_max_jobs": 92,
     "consecutive_bad_days": 0,
@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-09-24",
-    "today_max_jobs": 373,
+    "today_max_jobs": 375,
     "today_last_error": null,
     "historical_max_jobs": 392,
     "consecutive_bad_days": 0,
@@ -225,7 +225,7 @@
   },
   "Marvell": {
     "date": "2026-09-24",
-    "today_max_jobs": 235,
+    "today_max_jobs": 239,
     "today_last_error": null,
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
@@ -265,9 +265,9 @@
   },
   "Amazon": {
     "date": "2026-09-24",
-    "today_max_jobs": 2042,
+    "today_max_jobs": 2051,
     "today_last_error": null,
-    "historical_max_jobs": 2048,
+    "historical_max_jobs": 2051,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -361,15 +361,15 @@
   },
   "Perplexity": {
     "date": "2026-09-24",
-    "today_max_jobs": 122,
+    "today_max_jobs": 123,
     "today_last_error": null,
-    "historical_max_jobs": 122,
+    "historical_max_jobs": 123,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Cursor / Anysphere": {
     "date": "2026-09-24",
-    "today_max_jobs": 125,
+    "today_max_jobs": 126,
     "today_last_error": null,
     "historical_max_jobs": 128,
     "consecutive_bad_days": 0,
@@ -377,7 +377,7 @@
   },
   "Applied Intuition": {
     "date": "2026-09-24",
-    "today_max_jobs": 305,
+    "today_max_jobs": 306,
     "today_last_error": null,
     "historical_max_jobs": 307,
     "consecutive_bad_days": 0,
@@ -385,7 +385,7 @@
   },
   "Figma": {
     "date": "2026-09-24",
-    "today_max_jobs": 162,
+    "today_max_jobs": 164,
     "today_last_error": null,
     "historical_max_jobs": 177,
     "consecutive_bad_days": 0,
@@ -393,7 +393,7 @@
   },
   "Notion": {
     "date": "2026-09-24",
-    "today_max_jobs": 129,
+    "today_max_jobs": 130,
     "today_last_error": null,
     "historical_max_jobs": 135,
     "consecutive_bad_days": 0,
@@ -425,7 +425,7 @@
   },
   "Robinhood": {
     "date": "2026-09-24",
-    "today_max_jobs": 161,
+    "today_max_jobs": 162,
     "today_last_error": null,
     "historical_max_jobs": 163,
     "consecutive_bad_days": 0,
@@ -441,7 +441,7 @@
   },
   "Vercel": {
     "date": "2026-09-24",
-    "today_max_jobs": 87,
+    "today_max_jobs": 88,
     "today_last_error": null,
     "historical_max_jobs": 91,
     "consecutive_bad_days": 0,
@@ -473,7 +473,7 @@
   },
   "Zoox": {
     "date": "2026-09-24",
-    "today_max_jobs": 237,
+    "today_max_jobs": 240,
     "today_last_error": null,
     "historical_max_jobs": 246,
     "consecutive_bad_days": 0,
@@ -505,7 +505,7 @@
   },
   "Zipline": {
     "date": "2026-09-24",
-    "today_max_jobs": 338,
+    "today_max_jobs": 341,
     "today_last_error": null,
     "historical_max_jobs": 352,
     "consecutive_bad_days": 0,
@@ -513,9 +513,9 @@
   },
   "Shield AI": {
     "date": "2026-09-24",
-    "today_max_jobs": 538,
+    "today_max_jobs": 565,
     "today_last_error": null,
-    "historical_max_jobs": 538,
+    "historical_max_jobs": 565,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -553,9 +553,9 @@
   },
   "Waabi": {
     "date": "2026-09-24",
-    "today_max_jobs": 87,
+    "today_max_jobs": 88,
     "today_last_error": null,
-    "historical_max_jobs": 87,
+    "historical_max_jobs": 88,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -609,7 +609,7 @@
   },
   "Saronic": {
     "date": "2026-09-24",
-    "today_max_jobs": 206,
+    "today_max_jobs": 207,
     "today_last_error": null,
     "historical_max_jobs": 260,
     "consecutive_bad_days": 0,
@@ -753,7 +753,7 @@
   },
   "Cloudflare": {
     "date": "2026-09-24",
-    "today_max_jobs": 382,
+    "today_max_jobs": 383,
     "today_last_error": null,
     "historical_max_jobs": 392,
     "consecutive_bad_days": 0,
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-09-24",
-    "today_max_jobs": 2566,
+    "today_max_jobs": 2584,
     "today_last_error": null,
-    "historical_max_jobs": 2569,
+    "historical_max_jobs": 2584,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-09-24",
-    "today_max_jobs": 484,
+    "today_max_jobs": 485,
     "today_last_error": null,
     "historical_max_jobs": 487,
     "consecutive_bad_days": 0,
@@ -905,7 +905,7 @@
   },
   "Path Robotics": {
     "date": "2026-09-24",
-    "today_max_jobs": 44,
+    "today_max_jobs": 46,
     "today_last_error": null,
     "historical_max_jobs": 51,
     "consecutive_bad_days": 0,
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-09-24",
-    "today_max_jobs": 1247,
+    "today_max_jobs": 1251,
     "today_last_error": null,
     "historical_max_jobs": 1254,
     "consecutive_bad_days": 0,
@@ -1041,7 +1041,7 @@
   },
   "Together AI": {
     "date": "2026-09-24",
-    "today_max_jobs": 77,
+    "today_max_jobs": 78,
     "today_last_error": null,
     "historical_max_jobs": 78,
     "consecutive_bad_days": 0,
@@ -1073,7 +1073,7 @@
   },
   "Imbue": {
     "date": "2026-09-24",
-    "today_max_jobs": 1,
+    "today_max_jobs": 2,
     "today_last_error": null,
     "historical_max_jobs": 3,
     "consecutive_bad_days": 0,
@@ -1105,9 +1105,9 @@
   },
   "Pickle Robot": {
     "date": "2026-09-24",
-    "today_max_jobs": 14,
+    "today_max_jobs": 15,
     "today_last_error": null,
-    "historical_max_jobs": 14,
+    "historical_max_jobs": 15,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1129,9 +1129,9 @@
   },
   "Bright Machines": {
     "date": "2026-09-24",
-    "today_max_jobs": 15,
+    "today_max_jobs": 16,
     "today_last_error": null,
-    "historical_max_jobs": 15,
+    "historical_max_jobs": 16,
     "consecutive_bad_days": 0,
     "alerted": false
   }
