@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-09-26",
-    "today_max_jobs": 360,
+    "today_max_jobs": 380,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-09-26",
-    "today_max_jobs": 300,
+    "today_max_jobs": 384,
     "today_last_error": null,
     "historical_max_jobs": 458,
     "consecutive_bad_days": 0,
@@ -329,7 +329,7 @@
   },
   "Snap": {
     "date": "2026-09-26",
-    "today_max_jobs": 6,
+    "today_max_jobs": 168,
     "today_last_error": null,
     "historical_max_jobs": 185,
     "consecutive_bad_days": 0,
@@ -361,7 +361,7 @@
   },
   "Perplexity": {
     "date": "2026-09-26",
-    "today_max_jobs": 122,
+    "today_max_jobs": 123,
     "today_last_error": null,
     "historical_max_jobs": 123,
     "consecutive_bad_days": 0,
@@ -401,9 +401,9 @@
   },
   "Ramp": {
     "date": "2026-09-26",
-    "today_max_jobs": 157,
+    "today_max_jobs": 158,
     "today_last_error": null,
-    "historical_max_jobs": 157,
+    "historical_max_jobs": 158,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -609,7 +609,7 @@
   },
   "Saronic": {
     "date": "2026-09-26",
-    "today_max_jobs": 205,
+    "today_max_jobs": 206,
     "today_last_error": null,
     "historical_max_jobs": 260,
     "consecutive_bad_days": 0,
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-09-26",
-    "today_max_jobs": 380,
+    "today_max_jobs": 480,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-09-26",
-    "today_max_jobs": 436,
+    "today_max_jobs": 482,
     "today_last_error": null,
     "historical_max_jobs": 487,
     "consecutive_bad_days": 0,
