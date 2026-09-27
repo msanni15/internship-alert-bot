@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-09-27",
-    "today_max_jobs": 2013,
+    "today_max_jobs": 2015,
     "today_last_error": null,
     "historical_max_jobs": 2058,
     "consecutive_bad_days": 0,
@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-09-27",
-    "today_max_jobs": 887,
+    "today_max_jobs": 888,
     "today_last_error": null,
     "historical_max_jobs": 893,
     "consecutive_bad_days": 0,
@@ -577,7 +577,7 @@
   },
   "FieldAI": {
     "date": "2026-09-27",
-    "today_max_jobs": 92,
+    "today_max_jobs": 94,
     "today_last_error": null,
     "historical_max_jobs": 136,
     "consecutive_bad_days": 0,
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-09-27",
-    "today_max_jobs": 402,
+    "today_max_jobs": 481,
     "today_last_error": null,
     "historical_max_jobs": 487,
     "consecutive_bad_days": 0,
