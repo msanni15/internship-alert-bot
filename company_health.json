@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-09-26",
-    "today_max_jobs": 2023,
+    "today_max_jobs": 2024,
     "today_last_error": null,
     "historical_max_jobs": 2058,
     "consecutive_bad_days": 0,
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-09-26",
-    "today_max_jobs": 1250,
+    "today_max_jobs": 1251,
     "today_last_error": null,
     "historical_max_jobs": 1254,
     "consecutive_bad_days": 0,
