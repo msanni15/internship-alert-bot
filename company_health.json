@@ -313,7 +313,7 @@
   },
   "DoorDash": {
     "date": "2026-09-27",
-    "today_max_jobs": 457,
+    "today_max_jobs": 459,
     "today_last_error": null,
     "historical_max_jobs": 475,
     "consecutive_bad_days": 0,
@@ -353,7 +353,7 @@
   },
   "Anthropic": {
     "date": "2026-09-27",
-    "today_max_jobs": 618,
+    "today_max_jobs": 619,
     "today_last_error": null,
     "historical_max_jobs": 631,
     "consecutive_bad_days": 0,
