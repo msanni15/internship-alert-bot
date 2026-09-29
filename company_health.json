@@ -1,7 +1,7 @@
 {
   "Jane Street": {
     "date": "2026-09-29",
-    "today_max_jobs": 229,
+    "today_max_jobs": 230,
     "today_last_error": null,
     "historical_max_jobs": 235,
     "consecutive_bad_days": 0,
@@ -25,9 +25,9 @@
   },
   "Hudson River Trading": {
     "date": "2026-09-29",
-    "today_max_jobs": 88,
+    "today_max_jobs": 89,
     "today_last_error": null,
-    "historical_max_jobs": 88,
+    "historical_max_jobs": 89,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -57,7 +57,7 @@
   },
   "DRW": {
     "date": "2026-09-29",
-    "today_max_jobs": 167,
+    "today_max_jobs": 170,
     "today_last_error": null,
     "historical_max_jobs": 170,
     "consecutive_bad_days": 0,
@@ -113,7 +113,7 @@
   },
   "AQR": {
     "date": "2026-09-29",
-    "today_max_jobs": 52,
+    "today_max_jobs": 53,
     "today_last_error": null,
     "historical_max_jobs": 55,
     "consecutive_bad_days": 0,
@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-09-29",
-    "today_max_jobs": 340,
+    "today_max_jobs": 360,
     "today_last_error": null,
     "historical_max_jobs": 458,
     "consecutive_bad_days": 0,
@@ -297,7 +297,7 @@
   },
   "Airbnb": {
     "date": "2026-09-29",
-    "today_max_jobs": 156,
+    "today_max_jobs": 158,
     "today_last_error": null,
     "historical_max_jobs": 198,
     "consecutive_bad_days": 0,
@@ -313,7 +313,7 @@
   },
   "DoorDash": {
     "date": "2026-09-29",
-    "today_max_jobs": 462,
+    "today_max_jobs": 463,
     "today_last_error": null,
     "historical_max_jobs": 475,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-09-29",
-    "today_max_jobs": 631,
+    "today_max_jobs": 635,
     "today_last_error": null,
-    "historical_max_jobs": 631,
+    "historical_max_jobs": 635,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -441,7 +441,7 @@
   },
   "Vercel": {
     "date": "2026-09-29",
-    "today_max_jobs": 90,
+    "today_max_jobs": 91,
     "today_last_error": null,
     "historical_max_jobs": 91,
     "consecutive_bad_days": 0,
@@ -481,7 +481,7 @@
   },
   "Nuro": {
     "date": "2026-09-29",
-    "today_max_jobs": 107,
+    "today_max_jobs": 108,
     "today_last_error": null,
     "historical_max_jobs": 111,
     "consecutive_bad_days": 0,
@@ -529,7 +529,7 @@
   },
   "Boston Dynamics": {
     "date": "2026-09-29",
-    "today_max_jobs": 78,
+    "today_max_jobs": 79,
     "today_last_error": null,
     "historical_max_jobs": 80,
     "consecutive_bad_days": 0,
@@ -657,7 +657,7 @@
   },
   "Apptronik": {
     "date": "2026-09-29",
-    "today_max_jobs": 77,
+    "today_max_jobs": 78,
     "today_last_error": null,
     "historical_max_jobs": 86,
     "consecutive_bad_days": 0,
@@ -665,9 +665,9 @@
   },
   "xAI": {
     "date": "2026-09-29",
-    "today_max_jobs": 290,
+    "today_max_jobs": 291,
     "today_last_error": null,
-    "historical_max_jobs": 290,
+    "historical_max_jobs": 291,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -689,7 +689,7 @@
   },
   "Cerebras": {
     "date": "2026-09-29",
-    "today_max_jobs": 113,
+    "today_max_jobs": 115,
     "today_last_error": null,
     "historical_max_jobs": 126,
     "consecutive_bad_days": 0,
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-09-29",
-    "today_max_jobs": 2606,
+    "today_max_jobs": 2614,
     "today_last_error": null,
-    "historical_max_jobs": 2606,
+    "historical_max_jobs": 2614,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-09-29",
-    "today_max_jobs": 464,
+    "today_max_jobs": 487,
     "today_last_error": null,
     "historical_max_jobs": 487,
     "consecutive_bad_days": 0,
@@ -1049,7 +1049,7 @@
   },
   "Suno": {
     "date": "2026-09-29",
-    "today_max_jobs": 64,
+    "today_max_jobs": 66,
     "today_last_error": null,
     "historical_max_jobs": 69,
     "consecutive_bad_days": 0,
@@ -1065,9 +1065,9 @@
   },
   "Fireworks AI": {
     "date": "2026-09-29",
-    "today_max_jobs": 84,
+    "today_max_jobs": 85,
     "today_last_error": null,
-    "historical_max_jobs": 84,
+    "historical_max_jobs": 85,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1089,7 +1089,7 @@
   },
   "Dexory": {
     "date": "2026-09-29",
-    "today_max_jobs": 29,
+    "today_max_jobs": 30,
     "today_last_error": null,
     "historical_max_jobs": 34,
     "consecutive_bad_days": 0,
