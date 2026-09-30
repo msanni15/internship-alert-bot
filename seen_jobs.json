@@ -3532,5 +3532,47 @@
     "title": "Data Science Intern (Summer 2027)",
     "url": "https://boards.greenhouse.io/robinhood/jobs/8241738?t=gh_src=&gh_jid=8241738",
     "updated_at": "2026-09-29T19:13:29-04:00"
+  },
+  "greenhouse:IMC:4796143101": {
+    "company": "IMC",
+    "title": "Software Engineer, Early Career",
+    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4796143101",
+    "updated_at": "2026-09-30T14:26:36-04:00"
+  },
+  "workday:Intel:/job/Virtual-US/Research-Scientist-Intern---Graphics--ML_JR0287525": {
+    "company": "Intel",
+    "title": "Research Scientist Intern - Graphics, ML",
+    "url": "https://intel.wd1.myworkdayjobs.com/External/job/Virtual-US/Research-Scientist-Intern---Graphics--ML_JR0287525",
+    "updated_at": "Posted Today"
+  },
+  "workday:Marvell:/job/Santa-Clara-CA/Test-Engineering-Intern--MS---Summer-2027_2604002-1": {
+    "company": "Marvell",
+    "title": "Test Engineering Intern, MS - Summer 2027",
+    "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Test-Engineering-Intern--MS---Summer-2027_2604002-1",
+    "updated_at": "Posted Today"
+  },
+  "custom/amazon:Amazon:c5d6e861-e94a-4086-b21e-b77bdf7e95bb": {
+    "company": "Amazon",
+    "title": "Software Development Engineer Intern, AWS Database - 2027 (US)",
+    "url": "https://www.amazon.jobs/en/jobs/10565667/software-development-engineer-intern-aws-database-2027-us",
+    "updated_at": "September 30, 2026"
+  },
+  "greenhouse:Waymo:8238525": {
+    "company": "Waymo",
+    "title": "2027 Summer Intern, BS, Software Engineering, Labeling",
+    "url": "https://careers.withwaymo.com/jobs?gh_jid=8238525",
+    "updated_at": "2026-09-30T13:54:30-04:00"
+  },
+  "lever:Hermeus:29c10a11-aa02-4d64-83d0-00001cbd3ac0": {
+    "company": "Hermeus",
+    "title": "Loads & Dynamics Engineering Intern - Summer 2027",
+    "url": "https://jobs.lever.co/hermeus/29c10a11-aa02-4d64-83d0-00001cbd3ac0",
+    "updated_at": 1790798692257
+  },
+  "custom/jibe:AMD:93091": {
+    "company": "AMD",
+    "title": "2027 Undergrad Thermal Engineering Intern/Co-Op",
+    "url": "https://campus-amd.icims.com/jobs/93091/login",
+    "updated_at": "2026-09-30T14:16:00+0000"
   }
 }
