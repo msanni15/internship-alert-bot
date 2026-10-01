@@ -25,9 +25,9 @@
   },
   "Hudson River Trading": {
     "date": "2026-09-30",
-    "today_max_jobs": 89,
+    "today_max_jobs": 90,
     "today_last_error": null,
-    "historical_max_jobs": 89,
+    "historical_max_jobs": 90,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -137,7 +137,7 @@
   },
   "Voleon": {
     "date": "2026-09-30",
-    "today_max_jobs": 53,
+    "today_max_jobs": 55,
     "today_last_error": null,
     "historical_max_jobs": 59,
     "consecutive_bad_days": 0,
@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-09-30",
-    "today_max_jobs": 340,
+    "today_max_jobs": 379,
     "today_last_error": null,
     "historical_max_jobs": 458,
     "consecutive_bad_days": 0,
@@ -289,9 +289,9 @@
   },
   "Stripe": {
     "date": "2026-09-30",
-    "today_max_jobs": 715,
+    "today_max_jobs": 716,
     "today_last_error": null,
-    "historical_max_jobs": 715,
+    "historical_max_jobs": 716,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -353,7 +353,7 @@
   },
   "Anthropic": {
     "date": "2026-09-30",
-    "today_max_jobs": 636,
+    "today_max_jobs": 637,
     "today_last_error": null,
     "historical_max_jobs": 637,
     "consecutive_bad_days": 0,
@@ -393,7 +393,7 @@
   },
   "Notion": {
     "date": "2026-09-30",
-    "today_max_jobs": 129,
+    "today_max_jobs": 131,
     "today_last_error": null,
     "historical_max_jobs": 135,
     "consecutive_bad_days": 0,
@@ -401,7 +401,7 @@
   },
   "Ramp": {
     "date": "2026-09-30",
-    "today_max_jobs": 155,
+    "today_max_jobs": 156,
     "today_last_error": null,
     "historical_max_jobs": 158,
     "consecutive_bad_days": 0,
@@ -433,7 +433,7 @@
   },
   "Coinbase": {
     "date": "2026-09-30",
-    "today_max_jobs": 216,
+    "today_max_jobs": 218,
     "today_last_error": null,
     "historical_max_jobs": 222,
     "consecutive_bad_days": 0,
@@ -521,7 +521,7 @@
   },
   "Figure AI": {
     "date": "2026-09-30",
-    "today_max_jobs": 99,
+    "today_max_jobs": 100,
     "today_last_error": null,
     "historical_max_jobs": 129,
     "consecutive_bad_days": 0,
@@ -665,9 +665,9 @@
   },
   "xAI": {
     "date": "2026-09-30",
-    "today_max_jobs": 291,
+    "today_max_jobs": 296,
     "today_last_error": null,
-    "historical_max_jobs": 291,
+    "historical_max_jobs": 296,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -689,7 +689,7 @@
   },
   "Cerebras": {
     "date": "2026-09-30",
-    "today_max_jobs": 115,
+    "today_max_jobs": 116,
     "today_last_error": null,
     "historical_max_jobs": 126,
     "consecutive_bad_days": 0,
@@ -777,9 +777,9 @@
   },
   "Rocket Lab": {
     "date": "2026-09-30",
-    "today_max_jobs": 547,
+    "today_max_jobs": 549,
     "today_last_error": null,
-    "historical_max_jobs": 547,
+    "historical_max_jobs": 549,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-09-30",
-    "today_max_jobs": 463,
+    "today_max_jobs": 482,
     "today_last_error": null,
     "historical_max_jobs": 487,
     "consecutive_bad_days": 0,
@@ -873,7 +873,7 @@
   },
   "Dexterity": {
     "date": "2026-09-30",
-    "today_max_jobs": 21,
+    "today_max_jobs": 22,
     "today_last_error": null,
     "historical_max_jobs": 33,
     "consecutive_bad_days": 0,
@@ -937,9 +937,9 @@
   },
   "Thinking Machines Lab": {
     "date": "2026-09-30",
-    "today_max_jobs": 50,
+    "today_max_jobs": 51,
     "today_last_error": null,
-    "historical_max_jobs": 50,
+    "historical_max_jobs": 51,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-09-30",
-    "today_max_jobs": 1244,
+    "today_max_jobs": 1245,
     "today_last_error": null,
     "historical_max_jobs": 1267,
     "consecutive_bad_days": 0,
