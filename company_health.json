@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-10-03",
-    "today_max_jobs": 380,
+    "today_max_jobs": 400,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-10-03",
-    "today_max_jobs": 885,
+    "today_max_jobs": 886,
     "today_last_error": null,
     "historical_max_jobs": 893,
     "consecutive_bad_days": 0,
@@ -289,7 +289,7 @@
   },
   "Stripe": {
     "date": "2026-10-03",
-    "today_max_jobs": 715,
+    "today_max_jobs": 716,
     "today_last_error": null,
     "historical_max_jobs": 716,
     "consecutive_bad_days": 0,
@@ -673,7 +673,7 @@
   },
   "Cohere": {
     "date": "2026-10-03",
-    "today_max_jobs": 136,
+    "today_max_jobs": 137,
     "today_last_error": null,
     "historical_max_jobs": 152,
     "consecutive_bad_days": 0,
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-10-03",
-    "today_max_jobs": 400,
+    "today_max_jobs": 460,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -977,9 +977,9 @@
   },
   "AMD": {
     "date": "2026-10-03",
-    "today_max_jobs": 1279,
+    "today_max_jobs": 1280,
     "today_last_error": null,
-    "historical_max_jobs": 1279,
+    "historical_max_jobs": 1280,
     "consecutive_bad_days": 0,
     "alerted": false
   },
