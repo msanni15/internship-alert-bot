@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-10-03",
-    "today_max_jobs": 347,
+    "today_max_jobs": 348,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
