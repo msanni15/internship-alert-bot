@@ -329,7 +329,7 @@
   },
   "Snap": {
     "date": "2026-10-04",
-    "today_max_jobs": 15,
+    "today_max_jobs": 197,
     "today_last_error": null,
     "historical_max_jobs": 197,
     "consecutive_bad_days": 0,
@@ -401,7 +401,7 @@
   },
   "Ramp": {
     "date": "2026-10-04",
-    "today_max_jobs": 157,
+    "today_max_jobs": 158,
     "today_last_error": null,
     "historical_max_jobs": 158,
     "consecutive_bad_days": 0,
