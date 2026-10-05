@@ -121,7 +121,7 @@
   },
   "Millennium": {
     "date": "2026-10-04",
-    "today_max_jobs": 93,
+    "today_max_jobs": 94,
     "today_last_error": null,
     "historical_max_jobs": 132,
     "consecutive_bad_days": 0,
@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-10-04",
-    "today_max_jobs": 407,
+    "today_max_jobs": 417,
     "today_last_error": null,
     "historical_max_jobs": 458,
     "consecutive_bad_days": 0,
@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-10-04",
-    "today_max_jobs": 359,
+    "today_max_jobs": 361,
     "today_last_error": null,
     "historical_max_jobs": 392,
     "consecutive_bad_days": 0,
@@ -225,7 +225,7 @@
   },
   "Marvell": {
     "date": "2026-10-04",
-    "today_max_jobs": 274,
+    "today_max_jobs": 276,
     "today_last_error": null,
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
@@ -289,9 +289,9 @@
   },
   "Stripe": {
     "date": "2026-10-04",
-    "today_max_jobs": 716,
+    "today_max_jobs": 717,
     "today_last_error": null,
-    "historical_max_jobs": 716,
+    "historical_max_jobs": 717,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -329,9 +329,9 @@
   },
   "Snap": {
     "date": "2026-10-04",
-    "today_max_jobs": 197,
+    "today_max_jobs": 201,
     "today_last_error": null,
-    "historical_max_jobs": 197,
+    "historical_max_jobs": 201,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -409,7 +409,7 @@
   },
   "Rippling": {
     "date": "2026-10-04",
-    "today_max_jobs": 67,
+    "today_max_jobs": 68,
     "today_last_error": null,
     "historical_max_jobs": 88,
     "consecutive_bad_days": 0,
@@ -713,7 +713,7 @@
   },
   "QRT": {
     "date": "2026-10-04",
-    "today_max_jobs": 200,
+    "today_max_jobs": 201,
     "today_last_error": null,
     "historical_max_jobs": 203,
     "consecutive_bad_days": 0,
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-10-04",
-    "today_max_jobs": 380,
+    "today_max_jobs": 400,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -753,9 +753,9 @@
   },
   "Cloudflare": {
     "date": "2026-10-04",
-    "today_max_jobs": 405,
+    "today_max_jobs": 406,
     "today_last_error": null,
-    "historical_max_jobs": 405,
+    "historical_max_jobs": 406,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-10-04",
-    "today_max_jobs": 2644,
+    "today_max_jobs": 2645,
     "today_last_error": null,
     "historical_max_jobs": 2647,
     "consecutive_bad_days": 0,
