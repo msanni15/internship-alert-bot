@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-10-04",
-    "today_max_jobs": 379,
+    "today_max_jobs": 407,
     "today_last_error": null,
     "historical_max_jobs": 458,
     "consecutive_bad_days": 0,
@@ -649,7 +649,7 @@
   },
   "Physical Intelligence": {
     "date": "2026-10-04",
-    "today_max_jobs": 34,
+    "today_max_jobs": 35,
     "today_last_error": null,
     "historical_max_jobs": 36,
     "consecutive_bad_days": 0,
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-10-04",
-    "today_max_jobs": 2643,
+    "today_max_jobs": 2644,
     "today_last_error": null,
     "historical_max_jobs": 2647,
     "consecutive_bad_days": 0,
