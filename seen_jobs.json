@@ -3832,5 +3832,23 @@
     "title": "Software Engineer, Intern - Labs (Summer 2027)",
     "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8263774",
     "updated_at": "2026-10-08T02:50:12-04:00"
+  },
+  "greenhouse:IMC:4962456101": {
+    "company": "IMC",
+    "title": "Machine Learning Engineer Intern - Summer 2027",
+    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4962456101",
+    "updated_at": "2026-10-08T13:33:51-04:00"
+  },
+  "custom/amazon:Amazon:1f4e1692-71de-4c91-971f-174f09320f43": {
+    "company": "Amazon",
+    "title": "Embedded Firmware Co-op, Amazon Robotics - Spring 2027",
+    "url": "https://www.amazon.jobs/en/jobs/10573570/embedded-firmware-co-op-amazon-robotics-spring-2027",
+    "updated_at": "October  8, 2026"
+  },
+  "workday:Cadence:/job/SAN-JOSE/CST-Application-Engineer-Intern---Physical-Systems_R56702-2": {
+    "company": "Cadence",
+    "title": "CST Application Engineer Intern - Physical Systems",
+    "url": "https://cadence.wd1.myworkdayjobs.com/external_careers/job/SAN-JOSE/CST-Application-Engineer-Intern---Physical-Systems_R56702-2",
+    "updated_at": "Posted Today"
   }
 }
