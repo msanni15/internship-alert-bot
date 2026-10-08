@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-10-07",
-    "today_max_jobs": 361,
+    "today_max_jobs": 362,
     "today_last_error": null,
     "historical_max_jobs": 392,
     "consecutive_bad_days": 0,
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-10-07",
-    "today_max_jobs": 355,
+    "today_max_jobs": 356,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-10-07",
-    "today_max_jobs": 2682,
+    "today_max_jobs": 2683,
     "today_last_error": null,
-    "historical_max_jobs": 2682,
+    "historical_max_jobs": 2683,
     "consecutive_bad_days": 0,
     "alerted": false
   },
