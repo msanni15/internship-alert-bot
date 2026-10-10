@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-10-10",
-    "today_max_jobs": 380,
+    "today_max_jobs": 400,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-10-10",
-    "today_max_jobs": 2725,
+    "today_max_jobs": 2726,
     "today_last_error": null,
     "historical_max_jobs": 2726,
     "consecutive_bad_days": 0,
