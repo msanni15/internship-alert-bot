@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-10-11",
-    "today_max_jobs": 380,
+    "today_max_jobs": 400,
     "today_last_error": null,
     "historical_max_jobs": 458,
     "consecutive_bad_days": 0,
@@ -225,7 +225,7 @@
   },
   "Marvell": {
     "date": "2026-10-11",
-    "today_max_jobs": 240,
+    "today_max_jobs": 290,
     "today_last_error": null,
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
@@ -297,7 +297,7 @@
   },
   "Airbnb": {
     "date": "2026-10-11",
-    "today_max_jobs": 160,
+    "today_max_jobs": 161,
     "today_last_error": null,
     "historical_max_jobs": 198,
     "consecutive_bad_days": 0,
@@ -777,7 +777,7 @@
   },
   "Rocket Lab": {
     "date": "2026-10-11",
-    "today_max_jobs": 570,
+    "today_max_jobs": 572,
     "today_last_error": null,
     "historical_max_jobs": 575,
     "consecutive_bad_days": 0,
