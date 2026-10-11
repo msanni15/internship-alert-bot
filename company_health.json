@@ -457,7 +457,7 @@
   },
   "1X": {
     "date": "2026-10-10",
-    "today_max_jobs": 98,
+    "today_max_jobs": 99,
     "today_last_error": null,
     "historical_max_jobs": 99,
     "consecutive_bad_days": 0,
@@ -505,7 +505,7 @@
   },
   "Zipline": {
     "date": "2026-10-10",
-    "today_max_jobs": 355,
+    "today_max_jobs": 356,
     "today_last_error": null,
     "historical_max_jobs": 356,
     "consecutive_bad_days": 0,
@@ -641,9 +641,9 @@
   },
   "Seven Research": {
     "date": "2026-10-10",
-    "today_max_jobs": 8,
+    "today_max_jobs": 9,
     "today_last_error": null,
-    "historical_max_jobs": 8,
+    "historical_max_jobs": 9,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-10-10",
-    "today_max_jobs": 358,
+    "today_max_jobs": 359,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-10-10",
-    "today_max_jobs": 1304,
+    "today_max_jobs": 1309,
     "today_last_error": null,
     "historical_max_jobs": 1311,
     "consecutive_bad_days": 0,
