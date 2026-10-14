@@ -4006,5 +4006,47 @@
     "title": "Manufacturing Software Engineer Intern - Winter 2027",
     "url": "https://jobs.ashbyhq.com/skydio/ffc665c1-2aa6-4c2f-b04b-93a6fb7b5feb",
     "updated_at": "2026-10-14T17:12:07.430+00:00"
+  },
+  "custom/snap:Snap:https://careers.snap.com/job?id=R0047179": {
+    "company": "Snap",
+    "title": "2027 Generative Media Research Intern",
+    "url": "https://careers.snap.com/job?id=R0047179",
+    "updated_at": ""
+  },
+  "lever:Zoox:ad992e12-39da-4046-b766-45f928924575": {
+    "company": "Zoox",
+    "title": "Contract Student Worker - Freeways Data Evaluation (20 hrs/wk)",
+    "url": "https://jobs.lever.co/zoox/ad992e12-39da-4046-b766-45f928924575",
+    "updated_at": 1791916830073
+  },
+  "ashby:Skydio:https://jobs.ashbyhq.com/skydio/79fdda46-4ff5-42c7-b208-55f2084cdb8c": {
+    "company": "Skydio",
+    "title": "Software Engineer Intern - Summer 2027",
+    "url": "https://jobs.ashbyhq.com/skydio/79fdda46-4ff5-42c7-b208-55f2084cdb8c",
+    "updated_at": "2026-10-13T17:51:26.463+00:00"
+  },
+  "ashby:Skydio:https://jobs.ashbyhq.com/skydio/6e76d5fa-981e-4986-955b-602aa6ddcb1b": {
+    "company": "Skydio",
+    "title": "Process Engineering Intern - Summer 2027",
+    "url": "https://jobs.ashbyhq.com/skydio/6e76d5fa-981e-4986-955b-602aa6ddcb1b",
+    "updated_at": "2026-10-14T20:29:12.049+00:00"
+  },
+  "greenhouse:Figure AI:4722086006": {
+    "company": "Figure AI",
+    "title": "Embedded Software Engineering Intern, Platform",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4722086006",
+    "updated_at": "2026-10-14T15:54:00-04:00"
+  },
+  "lever:FieldAI:b37569c3-d07f-4968-82dc-44020f34e54e": {
+    "company": "FieldAI",
+    "title": "Research Scientist Intern, Robot Learning & Manipulation (Spring, Summer & Fall 2027)",
+    "url": "https://jobs.lever.co/field-ai/b37569c3-d07f-4968-82dc-44020f34e54e",
+    "updated_at": 1791935676865
+  },
+  "workday:Cadence:/job/SAN-JOSE/CST-Application-Engineer-Intern---Systems-ATX_R56800-3": {
+    "company": "Cadence",
+    "title": "CST Application Engineer Intern - Systems ATX",
+    "url": "https://cadence.wd1.myworkdayjobs.com/external_careers/job/SAN-JOSE/CST-Application-Engineer-Intern---Systems-ATX_R56800-3",
+    "updated_at": "Posted Today"
   }
 }
