@@ -169,7 +169,7 @@
   },
   "Aquatic Capital": {
     "date": "2026-10-14",
-    "today_max_jobs": 8,
+    "today_max_jobs": 9,
     "today_last_error": null,
     "historical_max_jobs": 9,
     "consecutive_bad_days": 0,
@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-10-14",
-    "today_max_jobs": 300,
+    "today_max_jobs": 340,
     "today_last_error": null,
     "historical_max_jobs": 420,
     "consecutive_bad_days": 0,
@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-10-14",
-    "today_max_jobs": 370,
+    "today_max_jobs": 371,
     "today_last_error": null,
     "historical_max_jobs": 392,
     "consecutive_bad_days": 0,
@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-10-14",
-    "today_max_jobs": 2045,
+    "today_max_jobs": 2052,
     "today_last_error": null,
     "historical_max_jobs": 2059,
     "consecutive_bad_days": 0,
@@ -289,7 +289,7 @@
   },
   "Stripe": {
     "date": "2026-10-14",
-    "today_max_jobs": 727,
+    "today_max_jobs": 728,
     "today_last_error": null,
     "historical_max_jobs": 736,
     "consecutive_bad_days": 0,
@@ -369,7 +369,7 @@
   },
   "Cursor / Anysphere": {
     "date": "2026-10-14",
-    "today_max_jobs": 133,
+    "today_max_jobs": 134,
     "today_last_error": null,
     "historical_max_jobs": 137,
     "consecutive_bad_days": 0,
@@ -377,9 +377,9 @@
   },
   "Applied Intuition": {
     "date": "2026-10-14",
-    "today_max_jobs": 328,
+    "today_max_jobs": 329,
     "today_last_error": null,
-    "historical_max_jobs": 328,
+    "historical_max_jobs": 329,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -417,9 +417,9 @@
   },
   "Plaid": {
     "date": "2026-10-14",
-    "today_max_jobs": 125,
+    "today_max_jobs": 126,
     "today_last_error": null,
-    "historical_max_jobs": 125,
+    "historical_max_jobs": 126,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -569,7 +569,7 @@
   },
   "WeRide": {
     "date": "2026-10-14",
-    "today_max_jobs": 14,
+    "today_max_jobs": 15,
     "today_last_error": null,
     "historical_max_jobs": 31,
     "consecutive_bad_days": 0,
@@ -609,7 +609,7 @@
   },
   "Saronic": {
     "date": "2026-10-14",
-    "today_max_jobs": 231,
+    "today_max_jobs": 232,
     "today_last_error": null,
     "historical_max_jobs": 260,
     "consecutive_bad_days": 0,
@@ -649,15 +649,15 @@
   },
   "Physical Intelligence": {
     "date": "2026-10-14",
-    "today_max_jobs": 39,
+    "today_max_jobs": 41,
     "today_last_error": null,
-    "historical_max_jobs": 40,
+    "historical_max_jobs": 41,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Apptronik": {
     "date": "2026-10-14",
-    "today_max_jobs": 78,
+    "today_max_jobs": 79,
     "today_last_error": null,
     "historical_max_jobs": 86,
     "consecutive_bad_days": 0,
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-10-14",
-    "today_max_jobs": 380,
+    "today_max_jobs": 420,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -785,9 +785,9 @@
   },
   "Etched": {
     "date": "2026-10-14",
-    "today_max_jobs": 114,
+    "today_max_jobs": 116,
     "today_last_error": null,
-    "historical_max_jobs": 114,
+    "historical_max_jobs": 116,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -857,7 +857,7 @@
   },
   "Wing": {
     "date": "2026-10-14",
-    "today_max_jobs": 47,
+    "today_max_jobs": 50,
     "today_last_error": null,
     "historical_max_jobs": 52,
     "consecutive_bad_days": 0,
@@ -1073,7 +1073,7 @@
   },
   "Imbue": {
     "date": "2026-10-14",
-    "today_max_jobs": 1,
+    "today_max_jobs": 2,
     "today_last_error": null,
     "historical_max_jobs": 3,
     "consecutive_bad_days": 0,
