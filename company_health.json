@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-10-16",
-    "today_max_jobs": 2042,
+    "today_max_jobs": 2043,
     "today_last_error": null,
     "historical_max_jobs": 2059,
     "consecutive_bad_days": 0,
@@ -297,7 +297,7 @@
   },
   "Airbnb": {
     "date": "2026-10-16",
-    "today_max_jobs": 171,
+    "today_max_jobs": 173,
     "today_last_error": null,
     "historical_max_jobs": 198,
     "consecutive_bad_days": 0,
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-10-16",
-    "today_max_jobs": 809,
+    "today_max_jobs": 813,
     "today_last_error": null,
     "historical_max_jobs": 841,
     "consecutive_bad_days": 0,
@@ -361,7 +361,7 @@
   },
   "Perplexity": {
     "date": "2026-10-16",
-    "today_max_jobs": 132,
+    "today_max_jobs": 133,
     "today_last_error": null,
     "historical_max_jobs": 134,
     "consecutive_bad_days": 0,
@@ -377,7 +377,7 @@
   },
   "Applied Intuition": {
     "date": "2026-10-16",
-    "today_max_jobs": 325,
+    "today_max_jobs": 328,
     "today_last_error": null,
     "historical_max_jobs": 329,
     "consecutive_bad_days": 0,
@@ -489,9 +489,9 @@
   },
   "Aurora": {
     "date": "2026-10-16",
-    "today_max_jobs": 98,
+    "today_max_jobs": 100,
     "today_last_error": null,
-    "historical_max_jobs": 99,
+    "historical_max_jobs": 100,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -521,7 +521,7 @@
   },
   "Figure AI": {
     "date": "2026-10-16",
-    "today_max_jobs": 99,
+    "today_max_jobs": 100,
     "today_last_error": null,
     "historical_max_jobs": 129,
     "consecutive_bad_days": 0,
@@ -657,7 +657,7 @@
   },
   "Apptronik": {
     "date": "2026-10-16",
-    "today_max_jobs": 80,
+    "today_max_jobs": 81,
     "today_last_error": null,
     "historical_max_jobs": 86,
     "consecutive_bad_days": 0,
@@ -769,15 +769,15 @@
   },
   "SpaceX": {
     "date": "2026-10-16",
-    "today_max_jobs": 2772,
+    "today_max_jobs": 2773,
     "today_last_error": null,
-    "historical_max_jobs": 2772,
+    "historical_max_jobs": 2773,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Rocket Lab": {
     "date": "2026-10-16",
-    "today_max_jobs": 584,
+    "today_max_jobs": 585,
     "today_last_error": null,
     "historical_max_jobs": 586,
     "consecutive_bad_days": 0,
@@ -857,7 +857,7 @@
   },
   "Wing": {
     "date": "2026-10-16",
-    "today_max_jobs": 51,
+    "today_max_jobs": 52,
     "today_last_error": null,
     "historical_max_jobs": 52,
     "consecutive_bad_days": 0,
@@ -1041,7 +1041,7 @@
   },
   "Together AI": {
     "date": "2026-10-16",
-    "today_max_jobs": 77,
+    "today_max_jobs": 78,
     "today_last_error": null,
     "historical_max_jobs": 80,
     "consecutive_bad_days": 0,
