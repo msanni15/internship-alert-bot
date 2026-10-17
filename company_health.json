@@ -121,7 +121,7 @@
   },
   "Millennium": {
     "date": "2026-10-16",
-    "today_max_jobs": 93,
+    "today_max_jobs": 94,
     "today_last_error": null,
     "historical_max_jobs": 132,
     "consecutive_bad_days": 0,
@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-10-16",
-    "today_max_jobs": 300,
+    "today_max_jobs": 380,
     "today_last_error": null,
     "historical_max_jobs": 420,
     "consecutive_bad_days": 0,
@@ -225,7 +225,7 @@
   },
   "Marvell": {
     "date": "2026-10-16",
-    "today_max_jobs": 314,
+    "today_max_jobs": 317,
     "today_last_error": null,
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-10-16",
-    "today_max_jobs": 2043,
+    "today_max_jobs": 2045,
     "today_last_error": null,
     "historical_max_jobs": 2059,
     "consecutive_bad_days": 0,
@@ -273,7 +273,7 @@
   },
   "Roblox": {
     "date": "2026-10-16",
-    "today_max_jobs": 261,
+    "today_max_jobs": 262,
     "today_last_error": null,
     "historical_max_jobs": 265,
     "consecutive_bad_days": 0,
@@ -321,7 +321,7 @@
   },
   "Pinterest": {
     "date": "2026-10-16",
-    "today_max_jobs": 156,
+    "today_max_jobs": 157,
     "today_last_error": null,
     "historical_max_jobs": 226,
     "consecutive_bad_days": 0,
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-10-16",
-    "today_max_jobs": 813,
+    "today_max_jobs": 815,
     "today_last_error": null,
     "historical_max_jobs": 841,
     "consecutive_bad_days": 0,
@@ -353,9 +353,9 @@
   },
   "Anthropic": {
     "date": "2026-10-16",
-    "today_max_jobs": 654,
+    "today_max_jobs": 656,
     "today_last_error": null,
-    "historical_max_jobs": 654,
+    "historical_max_jobs": 656,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -377,7 +377,7 @@
   },
   "Applied Intuition": {
     "date": "2026-10-16",
-    "today_max_jobs": 328,
+    "today_max_jobs": 329,
     "today_last_error": null,
     "historical_max_jobs": 329,
     "consecutive_bad_days": 0,
@@ -513,9 +513,9 @@
   },
   "Shield AI": {
     "date": "2026-10-16",
-    "today_max_jobs": 618,
+    "today_max_jobs": 629,
     "today_last_error": null,
-    "historical_max_jobs": 621,
+    "historical_max_jobs": 629,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -738,7 +738,7 @@
   "Salesforce": {
     "date": "2026-10-16",
     "today_max_jobs": 460,
-    "today_last_error": null,
+    "today_last_error": "Salesforce: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
     "alerted": false
