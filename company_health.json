@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-10-18",
-    "today_max_jobs": 340,
+    "today_max_jobs": 360,
     "today_last_error": null,
     "historical_max_jobs": 420,
     "consecutive_bad_days": 0,
@@ -377,9 +377,9 @@
   },
   "Applied Intuition": {
     "date": "2026-10-18",
-    "today_max_jobs": 329,
+    "today_max_jobs": 330,
     "today_last_error": null,
-    "historical_max_jobs": 329,
+    "historical_max_jobs": 330,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-10-18",
-    "today_max_jobs": 2765,
+    "today_max_jobs": 2766,
     "today_last_error": null,
     "historical_max_jobs": 2773,
     "consecutive_bad_days": 0,
