@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-10-18",
-    "today_max_jobs": 260,
+    "today_max_jobs": 300,
     "today_last_error": null,
     "historical_max_jobs": 459,
     "consecutive_bad_days": 0,
@@ -225,7 +225,7 @@
   },
   "Marvell": {
     "date": "2026-10-18",
-    "today_max_jobs": 260,
+    "today_max_jobs": 317,
     "today_last_error": null,
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
@@ -353,7 +353,7 @@
   },
   "Anthropic": {
     "date": "2026-10-18",
-    "today_max_jobs": 655,
+    "today_max_jobs": 656,
     "today_last_error": null,
     "historical_max_jobs": 656,
     "consecutive_bad_days": 0,
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-10-18",
-    "today_max_jobs": 360,
+    "today_max_jobs": 500,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-10-18",
-    "today_max_jobs": 415,
+    "today_max_jobs": 459,
     "today_last_error": null,
     "historical_max_jobs": 498,
     "consecutive_bad_days": 0,
