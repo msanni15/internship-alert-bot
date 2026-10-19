@@ -417,6 +417,10 @@
   },
   "2026-10-18": {
     "new_jobs_found": 0,
+    "daily_summary_sent": true
+  },
+  "2026-10-19": {
+    "new_jobs_found": 0,
     "daily_summary_sent": false
   }
 }
