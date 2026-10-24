@@ -769,15 +769,15 @@
   },
   "SpaceX": {
     "date": "2026-10-24",
-    "today_max_jobs": 2820,
+    "today_max_jobs": 2821,
     "today_last_error": null,
-    "historical_max_jobs": 2820,
+    "historical_max_jobs": 2821,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Rocket Lab": {
     "date": "2026-10-24",
-    "today_max_jobs": 562,
+    "today_max_jobs": 563,
     "today_last_error": null,
     "historical_max_jobs": 586,
     "consecutive_bad_days": 0,
