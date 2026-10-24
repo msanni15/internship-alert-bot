@@ -438,5 +438,9 @@
   "2026-10-23": {
     "new_jobs_found": 10,
     "daily_summary_sent": false
+  },
+  "2026-10-24": {
+    "new_jobs_found": 0,
+    "daily_summary_sent": false
   }
 }
