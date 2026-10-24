@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-10-23",
-    "today_max_jobs": 320,
+    "today_max_jobs": 380,
     "today_last_error": "Intel: HTTPSConnectionPool(host='intel.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=8)",
     "historical_max_jobs": 459,
     "consecutive_bad_days": 0,
@@ -273,9 +273,9 @@
   },
   "Roblox": {
     "date": "2026-10-23",
-    "today_max_jobs": 267,
+    "today_max_jobs": 269,
     "today_last_error": null,
-    "historical_max_jobs": 268,
+    "historical_max_jobs": 269,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -329,9 +329,9 @@
   },
   "Snap": {
     "date": "2026-10-23",
-    "today_max_jobs": 212,
+    "today_max_jobs": 213,
     "today_last_error": null,
-    "historical_max_jobs": 212,
+    "historical_max_jobs": 213,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -417,9 +417,9 @@
   },
   "Plaid": {
     "date": "2026-10-23",
-    "today_max_jobs": 134,
+    "today_max_jobs": 135,
     "today_last_error": null,
-    "historical_max_jobs": 134,
+    "historical_max_jobs": 135,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -457,7 +457,7 @@
   },
   "1X": {
     "date": "2026-10-23",
-    "today_max_jobs": 100,
+    "today_max_jobs": 101,
     "today_last_error": null,
     "historical_max_jobs": 101,
     "consecutive_bad_days": 0,
@@ -465,7 +465,7 @@
   },
   "Waymo": {
     "date": "2026-10-23",
-    "today_max_jobs": 365,
+    "today_max_jobs": 366,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -489,7 +489,7 @@
   },
   "Aurora": {
     "date": "2026-10-23",
-    "today_max_jobs": 99,
+    "today_max_jobs": 100,
     "today_last_error": null,
     "historical_max_jobs": 101,
     "consecutive_bad_days": 0,
@@ -513,15 +513,15 @@
   },
   "Shield AI": {
     "date": "2026-10-23",
-    "today_max_jobs": 661,
+    "today_max_jobs": 668,
     "today_last_error": null,
-    "historical_max_jobs": 663,
+    "historical_max_jobs": 668,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Figure AI": {
     "date": "2026-10-23",
-    "today_max_jobs": 103,
+    "today_max_jobs": 104,
     "today_last_error": null,
     "historical_max_jobs": 129,
     "consecutive_bad_days": 0,
@@ -697,7 +697,7 @@
   },
   "Groq": {
     "date": "2026-10-23",
-    "today_max_jobs": 23,
+    "today_max_jobs": 37,
     "today_last_error": null,
     "historical_max_jobs": 42,
     "consecutive_bad_days": 0,
@@ -785,7 +785,7 @@
   },
   "Etched": {
     "date": "2026-10-23",
-    "today_max_jobs": 115,
+    "today_max_jobs": 116,
     "today_last_error": null,
     "historical_max_jobs": 118,
     "consecutive_bad_days": 0,
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-10-23",
-    "today_max_jobs": 325,
+    "today_max_jobs": 494,
     "today_last_error": null,
     "historical_max_jobs": 498,
     "consecutive_bad_days": 0,
@@ -1041,9 +1041,9 @@
   },
   "Together AI": {
     "date": "2026-10-23",
-    "today_max_jobs": 84,
+    "today_max_jobs": 85,
     "today_last_error": null,
-    "historical_max_jobs": 84,
+    "historical_max_jobs": 85,
     "consecutive_bad_days": 0,
     "alerted": false
   },
