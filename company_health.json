@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-10-24",
-    "today_max_jobs": 400,
+    "today_max_jobs": 420,
     "today_last_error": null,
     "historical_max_jobs": 420,
     "consecutive_bad_days": 0,
@@ -353,7 +353,7 @@
   },
   "Anthropic": {
     "date": "2026-10-24",
-    "today_max_jobs": 681,
+    "today_max_jobs": 682,
     "today_last_error": null,
     "historical_max_jobs": 683,
     "consecutive_bad_days": 0,
