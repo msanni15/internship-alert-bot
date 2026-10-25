@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-10-25",
-    "today_max_jobs": 380,
+    "today_max_jobs": 400,
     "today_last_error": null,
     "historical_max_jobs": 420,
     "consecutive_bad_days": 0,
