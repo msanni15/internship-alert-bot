@@ -105,7 +105,7 @@
   },
   "Point72": {
     "date": "2026-10-25",
-    "today_max_jobs": 211,
+    "today_max_jobs": 215,
     "today_last_error": null,
     "historical_max_jobs": 239,
     "consecutive_bad_days": 0,
@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-10-25",
-    "today_max_jobs": 300,
+    "today_max_jobs": 496,
     "today_last_error": null,
     "historical_max_jobs": 496,
     "consecutive_bad_days": 0,
@@ -793,9 +793,9 @@
   },
   "Cadence": {
     "date": "2026-10-25",
-    "today_max_jobs": 343,
+    "today_max_jobs": 517,
     "today_last_error": null,
-    "historical_max_jobs": 516,
+    "historical_max_jobs": 517,
     "consecutive_bad_days": 0,
     "alerted": false
   },
