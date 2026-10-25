@@ -385,7 +385,7 @@
   },
   "Figma": {
     "date": "2026-10-25",
-    "today_max_jobs": 138,
+    "today_max_jobs": 139,
     "today_last_error": null,
     "historical_max_jobs": 177,
     "consecutive_bad_days": 0,
@@ -497,9 +497,9 @@
   },
   "Skydio": {
     "date": "2026-10-25",
-    "today_max_jobs": 167,
+    "today_max_jobs": 170,
     "today_last_error": null,
-    "historical_max_jobs": 168,
+    "historical_max_jobs": 170,
     "consecutive_bad_days": 0,
     "alerted": false
   },
