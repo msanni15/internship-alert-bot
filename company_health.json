@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-10-25",
-    "today_max_jobs": 366,
+    "today_max_jobs": 369,
     "today_last_error": null,
     "historical_max_jobs": 392,
     "consecutive_bad_days": 0,
@@ -289,7 +289,7 @@
   },
   "Stripe": {
     "date": "2026-10-25",
-    "today_max_jobs": 719,
+    "today_max_jobs": 720,
     "today_last_error": null,
     "historical_max_jobs": 736,
     "consecutive_bad_days": 0,
@@ -393,9 +393,9 @@
   },
   "Notion": {
     "date": "2026-10-25",
-    "today_max_jobs": 140,
+    "today_max_jobs": 141,
     "today_last_error": null,
-    "historical_max_jobs": 140,
+    "historical_max_jobs": 141,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -513,9 +513,9 @@
   },
   "Shield AI": {
     "date": "2026-10-25",
-    "today_max_jobs": 668,
+    "today_max_jobs": 670,
     "today_last_error": null,
-    "historical_max_jobs": 668,
+    "historical_max_jobs": 670,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -753,9 +753,9 @@
   },
   "Cloudflare": {
     "date": "2026-10-25",
-    "today_max_jobs": 454,
+    "today_max_jobs": 455,
     "today_last_error": null,
-    "historical_max_jobs": 454,
+    "historical_max_jobs": 455,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -969,15 +969,15 @@
   },
   "Man Group": {
     "date": "2026-10-25",
-    "today_max_jobs": 62,
+    "today_max_jobs": 63,
     "today_last_error": null,
-    "historical_max_jobs": 62,
+    "historical_max_jobs": 63,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "AMD": {
     "date": "2026-10-25",
-    "today_max_jobs": 1263,
+    "today_max_jobs": 1264,
     "today_last_error": null,
     "historical_max_jobs": 1311,
     "consecutive_bad_days": 0,
