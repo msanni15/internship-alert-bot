@@ -4330,5 +4330,77 @@
     "title": "Systems Test Engineer - Co-Op",
     "url": "https://bostondynamics.wd1.myworkdayjobs.com/Boston_Dynamics/job/Waltham-Office-POST/Systems-Test-Engineer---Co-Op_R3312",
     "updated_at": ""
+  },
+  "workday:NVIDIA:/job/US-CA-Santa-Clara/Go-to-Market-Strategy-Intern--NPN-AI-Consulting---Summer-2027_JR2028642": {
+    "company": "NVIDIA",
+    "title": "Go-to-Market Strategy Intern, NPN AI Consulting - Summer 2027",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Go-to-Market-Strategy-Intern--NPN-AI-Consulting---Summer-2027_JR2028642",
+    "updated_at": "Posted Today"
+  },
+  "custom/aurora:Aurora:475a24d7-a058-4f86-be8f-fd6be679af9c": {
+    "company": "Aurora",
+    "title": "AI Engineer Intern",
+    "url": "https://aurora.tech/careers?ashby_jid=475a24d7-a058-4f86-be8f-fd6be679af9c",
+    "updated_at": "2026-10-26T22:37:32.055Z"
+  },
+  "custom/aurora:Aurora:c823b343-ba1f-4ff3-84ce-965ee9952c12": {
+    "company": "Aurora",
+    "title": "Core Autonomy Software (C++) Intern",
+    "url": "https://aurora.tech/careers?ashby_jid=c823b343-ba1f-4ff3-84ce-965ee9952c12",
+    "updated_at": "2026-10-26T22:58:51.786Z"
+  },
+  "custom/aurora:Aurora:a90b7522-4e66-4247-b9ec-7e2bb50b78f4": {
+    "company": "Aurora",
+    "title": "Behavior & Planning (ML Research) Intern",
+    "url": "https://aurora.tech/careers?ashby_jid=a90b7522-4e66-4247-b9ec-7e2bb50b78f4",
+    "updated_at": "2026-10-26T22:36:45.087Z"
+  },
+  "custom/aurora:Aurora:da4c8e2e-0571-4503-94d9-234da86f83b0": {
+    "company": "Aurora",
+    "title": "Data & ML Platform Engineering Intern",
+    "url": "https://aurora.tech/careers?ashby_jid=da4c8e2e-0571-4503-94d9-234da86f83b0",
+    "updated_at": "2026-10-26T23:01:25.331Z"
+  },
+  "custom/aurora:Aurora:bc852c2c-945f-4a1e-b383-54a0f6e0ace9": {
+    "company": "Aurora",
+    "title": "Full Stack Intern",
+    "url": "https://aurora.tech/careers?ashby_jid=bc852c2c-945f-4a1e-b383-54a0f6e0ace9",
+    "updated_at": "2026-10-26T23:14:21.288Z"
+  },
+  "custom/aurora:Aurora:688f13a4-2cc4-4f3f-a5b4-0056bc580224": {
+    "company": "Aurora",
+    "title": "Perception & Mapping Intern",
+    "url": "https://aurora.tech/careers?ashby_jid=688f13a4-2cc4-4f3f-a5b4-0056bc580224",
+    "updated_at": "2026-10-26T23:17:07.243Z"
+  },
+  "custom/aurora:Aurora:058e3b3a-dd13-4736-84a8-b19d5de2c9f5": {
+    "company": "Aurora",
+    "title": "Safety & Systems Engineering Intern",
+    "url": "https://aurora.tech/careers?ashby_jid=058e3b3a-dd13-4736-84a8-b19d5de2c9f5",
+    "updated_at": "2026-10-26T23:19:06.833Z"
+  },
+  "custom/aurora:Aurora:f63bb8e2-9ead-4322-beb9-4bcbdbbe14bd": {
+    "company": "Aurora",
+    "title": "Simulation Engineering Intern",
+    "url": "https://aurora.tech/careers?ashby_jid=f63bb8e2-9ead-4322-beb9-4bcbdbbe14bd",
+    "updated_at": "2026-10-26T23:20:31.299Z"
+  },
+  "lever:Toyota Research Institute:f6541d1f-b72f-456f-829f-bf118ac10c43": {
+    "company": "Toyota Research Institute",
+    "title": "Robotics Intern, Post-Training and Continual Learning",
+    "url": "https://jobs.lever.co/tri/f6541d1f-b72f-456f-829f-bf118ac10c43",
+    "updated_at": 1793048482309
+  },
+  "lever:Toyota Research Institute:6f60ff79-c902-466a-912c-7ab849ce6424": {
+    "company": "Toyota Research Institute",
+    "title": "Robotics Intern, Trustworthy Learning under Uncertainty",
+    "url": "https://jobs.lever.co/tri/6f60ff79-c902-466a-912c-7ab849ce6424",
+    "updated_at": 1793053363443
+  },
+  "lever:Toyota Research Institute:016bbb58-857a-4367-b1aa-0cdc9f818478": {
+    "company": "Toyota Research Institute",
+    "title": "Robotics Intern, World Foundation Models",
+    "url": "https://jobs.lever.co/tri/016bbb58-857a-4367-b1aa-0cdc9f818478",
+    "updated_at": 1793052658216
   }
 }

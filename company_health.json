@@ -41,7 +41,7 @@
   },
   "Optiver": {
     "date": "2026-10-26",
-    "today_max_jobs": 161,
+    "today_max_jobs": 162,
     "today_last_error": null,
     "historical_max_jobs": 178,
     "consecutive_bad_days": 0,
@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-10-26",
-    "today_max_jobs": 367,
+    "today_max_jobs": 371,
     "today_last_error": "Broadcom: HTTPSConnectionPool(host='broadcom.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=8)",
     "historical_max_jobs": 392,
     "consecutive_bad_days": 0,
@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-10-26",
-    "today_max_jobs": 2046,
+    "today_max_jobs": 2049,
     "today_last_error": null,
     "historical_max_jobs": 2070,
     "consecutive_bad_days": 0,
@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-10-26",
-    "today_max_jobs": 897,
+    "today_max_jobs": 899,
     "today_last_error": null,
     "historical_max_jobs": 903,
     "consecutive_bad_days": 0,
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-10-26",
-    "today_max_jobs": 791,
+    "today_max_jobs": 796,
     "today_last_error": null,
     "historical_max_jobs": 841,
     "consecutive_bad_days": 0,
@@ -465,7 +465,7 @@
   },
   "Waymo": {
     "date": "2026-10-26",
-    "today_max_jobs": 367,
+    "today_max_jobs": 369,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -489,9 +489,9 @@
   },
   "Aurora": {
     "date": "2026-10-26",
-    "today_max_jobs": 100,
+    "today_max_jobs": 105,
     "today_last_error": null,
-    "historical_max_jobs": 101,
+    "historical_max_jobs": 105,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -593,7 +593,7 @@
   },
   "Toyota Research Institute": {
     "date": "2026-10-26",
-    "today_max_jobs": 11,
+    "today_max_jobs": 14,
     "today_last_error": null,
     "historical_max_jobs": 17,
     "consecutive_bad_days": 0,
@@ -609,7 +609,7 @@
   },
   "Saronic": {
     "date": "2026-10-26",
-    "today_max_jobs": 238,
+    "today_max_jobs": 239,
     "today_last_error": null,
     "historical_max_jobs": 260,
     "consecutive_bad_days": 0,
@@ -657,7 +657,7 @@
   },
   "Apptronik": {
     "date": "2026-10-26",
-    "today_max_jobs": 82,
+    "today_max_jobs": 84,
     "today_last_error": null,
     "historical_max_jobs": 86,
     "consecutive_bad_days": 0,
@@ -665,7 +665,7 @@
   },
   "xAI": {
     "date": "2026-10-26",
-    "today_max_jobs": 305,
+    "today_max_jobs": 306,
     "today_last_error": null,
     "historical_max_jobs": 308,
     "consecutive_bad_days": 0,
@@ -753,9 +753,9 @@
   },
   "Cloudflare": {
     "date": "2026-10-26",
-    "today_max_jobs": 457,
+    "today_max_jobs": 461,
     "today_last_error": null,
-    "historical_max_jobs": 457,
+    "historical_max_jobs": 461,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-10-26",
-    "today_max_jobs": 2817,
+    "today_max_jobs": 2828,
     "today_last_error": null,
-    "historical_max_jobs": 2821,
+    "historical_max_jobs": 2828,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -905,9 +905,9 @@
   },
   "Path Robotics": {
     "date": "2026-10-26",
-    "today_max_jobs": 52,
+    "today_max_jobs": 53,
     "today_last_error": null,
-    "historical_max_jobs": 52,
+    "historical_max_jobs": 53,
     "consecutive_bad_days": 0,
     "alerted": false
   },
