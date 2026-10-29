@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-10-28",
-    "today_max_jobs": 320,
+    "today_max_jobs": 360,
     "today_last_error": null,
     "historical_max_jobs": 420,
     "consecutive_bad_days": 0,
@@ -241,7 +241,7 @@
   },
   "Samsung Semiconductor": {
     "date": "2026-10-28",
-    "today_max_jobs": 65,
+    "today_max_jobs": 66,
     "today_last_error": null,
     "historical_max_jobs": 70,
     "consecutive_bad_days": 0,
@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-10-28",
-    "today_max_jobs": 896,
+    "today_max_jobs": 901,
     "today_last_error": null,
     "historical_max_jobs": 903,
     "consecutive_bad_days": 0,
@@ -289,7 +289,7 @@
   },
   "Stripe": {
     "date": "2026-10-28",
-    "today_max_jobs": 720,
+    "today_max_jobs": 721,
     "today_last_error": null,
     "historical_max_jobs": 736,
     "consecutive_bad_days": 0,
@@ -497,7 +497,7 @@
   },
   "Skydio": {
     "date": "2026-10-28",
-    "today_max_jobs": 174,
+    "today_max_jobs": 175,
     "today_last_error": null,
     "historical_max_jobs": 175,
     "consecutive_bad_days": 0,
@@ -673,7 +673,7 @@
   },
   "Cohere": {
     "date": "2026-10-28",
-    "today_max_jobs": 118,
+    "today_max_jobs": 119,
     "today_last_error": null,
     "historical_max_jobs": 152,
     "consecutive_bad_days": 0,
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-10-28",
-    "today_max_jobs": 380,
+    "today_max_jobs": 400,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -753,7 +753,7 @@
   },
   "Cloudflare": {
     "date": "2026-10-28",
-    "today_max_jobs": 459,
+    "today_max_jobs": 461,
     "today_last_error": null,
     "historical_max_jobs": 462,
     "consecutive_bad_days": 0,
@@ -881,7 +881,7 @@
   },
   "Nimble Robotics": {
     "date": "2026-10-28",
-    "today_max_jobs": 38,
+    "today_max_jobs": 40,
     "today_last_error": null,
     "historical_max_jobs": 41,
     "consecutive_bad_days": 0,
@@ -937,7 +937,7 @@
   },
   "Thinking Machines Lab": {
     "date": "2026-10-28",
-    "today_max_jobs": 52,
+    "today_max_jobs": 53,
     "today_last_error": null,
     "historical_max_jobs": 56,
     "consecutive_bad_days": 0,
@@ -1097,7 +1097,7 @@
   },
   "Formic": {
     "date": "2026-10-28",
-    "today_max_jobs": 39,
+    "today_max_jobs": 41,
     "today_last_error": null,
     "historical_max_jobs": 43,
     "consecutive_bad_days": 0,
