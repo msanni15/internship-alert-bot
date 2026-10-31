@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-10-31",
-    "today_max_jobs": 380,
+    "today_max_jobs": 400,
     "today_last_error": null,
     "historical_max_jobs": 496,
     "consecutive_bad_days": 0,
@@ -433,9 +433,9 @@
   },
   "Coinbase": {
     "date": "2026-10-31",
-    "today_max_jobs": 250,
+    "today_max_jobs": 254,
     "today_last_error": null,
-    "historical_max_jobs": 250,
+    "historical_max_jobs": 254,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -609,7 +609,7 @@
   },
   "Saronic": {
     "date": "2026-10-31",
-    "today_max_jobs": 253,
+    "today_max_jobs": 255,
     "today_last_error": null,
     "historical_max_jobs": 260,
     "consecutive_bad_days": 0,
