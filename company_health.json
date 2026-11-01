@@ -401,7 +401,7 @@
   },
   "Ramp": {
     "date": "2026-10-31",
-    "today_max_jobs": 171,
+    "today_max_jobs": 172,
     "today_last_error": null,
     "historical_max_jobs": 173,
     "consecutive_bad_days": 0,
