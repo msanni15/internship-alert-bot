@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-10-31",
-    "today_max_jobs": 400,
+    "today_max_jobs": 420,
     "today_last_error": null,
     "historical_max_jobs": 496,
     "consecutive_bad_days": 0,
@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-10-31",
-    "today_max_jobs": 901,
+    "today_max_jobs": 904,
     "today_last_error": null,
     "historical_max_jobs": 905,
     "consecutive_bad_days": 0,
@@ -305,7 +305,7 @@
   },
   "Uber": {
     "date": "2026-10-31",
-    "today_max_jobs": 30,
+    "today_max_jobs": 31,
     "today_last_error": null,
     "historical_max_jobs": 44,
     "consecutive_bad_days": 0,
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-10-31",
-    "today_max_jobs": 504,
+    "today_max_jobs": 518,
     "today_last_error": null,
     "historical_max_jobs": 524,
     "consecutive_bad_days": 0,
