@@ -281,9 +281,9 @@
   },
   "Databricks": {
     "date": "2026-11-01",
-    "today_max_jobs": 909,
+    "today_max_jobs": 912,
     "today_last_error": null,
-    "historical_max_jobs": 909,
+    "historical_max_jobs": 912,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-11-01",
-    "today_max_jobs": 810,
+    "today_max_jobs": 811,
     "today_last_error": null,
     "historical_max_jobs": 841,
     "consecutive_bad_days": 0,
@@ -417,7 +417,7 @@
   },
   "Plaid": {
     "date": "2026-11-01",
-    "today_max_jobs": 132,
+    "today_max_jobs": 134,
     "today_last_error": null,
     "historical_max_jobs": 135,
     "consecutive_bad_days": 0,
@@ -513,7 +513,7 @@
   },
   "Shield AI": {
     "date": "2026-11-01",
-    "today_max_jobs": 655,
+    "today_max_jobs": 656,
     "today_last_error": null,
     "historical_max_jobs": 670,
     "consecutive_bad_days": 0,
@@ -561,7 +561,7 @@
   },
   "Motional": {
     "date": "2026-11-01",
-    "today_max_jobs": 82,
+    "today_max_jobs": 83,
     "today_last_error": null,
     "historical_max_jobs": 84,
     "consecutive_bad_days": 0,
@@ -673,7 +673,7 @@
   },
   "Cohere": {
     "date": "2026-11-01",
-    "today_max_jobs": 120,
+    "today_max_jobs": 121,
     "today_last_error": null,
     "historical_max_jobs": 152,
     "consecutive_bad_days": 0,
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-11-01",
-    "today_max_jobs": 366,
+    "today_max_jobs": 369,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
@@ -753,9 +753,9 @@
   },
   "Cloudflare": {
     "date": "2026-11-01",
-    "today_max_jobs": 463,
+    "today_max_jobs": 467,
     "today_last_error": null,
-    "historical_max_jobs": 465,
+    "historical_max_jobs": 467,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1017,7 +1017,7 @@
   },
   "ElevenLabs": {
     "date": "2026-11-01",
-    "today_max_jobs": 139,
+    "today_max_jobs": 141,
     "today_last_error": null,
     "historical_max_jobs": 256,
     "consecutive_bad_days": 0,
