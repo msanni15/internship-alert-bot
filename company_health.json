@@ -57,7 +57,7 @@
   },
   "DRW": {
     "date": "2026-11-03",
-    "today_max_jobs": 163,
+    "today_max_jobs": 165,
     "today_last_error": null,
     "historical_max_jobs": 180,
     "consecutive_bad_days": 0,
@@ -121,7 +121,7 @@
   },
   "Millennium": {
     "date": "2026-11-03",
-    "today_max_jobs": 96,
+    "today_max_jobs": 98,
     "today_last_error": null,
     "historical_max_jobs": 132,
     "consecutive_bad_days": 0,
@@ -225,7 +225,7 @@
   },
   "Marvell": {
     "date": "2026-11-03",
-    "today_max_jobs": 340,
+    "today_max_jobs": 342,
     "today_last_error": null,
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
@@ -241,9 +241,9 @@
   },
   "Samsung Semiconductor": {
     "date": "2026-11-03",
-    "today_max_jobs": 71,
+    "today_max_jobs": 73,
     "today_last_error": null,
-    "historical_max_jobs": 71,
+    "historical_max_jobs": 73,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -289,7 +289,7 @@
   },
   "Stripe": {
     "date": "2026-11-03",
-    "today_max_jobs": 738,
+    "today_max_jobs": 741,
     "today_last_error": null,
     "historical_max_jobs": 747,
     "consecutive_bad_days": 0,
@@ -321,7 +321,7 @@
   },
   "Pinterest": {
     "date": "2026-11-03",
-    "today_max_jobs": 166,
+    "today_max_jobs": 169,
     "today_last_error": null,
     "historical_max_jobs": 226,
     "consecutive_bad_days": 0,
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-11-03",
-    "today_max_jobs": 805,
+    "today_max_jobs": 808,
     "today_last_error": null,
     "historical_max_jobs": 841,
     "consecutive_bad_days": 0,
@@ -377,7 +377,7 @@
   },
   "Applied Intuition": {
     "date": "2026-11-03",
-    "today_max_jobs": 318,
+    "today_max_jobs": 323,
     "today_last_error": null,
     "historical_max_jobs": 330,
     "consecutive_bad_days": 0,
@@ -385,7 +385,7 @@
   },
   "Figma": {
     "date": "2026-11-03",
-    "today_max_jobs": 143,
+    "today_max_jobs": 144,
     "today_last_error": null,
     "historical_max_jobs": 177,
     "consecutive_bad_days": 0,
@@ -417,9 +417,9 @@
   },
   "Plaid": {
     "date": "2026-11-03",
-    "today_max_jobs": 137,
+    "today_max_jobs": 138,
     "today_last_error": null,
-    "historical_max_jobs": 137,
+    "historical_max_jobs": 138,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -433,7 +433,7 @@
   },
   "Coinbase": {
     "date": "2026-11-03",
-    "today_max_jobs": 261,
+    "today_max_jobs": 264,
     "today_last_error": null,
     "historical_max_jobs": 269,
     "consecutive_bad_days": 0,
@@ -457,7 +457,7 @@
   },
   "1X": {
     "date": "2026-11-03",
-    "today_max_jobs": 99,
+    "today_max_jobs": 100,
     "today_last_error": null,
     "historical_max_jobs": 104,
     "consecutive_bad_days": 0,
@@ -465,7 +465,7 @@
   },
   "Waymo": {
     "date": "2026-11-03",
-    "today_max_jobs": 370,
+    "today_max_jobs": 371,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -497,9 +497,9 @@
   },
   "Skydio": {
     "date": "2026-11-03",
-    "today_max_jobs": 192,
+    "today_max_jobs": 195,
     "today_last_error": null,
-    "historical_max_jobs": 192,
+    "historical_max_jobs": 195,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -593,9 +593,9 @@
   },
   "Toyota Research Institute": {
     "date": "2026-11-03",
-    "today_max_jobs": 24,
+    "today_max_jobs": 25,
     "today_last_error": null,
-    "historical_max_jobs": 24,
+    "historical_max_jobs": 25,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -609,9 +609,9 @@
   },
   "Saronic": {
     "date": "2026-11-03",
-    "today_max_jobs": 257,
+    "today_max_jobs": 261,
     "today_last_error": null,
-    "historical_max_jobs": 260,
+    "historical_max_jobs": 261,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -657,7 +657,7 @@
   },
   "Apptronik": {
     "date": "2026-11-03",
-    "today_max_jobs": 85,
+    "today_max_jobs": 87,
     "today_last_error": null,
     "historical_max_jobs": 90,
     "consecutive_bad_days": 0,
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-11-03",
-    "today_max_jobs": 2874,
+    "today_max_jobs": 2880,
     "today_last_error": null,
     "historical_max_jobs": 2882,
     "consecutive_bad_days": 0,
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-11-03",
-    "today_max_jobs": 393,
+    "today_max_jobs": 394,
     "today_last_error": null,
     "historical_max_jobs": 525,
     "consecutive_bad_days": 0,
@@ -1017,7 +1017,7 @@
   },
   "ElevenLabs": {
     "date": "2026-11-03",
-    "today_max_jobs": 149,
+    "today_max_jobs": 150,
     "today_last_error": null,
     "historical_max_jobs": 256,
     "consecutive_bad_days": 0,
