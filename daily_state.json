@@ -534,5 +534,9 @@
   "2026-11-04": {
     "new_jobs_found": 6,
     "daily_summary_sent": false
+  },
+  "2026-11-05": {
+    "new_jobs_found": 0,
+    "daily_summary_sent": false
   }
 }
