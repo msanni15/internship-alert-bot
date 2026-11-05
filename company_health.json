@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-11-04",
-    "today_max_jobs": 380,
+    "today_max_jobs": 420,
     "today_last_error": null,
     "historical_max_jobs": 496,
     "consecutive_bad_days": 0,
@@ -273,9 +273,9 @@
   },
   "Roblox": {
     "date": "2026-11-04",
-    "today_max_jobs": 272,
+    "today_max_jobs": 273,
     "today_last_error": null,
-    "historical_max_jobs": 272,
+    "historical_max_jobs": 273,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -289,9 +289,9 @@
   },
   "Stripe": {
     "date": "2026-11-04",
-    "today_max_jobs": 756,
+    "today_max_jobs": 759,
     "today_last_error": null,
-    "historical_max_jobs": 756,
+    "historical_max_jobs": 759,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -353,7 +353,7 @@
   },
   "Anthropic": {
     "date": "2026-11-04",
-    "today_max_jobs": 680,
+    "today_max_jobs": 682,
     "today_last_error": null,
     "historical_max_jobs": 683,
     "consecutive_bad_days": 0,
@@ -361,15 +361,15 @@
   },
   "Perplexity": {
     "date": "2026-11-04",
-    "today_max_jobs": 137,
+    "today_max_jobs": 139,
     "today_last_error": null,
-    "historical_max_jobs": 138,
+    "historical_max_jobs": 139,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Cursor / Anysphere": {
     "date": "2026-11-04",
-    "today_max_jobs": 119,
+    "today_max_jobs": 120,
     "today_last_error": null,
     "historical_max_jobs": 137,
     "consecutive_bad_days": 0,
@@ -377,7 +377,7 @@
   },
   "Applied Intuition": {
     "date": "2026-11-04",
-    "today_max_jobs": 325,
+    "today_max_jobs": 326,
     "today_last_error": null,
     "historical_max_jobs": 330,
     "consecutive_bad_days": 0,
@@ -393,7 +393,7 @@
   },
   "Notion": {
     "date": "2026-11-04",
-    "today_max_jobs": 146,
+    "today_max_jobs": 147,
     "today_last_error": null,
     "historical_max_jobs": 148,
     "consecutive_bad_days": 0,
@@ -401,7 +401,7 @@
   },
   "Ramp": {
     "date": "2026-11-04",
-    "today_max_jobs": 168,
+    "today_max_jobs": 170,
     "today_last_error": null,
     "historical_max_jobs": 173,
     "consecutive_bad_days": 0,
@@ -417,9 +417,9 @@
   },
   "Plaid": {
     "date": "2026-11-04",
-    "today_max_jobs": 141,
+    "today_max_jobs": 143,
     "today_last_error": null,
-    "historical_max_jobs": 141,
+    "historical_max_jobs": 143,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -433,9 +433,9 @@
   },
   "Coinbase": {
     "date": "2026-11-04",
-    "today_max_jobs": 278,
+    "today_max_jobs": 279,
     "today_last_error": null,
-    "historical_max_jobs": 278,
+    "historical_max_jobs": 279,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -457,7 +457,7 @@
   },
   "1X": {
     "date": "2026-11-04",
-    "today_max_jobs": 100,
+    "today_max_jobs": 102,
     "today_last_error": null,
     "historical_max_jobs": 104,
     "consecutive_bad_days": 0,
@@ -473,7 +473,7 @@
   },
   "Zoox": {
     "date": "2026-11-04",
-    "today_max_jobs": 228,
+    "today_max_jobs": 229,
     "today_last_error": null,
     "historical_max_jobs": 246,
     "consecutive_bad_days": 0,
@@ -585,7 +585,7 @@
   },
   "Hermeus": {
     "date": "2026-11-04",
-    "today_max_jobs": 78,
+    "today_max_jobs": 79,
     "today_last_error": null,
     "historical_max_jobs": 91,
     "consecutive_bad_days": 0,
@@ -593,9 +593,9 @@
   },
   "Toyota Research Institute": {
     "date": "2026-11-04",
-    "today_max_jobs": 27,
+    "today_max_jobs": 29,
     "today_last_error": null,
-    "historical_max_jobs": 27,
+    "historical_max_jobs": 29,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -633,7 +633,7 @@
   },
   "SK Hynix": {
     "date": "2026-11-04",
-    "today_max_jobs": 49,
+    "today_max_jobs": 50,
     "today_last_error": null,
     "historical_max_jobs": 56,
     "consecutive_bad_days": 0,
@@ -665,7 +665,7 @@
   },
   "xAI": {
     "date": "2026-11-04",
-    "today_max_jobs": 307,
+    "today_max_jobs": 311,
     "today_last_error": null,
     "historical_max_jobs": 312,
     "consecutive_bad_days": 0,
@@ -682,14 +682,14 @@
   "Hugging Face": {
     "date": "2026-11-04",
     "today_max_jobs": 6,
-    "today_last_error": null,
+    "today_last_error": "Hugging Face: 429 Client Error: Too Many Requests for url: https://apply.workable.com/api/v1/widget/accounts/huggingface",
     "historical_max_jobs": 8,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Cerebras": {
     "date": "2026-11-04",
-    "today_max_jobs": 116,
+    "today_max_jobs": 119,
     "today_last_error": null,
     "historical_max_jobs": 126,
     "consecutive_bad_days": 0,
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-11-04",
-    "today_max_jobs": 499,
+    "today_max_jobs": 513,
     "today_last_error": null,
     "historical_max_jobs": 525,
     "consecutive_bad_days": 0,
@@ -802,7 +802,7 @@
   "Pony.ai": {
     "date": "2026-11-04",
     "today_max_jobs": 9,
-    "today_last_error": null,
+    "today_last_error": "Pony.ai: 429 Client Error: Too Many Requests for url: https://apply.workable.com/api/v1/widget/accounts/pony-dot-ai",
     "historical_max_jobs": 11,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -954,7 +954,7 @@
   "Mistral AI": {
     "date": "2026-11-04",
     "today_max_jobs": 0,
-    "today_last_error": null,
+    "today_last_error": "Mistral AI: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/mistral?mode=json&skip=0&limit=100",
     "historical_max_jobs": 0,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -969,7 +969,7 @@
   },
   "Man Group": {
     "date": "2026-11-04",
-    "today_max_jobs": 67,
+    "today_max_jobs": 68,
     "today_last_error": null,
     "historical_max_jobs": 70,
     "consecutive_bad_days": 0,
