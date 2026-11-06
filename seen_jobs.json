@@ -4726,5 +4726,65 @@
     "title": "June 2027 Co-Op - Software Engineer Intern",
     "url": "https://jobs.lever.co/shieldai/db8fc063-8856-4404-991c-f287712de949",
     "updated_at": 1793898163501
+  },
+  "workday:Intel:/job/US-California-Folsom/GPU-Architecture-Graduate-Intern_JR0287529": {
+    "company": "Intel",
+    "title": "GPU Architecture Graduate Intern",
+    "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-California-Folsom/GPU-Architecture-Graduate-Intern_JR0287529",
+    "updated_at": "Posted Today"
+  },
+  "lever:Zoox:53f5297a-fe30-4e1e-ab1c-96db5b23eded": {
+    "company": "Zoox",
+    "title": "Hardware Engineer Intern, Manufacturing Operations [Summer 2027]",
+    "url": "https://jobs.lever.co/zoox/53f5297a-fe30-4e1e-ab1c-96db5b23eded",
+    "updated_at": 1793643456628
+  },
+  "lever:Zoox:0accbf9e-9b09-4733-b495-fb6dce13ba62": {
+    "company": "Zoox",
+    "title": "Hardware Engineer Intern, Vehicle Development [Summer 2027]",
+    "url": "https://jobs.lever.co/zoox/0accbf9e-9b09-4733-b495-fb6dce13ba62",
+    "updated_at": 1793643768579
+  },
+  "lever:Zoox:0c32245b-f51d-40d2-8e57-a0be1b744c5b": {
+    "company": "Zoox",
+    "title": "Hardware Engineer Intern, Vehicle Systems [Summer 2027]",
+    "url": "https://jobs.lever.co/zoox/0c32245b-f51d-40d2-8e57-a0be1b744c5b",
+    "updated_at": 1793644115650
+  },
+  "lever:Zoox:7b20b929-d9a4-4995-a472-16cd4925a877": {
+    "company": "Zoox",
+    "title": "Software Engineer Intern, Autonomy Software [Summer 2027]",
+    "url": "https://jobs.lever.co/zoox/7b20b929-d9a4-4995-a472-16cd4925a877",
+    "updated_at": 1793399815529
+  },
+  "lever:Zoox:88f6cb68-1534-44af-80db-10e43c203520": {
+    "company": "Zoox",
+    "title": "Software Engineer Intern, Software Platforms & Product [Summer 2027]",
+    "url": "https://jobs.lever.co/zoox/88f6cb68-1534-44af-80db-10e43c203520",
+    "updated_at": 1793400897859
+  },
+  "lever:Zoox:8b32157b-ab44-4078-85ea-1d8d7b747a20": {
+    "company": "Zoox",
+    "title": "Software Engineer Intern, Software Systems [Summer 2027]",
+    "url": "https://jobs.lever.co/zoox/8b32157b-ab44-4078-85ea-1d8d7b747a20",
+    "updated_at": 1793401565895
+  },
+  "lever:Toyota Research Institute:11da7518-14d4-4960-a3aa-57dc010f3642": {
+    "company": "Toyota Research Institute",
+    "title": "Robotics Intern, Human-Robot Interaction",
+    "url": "https://jobs.lever.co/tri/11da7518-14d4-4960-a3aa-57dc010f3642",
+    "updated_at": 1793914720409
+  },
+  "lever:Toyota Research Institute:8955d154-acfc-4e6b-a68c-14f1438034c9": {
+    "company": "Toyota Research Institute",
+    "title": "Robotics Intern, Mechanical Engineering",
+    "url": "https://jobs.lever.co/tri/8955d154-acfc-4e6b-a68c-14f1438034c9",
+    "updated_at": 1793915447321
+  },
+  "ashby:Etched:https://jobs.ashbyhq.com/etched/1a92048c-60e0-445b-a84e-8f008f1cf47b": {
+    "company": "Etched",
+    "title": "Infrastructure Engineering & Projects Intern",
+    "url": "https://jobs.ashbyhq.com/etched/1a92048c-60e0-445b-a84e-8f008f1cf47b",
+    "updated_at": "2026-11-06T01:31:57.607+00:00"
   }
 }
