@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-11-07",
-    "today_max_jobs": 340,
+    "today_max_jobs": 440,
     "today_last_error": null,
     "historical_max_jobs": 496,
     "consecutive_bad_days": 0,
@@ -225,7 +225,7 @@
   },
   "Marvell": {
     "date": "2026-11-07",
-    "today_max_jobs": 260,
+    "today_max_jobs": 344,
     "today_last_error": null,
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
@@ -273,7 +273,7 @@
   },
   "Roblox": {
     "date": "2026-11-07",
-    "today_max_jobs": 269,
+    "today_max_jobs": 270,
     "today_last_error": null,
     "historical_max_jobs": 273,
     "consecutive_bad_days": 0,
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-11-07",
-    "today_max_jobs": 380,
+    "today_max_jobs": 460,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-11-07",
-    "today_max_jobs": 384,
+    "today_max_jobs": 459,
     "today_last_error": null,
     "historical_max_jobs": 525,
     "consecutive_bad_days": 0,
