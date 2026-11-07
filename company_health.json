@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-11-07",
-    "today_max_jobs": 440,
+    "today_max_jobs": 460,
     "today_last_error": null,
     "historical_max_jobs": 496,
     "consecutive_bad_days": 0,
@@ -289,7 +289,7 @@
   },
   "Stripe": {
     "date": "2026-11-07",
-    "today_max_jobs": 765,
+    "today_max_jobs": 766,
     "today_last_error": null,
     "historical_max_jobs": 768,
     "consecutive_bad_days": 0,
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-11-07",
-    "today_max_jobs": 371,
+    "today_max_jobs": 372,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-11-07",
-    "today_max_jobs": 2898,
+    "today_max_jobs": 2899,
     "today_last_error": null,
-    "historical_max_jobs": 2898,
+    "historical_max_jobs": 2899,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-11-07",
-    "today_max_jobs": 459,
+    "today_max_jobs": 518,
     "today_last_error": null,
     "historical_max_jobs": 525,
     "consecutive_bad_days": 0,
