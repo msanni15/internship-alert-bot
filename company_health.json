@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-11-08",
-    "today_max_jobs": 400,
+    "today_max_jobs": 420,
     "today_last_error": null,
     "historical_max_jobs": 440,
     "consecutive_bad_days": 0,
@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-11-08",
-    "today_max_jobs": 2048,
+    "today_max_jobs": 2049,
     "today_last_error": null,
     "historical_max_jobs": 2070,
     "consecutive_bad_days": 0,
@@ -513,7 +513,7 @@
   },
   "Shield AI": {
     "date": "2026-11-08",
-    "today_max_jobs": 660,
+    "today_max_jobs": 664,
     "today_last_error": null,
     "historical_max_jobs": 670,
     "consecutive_bad_days": 0,
@@ -633,7 +633,7 @@
   },
   "SK Hynix": {
     "date": "2026-11-08",
-    "today_max_jobs": 49,
+    "today_max_jobs": 50,
     "today_last_error": null,
     "historical_max_jobs": 56,
     "consecutive_bad_days": 0,
@@ -737,7 +737,7 @@
   },
   "Salesforce": {
     "date": "2026-11-08",
-    "today_max_jobs": 380,
+    "today_max_jobs": 440,
     "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-11-08",
-    "today_max_jobs": 2900,
+    "today_max_jobs": 2901,
     "today_last_error": null,
-    "historical_max_jobs": 2900,
+    "historical_max_jobs": 2901,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -985,9 +985,9 @@
   },
   "Cognition": {
     "date": "2026-11-08",
-    "today_max_jobs": 108,
+    "today_max_jobs": 110,
     "today_last_error": null,
-    "historical_max_jobs": 108,
+    "historical_max_jobs": 110,
     "consecutive_bad_days": 0,
     "alerted": false
   },
