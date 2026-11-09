@@ -513,7 +513,7 @@
   },
   "Shield AI": {
     "date": "2026-11-08",
-    "today_max_jobs": 664,
+    "today_max_jobs": 665,
     "today_last_error": null,
     "historical_max_jobs": 670,
     "consecutive_bad_days": 0,
@@ -769,9 +769,9 @@
   },
   "SpaceX": {
     "date": "2026-11-08",
-    "today_max_jobs": 2901,
+    "today_max_jobs": 2902,
     "today_last_error": null,
-    "historical_max_jobs": 2901,
+    "historical_max_jobs": 2902,
     "consecutive_bad_days": 0,
     "alerted": false
   },
