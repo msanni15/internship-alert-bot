@@ -4870,5 +4870,35 @@
     "title": "AI Workflows & Safety Decision Making Intern [2027]",
     "url": "https://jobs.lever.co/zoox/0168ad29-2fd8-4c91-865c-b9fff8aa30c1",
     "updated_at": 1794011275431
+  },
+  "greenhouse:Jane Street:8927083002": {
+    "company": "Jane Street",
+    "title": "Formal Methods Research and Development",
+    "url": "https://www.janestreet.com/join-jane-street/apply/8927083002?gh_jid=8927083002",
+    "updated_at": "2026-11-09T11:45:52-05:00"
+  },
+  "custom/amazon:Amazon:db6caf19-08a3-4352-a031-c0ffc616f317": {
+    "company": "Amazon",
+    "title": "Software Development Engineer Intern - Summer 2027",
+    "url": "https://www.amazon.jobs/en/jobs/10597379/software-development-engineer-intern-summer-2027",
+    "updated_at": "November  5, 2026"
+  },
+  "ashby:Skydio:https://jobs.ashbyhq.com/skydio/33f1f123-8cec-4e6a-b125-e8831603a62a": {
+    "company": "Skydio",
+    "title": "Systems Engineering Intern - Summer 2027",
+    "url": "https://jobs.ashbyhq.com/skydio/33f1f123-8cec-4e6a-b125-e8831603a62a",
+    "updated_at": "2026-11-09T19:53:20.602+00:00"
+  },
+  "lever:Toyota Research Institute:9c48b236-e6ad-4b97-9380-c675e5432415": {
+    "company": "Toyota Research Institute",
+    "title": "Automated Driving Advanced Development Intern, Machine Learning Research",
+    "url": "https://jobs.lever.co/tri/9c48b236-e6ad-4b97-9380-c675e5432415",
+    "updated_at": 1794263276411
+  },
+  "lever:Toyota Research Institute:4ea8d663-1060-4c55-aede-91fd8f945871": {
+    "company": "Toyota Research Institute",
+    "title": "Robotics Intern, Teleoperation and Spatial Computing",
+    "url": "https://jobs.lever.co/tri/4ea8d663-1060-4c55-aede-91fd8f945871",
+    "updated_at": 1794242250528
   }
 }
