@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-11-09",
-    "today_max_jobs": 340,
+    "today_max_jobs": 360,
     "today_last_error": null,
     "historical_max_jobs": 440,
     "consecutive_bad_days": 0,
@@ -225,7 +225,7 @@
   },
   "Marvell": {
     "date": "2026-11-09",
-    "today_max_jobs": 338,
+    "today_max_jobs": 339,
     "today_last_error": null,
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
@@ -273,7 +273,7 @@
   },
   "Roblox": {
     "date": "2026-11-09",
-    "today_max_jobs": 271,
+    "today_max_jobs": 273,
     "today_last_error": null,
     "historical_max_jobs": 273,
     "consecutive_bad_days": 0,
@@ -289,9 +289,9 @@
   },
   "Stripe": {
     "date": "2026-11-09",
-    "today_max_jobs": 768,
+    "today_max_jobs": 771,
     "today_last_error": null,
-    "historical_max_jobs": 768,
+    "historical_max_jobs": 771,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -321,7 +321,7 @@
   },
   "Pinterest": {
     "date": "2026-11-09",
-    "today_max_jobs": 169,
+    "today_max_jobs": 171,
     "today_last_error": null,
     "historical_max_jobs": 226,
     "consecutive_bad_days": 0,
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-11-09",
-    "today_max_jobs": 814,
+    "today_max_jobs": 825,
     "today_last_error": null,
     "historical_max_jobs": 841,
     "consecutive_bad_days": 0,
@@ -401,7 +401,7 @@
   },
   "Ramp": {
     "date": "2026-11-09",
-    "today_max_jobs": 171,
+    "today_max_jobs": 172,
     "today_last_error": null,
     "historical_max_jobs": 173,
     "consecutive_bad_days": 0,
@@ -433,7 +433,7 @@
   },
   "Coinbase": {
     "date": "2026-11-09",
-    "today_max_jobs": 284,
+    "today_max_jobs": 285,
     "today_last_error": null,
     "historical_max_jobs": 285,
     "consecutive_bad_days": 0,
@@ -465,7 +465,7 @@
   },
   "Waymo": {
     "date": "2026-11-09",
-    "today_max_jobs": 377,
+    "today_max_jobs": 378,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -513,9 +513,9 @@
   },
   "Shield AI": {
     "date": "2026-11-09",
-    "today_max_jobs": 664,
+    "today_max_jobs": 672,
     "today_last_error": null,
-    "historical_max_jobs": 670,
+    "historical_max_jobs": 672,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -633,7 +633,7 @@
   },
   "SK Hynix": {
     "date": "2026-11-09",
-    "today_max_jobs": 51,
+    "today_max_jobs": 52,
     "today_last_error": null,
     "historical_max_jobs": 56,
     "consecutive_bad_days": 0,
@@ -649,9 +649,9 @@
   },
   "Physical Intelligence": {
     "date": "2026-11-09",
-    "today_max_jobs": 44,
+    "today_max_jobs": 46,
     "today_last_error": null,
-    "historical_max_jobs": 45,
+    "historical_max_jobs": 46,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -697,7 +697,7 @@
   },
   "Groq": {
     "date": "2026-11-09",
-    "today_max_jobs": 33,
+    "today_max_jobs": 34,
     "today_last_error": null,
     "historical_max_jobs": 42,
     "consecutive_bad_days": 0,
@@ -713,7 +713,7 @@
   },
   "QRT": {
     "date": "2026-11-09",
-    "today_max_jobs": 205,
+    "today_max_jobs": 207,
     "today_last_error": null,
     "historical_max_jobs": 211,
     "consecutive_bad_days": 0,
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-11-09",
-    "today_max_jobs": 369,
+    "today_max_jobs": 372,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
@@ -777,7 +777,7 @@
   },
   "Rocket Lab": {
     "date": "2026-11-09",
-    "today_max_jobs": 545,
+    "today_max_jobs": 550,
     "today_last_error": null,
     "historical_max_jobs": 586,
     "consecutive_bad_days": 0,
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-11-09",
-    "today_max_jobs": 1342,
+    "today_max_jobs": 1351,
     "today_last_error": null,
     "historical_max_jobs": 1354,
     "consecutive_bad_days": 0,
@@ -985,9 +985,9 @@
   },
   "Cognition": {
     "date": "2026-11-09",
-    "today_max_jobs": 110,
+    "today_max_jobs": 111,
     "today_last_error": null,
-    "historical_max_jobs": 110,
+    "historical_max_jobs": 111,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1065,7 +1065,7 @@
   },
   "Fireworks AI": {
     "date": "2026-11-09",
-    "today_max_jobs": 91,
+    "today_max_jobs": 92,
     "today_last_error": null,
     "historical_max_jobs": 93,
     "consecutive_bad_days": 0,
