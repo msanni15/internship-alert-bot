@@ -11,6 +11,7 @@ from monitor import (
     SEARCH_TERMS,
     TEST_COMPANY,
     format_email_body,
+    format_email_subject,
     format_run_summary,
     get_pending_daily_summary_dates,
     get_today_state,
@@ -849,7 +850,7 @@ def main():
         if not DRY_RUN:
             today_state["new_jobs_found"] += len(new_jobs)
 
-        subject = f"{len(new_jobs)} new internship roles found (browser bot)"
+        subject = format_email_subject(new_jobs, browser_bot=True)
         email_body = format_email_body(new_jobs, errors)
         email_body += "\n\n" + format_run_summary(stats, new_jobs, errors)
 
