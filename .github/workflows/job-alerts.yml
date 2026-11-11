@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: "25 */3 * * *"
   workflow_dispatch:
+    inputs:
+      companies:
+        description: 'Optional comma-separated exact company names; blank checks all'
+        required: false
+        default: ''
+        type: string
 
 permissions:
   contents: write
@@ -27,6 +33,7 @@ jobs:
       - name: Run job monitor
         run: python monitor.py
         env:
+          TARGET_COMPANIES: ${{ inputs.companies }}
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
