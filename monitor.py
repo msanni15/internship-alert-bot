@@ -1676,31 +1676,59 @@ def format_company_health_email(newly_flagged):
     return "\n".join(lines)
 
 
-def format_email_body(new_jobs, errors):
-    lines = [
-        f"{len(new_jobs)} new jobs found!",
-        "",
+def group_email_jobs(new_jobs):
+    """Return company groups ordered by priority, then name."""
+    priority_order = {"high": 0, "medium": 1, "low": 2}
+    groups = {}
+    for job in new_jobs:
+        groups.setdefault(job["company"], []).append(job)
+
+    def group_key(item):
+        company, jobs = item
+        rank = min(priority_order.get(job.get("priority", "").strip().lower(), 99)
+                   for job in jobs)
+        return rank, company.casefold(), company
+
+    return [
+        (company, sorted(jobs, key=lambda job: (job["title"].casefold(), job["title"])))
+        for company, jobs in sorted(groups.items(), key=group_key)
     ]
 
-    for job in new_jobs:
-        lines.append(job["company"])
 
-        if job.get("priority"):
-            lines.append(f"Priority: {job['priority']}")
+def format_email_subject(new_jobs, browser_bot=False):
+    companies = [company for company, _ in group_email_jobs(new_jobs)]
+    names = ", ".join(companies[:5])
+    if len(companies) > 5:
+        names += f" +{len(companies) - 5} more"
+    count = len(new_jobs)
+    noun = "internship" if count == 1 else "internships"
+    subject = f"{names} — {count} new {noun}" if names else f"{count} new {noun}"
+    return subject + (" (browser bot)" if browser_bot else "")
 
-        lines.append(job["title"])
 
-        if job.get("location"):
-            lines.append(f"Location: {job['location']}")
+def format_email_body(new_jobs, errors):
+    count = len(new_jobs)
+    lines = [f"{count} new {'job' if count == 1 else 'jobs'} found!", ""]
+    priority_order = {"high": 0, "medium": 1, "low": 2}
 
-        if job.get("updated_at"):
-            lines.append(f"Updated: {job['updated_at']}")
-
-        if job.get("matched_keywords"):
-            lines.append(f"Matched: {', '.join(job['matched_keywords'])}")
-
-        lines.append(job["url"])
+    for company, jobs in group_email_jobs(new_jobs):
+        lines.append(company)
+        priority = min((job.get("priority", "").strip().lower() for job in jobs),
+                       key=lambda value: (priority_order.get(value, 99), value))
+        lines.append(f"Priority: {priority.capitalize() if priority else 'Unspecified'}")
+        lines.append(f"{len(jobs)} new {'role' if len(jobs) == 1 else 'roles'}")
         lines.append("")
+
+        for job in jobs:
+            lines.append(job["title"])
+            if job.get("location"):
+                lines.append(f"Location: {job['location']}")
+            if job.get("updated_at"):
+                lines.append(f"Updated: {job['updated_at']}")
+            if job.get("matched_keywords"):
+                lines.append(f"Matched: {', '.join(job['matched_keywords'])}")
+            lines.append(job["url"])
+            lines.append("")
 
     if errors:
         lines.append("Errors:")
@@ -1782,7 +1810,7 @@ def main():
         if not DRY_RUN:
             today_state["new_jobs_found"] += len(new_jobs)
 
-        subject = f"{len(new_jobs)} new internship roles found"
+        subject = format_email_subject(new_jobs)
         email_body = format_email_body(new_jobs, errors)
         email_body += "\n\n" + format_run_summary(stats, new_jobs, errors)
 
