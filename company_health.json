@@ -177,7 +177,7 @@
   },
   "Old Mission": {
     "date": "2026-11-11",
-    "today_max_jobs": 0,
+    "today_max_jobs": 40,
     "today_last_error": "Old Mission: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/oldmissioncapital/jobs?content=true",
     "historical_max_jobs": 41,
     "consecutive_bad_days": 22,
@@ -953,9 +953,9 @@
   },
   "Mistral AI": {
     "date": "2026-11-11",
-    "today_max_jobs": 0,
+    "today_max_jobs": 238,
     "today_last_error": "Mistral AI: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/mistral?mode=json&skip=0&limit=100",
-    "historical_max_jobs": 0,
+    "historical_max_jobs": 238,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1001,7 +1001,7 @@
   },
   "World Labs": {
     "date": "2026-11-11",
-    "today_max_jobs": 0,
+    "today_max_jobs": 8,
     "today_last_error": "World Labs: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/worldlabs/jobs?content=true",
     "historical_max_jobs": 9,
     "consecutive_bad_days": 63,
