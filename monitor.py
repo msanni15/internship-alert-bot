@@ -495,6 +495,17 @@ def load_companies():
 
 
 def filter_companies_for_test(companies):
+    targets = {name.strip().casefold() for name in
+               os.environ.get("TARGET_COMPANIES", "").split(",") if name.strip()}
+    if targets:
+        known = {row.get("company", "").strip().casefold() for row in companies}
+        missing = targets - known
+        if missing:
+            raise ValueError(f"Unknown target companies: {', '.join(sorted(missing))}")
+        companies = [row for row in companies
+                     if row.get("company", "").strip().casefold() in targets]
+        print(f"Targeted run. Checking {len(companies)} company row(s).")
+
     if not TEST_COMPANY:
         return companies
 
@@ -1823,7 +1834,8 @@ def main():
         print("")
         print("No new jobs found this run.")
 
-    pending_dates = get_pending_daily_summary_dates(daily_state)
+    # A partial check cannot establish that the whole bot had a quiet day.
+    pending_dates = [] if os.environ.get("TARGET_COMPANIES", "").strip() else get_pending_daily_summary_dates(daily_state)
 
     if pending_dates:
         subject = "No new internship roles today" if len(pending_dates) == 1 else f"No new internship roles ({len(pending_dates)} quiet days)"
