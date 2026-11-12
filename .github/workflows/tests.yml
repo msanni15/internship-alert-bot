@@ -1,19 +1,7 @@
 name: Bot tests
 
+# Run only when explicitly requested from the Actions tab.
 on:
-  pull_request:
-    paths:
-      - '**.py'
-      - 'requirements*.txt'
-      - 'companies*.csv'
-      - '.github/workflows/**'
-  push:
-    branches: [main]
-    paths:
-      - '**.py'
-      - 'requirements*.txt'
-      - 'companies*.csv'
-      - '.github/workflows/**'
   workflow_dispatch:
 
 permissions:
