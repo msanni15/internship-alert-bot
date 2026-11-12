@@ -33,7 +33,7 @@
   },
   "Jump Trading": {
     "date": "2026-11-12",
-    "today_max_jobs": 91,
+    "today_max_jobs": 92,
     "today_last_error": null,
     "historical_max_jobs": 114,
     "consecutive_bad_days": 0,
@@ -49,7 +49,7 @@
   },
   "IMC": {
     "date": "2026-11-12",
-    "today_max_jobs": 156,
+    "today_max_jobs": 157,
     "today_last_error": null,
     "historical_max_jobs": 177,
     "consecutive_bad_days": 0,
@@ -57,7 +57,7 @@
   },
   "DRW": {
     "date": "2026-11-12",
-    "today_max_jobs": 158,
+    "today_max_jobs": 159,
     "today_last_error": null,
     "historical_max_jobs": 180,
     "consecutive_bad_days": 0,
@@ -202,7 +202,7 @@
   "NVIDIA": {
     "date": "2026-11-12",
     "today_max_jobs": 280,
-    "today_last_error": null,
+    "today_last_error": "NVIDIA: HTTPSConnectionPool(host='nvidia.wd5.myworkdayjobs.com', port=443): Read timed out. (read timeout=8)",
     "historical_max_jobs": 440,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -257,9 +257,9 @@
   },
   "Google": {
     "date": "2026-11-12",
-    "today_max_jobs": 0,
+    "today_max_jobs": 39,
     "today_last_error": null,
-    "historical_max_jobs": 0,
+    "historical_max_jobs": 39,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -297,9 +297,9 @@
   },
   "Airbnb": {
     "date": "2026-11-12",
-    "today_max_jobs": 208,
+    "today_max_jobs": 214,
     "today_last_error": null,
-    "historical_max_jobs": 213,
+    "historical_max_jobs": 214,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -321,7 +321,7 @@
   },
   "Pinterest": {
     "date": "2026-11-12",
-    "today_max_jobs": 162,
+    "today_max_jobs": 164,
     "today_last_error": null,
     "historical_max_jobs": 226,
     "consecutive_bad_days": 0,
@@ -337,7 +337,7 @@
   },
   "Scale AI": {
     "date": "2026-11-12",
-    "today_max_jobs": 169,
+    "today_max_jobs": 170,
     "today_last_error": null,
     "historical_max_jobs": 228,
     "consecutive_bad_days": 0,
@@ -393,9 +393,9 @@
   },
   "Notion": {
     "date": "2026-11-12",
-    "today_max_jobs": 160,
+    "today_max_jobs": 161,
     "today_last_error": null,
-    "historical_max_jobs": 160,
+    "historical_max_jobs": 161,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -450,7 +450,7 @@
   "LinkedIn": {
     "date": "2026-11-12",
     "today_max_jobs": 0,
-    "today_last_error": null,
+    "today_last_error": "LinkedIn: 429 Client Error: Too Many Requests for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?f_C=1337&keywords=student&location=Canada&start=62",
     "historical_max_jobs": 0,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -465,7 +465,7 @@
   },
   "Waymo": {
     "date": "2026-11-12",
-    "today_max_jobs": 379,
+    "today_max_jobs": 380,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -561,7 +561,7 @@
   },
   "Motional": {
     "date": "2026-11-12",
-    "today_max_jobs": 79,
+    "today_max_jobs": 80,
     "today_last_error": null,
     "historical_max_jobs": 84,
     "consecutive_bad_days": 0,
@@ -689,7 +689,7 @@
   },
   "Cerebras": {
     "date": "2026-11-12",
-    "today_max_jobs": 124,
+    "today_max_jobs": 125,
     "today_last_error": null,
     "historical_max_jobs": 126,
     "consecutive_bad_days": 0,
@@ -777,7 +777,7 @@
   },
   "Rocket Lab": {
     "date": "2026-11-12",
-    "today_max_jobs": 552,
+    "today_max_jobs": 553,
     "today_last_error": null,
     "historical_max_jobs": 586,
     "consecutive_bad_days": 0,
@@ -953,9 +953,9 @@
   },
   "Mistral AI": {
     "date": "2026-11-12",
-    "today_max_jobs": 239,
+    "today_max_jobs": 241,
     "today_last_error": null,
-    "historical_max_jobs": 239,
+    "historical_max_jobs": 241,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-11-12",
-    "today_max_jobs": 1285,
+    "today_max_jobs": 1293,
     "today_last_error": null,
     "historical_max_jobs": 1354,
     "consecutive_bad_days": 0,
@@ -1017,7 +1017,7 @@
   },
   "ElevenLabs": {
     "date": "2026-11-12",
-    "today_max_jobs": 128,
+    "today_max_jobs": 130,
     "today_last_error": null,
     "historical_max_jobs": 256,
     "consecutive_bad_days": 0,
@@ -1136,10 +1136,98 @@
     "alerted": false
   },
   "Bedrock Robotics": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "today_max_jobs": 57,
     "today_last_error": null,
     "historical_max_jobs": 57,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Foxglove": {
+    "date": "2026-11-12",
+    "today_max_jobs": 5,
+    "today_last_error": null,
+    "historical_max_jobs": 5,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Mujin": {
+    "date": "2026-11-12",
+    "today_max_jobs": 95,
+    "today_last_error": null,
+    "historical_max_jobs": 95,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Viam": {
+    "date": "2026-11-12",
+    "today_max_jobs": 8,
+    "today_last_error": null,
+    "historical_max_jobs": 8,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Robust AI": {
+    "date": "2026-11-12",
+    "today_max_jobs": 5,
+    "today_last_error": null,
+    "historical_max_jobs": 5,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Dyna Robotics": {
+    "date": "2026-11-12",
+    "today_max_jobs": 27,
+    "today_last_error": null,
+    "historical_max_jobs": 27,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Sunday Robotics": {
+    "date": "2026-11-12",
+    "today_max_jobs": 25,
+    "today_last_error": null,
+    "historical_max_jobs": 25,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Intrinsic": {
+    "date": "2026-11-12",
+    "today_max_jobs": 19,
+    "today_last_error": null,
+    "historical_max_jobs": 19,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "May Mobility": {
+    "date": "2026-11-12",
+    "today_max_jobs": 36,
+    "today_last_error": null,
+    "historical_max_jobs": 36,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Reflex Robotics": {
+    "date": "2026-11-12",
+    "today_max_jobs": 8,
+    "today_last_error": null,
+    "historical_max_jobs": 8,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Torc Robotics": {
+    "date": "2026-11-12",
+    "today_max_jobs": 45,
+    "today_last_error": null,
+    "historical_max_jobs": 45,
+    "consecutive_bad_days": 0,
+    "alerted": false
+  },
+  "Chef Robotics": {
+    "date": "2026-11-12",
+    "today_max_jobs": 4,
+    "today_last_error": null,
+    "historical_max_jobs": 4,
     "consecutive_bad_days": 0,
     "alerted": false
   }
