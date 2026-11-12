@@ -635,51 +635,76 @@ def fetch_apple_jobs(page, company, token):
     return clean_jobs
 
 
+def parse_meta_card(text):
+    lines = [line.strip() for line in text.split("\n") if line.strip()]
+    if len(lines) < 2:
+        raise ValueError("Meta job card is missing its title or location")
+    locations = [lines[1]]
+    index = 2
+    while index < len(lines) and lines[index] in ("⋅", "·", "•"):
+        if index + 1 >= len(lines):
+            raise ValueError("Meta job card has an incomplete location list")
+        locations.append(lines[index + 1])
+        index += 2
+    return lines[0], " | ".join(dict.fromkeys(locations))
+
+
 def fetch_meta_jobs(page, company, token):
-    # No pagination control was found on Meta's search results - each search
-    # term returns its top ~10 matches. Looping SEARCH_TERMS is the only lever
-    # available for broader coverage here.
+    # One internship-only search replaces incomplete first-page keyword searches.
+    # Preserve source/URL IDs so previously emailed jobs remain recognized.
+    url = "https://www.metacareers.com/jobsearch/?roles[0]=Internship"
+    start_time = time.monotonic()
     clean_jobs = []
     seen_urls = set()
-    start_time = time.monotonic()
-
-    for search_term in SEARCH_TERMS:
+    goto_checked(page, url, wait_until="domcontentloaded")
+    page.wait_for_function(
+        r"""() => /Page \d+ of \d+/.test(document.body.innerText) ||
+                 /\b0 Items\b/.test(document.body.innerText)""", timeout=15000)
+    page.wait_for_timeout(2500)
+    expected_page = 1
+    while True:
         if time.monotonic() - start_time > BROWSER_TIME_BUDGET_SECONDS:
-            print(f"{company}: browser time budget exceeded, stopping early")
-            break
-
-        url = f"{token}?q={search_term}"
-        goto_checked(page, url)
-        page.wait_for_timeout(2500)
-
+            raise TimeoutError("Meta browser time budget exceeded; coverage incomplete")
+        text = page.inner_text("body")
+        marker = re.search(r"Page (\d+) of (\d+)", text)
         links = page.query_selector_all("a[href*='/job_details/']")
-
+        if not links:
+            if expected_page == 1 and re.search(r"\b0 Items\b", text):
+                return []
+            raise ValueError("Meta returned no recognizable job cards")
+        if not marker or int(marker.group(1)) != expected_page:
+            raise ValueError("Meta pagination marker is missing or did not advance")
+        new_this_page = 0
         for link in links:
             href = link.get_attribute("href") or ""
-            job_url = urljoin(token, href)
-
-            if not href or job_url in seen_urls:
+            job_url = urljoin(token, href).split("?", 1)[0]
+            if not re.search(r"/job_details/\d+/?$", job_url):
+                raise ValueError("Meta job card has an unrecognized job URL")
+            if job_url in seen_urls:
                 continue
-
+            title, location = parse_meta_card(link.inner_text())
+            clean_jobs.append(make_job("browser/meta", company, token, title,
+                                       job_url, job_url, location=location,
+                                       is_internship_meta=True))
             seen_urls.add(job_url)
-
-            lines = [line.strip() for line in link.inner_text().split("\n") if line.strip()]
-            title = lines[0] if lines else ""
-            location = lines[1] if len(lines) > 1 else ""
-
-            clean_jobs.append(
-                make_job(
-                    source="browser/meta",
-                    company=company,
-                    token=token,
-                    title=title,
-                    job_id=job_url,
-                    url=job_url,
-                    location=location,
-                )
-            )
-
-    return clean_jobs
+            new_this_page += 1
+        if not new_this_page:
+            raise ValueError("Meta pagination repeated the previous job cards")
+        if expected_page >= int(marker.group(2)):
+            return clean_jobs
+        next_button = page.locator('[aria-label="Button to select next week"]')
+        if next_button.count() != 1 or next_button.get_attribute("aria-disabled") == "true":
+            raise ValueError("Meta next-page control is unavailable before the final page")
+        next_button.click(timeout=10000)
+        expected_page += 1
+        page.wait_for_function(
+            """number => document.body.innerText.includes('Page ' + number + ' of ')""",
+            arg=expected_page, timeout=15000)
+        # Wait for cards as well as the counter, since React updates them separately.
+        page.wait_for_function(
+            """previous => [...document.querySelectorAll('a[href*="/job_details/"]')]
+                .some(a => !previous.includes(a.href.split('?')[0]))""",
+            arg=list(seen_urls), timeout=15000)
 
 
 def fetch_balyasny_jobs(page, company, token):
