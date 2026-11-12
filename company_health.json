@@ -41,7 +41,7 @@
   },
   "Optiver": {
     "date": "2026-11-12",
-    "today_max_jobs": 151,
+    "today_max_jobs": 152,
     "today_last_error": null,
     "historical_max_jobs": 178,
     "consecutive_bad_days": 0,
@@ -177,9 +177,9 @@
   },
   "Old Mission": {
     "date": "2026-11-12",
-    "today_max_jobs": 40,
+    "today_max_jobs": 42,
     "today_last_error": null,
-    "historical_max_jobs": 41,
+    "historical_max_jobs": 42,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-11-12",
-    "today_max_jobs": 280,
+    "today_max_jobs": 320,
     "today_last_error": "NVIDIA: HTTPSConnectionPool(host='nvidia.wd5.myworkdayjobs.com', port=443): Read timed out. (read timeout=8)",
     "historical_max_jobs": 440,
     "consecutive_bad_days": 0,
@@ -217,15 +217,15 @@
   },
   "Broadcom": {
     "date": "2026-11-12",
-    "today_max_jobs": 408,
+    "today_max_jobs": 412,
     "today_last_error": null,
-    "historical_max_jobs": 408,
+    "historical_max_jobs": 412,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Marvell": {
     "date": "2026-11-12",
-    "today_max_jobs": 337,
+    "today_max_jobs": 338,
     "today_last_error": null,
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
@@ -297,15 +297,15 @@
   },
   "Airbnb": {
     "date": "2026-11-12",
-    "today_max_jobs": 214,
+    "today_max_jobs": 215,
     "today_last_error": null,
-    "historical_max_jobs": 214,
+    "historical_max_jobs": 215,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Uber": {
     "date": "2026-11-12",
-    "today_max_jobs": 31,
+    "today_max_jobs": 33,
     "today_last_error": null,
     "historical_max_jobs": 44,
     "consecutive_bad_days": 0,
@@ -321,7 +321,7 @@
   },
   "Pinterest": {
     "date": "2026-11-12",
-    "today_max_jobs": 164,
+    "today_max_jobs": 165,
     "today_last_error": null,
     "historical_max_jobs": 226,
     "consecutive_bad_days": 0,
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-11-12",
-    "today_max_jobs": 823,
+    "today_max_jobs": 827,
     "today_last_error": null,
     "historical_max_jobs": 841,
     "consecutive_bad_days": 0,
@@ -369,7 +369,7 @@
   },
   "Cursor / Anysphere": {
     "date": "2026-11-12",
-    "today_max_jobs": 113,
+    "today_max_jobs": 114,
     "today_last_error": null,
     "historical_max_jobs": 137,
     "consecutive_bad_days": 0,
@@ -401,9 +401,9 @@
   },
   "Ramp": {
     "date": "2026-11-12",
-    "today_max_jobs": 176,
+    "today_max_jobs": 178,
     "today_last_error": null,
-    "historical_max_jobs": 177,
+    "historical_max_jobs": 178,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -433,7 +433,7 @@
   },
   "Coinbase": {
     "date": "2026-11-12",
-    "today_max_jobs": 271,
+    "today_max_jobs": 272,
     "today_last_error": null,
     "historical_max_jobs": 286,
     "consecutive_bad_days": 0,
@@ -450,7 +450,7 @@
   "LinkedIn": {
     "date": "2026-11-12",
     "today_max_jobs": 0,
-    "today_last_error": "LinkedIn: 429 Client Error: Too Many Requests for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?f_C=1337&keywords=student&location=Canada&start=62",
+    "today_last_error": "LinkedIn: 429 Client Error: Too Many Requests for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?f_C=1337&keywords=student&location=Canada&start=60",
     "historical_max_jobs": 0,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -473,7 +473,7 @@
   },
   "Zoox": {
     "date": "2026-11-12",
-    "today_max_jobs": 229,
+    "today_max_jobs": 235,
     "today_last_error": null,
     "historical_max_jobs": 246,
     "consecutive_bad_days": 0,
@@ -481,7 +481,7 @@
   },
   "Nuro": {
     "date": "2026-11-12",
-    "today_max_jobs": 97,
+    "today_max_jobs": 99,
     "today_last_error": null,
     "historical_max_jobs": 111,
     "consecutive_bad_days": 0,
@@ -497,7 +497,7 @@
   },
   "Skydio": {
     "date": "2026-11-12",
-    "today_max_jobs": 189,
+    "today_max_jobs": 190,
     "today_last_error": null,
     "historical_max_jobs": 196,
     "consecutive_bad_days": 0,
@@ -521,7 +521,7 @@
   },
   "Figure AI": {
     "date": "2026-11-12",
-    "today_max_jobs": 101,
+    "today_max_jobs": 103,
     "today_last_error": null,
     "historical_max_jobs": 129,
     "consecutive_bad_days": 0,
@@ -593,9 +593,9 @@
   },
   "Toyota Research Institute": {
     "date": "2026-11-12",
-    "today_max_jobs": 40,
+    "today_max_jobs": 41,
     "today_last_error": null,
-    "historical_max_jobs": 40,
+    "historical_max_jobs": 41,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-11-12",
-    "today_max_jobs": 1293,
+    "today_max_jobs": 1297,
     "today_last_error": null,
     "historical_max_jobs": 1354,
     "consecutive_bad_days": 0,
@@ -1017,7 +1017,7 @@
   },
   "ElevenLabs": {
     "date": "2026-11-12",
-    "today_max_jobs": 130,
+    "today_max_jobs": 131,
     "today_last_error": null,
     "historical_max_jobs": 256,
     "consecutive_bad_days": 0,
@@ -1177,9 +1177,9 @@
   },
   "Dyna Robotics": {
     "date": "2026-11-12",
-    "today_max_jobs": 27,
+    "today_max_jobs": 28,
     "today_last_error": null,
-    "historical_max_jobs": 27,
+    "historical_max_jobs": 28,
     "consecutive_bad_days": 0,
     "alerted": false
   },
