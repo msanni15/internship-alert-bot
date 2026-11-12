@@ -5,6 +5,11 @@ on:
     - cron: "15 */6 * * *"
   workflow_dispatch:
 
+# Serialize state-writing workflows on the same branch; never stop a running delivery.
+concurrency:
+  group: internship-state-${{ github.ref }}
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -15,6 +20,8 @@ jobs:
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -35,10 +42,12 @@ jobs:
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
 
       - name: Commit updated seen jobs
+        if: ${{ always() && !cancelled() }}
         run: |
           git config user.name "internship-alert-bot"
           git config user.email "msanni15@users.noreply.github.com"
           git add seen_jobs_browser.json daily_state_browser.json
+          [ -f company_health_browser.json ] && git add company_health_browser.json
           git commit -m "Update browser bot seen jobs" || echo "No changes to commit"
 
           for attempt in 1 2 3 4 5; do

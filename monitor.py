@@ -60,6 +60,8 @@ ROLE_KEYWORDS = [
     "trading",
     "trader",
     "research",
+    "researcher",
+    "researchers",
     "machine learning",
     "ml",
     "ai",
@@ -1770,11 +1772,26 @@ def update_company_health(company_health, company_results):
 
         if result["error"]:
             record["today_last_error"] = result["error"]
+            record["consecutive_errors"] = record.get("consecutive_errors", 0) + 1
+            if record["consecutive_errors"] >= 3 and not record.get("error_alerted", False):
+                record["error_alerted"] = True
+                newly_flagged.append({
+                    "company": company, "reason": "errors",
+                    "consecutive_errors": record["consecutive_errors"],
+                    "consecutive_bad_days": record["consecutive_bad_days"],
+                    "last_error": result["error"],
+                    "historical_max_jobs": record["historical_max_jobs"],
+                })
+        else:
+            record["today_last_error"] = None
+            record["consecutive_errors"] = 0
+            record["error_alerted"] = False
 
         if (
             record["consecutive_bad_days"] >= CONSECUTIVE_BAD_DAYS_THRESHOLD
             and not record["alerted"]
             and record["historical_max_jobs"] > 0
+            and not result["error"]
         ):
             record["alerted"] = True
             newly_flagged.append(
@@ -1797,7 +1814,10 @@ def format_company_health_email(newly_flagged):
 
     for entry in newly_flagged:
         lines.append(entry["company"])
-        lines.append(f"Zero jobs returned for {entry['consecutive_bad_days']} consecutive day(s)")
+        if entry.get("reason") == "errors":
+            lines.append(f"Source failed on {entry['consecutive_errors']} consecutive checks")
+        else:
+            lines.append(f"Zero jobs returned for {entry['consecutive_bad_days']} consecutive day(s)")
         lines.append(f"Previously returned as many as {entry['historical_max_jobs']} jobs")
 
         if entry["last_error"]:
@@ -1807,7 +1827,7 @@ def format_company_health_email(newly_flagged):
 
         lines.append("")
 
-    lines.append("This usually means the company changed ATS providers or moved their career page.")
+    lines.append("Check the source for access failures, changed career pages, or an ATS migration.")
 
     return "\n".join(lines)
 
@@ -1954,6 +1974,9 @@ def main():
         print(email_body)
 
         send_or_print_email(subject, email_body)
+        if not DRY_RUN:
+            save_seen_jobs(seen_jobs)
+            save_daily_state(daily_state)
 
     else:
         print("")
@@ -1966,7 +1989,8 @@ def main():
         subject = "No new internship roles today" if len(pending_dates) == 1 else f"No new internship roles ({len(pending_dates)} quiet days)"
         email_body = "No new internship roles were found on:\n\n"
         email_body += "\n".join(f"- {date}" for date in pending_dates)
-        email_body += "\n\nYour internship alert bot ran successfully."
+        email_body += (f"\n\nCurrent check had {len(errors)} source error(s); coverage was incomplete."
+                       if errors else "\n\nThe current check completed without source errors.")
         email_body += "\n\n" + format_run_summary(stats, new_jobs, errors)
 
         if errors:
