@@ -1428,6 +1428,63 @@ def fetch_aurora_jobs(company, token):
     return clean_jobs
 
 
+LINKEDIN_SEARCH_URL = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
+
+
+def parse_linkedin_jobs(html, company, token):
+    soup = BeautifulSoup(html, "html.parser")
+    cards = soup.select("div.base-search-card")
+    if not cards:
+        # The guest endpoint returns only a doctype/comment on an empty page.
+        if not soup.get_text(strip=True) and soup.find(True) is None:
+            return [], 0
+        raise ValueError("LinkedIn returned an unrecognized page instead of job cards")
+    jobs = []
+    for card in cards:
+        title = card.select_one("h3.base-search-card__title")
+        employer = card.select_one("h4 a")
+        location = card.select_one(".job-search-card__location")
+        urn = re.fullmatch(r"urn:li:jobPosting:(\d+)", card.get("data-entity-urn", ""))
+        if title is None or employer is None or location is None or urn is None:
+            raise ValueError("LinkedIn job card is missing required fields")
+        employer_url = urlparse(employer.get("href", ""))
+        if employer_url.hostname not in ("www.linkedin.com", "linkedin.com") or employer_url.path.rstrip("/") != "/company/linkedin":
+            raise ValueError("LinkedIn employer filter returned a different company")
+        date = card.select_one("time[datetime]")
+        jobs.append(make_job("custom/linkedin", company, token,
+                             title.get_text(" ", strip=True), urn.group(1),
+                             f"https://www.linkedin.com/jobs/view/{urn.group(1)}/",
+                             location=location.get_text(" ", strip=True),
+                             updated_at=date.get("datetime", "") if date else ""))
+    return jobs, len(cards)
+
+
+def fetch_linkedin_jobs(company, token):
+    if token != "1337":
+        raise ValueError("LinkedIn employer source requires company ID 1337")
+    clean_jobs = {}
+    start_time = time.monotonic()
+    for location in ("United States", "Canada"):
+        for term in ("intern", "student", "co-op"):
+            offset = 0
+            query_ids = set()
+            while True:
+                if time.monotonic() - start_time > SEARCH_TIME_BUDGET_SECONDS:
+                    raise TimeoutError("LinkedIn search time budget exceeded; coverage incomplete")
+                url = LINKEDIN_SEARCH_URL + "?" + urlencode({
+                    "f_C": token, "keywords": term, "location": location, "start": offset})
+                jobs, count = parse_linkedin_jobs(get_html(url), company, token)
+                if not count:
+                    break
+                ids = {job["id"] for job in jobs}
+                if query_ids & ids:
+                    raise ValueError("LinkedIn pagination repeated job IDs")
+                query_ids.update(ids)
+                clean_jobs.update((job["id"], job) for job in jobs)
+                offset += count
+    return list(clean_jobs.values())
+
+
 GOOGLE_CAREERS_URL = "https://www.google.com/about/careers/applications/jobs/results/"
 
 
@@ -1495,6 +1552,7 @@ def fetch_google_jobs(company, token):
 
 
 FETCHERS = {
+    "custom/linkedin": fetch_linkedin_jobs,
     "custom/google": fetch_google_jobs,
     "greenhouse": fetch_greenhouse_jobs,
     "lever": fetch_lever_jobs,
