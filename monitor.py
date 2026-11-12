@@ -7,7 +7,7 @@ import smtplib
 import time
 from datetime import datetime, timedelta, timezone
 from email.mime.text import MIMEText
-from urllib.parse import parse_qs, urljoin, urlparse
+from urllib.parse import parse_qs, urlencode, urljoin, urlparse
 from zoneinfo import ZoneInfo
 
 import requests
@@ -1428,7 +1428,74 @@ def fetch_aurora_jobs(company, token):
     return clean_jobs
 
 
+GOOGLE_CAREERS_URL = "https://www.google.com/about/careers/applications/jobs/results/"
+
+
+def parse_google_jobs(html, company, token):
+    """Read public search cards; fail visibly if the expected layout changes."""
+    soup = BeautifulSoup(html, "html.parser")
+    jobs = []
+    for heading in soup.select("li h3"):
+        card = heading.find_parent("li")
+        link = next((a for a in card.select("a[href]")
+                     if re.search(r"(?:^|/)jobs/results/\d+-", a["href"])), None)
+        if link is None:
+            raise ValueError("Google job card is missing its application link")
+        match = re.search(r"jobs/results/(\d+)-", link["href"])
+        locations = [span.get_text(" ", strip=True).lstrip("; ")
+                     for span in card.select("span.r0wTof")]
+        locations = list(dict.fromkeys(locations))
+        if not locations:
+            raise ValueError("Google job card is missing location information")
+        url = urljoin("https://www.google.com/about/careers/applications/", link["href"])
+        url = url.split("?", 1)[0]
+        jobs.append(make_job("custom/google", company, token,
+                             heading.get_text(" ", strip=True), match.group(1), url,
+                             location=" | ".join(locations)))
+    text = soup.get_text(" ", strip=True)
+    if not jobs:
+        if soup.find(string=lambda value: value and value.strip() == "No results"):
+            return [], 0
+        raise ValueError("Google careers page has no recognizable results or empty-state marker")
+    count = re.search(r"Showing [\d,]+ to ([\d,]+) of ([\d,]+) rows", text)
+    if not count:
+        raise ValueError("Google careers pagination information is missing")
+    return jobs, int(count.group(2).replace(",", ""))
+
+
+def fetch_google_jobs(company, token):
+    if token.rstrip("/") != GOOGLE_CAREERS_URL.rstrip("/"):
+        raise ValueError("Expected the official Google Careers search URL")
+    clean_jobs = {}
+    start_time = time.monotonic()
+    for location in ("United States", "Canada"):
+        for term in ("intern", "student", "co-op"):
+            page = 1
+            fetched = 0
+            query_ids = set()
+            while True:
+                if time.monotonic() - start_time > SEARCH_TIME_BUDGET_SECONDS:
+                    raise TimeoutError("Google search time budget exceeded; coverage incomplete")
+                url = token + "?" + urlencode(dict(q=term, location=location, sort_by="date", page=page))
+                jobs, total = parse_google_jobs(get_html(url), company, token)
+                if not jobs:
+                    if page > 1:
+                        raise ValueError("Google pagination ended before all advertised jobs were read")
+                    break
+                ids = {job["id"] for job in jobs}
+                if ids & query_ids:
+                    raise ValueError("Google pagination repeated job IDs")
+                query_ids.update(ids)
+                fetched += len(jobs)
+                clean_jobs.update((job["id"], job) for job in jobs)
+                if fetched >= total:
+                    break
+                page += 1
+    return list(clean_jobs.values())
+
+
 FETCHERS = {
+    "custom/google": fetch_google_jobs,
     "greenhouse": fetch_greenhouse_jobs,
     "lever": fetch_lever_jobs,
     "ashby": fetch_ashby_jobs,
