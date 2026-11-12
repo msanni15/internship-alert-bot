@@ -31,7 +31,7 @@ Marvell,workday,https://marvell.wd1.myworkdayjobs.com/MarvellCareers,Low
 Google Silicon,custom/manual,,High
 Samsung Semiconductor,greenhouse,samsungsemiconductor,Medium
 Tesla,custom/manual,,High
-Google,custom/manual,,High
+Google,custom/google,https://www.google.com/about/careers/applications/jobs/results/,High
 Amazon,custom/amazon,https://www.amazon.jobs,High
 Roblox,greenhouse,roblox,High
 Databricks,greenhouse,databricks,Medium
@@ -141,3 +141,7 @@ Pickle Robot,lever,picklerobot,Medium
 Osaro,lever,osaro,Low
 Cobalt Robotics,lever,cobaltrobotics,Low
 Bright Machines,lever,brightmachines,Low
+Foxglove,ashby,foxglove,Medium
+Mujin,lever,mujininc,Medium
+Viam,greenhouse,viamrobotics,Medium
+Robust AI,lever,robust-ai,Medium
