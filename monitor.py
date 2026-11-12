@@ -682,8 +682,12 @@ def fetch_lever_jobs(company, token):
     clean_jobs = []
     skip = 0
     limit = 100
+    seen_ids = set()
+    start_time = time.monotonic()
 
     while True:
+        if time.monotonic() - start_time > SEARCH_TIME_BUDGET_SECONDS:
+            return incomplete_jobs(clean_jobs, company)
         raw_jobs = get_json(
             base_url,
             params={
@@ -696,6 +700,10 @@ def fetch_lever_jobs(company, token):
         if not raw_jobs:
             break
 
+        page_ids = {str(job.get("id") or job.get("hostedUrl") or "") for job in raw_jobs}
+        if page_ids & seen_ids:
+            return incomplete_jobs(clean_jobs, company, "pagination repeated job IDs")
+        seen_ids.update(page_ids)
         for job in raw_jobs:
             categories = job.get("categories") or {}
 
@@ -732,6 +740,33 @@ def fetch_lever_jobs(company, token):
     return clean_jobs
 
 
+def ashby_location_details(job):
+    primary = job.get("address") or {}
+    primary = primary.get("postalAddress", primary)
+    records = [(job.get("location", ""), primary)]
+    for secondary in job.get("secondaryLocations") or []:
+        address = secondary.get("address") or {}
+        records.append((secondary.get("location", ""), address.get("postalAddress", address)))
+    locations, countries = [], []
+    for label, address in records:
+        country = address.get("addressCountry", "") or ""
+        countries.append(country)
+        label = label or ", ".join(filter(None, [address.get("addressLocality"), address.get("addressRegion"), country]))
+        if label and label not in locations:
+            locations.append(label)
+    return " | ".join(locations), countries
+
+
+def country_eligibility(countries):
+    if not countries:
+        return "unknown"
+    domestic = {"us", "usa", "united states", "united states of america", "ca", "can", "canada"}
+    normalized = [str(value or "").strip().casefold() for value in countries]
+    if any(value in domestic for value in normalized):
+        return "domestic"
+    return "foreign" if all(normalized) else "unknown"
+
+
 def fetch_ashby_jobs(company, token):
     url = f"https://api.ashbyhq.com/posting-api/job-board/{token}"
     data = get_json(
@@ -746,6 +781,7 @@ def fetch_ashby_jobs(company, token):
     for job in data.get("jobs", []):
         job_url = job.get("jobUrl", "")
         apply_url = job.get("applyUrl", "")
+        location, countries = ashby_location_details(job)
 
         clean_jobs.append(
             make_job(
@@ -756,7 +792,8 @@ def fetch_ashby_jobs(company, token):
                 job_id=job_url or apply_url or f"{company}:{job.get('title', '')}:{job.get('publishedAt', '')}",
                 updated_at=job.get("publishedAt", ""),
                 url=job_url or apply_url,
-                location=job.get("location", ""),
+                location=location,
+                location_countries=countries,
                 team=job.get("team", ""),
                 department=job.get("department", ""),
                 employment_type=job.get("employmentType", ""),
@@ -826,8 +863,7 @@ def fetch_workday_jobs(company, token):
             # match (thousands of hits). Bail on time, not page count, so a
             # pathological term can't hang the whole run.
             if time.monotonic() - start_time > SEARCH_TIME_BUDGET_SECONDS:
-                print(f"{company}: Workday time budget exceeded, stopping early")
-                return clean_jobs
+                return incomplete_jobs(clean_jobs, company)
 
             data = fetch_workday_page(api_url, search_term, limit, offset)
             raw_jobs = data.get("jobPostings", [])
@@ -962,6 +998,7 @@ RIPPLING_ALGOLIA_HEADERS = {
 def fetch_rippling_jobs(company, token):
     # Rippling's own careers page runs on Rippling's own ATS product, whose
     # search is a public-key Algolia index - no browser needed.
+    start_time = time.monotonic()
     clean_jobs = []
     seen_ids = set()
 
@@ -969,6 +1006,8 @@ def fetch_rippling_jobs(company, token):
         page = 0
 
         while True:
+            if time.monotonic() - start_time > SEARCH_TIME_BUDGET_SECONDS:
+                return incomplete_jobs(clean_jobs, company)
             response = requests.post(
                 RIPPLING_ALGOLIA_URL,
                 headers=RIPPLING_ALGOLIA_HEADERS,
@@ -1068,6 +1107,7 @@ def fetch_uber_jobs(company, token):
     session.get(token, timeout=20)
 
     search_url = urljoin(token, "/api/jobs/search/")
+    start_time = time.monotonic()
     clean_jobs = []
     seen_ids = set()
 
@@ -1075,6 +1115,8 @@ def fetch_uber_jobs(company, token):
         page = 0
 
         while True:
+            if time.monotonic() - start_time > SEARCH_TIME_BUDGET_SECONDS:
+                return incomplete_jobs(clean_jobs, company)
             response = session.get(
                 search_url,
                 params={"search": search_term, "locale": "en", "page": page},
@@ -1139,8 +1181,7 @@ def fetch_amazon_jobs(company, token):
 
             while True:
                 if time.monotonic() - start_time > SEARCH_TIME_BUDGET_SECONDS:
-                    print(f"{company}: search time budget exceeded, stopping early")
-                    return clean_jobs
+                    return incomplete_jobs(clean_jobs, company)
 
                 data = get_json(
                     url,
@@ -1210,8 +1251,7 @@ def fetch_eightfold_jobs(company, token):
 
         while True:
             if time.monotonic() - start_time > SEARCH_TIME_BUDGET_SECONDS:
-                print(f"{company}: search time budget exceeded, stopping early")
-                return clean_jobs
+                return incomplete_jobs(clean_jobs, company)
 
             data = get_json(
                 api_url,
@@ -1390,12 +1430,14 @@ def fetch_jibe_jobs(company, token):
             )
 
         if new_this_page == 0:
-            break
+            return incomplete_jobs(clean_jobs, company, "pagination repeated job IDs")
 
         if len(jobs) < limit:
             break
 
         page += 1
+    else:
+        return incomplete_jobs(clean_jobs, company, "pagination page cap reached")
 
     return clean_jobs
 
@@ -1599,7 +1641,10 @@ def is_relevant_job(job):
     if any(has_keyword(title, keyword) for keyword in BLOCKED_TITLE_KEYWORDS):
         return False, []
 
-    if has_blocked_international_location(location):
+    eligibility = country_eligibility(job.get("location_countries"))
+    if eligibility == "foreign":
+        return False, []
+    if eligibility == "unknown" and has_blocked_international_location(location):
         return False, []
 
     if not is_recent_enough(job):
@@ -1623,6 +1668,19 @@ def make_seen_key(job):
     return f"{job['source']}:{job['company']}:{job['id']}"
 
 
+class PartialJobResults(list):
+    """Jobs found before a source could finish all pages or search terms."""
+    def __init__(self, jobs, warning):
+        super().__init__(jobs)
+        self.coverage_warning = warning
+
+
+def incomplete_jobs(jobs, company, reason="time budget exceeded"):
+    warning = f"{reason}; coverage incomplete"
+    print(f"{company}: {warning}")
+    return PartialJobResults(jobs, warning)
+
+
 def fetch_one_company(row):
     # Pure I/O, no shared state - safe to run concurrently. Each company's
     # ATS calls its own host, and requests.get() manages its own connection
@@ -1642,7 +1700,9 @@ def find_new_jobs(companies, seen_jobs):
         "companies_checked": 0,
         "total_jobs_fetched": 0,
         "relevant_jobs_found": 0,
+        "manual_sources_skipped": sum(row.get("ats_type", "").strip().lower() == "custom/manual" for row in companies),
     }
+    companies = [row for row in companies if row.get("ats_type", "").strip().lower() != "custom/manual"]
 
     # Companies used to be fetched one at a time, so a handful of slow,
     # sequential-search ATS calls (Workday, Amazon, Eightfold, Rippling,
@@ -1667,7 +1727,10 @@ def find_new_jobs(companies, seen_jobs):
 
         stats["companies_checked"] += 1
         stats["total_jobs_fetched"] += len(jobs)
-        company_results.append({"company": company, "job_count": len(jobs), "error": None})
+        warning = getattr(jobs, "coverage_warning", None)
+        if warning:
+            errors.append(f"{company}: {warning}")
+        company_results.append({"company": company, "job_count": len(jobs), "error": warning})
 
         print(f"{company}: found {len(jobs)} jobs")
 
@@ -1879,6 +1942,8 @@ def format_email_body(new_jobs, errors):
             lines.append(job["title"])
             if job.get("location"):
                 lines.append(f"Location: {job['location']}")
+            if "location_countries" in job and country_eligibility(job["location_countries"]) == "unknown":
+                lines.append("Location country: not confirmed")
             if job.get("updated_at"):
                 lines.append(f"Updated: {job['updated_at']}")
             if job.get("matched_keywords"):
@@ -1904,6 +1969,8 @@ def format_run_summary(stats, new_jobs, errors):
         f"Errors: {len(errors)}",
     ]
 
+    if stats.get("manual_sources_skipped"):
+        lines.append(f"Manual-only entries skipped: {stats['manual_sources_skipped']}")
     return "\n".join(lines)
 
 

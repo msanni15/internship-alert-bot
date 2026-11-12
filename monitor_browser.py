@@ -15,6 +15,7 @@ from monitor import (
     format_run_summary,
     format_company_health_email,
     update_company_health,
+    incomplete_jobs,
     get_pending_daily_summary_dates,
     get_today_state,
     is_relevant_job,
@@ -128,8 +129,7 @@ def fetch_icims_jobs(page, company, token):
 
     while True:
         if time.monotonic() - start_time > BROWSER_TIME_BUDGET_SECONDS:
-            print(f"{company}: browser time budget exceeded, stopping early")
-            break
+            return incomplete_jobs(clean_jobs, company)
 
         titles = page.query_selector_all("a.job-title-link")
         new_this_page = False
@@ -162,8 +162,10 @@ def fetch_icims_jobs(page, company, token):
         next_button = page.query_selector(".mat-paginator-navigation-next")
         is_disabled = next_button is None or next_button.get_attribute("disabled") is not None
 
-        if is_disabled or not new_this_page:
+        if is_disabled:
             break
+        if not new_this_page:
+            return incomplete_jobs(clean_jobs, company, "pagination made no progress")
 
         next_button.click()
         page.wait_for_timeout(2000)
@@ -205,9 +207,9 @@ def fetch_arm_jobs(page, company, token):
         pass
 
     for search_term in SEARCH_TERMS:
+        query_seen = set()
         if time.monotonic() - start_time > BROWSER_TIME_BUDGET_SECONDS:
-            print(f"{company}: browser time budget exceeded, stopping early")
-            break
+            return incomplete_jobs(clean_jobs, company)
 
         keyword_input = page.query_selector("input[name='k']")
 
@@ -220,10 +222,15 @@ def fetch_arm_jobs(page, company, token):
 
         while True:
             if time.monotonic() - start_time > BROWSER_TIME_BUDGET_SECONDS:
-                break
+                return incomplete_jobs(clean_jobs, company)
 
             links = page.query_selector_all("a[href*='/job/']")
-            new_this_page = False
+            page_urls = {urljoin(token, link.get_attribute("href") or "")
+                         for link in links if link.get_attribute("href")}
+            if page_urls and page_urls <= query_seen:
+                return incomplete_jobs(clean_jobs, company, "pagination repeated job URLs")
+            query_seen.update(page_urls)
+            new_this_page = bool(page_urls)
 
             for link in links:
                 href = link.get_attribute("href") or ""
@@ -296,8 +303,7 @@ def fetch_avature_jobs(page, company, token):
 
     while True:
         if time.monotonic() - start_time > BROWSER_TIME_BUDGET_SECONDS:
-            print(f"{company}: browser time budget exceeded, stopping early")
-            break
+            return incomplete_jobs(clean_jobs, company)
 
         url = token if offset == 0 else f"{token}?jobRecordsPerPage={page_size}&jobOffset={offset}"
         goto_checked(page, url)
@@ -313,8 +319,10 @@ def fetch_avature_jobs(page, company, token):
 
         new_hrefs = set(cards_by_href) - seen_hrefs
 
-        if not cards_by_href or not new_hrefs:
+        if not cards_by_href:
             break
+        if not new_hrefs:
+            return incomplete_jobs(clean_jobs, company, "pagination repeated job URLs")
 
         for href, link in cards_by_href.items():
             if href in seen_hrefs:
@@ -361,14 +369,16 @@ def fetch_avature_search_jobs(page, company, token):
     start_time = time.monotonic()
 
     for search_term in SEARCH_TERMS:
+        query_seen = set()
         if time.monotonic() - start_time > BROWSER_TIME_BUDGET_SECONDS:
-            print(f"{company}: browser time budget exceeded, stopping early")
-            break
+            return incomplete_jobs(clean_jobs, company)
 
         offset = 0
         page_size = 10
 
         while True:
+            if time.monotonic() - start_time > BROWSER_TIME_BUDGET_SECONDS:
+                return incomplete_jobs(clean_jobs, company)
             url = f"{token}/{search_term}" if offset == 0 else f"{token}/{search_term}?jobRecordsPerPage={page_size}&jobOffset={offset}"
             goto_checked(page, url)
             page.wait_for_timeout(2000)
@@ -381,10 +391,11 @@ def fetch_avature_search_jobs(page, company, token):
                 if href and href not in cards_by_href:
                     cards_by_href[href] = link
 
-            new_hrefs = set(cards_by_href) - seen_hrefs
-
-            if not cards_by_href or not new_hrefs:
+            if not cards_by_href:
                 break
+            if set(cards_by_href) <= query_seen:
+                return incomplete_jobs(clean_jobs, company, "pagination repeated job URLs")
+            query_seen.update(cards_by_href)
 
             for href, link in cards_by_href.items():
                 if href in seen_hrefs:
@@ -464,17 +475,22 @@ def fetch_eightfold_browser_jobs(page, company, token):
     start_time = time.monotonic()
 
     for search_term in SEARCH_TERMS:
+        query_seen = set()
         url = f"{token}?query={search_term}"
         goto_checked(page, url)
         page.wait_for_timeout(2500)
 
         while True:
             if time.monotonic() - start_time > BROWSER_TIME_BUDGET_SECONDS:
-                print(f"{company}: browser time budget exceeded, stopping early")
-                return clean_jobs
+                return incomplete_jobs(clean_jobs, company)
 
             links = page.query_selector_all("a[href*='/careers/job/']")
-            new_this_page = False
+            page_urls = {urljoin(token, link.get_attribute("href") or "")
+                         for link in links if link.get_attribute("href")}
+            if page_urls and page_urls <= query_seen:
+                return incomplete_jobs(clean_jobs, company, "pagination repeated job URLs")
+            query_seen.update(page_urls)
+            new_this_page = bool(page_urls)
 
             for link in links:
                 href = link.get_attribute("href") or ""
@@ -568,6 +584,7 @@ def resolve_apple_job_details(page, job_url, fallback_location):
 def fetch_apple_jobs(page, company, token):
     start_time = time.monotonic()
     job_stubs = []
+    incomplete = False
     seen_urls = set()
 
     goto_checked(page, token)
@@ -575,7 +592,7 @@ def fetch_apple_jobs(page, company, token):
 
     while True:
         if time.monotonic() - start_time > APPLE_TIME_BUDGET_SECONDS:
-            print(f"{company}: browser time budget exceeded, stopping early")
+            incomplete = True
             break
 
         cards = page.query_selector_all("div.job-title")
@@ -617,7 +634,7 @@ def fetch_apple_jobs(page, company, token):
 
     for stub in job_stubs:
         if time.monotonic() - start_time > APPLE_TIME_BUDGET_SECONDS:
-            print(f"{company}: browser time budget exceeded, stopping early")
+            incomplete = True
             break
 
         updated_at, location = resolve_apple_job_details(page, stub["url"], stub["location"])
@@ -635,7 +652,7 @@ def fetch_apple_jobs(page, company, token):
             )
         )
 
-    return clean_jobs
+    return incomplete_jobs(clean_jobs, company) if incomplete else clean_jobs
 
 
 def parse_meta_card(text):
@@ -804,7 +821,10 @@ def find_new_jobs(page, companies, seen_jobs):
             jobs = fetch_jobs_for_company(page, row)
             stats["companies_checked"] += 1
             stats["total_jobs_fetched"] += len(jobs)
-            stats["company_results"].append({"company": company, "job_count": len(jobs), "error": None})
+            warning = getattr(jobs, "coverage_warning", None)
+            if warning:
+                errors.append(f"{company}: {warning}")
+            stats["company_results"].append({"company": company, "job_count": len(jobs), "error": warning})
 
             print(f"{company}: found {len(jobs)} jobs")
 
