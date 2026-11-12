@@ -11,6 +11,11 @@ on:
         default: ''
         type: string
 
+# Serialize state-writing workflows on the same branch; never stop a running delivery.
+concurrency:
+  group: internship-state-${{ github.ref }}
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -21,6 +26,8 @@ jobs:
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -49,6 +56,7 @@ jobs:
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
 
       - name: Commit updated seen jobs
+        if: ${{ always() && !cancelled() }}
         run: |
           git config user.name "internship-alert-bot"
           git config user.email "msanni15@users.noreply.github.com"

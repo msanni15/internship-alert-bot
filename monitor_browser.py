@@ -13,6 +13,8 @@ from monitor import (
     format_email_body,
     format_email_subject,
     format_run_summary,
+    format_company_health_email,
+    update_company_health,
     get_pending_daily_summary_dates,
     get_today_state,
     is_relevant_job,
@@ -33,6 +35,7 @@ from monitor import (
 COMPANIES_FILE = "companies_browser.csv"
 SEEN_JOBS_FILE = "seen_jobs_browser.json"
 DAILY_STATE_FILE = "daily_state_browser.json"
+COMPANY_HEALTH_FILE = "company_health_browser.json"
 
 BROWSER_TIME_BUDGET_SECONDS = 90
 # Apple's fetcher visits each job's detail page individually to resolve real
@@ -790,6 +793,7 @@ def find_new_jobs(page, companies, seen_jobs):
         "companies_checked": 0,
         "total_jobs_fetched": 0,
         "relevant_jobs_found": 0,
+        "company_results": [],
     }
 
     for row in companies:
@@ -800,12 +804,14 @@ def find_new_jobs(page, companies, seen_jobs):
             jobs = fetch_jobs_for_company(page, row)
             stats["companies_checked"] += 1
             stats["total_jobs_fetched"] += len(jobs)
+            stats["company_results"].append({"company": company, "job_count": len(jobs), "error": None})
 
             print(f"{company}: found {len(jobs)} jobs")
 
         except Exception as error:
             error_message = f"{company}: {error}"
             errors.append(error_message)
+            stats["company_results"].append({"company": company, "job_count": 0, "error": error_message})
             print(f"ERROR: {error_message}")
             continue
 
@@ -864,12 +870,17 @@ def main():
     seen_jobs = load_seen_jobs()
     daily_state = load_daily_state()
     today_state = get_today_state(daily_state)
+    company_health = load_json_file(COMPANY_HEALTH_FILE, {})
 
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch()
         page = browser.new_page(user_agent=USER_AGENT)
         new_jobs, errors, stats = find_new_jobs(page, companies, seen_jobs)
         browser.close()
+
+    newly_flagged = update_company_health(company_health, stats.get("company_results", []))
+    if newly_flagged:
+        send_or_print_email("Browser job sources need attention", format_company_health_email(newly_flagged))
 
     if new_jobs:
         if not DRY_RUN:
@@ -883,6 +894,9 @@ def main():
         print(email_body)
 
         send_or_print_email(subject, email_body)
+        if not DRY_RUN:
+            save_seen_jobs(seen_jobs)
+            save_daily_state(daily_state)
 
     else:
         print("")
@@ -894,7 +908,8 @@ def main():
         subject = "No new internship roles today (browser bot)" if len(pending_dates) == 1 else f"No new internship roles ({len(pending_dates)} quiet days, browser bot)"
         email_body = "No new internship roles were found by the browser bot on:\n\n"
         email_body += "\n".join(f"- {date}" for date in pending_dates)
-        email_body += "\n\nYour internship alert bot ran successfully."
+        email_body += (f"\n\nCurrent check had {len(errors)} source error(s); coverage was incomplete."
+                       if errors else "\n\nThe current check completed without source errors.")
         email_body += "\n\n" + format_run_summary(stats, new_jobs, errors)
 
         if errors:
@@ -916,6 +931,7 @@ def main():
     else:
         save_seen_jobs(seen_jobs)
         save_daily_state(daily_state)
+        save_json_file(COMPANY_HEALTH_FILE, company_health)
 
 
 if __name__ == "__main__":
