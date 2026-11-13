@@ -5116,5 +5116,41 @@
     "title": "Software Engineer Intern, Vehicle Platforms",
     "url": "https://aurora.tech/careers?ashby_jid=06daa269-c02b-43a4-88b8-b57a3ba335ef",
     "updated_at": "2026-11-13T02:49:56.427Z"
+  },
+  "greenhouse:Samsung Semiconductor:8202927003": {
+    "company": "Samsung Semiconductor",
+    "title": "Intern, AI Systems Performance Engineer",
+    "url": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8202927003",
+    "updated_at": "2026-11-13T14:00:34-05:00"
+  },
+  "greenhouse:Samsung Semiconductor:8203052003": {
+    "company": "Samsung Semiconductor",
+    "title": "Intern, ML Compiler (Kernel Auto-Tuning)",
+    "url": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8203052003",
+    "updated_at": "2026-11-13T14:00:42-05:00"
+  },
+  "greenhouse:Samsung Semiconductor:8203058003": {
+    "company": "Samsung Semiconductor",
+    "title": "Intern, SSD Firmware Development",
+    "url": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8203058003",
+    "updated_at": "2026-11-13T13:59:33-05:00"
+  },
+  "custom/amazon:Amazon:42c9e00b-a2a6-4032-b12a-036372ae2675": {
+    "company": "Amazon",
+    "title": "2027 Applied Science Internship - Robotics - United States",
+    "url": "https://www.amazon.jobs/en/jobs/10604778/2027-applied-science-internship-robotics-united-states",
+    "updated_at": "November 13, 2026"
+  },
+  "custom/linkedin:LinkedIn:4484736581": {
+    "company": "LinkedIn",
+    "title": "Software Engineer Intern (First Play)  - Summer 2027 (Mountain View, CA)",
+    "url": "https://www.linkedin.com/jobs/view/4484736581/",
+    "updated_at": "2026-10-28"
+  },
+  "workday:Boston Dynamics:/job/Waltham-Office-POST/Advanced-Manufacturing-Engineering-Co-Op_R3380": {
+    "company": "Boston Dynamics",
+    "title": "Advanced Manufacturing Engineering Co-Op",
+    "url": "https://bostondynamics.wd1.myworkdayjobs.com/Boston_Dynamics/job/Waltham-Office-POST/Advanced-Manufacturing-Engineering-Co-Op_R3380",
+    "updated_at": ""
   }
 }
