@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-11-12",
-    "today_max_jobs": 320,
+    "today_max_jobs": 360,
     "today_last_error": "NVIDIA: HTTPSConnectionPool(host='nvidia.wd5.myworkdayjobs.com', port=443): Read timed out. (read timeout=8)",
     "historical_max_jobs": 440,
     "consecutive_bad_days": 0,
@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-11-12",
-    "today_max_jobs": 2082,
+    "today_max_jobs": 2089,
     "today_last_error": null,
     "historical_max_jobs": 2096,
     "consecutive_bad_days": 0,
@@ -297,9 +297,9 @@
   },
   "Airbnb": {
     "date": "2026-11-12",
-    "today_max_jobs": 215,
+    "today_max_jobs": 217,
     "today_last_error": null,
-    "historical_max_jobs": 215,
+    "historical_max_jobs": 217,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -361,15 +361,15 @@
   },
   "Perplexity": {
     "date": "2026-11-12",
-    "today_max_jobs": 136,
+    "today_max_jobs": 141,
     "today_last_error": null,
-    "historical_max_jobs": 139,
+    "historical_max_jobs": 141,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Cursor / Anysphere": {
     "date": "2026-11-12",
-    "today_max_jobs": 114,
+    "today_max_jobs": 115,
     "today_last_error": null,
     "historical_max_jobs": 137,
     "consecutive_bad_days": 0,
@@ -385,7 +385,7 @@
   },
   "Figma": {
     "date": "2026-11-12",
-    "today_max_jobs": 141,
+    "today_max_jobs": 143,
     "today_last_error": null,
     "historical_max_jobs": 177,
     "consecutive_bad_days": 0,
@@ -401,15 +401,15 @@
   },
   "Ramp": {
     "date": "2026-11-12",
-    "today_max_jobs": 178,
+    "today_max_jobs": 180,
     "today_last_error": null,
-    "historical_max_jobs": 178,
+    "historical_max_jobs": 180,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Rippling": {
     "date": "2026-11-12",
-    "today_max_jobs": 73,
+    "today_max_jobs": 75,
     "today_last_error": null,
     "historical_max_jobs": 88,
     "consecutive_bad_days": 0,
@@ -425,7 +425,7 @@
   },
   "Robinhood": {
     "date": "2026-11-12",
-    "today_max_jobs": 155,
+    "today_max_jobs": 160,
     "today_last_error": null,
     "historical_max_jobs": 182,
     "consecutive_bad_days": 0,
@@ -450,7 +450,7 @@
   "LinkedIn": {
     "date": "2026-11-12",
     "today_max_jobs": 0,
-    "today_last_error": "LinkedIn: 429 Client Error: Too Many Requests for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?f_C=1337&keywords=student&location=Canada&start=60",
+    "today_last_error": "LinkedIn: 429 Client Error: Too Many Requests for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?f_C=1337&keywords=co-op&location=Canada&start=0",
     "historical_max_jobs": 0,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -473,7 +473,7 @@
   },
   "Zoox": {
     "date": "2026-11-12",
-    "today_max_jobs": 235,
+    "today_max_jobs": 237,
     "today_last_error": null,
     "historical_max_jobs": 246,
     "consecutive_bad_days": 0,
@@ -497,7 +497,7 @@
   },
   "Skydio": {
     "date": "2026-11-12",
-    "today_max_jobs": 190,
+    "today_max_jobs": 191,
     "today_last_error": null,
     "historical_max_jobs": 196,
     "consecutive_bad_days": 0,
@@ -785,7 +785,7 @@
   },
   "Etched": {
     "date": "2026-11-12",
-    "today_max_jobs": 114,
+    "today_max_jobs": 116,
     "today_last_error": null,
     "historical_max_jobs": 124,
     "consecutive_bad_days": 0,
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-11-12",
-    "today_max_jobs": 458,
+    "today_max_jobs": 514,
     "today_last_error": null,
     "historical_max_jobs": 541,
     "consecutive_bad_days": 0,
@@ -889,7 +889,7 @@
   },
   "Gecko Robotics": {
     "date": "2026-11-12",
-    "today_max_jobs": 21,
+    "today_max_jobs": 22,
     "today_last_error": null,
     "historical_max_jobs": 23,
     "consecutive_bad_days": 0,
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-11-12",
-    "today_max_jobs": 1297,
+    "today_max_jobs": 1307,
     "today_last_error": null,
     "historical_max_jobs": 1354,
     "consecutive_bad_days": 0,
@@ -1065,9 +1065,9 @@
   },
   "Fireworks AI": {
     "date": "2026-11-12",
-    "today_max_jobs": 93,
+    "today_max_jobs": 95,
     "today_last_error": null,
-    "historical_max_jobs": 94,
+    "historical_max_jobs": 95,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1105,7 +1105,7 @@
   },
   "Pickle Robot": {
     "date": "2026-11-12",
-    "today_max_jobs": 9,
+    "today_max_jobs": 10,
     "today_last_error": null,
     "historical_max_jobs": 15,
     "consecutive_bad_days": 0,
