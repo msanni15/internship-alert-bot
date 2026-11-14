@@ -5152,5 +5152,29 @@
     "title": "Advanced Manufacturing Engineering Co-Op",
     "url": "https://bostondynamics.wd1.myworkdayjobs.com/Boston_Dynamics/job/Waltham-Office-POST/Advanced-Manufacturing-Engineering-Co-Op_R3380",
     "updated_at": ""
+  },
+  "custom/amazon:Amazon:4bc4467d-b1e3-4335-be56-4b3d02ced463": {
+    "company": "Amazon",
+    "title": "Data Center Infrastructure Engineer Intern, Summer 2027 - East",
+    "url": "https://www.amazon.jobs/en/jobs/10605141/data-center-infrastructure-engineer-intern-summer-2027-east",
+    "updated_at": "November 14, 2026"
+  },
+  "custom/amazon:Amazon:aaa64708-ae0c-4389-8f0a-63dda4d3d84b": {
+    "company": "Amazon",
+    "title": "Data Center Infrastructure Engineer Intern, Summer 2027 - West Coast",
+    "url": "https://www.amazon.jobs/en/jobs/10605132/data-center-infrastructure-engineer-intern-summer-2027-west-coast",
+    "updated_at": "November 14, 2026"
+  },
+  "custom/aurora:Aurora:8bd8b0b9-143a-400d-97d0-b3f70d9ee868": {
+    "company": "Aurora",
+    "title": "Embedded Software Engineer Intern \u2014 Lidar",
+    "url": "https://aurora.tech/careers?ashby_jid=8bd8b0b9-143a-400d-97d0-b3f70d9ee868",
+    "updated_at": "2026-11-13T20:16:32.959Z"
+  },
+  "lever:Toyota Research Institute:6c9002a1-6ed1-42b7-829c-5ba6661446ac": {
+    "company": "Toyota Research Institute",
+    "title": "Research Intern, Continual Adaptation for Robotics",
+    "url": "https://jobs.lever.co/tri/6c9002a1-6ed1-42b7-829c-5ba6661446ac",
+    "updated_at": 1794600247181
   }
 }
