@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-11-14",
-    "today_max_jobs": 0,
+    "today_max_jobs": 320,
     "today_last_error": "NVIDIA: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 440,
     "consecutive_bad_days": 0,
@@ -217,7 +217,7 @@
   },
   "Broadcom": {
     "date": "2026-11-14",
-    "today_max_jobs": 0,
+    "today_max_jobs": 400,
     "today_last_error": "Broadcom: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 412,
     "consecutive_bad_days": 0,
@@ -225,7 +225,7 @@
   },
   "Marvell": {
     "date": "2026-11-14",
-    "today_max_jobs": 0,
+    "today_max_jobs": 339,
     "today_last_error": "Marvell: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-11-14",
-    "today_max_jobs": 2097,
+    "today_max_jobs": 2099,
     "today_last_error": null,
     "historical_max_jobs": 2101,
     "consecutive_bad_days": 0,
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-11-14",
-    "today_max_jobs": 838,
+    "today_max_jobs": 839,
     "today_last_error": null,
     "historical_max_jobs": 841,
     "consecutive_bad_days": 0,
@@ -529,7 +529,7 @@
   },
   "Boston Dynamics": {
     "date": "2026-11-14",
-    "today_max_jobs": 0,
+    "today_max_jobs": 85,
     "today_last_error": "Boston Dynamics: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 90,
     "consecutive_bad_days": 0,
@@ -649,7 +649,7 @@
   },
   "Physical Intelligence": {
     "date": "2026-11-14",
-    "today_max_jobs": 45,
+    "today_max_jobs": 46,
     "today_last_error": null,
     "historical_max_jobs": 46,
     "consecutive_bad_days": 0,
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-11-14",
-    "today_max_jobs": 0,
+    "today_max_jobs": 439,
     "today_last_error": "Cadence: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 541,
     "consecutive_bad_days": 0,
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-11-14",
-    "today_max_jobs": 1309,
+    "today_max_jobs": 1312,
     "today_last_error": null,
     "historical_max_jobs": 1354,
     "consecutive_bad_days": 0,
