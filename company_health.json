@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-11-14",
-    "today_max_jobs": 320,
+    "today_max_jobs": 360,
     "today_last_error": "NVIDIA: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 440,
     "consecutive_bad_days": 0,
@@ -209,7 +209,7 @@
   },
   "Intel": {
     "date": "2026-11-14",
-    "today_max_jobs": 0,
+    "today_max_jobs": 480,
     "today_last_error": "Intel: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 496,
     "consecutive_bad_days": 0,
@@ -450,7 +450,7 @@
   "LinkedIn": {
     "date": "2026-11-14",
     "today_max_jobs": 0,
-    "today_last_error": "LinkedIn: 429 Client Error: Too Many Requests for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?f_C=1337&keywords=co-op&location=Canada&start=10",
+    "today_last_error": "LinkedIn: 429 Client Error: Too Many Requests for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?f_C=1337&keywords=co-op&location=Canada&start=0",
     "historical_max_jobs": 117,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -649,9 +649,9 @@
   },
   "Physical Intelligence": {
     "date": "2026-11-14",
-    "today_max_jobs": 46,
+    "today_max_jobs": 47,
     "today_last_error": null,
-    "historical_max_jobs": 46,
+    "historical_max_jobs": 47,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-11-14",
-    "today_max_jobs": 2758,
+    "today_max_jobs": 2759,
     "today_last_error": null,
     "historical_max_jobs": 2914,
     "consecutive_bad_days": 0,
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-11-14",
-    "today_max_jobs": 439,
+    "today_max_jobs": 489,
     "today_last_error": "Cadence: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 541,
     "consecutive_bad_days": 0,
@@ -969,7 +969,7 @@
   },
   "Man Group": {
     "date": "2026-11-14",
-    "today_max_jobs": 66,
+    "today_max_jobs": 67,
     "today_last_error": null,
     "historical_max_jobs": 72,
     "consecutive_bad_days": 0,
