@@ -121,7 +121,7 @@
   },
   "Millennium": {
     "date": "2026-11-14",
-    "today_max_jobs": 103,
+    "today_max_jobs": 104,
     "today_last_error": null,
     "historical_max_jobs": 132,
     "consecutive_bad_days": 0,
@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-11-14",
-    "today_max_jobs": 360,
+    "today_max_jobs": 400,
     "today_last_error": "NVIDIA: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 440,
     "consecutive_bad_days": 0,
@@ -225,7 +225,7 @@
   },
   "Marvell": {
     "date": "2026-11-14",
-    "today_max_jobs": 339,
+    "today_max_jobs": 340,
     "today_last_error": "Marvell: Expecting value: line 1 column 1 (char 0)",
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-11-14",
-    "today_max_jobs": 2099,
+    "today_max_jobs": 2101,
     "today_last_error": null,
     "historical_max_jobs": 2101,
     "consecutive_bad_days": 0,
@@ -306,14 +306,14 @@
   "Uber": {
     "date": "2026-11-14",
     "today_max_jobs": 31,
-    "today_last_error": null,
+    "today_last_error": "Uber: 403 Client Error: Forbidden for url: https://jobs.uber.com/api/jobs/search/?search=intern&locale=en&page=0",
     "historical_max_jobs": 44,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "DoorDash": {
     "date": "2026-11-14",
-    "today_max_jobs": 427,
+    "today_max_jobs": 428,
     "today_last_error": null,
     "historical_max_jobs": 475,
     "consecutive_bad_days": 0,
@@ -450,7 +450,7 @@
   "LinkedIn": {
     "date": "2026-11-14",
     "today_max_jobs": 0,
-    "today_last_error": "LinkedIn: 429 Client Error: Too Many Requests for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?f_C=1337&keywords=co-op&location=Canada&start=0",
+    "today_last_error": "LinkedIn: 429 Client Error: Too Many Requests for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?f_C=1337&keywords=co-op&location=Canada&start=10",
     "historical_max_jobs": 117,
     "consecutive_bad_days": 0,
     "alerted": false
