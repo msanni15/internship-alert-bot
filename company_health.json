@@ -201,7 +201,7 @@
   },
   "NVIDIA": {
     "date": "2026-11-15",
-    "today_max_jobs": 380,
+    "today_max_jobs": 400,
     "today_last_error": null,
     "historical_max_jobs": 440,
     "consecutive_bad_days": 0,
@@ -265,7 +265,7 @@
   },
   "Amazon": {
     "date": "2026-11-15",
-    "today_max_jobs": 2084,
+    "today_max_jobs": 2086,
     "today_last_error": null,
     "historical_max_jobs": 2101,
     "consecutive_bad_days": 0,
@@ -345,7 +345,7 @@
   },
   "OpenAI": {
     "date": "2026-11-15",
-    "today_max_jobs": 837,
+    "today_max_jobs": 838,
     "today_last_error": null,
     "historical_max_jobs": 841,
     "consecutive_bad_days": 0,
@@ -449,7 +449,7 @@
   },
   "LinkedIn": {
     "date": "2026-11-15",
-    "today_max_jobs": 0,
+    "today_max_jobs": 96,
     "today_last_error": "LinkedIn: 429 Client Error: Too Many Requests for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?f_C=1337&keywords=co-op&location=Canada&start=0",
     "historical_max_jobs": 117,
     "consecutive_bad_days": 1,
@@ -738,7 +738,7 @@
   "Salesforce": {
     "date": "2026-11-15",
     "today_max_jobs": 480,
-    "today_last_error": null,
+    "today_last_error": "Salesforce: 429 error for https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs: <!DOCTYPE html>\n<html>\n\n<head>\n    <style>\n        body {\n            text-align: center;\n            margin: 0;\n            height: 100%;\n            width: 100%;\n            font-family: 'Roboto', sans-serif;\n            color: #333333;\n        }\n\n        .graphicsContainer {\n            background-color: #0b77e3;\n        }\n\n        .wdayLogo,\n        .signOutGraphic {\n            display: block;\n            margin: auto;\n        }\n\n        .wdayLogo {\n            padding: 16px 0 8px;\n        ",
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-11-15",
-    "today_max_jobs": 351,
+    "today_max_jobs": 383,
     "today_last_error": null,
     "historical_max_jobs": 541,
     "consecutive_bad_days": 0,
