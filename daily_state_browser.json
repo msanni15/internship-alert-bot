@@ -525,6 +525,10 @@
   },
   "2026-11-14": {
     "new_jobs_found": 0,
+    "daily_summary_sent": true
+  },
+  "2026-11-15": {
+    "new_jobs_found": 0,
     "daily_summary_sent": false
   }
 }
