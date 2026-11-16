@@ -49,7 +49,7 @@
   },
   "IMC": {
     "date": "2026-11-15",
-    "today_max_jobs": 156,
+    "today_max_jobs": 158,
     "today_last_error": null,
     "historical_max_jobs": 177,
     "consecutive_bad_days": 0,
@@ -121,7 +121,7 @@
   },
   "Millennium": {
     "date": "2026-11-15",
-    "today_max_jobs": 104,
+    "today_max_jobs": 105,
     "today_last_error": null,
     "historical_max_jobs": 132,
     "consecutive_bad_days": 0,
@@ -209,15 +209,15 @@
   },
   "Intel": {
     "date": "2026-11-15",
-    "today_max_jobs": 380,
+    "today_max_jobs": 534,
     "today_last_error": null,
-    "historical_max_jobs": 496,
+    "historical_max_jobs": 534,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Broadcom": {
     "date": "2026-11-15",
-    "today_max_jobs": 400,
+    "today_max_jobs": 405,
     "today_last_error": null,
     "historical_max_jobs": 412,
     "consecutive_bad_days": 0,
@@ -225,7 +225,7 @@
   },
   "Marvell": {
     "date": "2026-11-15",
-    "today_max_jobs": 342,
+    "today_max_jobs": 343,
     "today_last_error": null,
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
@@ -657,7 +657,7 @@
   },
   "Apptronik": {
     "date": "2026-11-15",
-    "today_max_jobs": 82,
+    "today_max_jobs": 83,
     "today_last_error": null,
     "historical_max_jobs": 91,
     "consecutive_bad_days": 0,
@@ -665,7 +665,7 @@
   },
   "xAI": {
     "date": "2026-11-15",
-    "today_max_jobs": 296,
+    "today_max_jobs": 298,
     "today_last_error": null,
     "historical_max_jobs": 312,
     "consecutive_bad_days": 0,
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-11-15",
-    "today_max_jobs": 376,
+    "today_max_jobs": 377,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
@@ -793,7 +793,7 @@
   },
   "Cadence": {
     "date": "2026-11-15",
-    "today_max_jobs": 383,
+    "today_max_jobs": 439,
     "today_last_error": null,
     "historical_max_jobs": 541,
     "consecutive_bad_days": 0,
@@ -1153,7 +1153,7 @@
   },
   "Mujin": {
     "date": "2026-11-15",
-    "today_max_jobs": 84,
+    "today_max_jobs": 85,
     "today_last_error": null,
     "historical_max_jobs": 95,
     "consecutive_bad_days": 0,
