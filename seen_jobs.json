@@ -5242,5 +5242,35 @@
     "title": "Software Engineering Intern (BS/MS)",
     "url": "https://careers.airbnb.com/positions/8360478?gh_jid=8360478",
     "updated_at": "2026-11-18T00:00:14-05:00"
+  },
+  "greenhouse:Samsung Semiconductor:8208494003": {
+    "company": "Samsung Semiconductor",
+    "title": "Intern, Architecture Research Engineer (MoE Placement for Serving at Scale)",
+    "url": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8208494003",
+    "updated_at": "2026-11-18T14:42:39-05:00"
+  },
+  "greenhouse:Roblox:8386080": {
+    "company": "Roblox",
+    "title": "[Summer 2027 Canada] Software Engineer Intern, Engine",
+    "url": "https://careers.roblox.com/jobs/8386080?gh_jid=8386080",
+    "updated_at": "2026-11-18T14:37:03-05:00"
+  },
+  "lever:Zoox:839d987e-2236-4efe-8753-ee208b8d4e29": {
+    "company": "Zoox",
+    "title": "Contract Student Worker - Software Engineer (40hrs/wk)",
+    "url": "https://jobs.lever.co/zoox/839d987e-2236-4efe-8753-ee208b8d4e29",
+    "updated_at": 1794599928210
+  },
+  "lever:Zoox:895ed1fe-9547-40d1-aec5-ffed2a2f82e3": {
+    "company": "Zoox",
+    "title": "Contract Student Worker- Software Engineer Mobile Developer Experience",
+    "url": "https://jobs.lever.co/zoox/895ed1fe-9547-40d1-aec5-ffed2a2f82e3",
+    "updated_at": 1794600729341
+  },
+  "lever:Toyota Research Institute:b2bed6be-16bd-48ee-ba71-215307fa2ab8": {
+    "company": "Toyota Research Institute",
+    "title": "Robotics Intern, Prototyping and Robotics Operations",
+    "url": "https://jobs.lever.co/tri/b2bed6be-16bd-48ee-ba71-215307fa2ab8",
+    "updated_at": 1795007366199
   }
 }
