@@ -5272,5 +5272,35 @@
     "title": "Robotics Intern, Prototyping and Robotics Operations",
     "url": "https://jobs.lever.co/tri/b2bed6be-16bd-48ee-ba71-215307fa2ab8",
     "updated_at": 1795007366199
+  },
+  "greenhouse:Samsung Semiconductor:8208600003": {
+    "company": "Samsung Semiconductor",
+    "title": "Intern, Architecture Research Engineer (Agentic AI Workload Characterization)",
+    "url": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8208600003",
+    "updated_at": "2026-11-18T17:44:55-05:00"
+  },
+  "greenhouse:Samsung Semiconductor:8207759003": {
+    "company": "Samsung Semiconductor",
+    "title": "Intern, Architecture Research Engineer (Resilient Collective Communications)",
+    "url": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8207759003",
+    "updated_at": "2026-11-18T17:45:07-05:00"
+  },
+  "greenhouse:Samsung Semiconductor:8208662003": {
+    "company": "Samsung Semiconductor",
+    "title": "Intern, SSD Firmware Engineer",
+    "url": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8208662003",
+    "updated_at": "2026-11-18T17:45:35-05:00"
+  },
+  "lever:Zoox:c6d372ce-1203-4d34-bd3e-f637e7d23483": {
+    "company": "Zoox",
+    "title": "Contract Student Worker - Data Scientist (20 hrs wk)",
+    "url": "https://jobs.lever.co/zoox/c6d372ce-1203-4d34-bd3e-f637e7d23483",
+    "updated_at": 1795036868997
+  },
+  "lever:Toyota Research Institute:4cac9569-cc90-4dcd-96b8-d9777c35c943": {
+    "company": "Toyota Research Institute",
+    "title": "Robotics Intern, Generalist Robot Learning (GRL)",
+    "url": "https://jobs.lever.co/tri/4cac9569-cc90-4dcd-96b8-d9777c35c943",
+    "updated_at": 1795045508314
   }
 }
