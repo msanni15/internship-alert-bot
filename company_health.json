@@ -210,7 +210,7 @@
   "Intel": {
     "date": "2026-11-19",
     "today_max_jobs": 0,
-    "today_last_error": "Intel: 429 error for https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs: <!DOCTYPE html>\n<html>\n\n<head>\n    <style>\n        body {\n            text-align: center;\n            margin: 0;\n            height: 100%;\n            width: 100%;\n            font-family: 'Roboto', sans-serif;\n            color: #333333;\n        }\n\n        .graphicsContainer {\n            background-color: #0b77e3;\n        }\n\n        .wdayLogo,\n        .signOutGraphic {\n            display: block;\n            margin: auto;\n        }\n\n        .wdayLogo {\n            padding: 16px 0 8px;\n        ",
+    "today_last_error": "Intel: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs",
     "historical_max_jobs": 534,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -218,7 +218,7 @@
   "Broadcom": {
     "date": "2026-11-19",
     "today_max_jobs": 0,
-    "today_last_error": "Broadcom: 429 error for https://broadcom.wd1.myworkdayjobs.com/wday/cxs/broadcom/External_Career/jobs: <!DOCTYPE html>\n<html>\n\n<head>\n    <style>\n        body {\n            text-align: center;\n            margin: 0;\n            height: 100%;\n            width: 100%;\n            font-family: 'Roboto', sans-serif;\n            color: #333333;\n        }\n\n        .graphicsContainer {\n            background-color: #0b77e3;\n        }\n\n        .wdayLogo,\n        .signOutGraphic {\n            display: block;\n            margin: auto;\n        }\n\n        .wdayLogo {\n            padding: 16px 0 8px;\n        ",
+    "today_last_error": "Broadcom: 429 Client Error: Too Many Requests for url: https://broadcom.wd1.myworkdayjobs.com/wday/cxs/broadcom/External_Career/jobs",
     "historical_max_jobs": 412,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -226,7 +226,7 @@
   "Marvell": {
     "date": "2026-11-19",
     "today_max_jobs": 20,
-    "today_last_error": "Marvell: 429 error for https://marvell.wd1.myworkdayjobs.com/wday/cxs/marvell/MarvellCareers/jobs: <!DOCTYPE html>\n<html>\n\n<head>\n    <style>\n        body {\n            text-align: center;\n            margin: 0;\n            height: 100%;\n            width: 100%;\n            font-family: 'Roboto', sans-serif;\n            color: #333333;\n        }\n\n        .graphicsContainer {\n            background-color: #0b77e3;\n        }\n\n        .wdayLogo,\n        .signOutGraphic {\n            display: block;\n            margin: auto;\n        }\n\n        .wdayLogo {\n            padding: 16px 0 8px;\n        ",
+    "today_last_error": "Marvell: 429 Client Error: Too Many Requests for url: https://marvell.wd1.myworkdayjobs.com/wday/cxs/marvell/MarvellCareers/jobs",
     "historical_max_jobs": 471,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -449,11 +449,11 @@
   },
   "LinkedIn": {
     "date": "2026-11-19",
-    "today_max_jobs": 0,
-    "today_last_error": "LinkedIn: 429 Client Error: Too Many Requests for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?f_C=1337&keywords=intern&location=United+States&start=1",
+    "today_max_jobs": 56,
+    "today_last_error": null,
     "historical_max_jobs": 117,
-    "consecutive_bad_days": 3,
-    "alerted": true
+    "consecutive_bad_days": 0,
+    "alerted": false
   },
   "1X": {
     "date": "2026-11-19",
@@ -529,11 +529,11 @@
   },
   "Boston Dynamics": {
     "date": "2026-11-19",
-    "today_max_jobs": 0,
-    "today_last_error": "Boston Dynamics: 429 error for https://bostondynamics.wd1.myworkdayjobs.com/wday/cxs/bostondynamics/Boston_Dynamics/jobs: <!DOCTYPE html>\n<html>\n\n<head>\n    <style>\n        body {\n            text-align: center;\n            margin: 0;\n            height: 100%;\n            width: 100%;\n            font-family: 'Roboto', sans-serif;\n            color: #333333;\n        }\n\n        .graphicsContainer {\n            background-color: #0b77e3;\n        }\n\n        .wdayLogo,\n        .signOutGraphic {\n            display: block;\n            margin: auto;\n        }\n\n        .wdayLogo {\n            padding: 16px 0 8px;\n        ",
+    "today_max_jobs": 20,
+    "today_last_error": null,
     "historical_max_jobs": 90,
-    "consecutive_bad_days": 3,
-    "alerted": true
+    "consecutive_bad_days": 0,
+    "alerted": false
   },
   "Agility Robotics": {
     "date": "2026-11-19",
