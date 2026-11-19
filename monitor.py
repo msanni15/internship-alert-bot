@@ -1603,6 +1603,59 @@ def fetch_google_jobs(company, token):
     return list(clean_jobs.values())
 
 
+def fetch_boston_dynamics_jobs(company, token):
+    response = paced_request(requests.get, token, timeout=10)
+    response.raise_for_status()
+    soup = BeautifulSoup(response.text, "html.parser")
+    pagination = soup.select_one(".Careers-pagination__mobile")
+    pages = 1
+    if pagination:
+        page_count = re.fullmatch(r"Page 1 of (\d+)", pagination.get_text(" ", strip=True))
+        if not page_count:
+            raise ValueError("Boston Dynamics returned unrecognized job pagination")
+        pages = int(page_count.group(1))
+
+    jobs = {}
+    for page in range(1, pages + 1):
+        if page > 1:
+            response = paced_request(
+                requests.post,
+                urljoin(token, "/wp-admin/admin-ajax.php"),
+                data={
+                    "action": "clickedContent",
+                    "paged": page,
+                    "searchTerm": "",
+                    "location": "",
+                    "timeType": "",
+                    "jobType": "",
+                    "jobFamily": "",
+                },
+                timeout=10,
+            )
+            response.raise_for_status()
+            soup = BeautifulSoup(response.text, "html.parser")
+
+        cards = soup.select(".Careers-listing > li")
+        if not cards:
+            raise ValueError(f"Boston Dynamics returned no job cards on page {page}")
+        for card in cards:
+            link = card.select_one("a.Careers-title[href]")
+            location = card.select_one(".Careers-location")
+            if link is None or location is None:
+                raise ValueError("Boston Dynamics returned an incomplete job card")
+            url = link["href"]
+            parsed = urlparse(url)
+            prefix = "/Boston_Dynamics"
+            if parsed.hostname != "bostondynamics.wd1.myworkdayjobs.com" or not parsed.path.startswith(prefix + "/job/"):
+                raise ValueError("Boston Dynamics returned an unexpected application link")
+            job_id = parsed.path.removeprefix(prefix)
+            jobs[job_id] = make_job(
+                "workday", company, token, link.get_text(" ", strip=True), job_id, url,
+                location=location.get_text(" ", strip=True),
+            )
+    return list(jobs.values())
+
+
 FETCHERS = {
     "custom/linkedin": fetch_linkedin_jobs,
     "custom/google": fetch_google_jobs,
@@ -1610,6 +1663,7 @@ FETCHERS = {
     "lever": fetch_lever_jobs,
     "ashby": fetch_ashby_jobs,
     "workday": fetch_workday_jobs,
+    "custom/boston-dynamics": fetch_boston_dynamics_jobs,
     "custom/snap": fetch_snap_jobs,
     "custom/pinpoint": fetch_pinpoint_jobs,
     "custom/amazon": fetch_amazon_jobs,
