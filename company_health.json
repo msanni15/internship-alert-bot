@@ -529,9 +529,9 @@
   },
   "Boston Dynamics": {
     "date": "2026-11-19",
-    "today_max_jobs": 20,
+    "today_max_jobs": 92,
     "today_last_error": null,
-    "historical_max_jobs": 90,
+    "historical_max_jobs": 92,
     "consecutive_bad_days": 0,
     "alerted": false
   },
