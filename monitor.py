@@ -4,9 +4,11 @@ import json
 import os
 import re
 import smtplib
+import threading
 import time
 from datetime import datetime, timedelta, timezone
 from email.mime.text import MIMEText
+from email.utils import parsedate_to_datetime
 from urllib.parse import parse_qs, urlencode, urljoin, urlparse
 from zoneinfo import ZoneInfo
 
@@ -275,12 +277,53 @@ def get_json(url, params=None, timeout=45, attempts=3):
     raise last_error
 
 
-def get_html(url, timeout=20):
-    response = requests.get(
-        url,
-        headers={"User-Agent": "Mozilla/5.0"},
-        timeout=timeout,
-    )
+REQUEST_INTERVAL_SECONDS = 1
+DEFAULT_RATE_LIMIT_COOLDOWN_SECONDS = 900
+request_locks = {}
+next_request_at = {}
+rate_limited_until = {}
+
+
+def rate_limit_delay(response):
+    retry_after = response.headers.get("Retry-After", "").strip()
+    if not retry_after:
+        return DEFAULT_RATE_LIMIT_COOLDOWN_SECONDS
+    if retry_after.isascii() and retry_after.isdecimal():
+        return int(retry_after)
+    try:
+        retry_at = parsedate_to_datetime(retry_after)
+        if retry_at.tzinfo is None:
+            retry_at = retry_at.replace(tzinfo=timezone.utc)
+        return max(0, (retry_at - datetime.now(timezone.utc)).total_seconds())
+    except (TypeError, ValueError, OverflowError):
+        return DEFAULT_RATE_LIMIT_COOLDOWN_SECONDS
+
+
+def paced_request(send, url, **kwargs):
+    host = urlparse(url).hostname
+    with request_locks.setdefault(host, threading.Lock()):
+        now = time.monotonic()
+        cooldown_until, previous_response = rate_limited_until.get(host, (0, None))
+        if now < cooldown_until:
+            raise requests.exceptions.HTTPError(
+                f"Request deferred for {host} after HTTP 429", response=previous_response
+            )
+        delay = next_request_at.get(host, 0) - now
+        if delay > 0:
+            time.sleep(delay)
+        response = send(url, **kwargs)
+        now = time.monotonic()
+        next_request_at[host] = now + REQUEST_INTERVAL_SECONDS
+        if response.status_code == 429:
+            rate_limited_until[host] = (
+                now + max(REQUEST_INTERVAL_SECONDS, rate_limit_delay(response)), response
+            )
+        return response
+
+
+def get_html(url, timeout=20, *, pace=False):
+    kwargs = {"headers": {"User-Agent": "Mozilla/5.0"}, "timeout": timeout}
+    response = paced_request(requests.get, url, **kwargs) if pace else requests.get(url, **kwargs)
     response.raise_for_status()
     return response.text
 
@@ -294,15 +337,17 @@ def is_url_healthy(url, timeout=10):
         return False
 
     try:
-        response = requests.get(
-            url,
-            headers={"User-Agent": "Mozilla/5.0"},
-            timeout=timeout,
-            allow_redirects=True,
-            stream=True,
-        )
+        options = {
+            "headers": {"User-Agent": "Mozilla/5.0"},
+            "timeout": timeout,
+            "allow_redirects": True,
+            "stream": True,
+        }
+        host = urlparse(url).hostname or ""
+        paced = host.endswith(".myworkdayjobs.com") or host == "www.linkedin.com"
+        response = paced_request(requests.get, url, **options) if paced else requests.get(url, **options)
         response.close()
-        return response.status_code < 400
+        return response.status_code < 400 or response.status_code == 429
     except requests.exceptions.RequestException:
         # A failed check (timeout, DNS blip, connection reset) isn't proof
         # the link is broken - fail open rather than silently dropping a
@@ -311,47 +356,21 @@ def is_url_healthy(url, timeout=10):
 
 
 def post_workday_json(url, json_body=None, attempts=2):
-    # 429/5xx are transient (shared rate limiter, momentary overload) and
-    # worth a short backoff - unlike get_json's callers, this previously had
-    # no retry at all, so a single rate-limit hit surfaced straight to the
-    # run's error list. Other 4xx (400 wrong payload shape, 404 unknown
-    # tenant) fail immediately instead of retrying - waiting won't fix a
-    # malformed payload, and fetch_workday_page's payload-shape fallback
-    # already tries alternates for exactly that case. Kept to 2 attempts
-    # with a modest backoff since this sits inside a 4-shapes x 8-search-terms
-    # loop already bounded by SEARCH_TIME_BUDGET_SECONDS - retrying too
-    # aggressively here would eat into that budget instead of respecting it.
-    last_error = None
-
-    for attempt in range(1, attempts + 1):
-        response = requests.post(
+    for attempt in range(attempts):
+        response = paced_request(
+            requests.post,
             url,
             json=json_body,
             headers=REQUEST_HEADERS,
             timeout=(5, 8),
         )
 
-        if response.status_code == 429 or response.status_code >= 500:
-            last_error = requests.exceptions.HTTPError(
-                f"{response.status_code} error for {url}: {response.text[:500]}",
-                response=response,
-            )
-
-            if attempt < attempts:
-                wait_seconds = attempt * 8
-                print(f"Workday request got {response.status_code}. Retrying in {wait_seconds} seconds...")
-                time.sleep(wait_seconds)
+        if attempt + 1 < attempts and response.status_code >= 500:
+            time.sleep(8)
             continue
 
-        if response.status_code >= 400:
-            raise requests.exceptions.HTTPError(
-                f"{response.status_code} error for {url}: {response.text[:500]}",
-                response=response,
-            )
-
+        response.raise_for_status()
         return response.json()
-
-    raise last_error
 
 
 def fetch_workday_page(api_url, search_term, limit, offset):
@@ -386,8 +405,18 @@ def fetch_workday_page(api_url, search_term, limit, offset):
 
     for payload in payloads:
         try:
-            return post_workday_json(api_url, json_body=payload)
+            data = post_workday_json(api_url, json_body=payload)
+            if isinstance(data, dict):
+                if isinstance(data.get("jobPostings"), list):
+                    if offset == 0 and not data["jobPostings"] and data.get("total", 0) > 0:
+                        raise ValueError("Workday reported matches but returned an empty first page")
+                    return data
+                if data.get("total") == 0 and "jobPostings" not in data:
+                    return {"jobPostings": []}
+            raise ValueError("Workday returned an unexpected jobs response")
         except requests.exceptions.HTTPError as error:
+            if error.response is None or error.response.status_code != 400:
+                raise
             last_error = error
 
     raise last_error
@@ -799,7 +828,9 @@ def resolve_workday_locations(api_url, external_path):
     # The search API collapses multi-location postings into a bare "N Locations"
     # placeholder with no names. The per-job detail endpoint has the real list.
     detail_url = api_url.removesuffix("/jobs") + external_path
-    data = get_json(detail_url)
+    response = paced_request(requests.get, detail_url, headers=REQUEST_HEADERS, timeout=5)
+    response.raise_for_status()
+    data = response.json()
     info = data.get("jobPostingInfo", {})
     locations = [info.get("location", "")] + (info.get("additionalLocations") or [])
 
@@ -811,6 +842,7 @@ def fetch_workday_jobs(company, token):
 
     clean_jobs = []
     seen_urls = set()
+    can_resolve_locations = True
     # Workday tenants reject limit > 20 with a flat HTTP 400.
     limit = 20
     start_time = time.monotonic()
@@ -824,11 +856,19 @@ def fetch_workday_jobs(company, token):
             # match (thousands of hits). Bail on time, not page count, so a
             # pathological term can't hang the whole run.
             if time.monotonic() - start_time > SEARCH_TIME_BUDGET_SECONDS:
-                print(f"{company}: Workday time budget exceeded, stopping early")
-                return clean_jobs
+                if clean_jobs:
+                    print(f"{company}: Workday time budget exceeded, stopping early")
+                    return clean_jobs
+                raise TimeoutError("Workday search time budget exceeded; coverage incomplete")
 
-            data = fetch_workday_page(api_url, search_term, limit, offset)
-            raw_jobs = data.get("jobPostings", [])
+            try:
+                data = fetch_workday_page(api_url, search_term, limit, offset)
+            except requests.exceptions.HTTPError as error:
+                if clean_jobs and error.response is not None and error.response.status_code == 429:
+                    print(f"{company}: Workday rate limit reached; keeping collected jobs")
+                    return clean_jobs
+                raise
+            raw_jobs = data["jobPostings"]
 
             if not raw_jobs:
                 break
@@ -847,26 +887,31 @@ def fetch_workday_jobs(company, token):
 
                 seen_urls.add(job_url)
 
-                location = job.get("locationsText", "")
-
-                if AMBIGUOUS_WORKDAY_LOCATION_PATTERN.match(location.strip()):
+                workday_job = make_job(
+                    source="workday",
+                    company=company,
+                    token=token,
+                    title=title,
+                    job_id=external_path or job_url or title,
+                    updated_at=job.get("postedOn", ""),
+                    url=job_url,
+                    location=job.get("locationsText", ""),
+                )
+                location = workday_job["location"]
+                if (
+                    can_resolve_locations
+                    and AMBIGUOUS_WORKDAY_LOCATION_PATTERN.match(location.strip())
+                    and is_relevant_job(workday_job)[0]
+                ):
                     try:
-                        location = resolve_workday_locations(api_url, external_path) or location
+                        workday_job["location"] = resolve_workday_locations(api_url, external_path) or location
+                    except requests.exceptions.HTTPError as error:
+                        if error.response is not None and error.response.status_code == 429:
+                            can_resolve_locations = False
                     except requests.exceptions.RequestException:
                         pass
 
-                clean_jobs.append(
-                    make_job(
-                        source="workday",
-                        company=company,
-                        token=token,
-                        title=title,
-                        job_id=external_path or job_url or title,
-                        updated_at=job.get("postedOn", ""),
-                        url=job_url,
-                        location=location,
-                    )
-                )
+                clean_jobs.append(workday_job)
 
             if len(raw_jobs) < limit:
                 break
@@ -1473,7 +1518,14 @@ def fetch_linkedin_jobs(company, token):
                     raise TimeoutError("LinkedIn search time budget exceeded; coverage incomplete")
                 url = LINKEDIN_SEARCH_URL + "?" + urlencode({
                     "f_C": token, "keywords": term, "location": location, "start": offset})
-                jobs, count = parse_linkedin_jobs(get_html(url), company, token)
+                try:
+                    html = get_html(url, pace=True)
+                except requests.exceptions.HTTPError as error:
+                    if clean_jobs and error.response is not None and error.response.status_code == 429:
+                        print(f"{company}: LinkedIn rate limit reached; keeping collected jobs")
+                        return list(clean_jobs.values())
+                    raise
+                jobs, count = parse_linkedin_jobs(html, company, token)
                 if not count:
                     break
                 ids = {job["id"] for job in jobs}
@@ -1768,8 +1820,11 @@ def update_company_health(company_health, company_results):
         record["today_max_jobs"] = max(record["today_max_jobs"], job_count)
         record["historical_max_jobs"] = max(record["historical_max_jobs"], job_count)
 
-        if result["error"]:
-            record["today_last_error"] = result["error"]
+        record["today_last_error"] = result["error"]
+
+        if job_count > 0:
+            record["consecutive_bad_days"] = 0
+            record["alerted"] = False
 
         if (
             record["consecutive_bad_days"] >= CONSECUTIVE_BAD_DAYS_THRESHOLD
@@ -1791,23 +1846,21 @@ def update_company_health(company_health, company_results):
 
 def format_company_health_email(newly_flagged):
     lines = [
-        f"{len(newly_flagged)} company/companies may have a broken or stale listing source:",
+        f"{len(newly_flagged)} listing source(s) need attention.",
         "",
     ]
 
     for entry in newly_flagged:
         lines.append(entry["company"])
-        lines.append(f"Zero jobs returned for {entry['consecutive_bad_days']} consecutive day(s)")
+        lines.append(f"No jobs collected for {entry['consecutive_bad_days']} completed check day(s)")
         lines.append(f"Previously returned as many as {entry['historical_max_jobs']} jobs")
 
         if entry["last_error"]:
-            lines.append(f"Last error: {entry['last_error']}")
+            lines.append(f"Latest fetch error: {entry['last_error']}")
         else:
-            lines.append("No error raised - the fetch is succeeding but returning nothing")
+            lines.append("The latest search completed with zero results.")
 
         lines.append("")
-
-    lines.append("This usually means the company changed ATS providers or moved their career page.")
 
     return "\n".join(lines)
 
