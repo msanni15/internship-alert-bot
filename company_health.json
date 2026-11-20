@@ -202,7 +202,7 @@
   "NVIDIA": {
     "date": "2026-11-19",
     "today_max_jobs": 0,
-    "today_last_error": "NVIDIA: 429 error for https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs: <!DOCTYPE html>\n<html>\n\n<head>\n    <style>\n        body {\n            text-align: center;\n            margin: 0;\n            height: 100%;\n            width: 100%;\n            font-family: 'Roboto', sans-serif;\n            color: #333333;\n        }\n\n        .graphicsContainer {\n            background-color: #0b77e3;\n        }\n\n        .wdayLogo,\n        .signOutGraphic {\n            display: block;\n            margin: auto;\n        }\n\n        .wdayLogo {\n            padding: 16px 0 8px;\n        ",
+    "today_last_error": "NVIDIA: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
     "historical_max_jobs": 440,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -257,7 +257,7 @@
   },
   "Google": {
     "date": "2026-11-19",
-    "today_max_jobs": 37,
+    "today_max_jobs": 38,
     "today_last_error": null,
     "historical_max_jobs": 39,
     "consecutive_bad_days": 0,
@@ -265,9 +265,9 @@
   },
   "Amazon": {
     "date": "2026-11-19",
-    "today_max_jobs": 2121,
+    "today_max_jobs": 2122,
     "today_last_error": null,
-    "historical_max_jobs": 2121,
+    "historical_max_jobs": 2122,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -297,7 +297,7 @@
   },
   "Airbnb": {
     "date": "2026-11-19",
-    "today_max_jobs": 201,
+    "today_max_jobs": 202,
     "today_last_error": null,
     "historical_max_jobs": 217,
     "consecutive_bad_days": 0,
@@ -321,7 +321,7 @@
   },
   "Pinterest": {
     "date": "2026-11-19",
-    "today_max_jobs": 174,
+    "today_max_jobs": 175,
     "today_last_error": null,
     "historical_max_jobs": 226,
     "consecutive_bad_days": 0,
@@ -329,7 +329,7 @@
   },
   "Snap": {
     "date": "2026-11-19",
-    "today_max_jobs": 208,
+    "today_max_jobs": 212,
     "today_last_error": null,
     "historical_max_jobs": 221,
     "consecutive_bad_days": 0,
@@ -345,9 +345,9 @@
   },
   "OpenAI": {
     "date": "2026-11-19",
-    "today_max_jobs": 840,
+    "today_max_jobs": 849,
     "today_last_error": null,
-    "historical_max_jobs": 841,
+    "historical_max_jobs": 849,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -417,9 +417,9 @@
   },
   "Plaid": {
     "date": "2026-11-19",
-    "today_max_jobs": 141,
+    "today_max_jobs": 146,
     "today_last_error": null,
-    "historical_max_jobs": 145,
+    "historical_max_jobs": 146,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -609,9 +609,9 @@
   },
   "Saronic": {
     "date": "2026-11-19",
-    "today_max_jobs": 285,
+    "today_max_jobs": 288,
     "today_last_error": null,
-    "historical_max_jobs": 285,
+    "historical_max_jobs": 288,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -657,7 +657,7 @@
   },
   "Apptronik": {
     "date": "2026-11-19",
-    "today_max_jobs": 87,
+    "today_max_jobs": 88,
     "today_last_error": null,
     "historical_max_jobs": 91,
     "consecutive_bad_days": 0,
@@ -738,14 +738,14 @@
   "Salesforce": {
     "date": "2026-11-19",
     "today_max_jobs": 0,
-    "today_last_error": "Salesforce: 429 error for https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs: <!DOCTYPE html>\n<html>\n\n<head>\n    <style>\n        body {\n            text-align: center;\n            margin: 0;\n            height: 100%;\n            width: 100%;\n            font-family: 'Roboto', sans-serif;\n            color: #333333;\n        }\n\n        .graphicsContainer {\n            background-color: #0b77e3;\n        }\n\n        .wdayLogo,\n        .signOutGraphic {\n            display: block;\n            margin: auto;\n        }\n\n        .wdayLogo {\n            padding: 16px 0 8px;\n        ",
+    "today_last_error": "Salesforce: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs",
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Snowflake": {
     "date": "2026-11-19",
-    "today_max_jobs": 377,
+    "today_max_jobs": 378,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
@@ -777,7 +777,7 @@
   },
   "Rocket Lab": {
     "date": "2026-11-19",
-    "today_max_jobs": 547,
+    "today_max_jobs": 554,
     "today_last_error": null,
     "historical_max_jobs": 586,
     "consecutive_bad_days": 0,
@@ -794,7 +794,7 @@
   "Cadence": {
     "date": "2026-11-19",
     "today_max_jobs": 0,
-    "today_last_error": "Cadence: 429 error for https://cadence.wd1.myworkdayjobs.com/wday/cxs/cadence/external_careers/jobs: <!DOCTYPE html>\n<html>\n\n<head>\n    <style>\n        body {\n            text-align: center;\n            margin: 0;\n            height: 100%;\n            width: 100%;\n            font-family: 'Roboto', sans-serif;\n            color: #333333;\n        }\n\n        .graphicsContainer {\n            background-color: #0b77e3;\n        }\n\n        .wdayLogo,\n        .signOutGraphic {\n            display: block;\n            margin: auto;\n        }\n\n        .wdayLogo {\n            padding: 16px 0 8px;\n        ",
+    "today_last_error": "Cadence: 429 Client Error: Too Many Requests for url: https://cadence.wd1.myworkdayjobs.com/wday/cxs/cadence/external_careers/jobs",
     "historical_max_jobs": 541,
     "consecutive_bad_days": 1,
     "alerted": false
@@ -889,9 +889,9 @@
   },
   "Gecko Robotics": {
     "date": "2026-11-19",
-    "today_max_jobs": 24,
+    "today_max_jobs": 25,
     "today_last_error": null,
-    "historical_max_jobs": 24,
+    "historical_max_jobs": 25,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1017,7 +1017,7 @@
   },
   "ElevenLabs": {
     "date": "2026-11-19",
-    "today_max_jobs": 128,
+    "today_max_jobs": 129,
     "today_last_error": null,
     "historical_max_jobs": 256,
     "consecutive_bad_days": 0,
@@ -1065,9 +1065,9 @@
   },
   "Fireworks AI": {
     "date": "2026-11-19",
-    "today_max_jobs": 104,
+    "today_max_jobs": 105,
     "today_last_error": null,
-    "historical_max_jobs": 104,
+    "historical_max_jobs": 105,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1097,9 +1097,9 @@
   },
   "Formic": {
     "date": "2026-11-19",
-    "today_max_jobs": 64,
+    "today_max_jobs": 68,
     "today_last_error": null,
-    "historical_max_jobs": 64,
+    "historical_max_jobs": 68,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1177,7 +1177,7 @@
   },
   "Dyna Robotics": {
     "date": "2026-11-19",
-    "today_max_jobs": 24,
+    "today_max_jobs": 25,
     "today_last_error": null,
     "historical_max_jobs": 31,
     "consecutive_bad_days": 0,
@@ -1185,9 +1185,9 @@
   },
   "Sunday Robotics": {
     "date": "2026-11-19",
-    "today_max_jobs": 28,
+    "today_max_jobs": 29,
     "today_last_error": null,
-    "historical_max_jobs": 28,
+    "historical_max_jobs": 29,
     "consecutive_bad_days": 0,
     "alerted": false
   },
