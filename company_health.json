@@ -450,7 +450,7 @@
   "LinkedIn": {
     "date": "2026-11-21",
     "today_max_jobs": 10,
-    "today_last_error": "LinkedIn: 429 Client Error: Too Many Requests for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?f_C=1337&keywords=intern&location=United+States&start=0",
+    "today_last_error": null,
     "historical_max_jobs": 117,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -738,7 +738,7 @@
   "Salesforce": {
     "date": "2026-11-21",
     "today_max_jobs": 100,
-    "today_last_error": "Salesforce: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs",
+    "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-11-21",
-    "today_max_jobs": 2833,
+    "today_max_jobs": 2845,
     "today_last_error": null,
     "historical_max_jobs": 2914,
     "consecutive_bad_days": 0,
