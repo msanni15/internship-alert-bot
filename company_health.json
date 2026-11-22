@@ -202,7 +202,7 @@
   "NVIDIA": {
     "date": "2026-11-22",
     "today_max_jobs": 40,
-    "today_last_error": null,
+    "today_last_error": "NVIDIA: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
     "historical_max_jobs": 440,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -353,7 +353,7 @@
   },
   "Anthropic": {
     "date": "2026-11-22",
-    "today_max_jobs": 635,
+    "today_max_jobs": 636,
     "today_last_error": null,
     "historical_max_jobs": 683,
     "consecutive_bad_days": 0,
@@ -449,8 +449,8 @@
   },
   "LinkedIn": {
     "date": "2026-11-22",
-    "today_max_jobs": 0,
-    "today_last_error": "LinkedIn: 429 Client Error: Too Many Requests for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?f_C=1337&keywords=intern&location=United+States&start=0",
+    "today_max_jobs": 65,
+    "today_last_error": null,
     "historical_max_jobs": 117,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -738,7 +738,7 @@
   "Salesforce": {
     "date": "2026-11-22",
     "today_max_jobs": 20,
-    "today_last_error": null,
+    "today_last_error": "Salesforce: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs",
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
     "alerted": false
