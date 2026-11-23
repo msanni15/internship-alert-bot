@@ -289,7 +289,7 @@
   },
   "Stripe": {
     "date": "2026-11-22",
-    "today_max_jobs": 777,
+    "today_max_jobs": 778,
     "today_last_error": null,
     "historical_max_jobs": 793,
     "consecutive_bad_days": 0,
@@ -297,7 +297,7 @@
   },
   "Airbnb": {
     "date": "2026-11-22",
-    "today_max_jobs": 202,
+    "today_max_jobs": 203,
     "today_last_error": null,
     "historical_max_jobs": 217,
     "consecutive_bad_days": 0,
@@ -305,7 +305,7 @@
   },
   "Uber": {
     "date": "2026-11-22",
-    "today_max_jobs": 32,
+    "today_max_jobs": 33,
     "today_last_error": null,
     "historical_max_jobs": 44,
     "consecutive_bad_days": 0,
@@ -585,7 +585,7 @@
   },
   "Hermeus": {
     "date": "2026-11-22",
-    "today_max_jobs": 79,
+    "today_max_jobs": 80,
     "today_last_error": null,
     "historical_max_jobs": 91,
     "consecutive_bad_days": 0,
@@ -609,9 +609,9 @@
   },
   "Saronic": {
     "date": "2026-11-22",
-    "today_max_jobs": 294,
+    "today_max_jobs": 295,
     "today_last_error": null,
-    "historical_max_jobs": 294,
+    "historical_max_jobs": 295,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -961,9 +961,9 @@
   },
   "PDT Partners": {
     "date": "2026-11-22",
-    "today_max_jobs": 13,
+    "today_max_jobs": 14,
     "today_last_error": null,
-    "historical_max_jobs": 13,
+    "historical_max_jobs": 14,
     "consecutive_bad_days": 0,
     "alerted": false
   },
