@@ -65,9 +65,9 @@
   },
   "Five Rings": {
     "date": "2026-11-24",
-    "today_max_jobs": 21,
+    "today_max_jobs": 22,
     "today_last_error": null,
-    "historical_max_jobs": 21,
+    "historical_max_jobs": 22,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -105,7 +105,7 @@
   },
   "Point72": {
     "date": "2026-11-24",
-    "today_max_jobs": 201,
+    "today_max_jobs": 202,
     "today_last_error": null,
     "historical_max_jobs": 239,
     "consecutive_bad_days": 0,
@@ -121,7 +121,7 @@
   },
   "Millennium": {
     "date": "2026-11-24",
-    "today_max_jobs": 104,
+    "today_max_jobs": 107,
     "today_last_error": null,
     "historical_max_jobs": 132,
     "consecutive_bad_days": 0,
@@ -145,7 +145,7 @@
   },
   "G-Research": {
     "date": "2026-11-24",
-    "today_max_jobs": 67,
+    "today_max_jobs": 69,
     "today_last_error": null,
     "historical_max_jobs": 73,
     "consecutive_bad_days": 0,
@@ -209,19 +209,19 @@
   },
   "Intel": {
     "date": "2026-11-24",
-    "today_max_jobs": 0,
-    "today_last_error": "Intel: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs",
+    "today_max_jobs": 40,
+    "today_last_error": null,
     "historical_max_jobs": 534,
-    "consecutive_bad_days": 5,
-    "alerted": true
+    "consecutive_bad_days": 0,
+    "alerted": false
   },
   "Broadcom": {
     "date": "2026-11-24",
-    "today_max_jobs": 0,
-    "today_last_error": "Broadcom: 429 Client Error: Too Many Requests for url: https://broadcom.wd1.myworkdayjobs.com/wday/cxs/broadcom/External_Career/jobs",
+    "today_max_jobs": 80,
+    "today_last_error": null,
     "historical_max_jobs": 412,
-    "consecutive_bad_days": 5,
-    "alerted": true
+    "consecutive_bad_days": 0,
+    "alerted": false
   },
   "Marvell": {
     "date": "2026-11-24",
@@ -265,9 +265,9 @@
   },
   "Amazon": {
     "date": "2026-11-24",
-    "today_max_jobs": 2097,
+    "today_max_jobs": 2125,
     "today_last_error": null,
-    "historical_max_jobs": 2122,
+    "historical_max_jobs": 2125,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-11-24",
-    "today_max_jobs": 889,
+    "today_max_jobs": 890,
     "today_last_error": null,
     "historical_max_jobs": 928,
     "consecutive_bad_days": 0,
@@ -289,7 +289,7 @@
   },
   "Stripe": {
     "date": "2026-11-24",
-    "today_max_jobs": 769,
+    "today_max_jobs": 770,
     "today_last_error": null,
     "historical_max_jobs": 793,
     "consecutive_bad_days": 0,
@@ -297,7 +297,7 @@
   },
   "Airbnb": {
     "date": "2026-11-24",
-    "today_max_jobs": 198,
+    "today_max_jobs": 200,
     "today_last_error": null,
     "historical_max_jobs": 217,
     "consecutive_bad_days": 0,
@@ -345,15 +345,15 @@
   },
   "OpenAI": {
     "date": "2026-11-24",
-    "today_max_jobs": 863,
+    "today_max_jobs": 876,
     "today_last_error": null,
-    "historical_max_jobs": 863,
+    "historical_max_jobs": 876,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Anthropic": {
     "date": "2026-11-24",
-    "today_max_jobs": 633,
+    "today_max_jobs": 635,
     "today_last_error": null,
     "historical_max_jobs": 683,
     "consecutive_bad_days": 0,
@@ -385,7 +385,7 @@
   },
   "Figma": {
     "date": "2026-11-24",
-    "today_max_jobs": 145,
+    "today_max_jobs": 146,
     "today_last_error": null,
     "historical_max_jobs": 177,
     "consecutive_bad_days": 0,
@@ -417,7 +417,7 @@
   },
   "Plaid": {
     "date": "2026-11-24",
-    "today_max_jobs": 144,
+    "today_max_jobs": 145,
     "today_last_error": null,
     "historical_max_jobs": 149,
     "consecutive_bad_days": 0,
@@ -441,7 +441,7 @@
   },
   "Vercel": {
     "date": "2026-11-24",
-    "today_max_jobs": 85,
+    "today_max_jobs": 86,
     "today_last_error": null,
     "historical_max_jobs": 96,
     "consecutive_bad_days": 0,
@@ -465,7 +465,7 @@
   },
   "Waymo": {
     "date": "2026-11-24",
-    "today_max_jobs": 357,
+    "today_max_jobs": 358,
     "today_last_error": null,
     "historical_max_jobs": 400,
     "consecutive_bad_days": 0,
@@ -473,7 +473,7 @@
   },
   "Zoox": {
     "date": "2026-11-24",
-    "today_max_jobs": 243,
+    "today_max_jobs": 246,
     "today_last_error": null,
     "historical_max_jobs": 249,
     "consecutive_bad_days": 0,
@@ -497,7 +497,7 @@
   },
   "Skydio": {
     "date": "2026-11-24",
-    "today_max_jobs": 183,
+    "today_max_jobs": 184,
     "today_last_error": null,
     "historical_max_jobs": 196,
     "consecutive_bad_days": 0,
@@ -553,7 +553,7 @@
   },
   "Waabi": {
     "date": "2026-11-24",
-    "today_max_jobs": 84,
+    "today_max_jobs": 85,
     "today_last_error": null,
     "historical_max_jobs": 97,
     "consecutive_bad_days": 0,
@@ -609,9 +609,9 @@
   },
   "Saronic": {
     "date": "2026-11-24",
-    "today_max_jobs": 301,
+    "today_max_jobs": 307,
     "today_last_error": null,
-    "historical_max_jobs": 301,
+    "historical_max_jobs": 307,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -633,7 +633,7 @@
   },
   "SK Hynix": {
     "date": "2026-11-24",
-    "today_max_jobs": 48,
+    "today_max_jobs": 50,
     "today_last_error": null,
     "historical_max_jobs": 56,
     "consecutive_bad_days": 0,
@@ -721,7 +721,7 @@
   },
   "CTC": {
     "date": "2026-11-24",
-    "today_max_jobs": 18,
+    "today_max_jobs": 19,
     "today_last_error": null,
     "historical_max_jobs": 26,
     "consecutive_bad_days": 0,
@@ -738,7 +738,7 @@
   "Salesforce": {
     "date": "2026-11-24",
     "today_max_jobs": 40,
-    "today_last_error": null,
+    "today_last_error": "Salesforce: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs",
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -753,9 +753,9 @@
   },
   "Cloudflare": {
     "date": "2026-11-24",
-    "today_max_jobs": 503,
+    "today_max_jobs": 512,
     "today_last_error": null,
-    "historical_max_jobs": 504,
+    "historical_max_jobs": 512,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -785,7 +785,7 @@
   },
   "Etched": {
     "date": "2026-11-24",
-    "today_max_jobs": 117,
+    "today_max_jobs": 118,
     "today_last_error": null,
     "historical_max_jobs": 124,
     "consecutive_bad_days": 0,
@@ -793,11 +793,11 @@
   },
   "Cadence": {
     "date": "2026-11-24",
-    "today_max_jobs": 0,
-    "today_last_error": "Cadence: 429 Client Error: Too Many Requests for url: https://cadence.wd1.myworkdayjobs.com/wday/cxs/cadence/external_careers/jobs",
+    "today_max_jobs": 40,
+    "today_last_error": null,
     "historical_max_jobs": 541,
-    "consecutive_bad_days": 6,
-    "alerted": true
+    "consecutive_bad_days": 0,
+    "alerted": false
   },
   "Pony.ai": {
     "date": "2026-11-24",
@@ -881,7 +881,7 @@
   },
   "Nimble Robotics": {
     "date": "2026-11-24",
-    "today_max_jobs": 32,
+    "today_max_jobs": 33,
     "today_last_error": null,
     "historical_max_jobs": 41,
     "consecutive_bad_days": 0,
@@ -897,7 +897,7 @@
   },
   "Serve Robotics": {
     "date": "2026-11-24",
-    "today_max_jobs": 12,
+    "today_max_jobs": 13,
     "today_last_error": null,
     "historical_max_jobs": 53,
     "consecutive_bad_days": 0,
@@ -937,9 +937,9 @@
   },
   "Thinking Machines Lab": {
     "date": "2026-11-24",
-    "today_max_jobs": 58,
+    "today_max_jobs": 59,
     "today_last_error": null,
-    "historical_max_jobs": 58,
+    "historical_max_jobs": 59,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -961,9 +961,9 @@
   },
   "PDT Partners": {
     "date": "2026-11-24",
-    "today_max_jobs": 14,
+    "today_max_jobs": 15,
     "today_last_error": null,
-    "historical_max_jobs": 14,
+    "historical_max_jobs": 15,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -985,7 +985,7 @@
   },
   "Cognition": {
     "date": "2026-11-24",
-    "today_max_jobs": 110,
+    "today_max_jobs": 114,
     "today_last_error": null,
     "historical_max_jobs": 116,
     "consecutive_bad_days": 0,
@@ -1009,7 +1009,7 @@
   },
   "Sierra AI": {
     "date": "2026-11-24",
-    "today_max_jobs": 201,
+    "today_max_jobs": 203,
     "today_last_error": null,
     "historical_max_jobs": 220,
     "consecutive_bad_days": 0,
