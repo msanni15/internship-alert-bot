@@ -1,7 +1,7 @@
 {
   "Jane Street": {
     "date": "2026-11-25",
-    "today_max_jobs": 217,
+    "today_max_jobs": 219,
     "today_last_error": null,
     "historical_max_jobs": 235,
     "consecutive_bad_days": 0,
@@ -57,7 +57,7 @@
   },
   "DRW": {
     "date": "2026-11-25",
-    "today_max_jobs": 148,
+    "today_max_jobs": 149,
     "today_last_error": null,
     "historical_max_jobs": 180,
     "consecutive_bad_days": 0,
@@ -81,7 +81,7 @@
   },
   "Tower Research": {
     "date": "2026-11-25",
-    "today_max_jobs": 92,
+    "today_max_jobs": 93,
     "today_last_error": null,
     "historical_max_jobs": 101,
     "consecutive_bad_days": 0,
@@ -105,7 +105,7 @@
   },
   "Point72": {
     "date": "2026-11-25",
-    "today_max_jobs": 199,
+    "today_max_jobs": 200,
     "today_last_error": null,
     "historical_max_jobs": 239,
     "consecutive_bad_days": 0,
@@ -201,11 +201,11 @@
   },
   "NVIDIA": {
     "date": "2026-11-25",
-    "today_max_jobs": 0,
-    "today_last_error": "NVIDIA: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
+    "today_max_jobs": 20,
+    "today_last_error": null,
     "historical_max_jobs": 440,
-    "consecutive_bad_days": 2,
-    "alerted": true
+    "consecutive_bad_days": 0,
+    "alerted": false
   },
   "Intel": {
     "date": "2026-11-25",
@@ -257,7 +257,7 @@
   },
   "Google": {
     "date": "2026-11-25",
-    "today_max_jobs": 33,
+    "today_max_jobs": 34,
     "today_last_error": null,
     "historical_max_jobs": 39,
     "consecutive_bad_days": 0,
@@ -289,7 +289,7 @@
   },
   "Stripe": {
     "date": "2026-11-25",
-    "today_max_jobs": 771,
+    "today_max_jobs": 773,
     "today_last_error": null,
     "historical_max_jobs": 793,
     "consecutive_bad_days": 0,
@@ -305,7 +305,7 @@
   },
   "Uber": {
     "date": "2026-11-25",
-    "today_max_jobs": 32,
+    "today_max_jobs": 33,
     "today_last_error": null,
     "historical_max_jobs": 44,
     "consecutive_bad_days": 0,
@@ -313,7 +313,7 @@
   },
   "DoorDash": {
     "date": "2026-11-25",
-    "today_max_jobs": 399,
+    "today_max_jobs": 400,
     "today_last_error": null,
     "historical_max_jobs": 475,
     "consecutive_bad_days": 0,
@@ -409,7 +409,7 @@
   },
   "Rippling": {
     "date": "2026-11-25",
-    "today_max_jobs": 52,
+    "today_max_jobs": 53,
     "today_last_error": null,
     "historical_max_jobs": 88,
     "consecutive_bad_days": 0,
@@ -450,7 +450,7 @@
   "LinkedIn": {
     "date": "2026-11-25",
     "today_max_jobs": 10,
-    "today_last_error": null,
+    "today_last_error": "LinkedIn: 429 Client Error: Too Many Requests for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?f_C=1337&keywords=intern&location=United+States&start=0",
     "historical_max_jobs": 117,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -473,7 +473,7 @@
   },
   "Zoox": {
     "date": "2026-11-25",
-    "today_max_jobs": 247,
+    "today_max_jobs": 248,
     "today_last_error": null,
     "historical_max_jobs": 249,
     "consecutive_bad_days": 0,
@@ -529,7 +529,7 @@
   },
   "Boston Dynamics": {
     "date": "2026-11-25",
-    "today_max_jobs": 87,
+    "today_max_jobs": 88,
     "today_last_error": null,
     "historical_max_jobs": 92,
     "consecutive_bad_days": 0,
@@ -609,9 +609,9 @@
   },
   "Saronic": {
     "date": "2026-11-25",
-    "today_max_jobs": 305,
+    "today_max_jobs": 309,
     "today_last_error": null,
-    "historical_max_jobs": 307,
+    "historical_max_jobs": 309,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -713,7 +713,7 @@
   },
   "QRT": {
     "date": "2026-11-25",
-    "today_max_jobs": 207,
+    "today_max_jobs": 209,
     "today_last_error": null,
     "historical_max_jobs": 211,
     "consecutive_bad_days": 0,
@@ -737,15 +737,15 @@
   },
   "Salesforce": {
     "date": "2026-11-25",
-    "today_max_jobs": 0,
-    "today_last_error": "Salesforce: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs",
+    "today_max_jobs": 20,
+    "today_last_error": null,
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Snowflake": {
     "date": "2026-11-25",
-    "today_max_jobs": 369,
+    "today_max_jobs": 370,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
@@ -753,9 +753,9 @@
   },
   "Cloudflare": {
     "date": "2026-11-25",
-    "today_max_jobs": 513,
+    "today_max_jobs": 517,
     "today_last_error": null,
-    "historical_max_jobs": 513,
+    "historical_max_jobs": 517,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-11-25",
-    "today_max_jobs": 2849,
+    "today_max_jobs": 2865,
     "today_last_error": null,
     "historical_max_jobs": 2914,
     "consecutive_bad_days": 0,
@@ -777,7 +777,7 @@
   },
   "Rocket Lab": {
     "date": "2026-11-25",
-    "today_max_jobs": 547,
+    "today_max_jobs": 551,
     "today_last_error": null,
     "historical_max_jobs": 586,
     "consecutive_bad_days": 0,
@@ -921,7 +921,7 @@
   },
   "Standard Bots": {
     "date": "2026-11-25",
-    "today_max_jobs": 23,
+    "today_max_jobs": 24,
     "today_last_error": null,
     "historical_max_jobs": 39,
     "consecutive_bad_days": 0,
@@ -969,7 +969,7 @@
   },
   "Man Group": {
     "date": "2026-11-25",
-    "today_max_jobs": 66,
+    "today_max_jobs": 67,
     "today_last_error": null,
     "historical_max_jobs": 72,
     "consecutive_bad_days": 0,
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-11-25",
-    "today_max_jobs": 1181,
+    "today_max_jobs": 1193,
     "today_last_error": null,
     "historical_max_jobs": 1354,
     "consecutive_bad_days": 0,
@@ -985,7 +985,7 @@
   },
   "Cognition": {
     "date": "2026-11-25",
-    "today_max_jobs": 114,
+    "today_max_jobs": 116,
     "today_last_error": null,
     "historical_max_jobs": 116,
     "consecutive_bad_days": 0,
@@ -993,7 +993,7 @@
   },
   "Reflection AI": {
     "date": "2026-11-25",
-    "today_max_jobs": 38,
+    "today_max_jobs": 41,
     "today_last_error": null,
     "historical_max_jobs": 64,
     "consecutive_bad_days": 0,
@@ -1009,7 +1009,7 @@
   },
   "Sierra AI": {
     "date": "2026-11-25",
-    "today_max_jobs": 203,
+    "today_max_jobs": 204,
     "today_last_error": null,
     "historical_max_jobs": 220,
     "consecutive_bad_days": 0,
@@ -1017,7 +1017,7 @@
   },
   "ElevenLabs": {
     "date": "2026-11-25",
-    "today_max_jobs": 116,
+    "today_max_jobs": 117,
     "today_last_error": null,
     "historical_max_jobs": 256,
     "consecutive_bad_days": 0,
@@ -1097,9 +1097,9 @@
   },
   "Formic": {
     "date": "2026-11-25",
-    "today_max_jobs": 71,
+    "today_max_jobs": 72,
     "today_last_error": null,
-    "historical_max_jobs": 71,
+    "historical_max_jobs": 72,
     "consecutive_bad_days": 0,
     "alerted": false
   },
