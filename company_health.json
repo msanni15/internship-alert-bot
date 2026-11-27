@@ -49,7 +49,7 @@
   },
   "IMC": {
     "date": "2026-11-27",
-    "today_max_jobs": 150,
+    "today_max_jobs": 151,
     "today_last_error": null,
     "historical_max_jobs": 177,
     "consecutive_bad_days": 0,
@@ -121,7 +121,7 @@
   },
   "Millennium": {
     "date": "2026-11-27",
-    "today_max_jobs": 107,
+    "today_max_jobs": 108,
     "today_last_error": null,
     "historical_max_jobs": 132,
     "consecutive_bad_days": 0,
@@ -145,7 +145,7 @@
   },
   "G-Research": {
     "date": "2026-11-27",
-    "today_max_jobs": 69,
+    "today_max_jobs": 70,
     "today_last_error": null,
     "historical_max_jobs": 73,
     "consecutive_bad_days": 0,
@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-11-27",
-    "today_max_jobs": 881,
+    "today_max_jobs": 889,
     "today_last_error": null,
     "historical_max_jobs": 928,
     "consecutive_bad_days": 0,
@@ -289,7 +289,7 @@
   },
   "Stripe": {
     "date": "2026-11-27",
-    "today_max_jobs": 766,
+    "today_max_jobs": 771,
     "today_last_error": null,
     "historical_max_jobs": 793,
     "consecutive_bad_days": 0,
@@ -450,7 +450,7 @@
   "LinkedIn": {
     "date": "2026-11-27",
     "today_max_jobs": 4,
-    "today_last_error": null,
+    "today_last_error": "LinkedIn: 429 Client Error: Too Many Requests for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?f_C=1337&keywords=intern&location=United+States&start=0",
     "historical_max_jobs": 117,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -530,7 +530,7 @@
   "Boston Dynamics": {
     "date": "2026-11-27",
     "today_max_jobs": 87,
-    "today_last_error": null,
+    "today_last_error": "Boston Dynamics: Boston Dynamics returned no job cards on page 1",
     "historical_max_jobs": 92,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -738,14 +738,14 @@
   "Salesforce": {
     "date": "2026-11-27",
     "today_max_jobs": 99,
-    "today_last_error": null,
+    "today_last_error": "Salesforce: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs",
     "historical_max_jobs": 540,
     "consecutive_bad_days": 0,
     "alerted": false
   },
   "Snowflake": {
     "date": "2026-11-27",
-    "today_max_jobs": 379,
+    "today_max_jobs": 380,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
@@ -769,7 +769,7 @@
   },
   "SpaceX": {
     "date": "2026-11-27",
-    "today_max_jobs": 2889,
+    "today_max_jobs": 2890,
     "today_last_error": null,
     "historical_max_jobs": 2914,
     "consecutive_bad_days": 0,
@@ -777,7 +777,7 @@
   },
   "Rocket Lab": {
     "date": "2026-11-27",
-    "today_max_jobs": 553,
+    "today_max_jobs": 556,
     "today_last_error": null,
     "historical_max_jobs": 586,
     "consecutive_bad_days": 0,
@@ -793,11 +793,11 @@
   },
   "Cadence": {
     "date": "2026-11-27",
-    "today_max_jobs": 0,
-    "today_last_error": "Cadence: 429 Client Error: Too Many Requests for url: https://cadence.wd1.myworkdayjobs.com/wday/cxs/cadence/external_careers/jobs",
+    "today_max_jobs": 20,
+    "today_last_error": null,
     "historical_max_jobs": 541,
-    "consecutive_bad_days": 2,
-    "alerted": true
+    "consecutive_bad_days": 0,
+    "alerted": false
   },
   "Pony.ai": {
     "date": "2026-11-27",
@@ -953,7 +953,7 @@
   },
   "Mistral AI": {
     "date": "2026-11-27",
-    "today_max_jobs": 267,
+    "today_max_jobs": 268,
     "today_last_error": null,
     "historical_max_jobs": 269,
     "consecutive_bad_days": 0,
@@ -985,9 +985,9 @@
   },
   "Cognition": {
     "date": "2026-11-27",
-    "today_max_jobs": 116,
+    "today_max_jobs": 120,
     "today_last_error": null,
-    "historical_max_jobs": 116,
+    "historical_max_jobs": 120,
     "consecutive_bad_days": 0,
     "alerted": false
   },
@@ -1017,7 +1017,7 @@
   },
   "ElevenLabs": {
     "date": "2026-11-27",
-    "today_max_jobs": 108,
+    "today_max_jobs": 109,
     "today_last_error": null,
     "historical_max_jobs": 256,
     "consecutive_bad_days": 0,
