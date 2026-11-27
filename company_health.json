@@ -273,7 +273,7 @@
   },
   "Roblox": {
     "date": "2026-11-26",
-    "today_max_jobs": 254,
+    "today_max_jobs": 255,
     "today_last_error": null,
     "historical_max_jobs": 277,
     "consecutive_bad_days": 0,
@@ -281,7 +281,7 @@
   },
   "Databricks": {
     "date": "2026-11-26",
-    "today_max_jobs": 881,
+    "today_max_jobs": 883,
     "today_last_error": null,
     "historical_max_jobs": 928,
     "consecutive_bad_days": 0,
@@ -297,7 +297,7 @@
   },
   "Airbnb": {
     "date": "2026-11-26",
-    "today_max_jobs": 201,
+    "today_max_jobs": 202,
     "today_last_error": null,
     "historical_max_jobs": 217,
     "consecutive_bad_days": 0,
@@ -305,7 +305,7 @@
   },
   "Uber": {
     "date": "2026-11-26",
-    "today_max_jobs": 32,
+    "today_max_jobs": 33,
     "today_last_error": null,
     "historical_max_jobs": 44,
     "consecutive_bad_days": 0,
@@ -450,7 +450,7 @@
   "LinkedIn": {
     "date": "2026-11-26",
     "today_max_jobs": 65,
-    "today_last_error": null,
+    "today_last_error": "LinkedIn: 429 Client Error: Too Many Requests for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?f_C=1337&keywords=intern&location=United+States&start=0",
     "historical_max_jobs": 117,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -530,7 +530,7 @@
   "Boston Dynamics": {
     "date": "2026-11-26",
     "today_max_jobs": 87,
-    "today_last_error": null,
+    "today_last_error": "Boston Dynamics: Boston Dynamics returned no job cards on page 1",
     "historical_max_jobs": 92,
     "consecutive_bad_days": 0,
     "alerted": false
@@ -745,7 +745,7 @@
   },
   "Snowflake": {
     "date": "2026-11-26",
-    "today_max_jobs": 376,
+    "today_max_jobs": 377,
     "today_last_error": null,
     "historical_max_jobs": 402,
     "consecutive_bad_days": 0,
@@ -953,7 +953,7 @@
   },
   "Mistral AI": {
     "date": "2026-11-26",
-    "today_max_jobs": 265,
+    "today_max_jobs": 266,
     "today_last_error": null,
     "historical_max_jobs": 269,
     "consecutive_bad_days": 0,
@@ -977,7 +977,7 @@
   },
   "AMD": {
     "date": "2026-11-26",
-    "today_max_jobs": 1189,
+    "today_max_jobs": 1191,
     "today_last_error": null,
     "historical_max_jobs": 1354,
     "consecutive_bad_days": 0,
